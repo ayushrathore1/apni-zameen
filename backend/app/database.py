@@ -43,6 +43,15 @@ def init_db():
     from . import models  # Import models to register them
     from sqlalchemy import text
     
+    # Enable PostGIS extension (required for geometry columns)
+    with engine.connect() as conn:
+        try:
+            conn.execute(text("CREATE EXTENSION IF NOT EXISTS postgis"))
+            conn.commit()
+            print("PostGIS extension enabled successfully")
+        except Exception as e:
+            print(f"Note: Could not enable PostGIS extension: {e}")
+    
     # Create tables. The checkfirst=True is implicitly used for tables,
     # but for PostgreSQL enums we need to handle them separately.
     try:
