@@ -1,5 +1,5 @@
-// API Base URL
-export const API_BASE_URL = '/api'
+// API Base URL - Uses environment variable in production, /api (proxy) in development
+export const API_BASE_URL = import.meta.env.VITE_API_URL || '/api'
 
 // User Roles
 export const ROLES = {
