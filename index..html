@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bakery Delight</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        /* --- CSS VARIABLES --- */
+        :root {
+            --primary-color: #3E2723; /* Deep Dark Chocolate - Stronger contrast */
+            --accent-color: #CCA01D; /* Rich Gold */
+            
+            /* Background remains Pure White */
+            --bg-color: #ffffff; 
+            
+            /* UPDATED: Card Color is now a "Warm Latte/Taupe" - Distinct from white */
+            --card-bg: #F2EBE5; 
+            --card-border: #E8DFD8;
+
+            --text-dark: #2c2c2c;
+            --text-light: #595959;
+            
+            --shadow-card: 0 8px 20px rgba(62, 39, 35, 0.08);
+            --shadow-hover: 0 15px 35px rgba(62, 39, 35, 0.2);
+            
+            --radius: 16px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Lato', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-dark);
+            line-height: 1.6;
+        }
+
+        h1, h2, h3, h4 {
+            font-family: 'Playfair Display', serif;
+            color: var(--primary-color);
+        }
+
+        a { text-decoration: none; color: inherit; }
+        ul { list-style: none; }
+        img { max-width: 100%; display: block; }
+
+        /* --- HEADER --- */
+        header {
+            background: white;
+            padding: 15px 5%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 1px solid #f0f0f0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            font-size: 1.6rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            letter-spacing: -0.5px;
+        }
+        .logo i { margin-right: 10px; color: var(--accent-color); font-size: 1.8rem; }
+
+        nav ul { display: flex; gap: 30px; }
+        nav a { font-weight: 700; color: var(--text-dark); font-size: 0.95rem; transition: color 0.3s; position: relative; }
+        nav a:hover, nav a.active { color: var(--accent-color); }
+        nav a.active::after {
+            content: ''; width: 100%; height: 2px; background: var(--accent-color);
+            position: absolute; bottom: -5px; left: 0;
+        }
+
+        .header-icons { display: flex; gap: 20px; align-items: center; }
+        .cart-btn {
+            background: var(--primary-color);
+            color: white;
+            padding: 8px 18px;
+            border-radius: 30px;
+            display: flex; align-items: center; gap: 8px; cursor: pointer;
+            font-size: 0.9rem;
+            transition: background 0.3s;
+        }
+        .cart-btn:hover { background: var(--accent-color); color: black; }
+
+        /* --- SEARCH SECTION --- */
+        .search-container { padding: 40px 5%; text-align: center; background: white; }
+        .search-box {
+            max-width: 650px;
+            margin: 0 auto;
+            position: relative;
+        }
+        .search-box input {
+            width: 100%;
+            padding: 18px 60px 18px 30px;
+            border-radius: 50px;
+            border: 2px solid #eee;
+            background: #fff;
+            font-size: 1rem;
+            outline: none;
+            transition: all 0.3s;
+            color: var(--text-dark);
+        }
+        .search-box input:focus {
+            border-color: var(--primary-color);
+        }
+        .search-box button {
+            position: absolute; right: 8px; top: 50%; transform: translateY(-50%);
+            background: var(--primary-color); color: white; border: none;
+            width: 46px; height: 46px; border-radius: 50%; cursor: pointer;
+            transition: background 0.3s;
+        }
+        .search-box button:hover { background: var(--accent-color); }
+
+        /* --- TOP CATEGORIES --- */
+        .top-categories { padding: 0 10%; margin-bottom: 50px; }
+        .cat-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 25px;
+        }
+
+        .cat-card {
+            background: var(--card-bg); /* Warm Taupe */
+            border-radius: var(--radius);
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+            transition: transform 0.3s, background 0.3s;
+            cursor: pointer;
+            border: 1px solid var(--card-border);
+        }
+
+        .cat-card:hover {
+            transform: translateY(-5px);
+            background: #e8ded6; /* Slightly darker on hover */
+            border-color: var(--accent-color);
+        }
+
+        .cat-card img {
+            width: 100%; height: 110px; object-fit: cover;
+            margin-bottom: 12px; border-radius: 10px;
+            /* White border around image to make it pop */
+            border: 2px solid white; 
+        }
+        .cat-card h4 { font-size: 1rem; margin-bottom: 5px; color: var(--primary-color); }
+
+        /* --- HERO BANNER --- */
+        .hero-section { padding: 0 10%; margin-bottom: 60px; }
+        .banner {
+            background: linear-gradient(135deg, #fdfbf8 0%, #fff4e6 100%);
+            border-radius: 25px;
+            display: flex; align-items: center; padding: 0;
+            position: relative; overflow: hidden;
+            border: 1px solid #fae1c0;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.03);
+        }
+        .banner-content { flex: 1; padding: 60px; z-index: 2; }
+        .banner-content h2 { font-size: 3rem; margin-bottom: 15px; line-height: 1.1; color: var(--primary-color); }
+        .banner-content p { color: var(--text-light); font-size: 1.2rem; margin-bottom: 30px; }
+        
+        .btn-primary {
+            background: var(--primary-color); color: white;
+            padding: 15px 40px; border-radius: 50px; font-weight: bold;
+            border: none; cursor: pointer; transition: 0.3s;
+            box-shadow: 0 8px 20px rgba(62, 39, 35, 0.25);
+            font-size: 1rem;
+        }
+        .btn-primary:hover { background: var(--accent-color); color: #000; transform: translateY(-2px); }
+
+        .banner-image { flex: 1; height: 100%; display: flex; justify-content: flex-end; align-items: flex-end;}
+        .banner-image img { max-height: 350px; object-fit: contain; filter: drop-shadow(-10px 10px 20px rgba(0,0,0,0.1)); margin-right: 40px; margin-bottom: -10px;}
+
+        /* --- SECTION HEADER --- */
+        .section-header { padding: 0 10%; margin-bottom: 30px; display: flex; align-items: center; gap: 15px; }
+        .section-header h3 { font-size: 2rem; color: var(--primary-color); position: relative;}
+        .section-header::after { content: ""; flex: 1; height: 1px; background: #e0e0e0; }
+
+        /* --- FEATURED PRODUCTS --- */
+        .featured-products { padding: 0 10%; margin-bottom: 100px; }
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 40px;
+        }
+
+        .product-card {
+            /* HIGHLIGHT COLOR: Warm Latte/Taupe */
+            background: var(--card-bg);
+            border-radius: 20px;
+            padding: 20px;
+            display: flex; flex-direction: column;
+            position: relative;
+            /* Substantial shadow to lift it off the white bg */
+            box-shadow: var(--shadow-card);
+            border: 1px solid var(--card-border);
+            transition: all 0.4s ease;
+        }
+
+        /* Hover Effect: Lifts up and glow */
+        .product-card:hover {
+            transform: translateY(-10px);
+            box-shadow: var(--shadow-hover);
+            border-color: var(--accent-color);
+        }
+
+        .badge {
+            position: absolute; top: 30px; left: 0;
+            background: var(--primary-color); color: white;
+            padding: 8px 18px; border-radius: 0 20px 20px 0;
+            font-weight: bold; font-size: 0.85rem; z-index: 10;
+            letter-spacing: 1px;
+        }
+
+        .wishlist-icon {
+            position: absolute; top: 25px; right: 25px;
+            background: white; width: 40px; height: 40px;
+            border-radius: 50%; display: flex; align-items: center; justify-content: center;
+            cursor: pointer; box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            color: #ccc; transition: all 0.3s; z-index: 10;
+        }
+        .wishlist-icon:hover, .wishlist-icon.active { color: #e74c3c; transform: scale(1.1); }
+
+        .prod-img-container {
+            width: 100%; height: 240px; overflow: hidden;
+            border-radius: 15px; margin-bottom: 20px;
+            /* White inner frame makes the image pop against the beige card */
+            background: #fff; 
+            padding: 5px; /* Creates the frame */
+            box-shadow: inset 0 0 10px rgba(0,0,0,0.05);
+        }
+        
+        .prod-img-container img {
+            width: 100%; height: 100%; object-fit: cover;
+            border-radius: 12px;
+            transition: transform 0.6s ease;
+        }
+        .product-card:hover .prod-img-container img { transform: scale(1.1); }
+
+        .prod-info { padding: 0 5px; }
+        .prod-info h3 { font-size: 1.6rem; margin-bottom: 10px; color: var(--primary-color); font-weight: 700; }
+        .prod-desc { font-size: 0.95rem; color: var(--text-light); margin-bottom: 20px; line-height: 1.5; min-height: 45px;}
+
+        .rating { color: var(--accent-color); margin-bottom: 20px; font-size: 1rem; }
+        .rating span { color: #888; margin-left: 8px; font-size: 0.9rem; }
+
+        .price-row {
+            display: flex; justify-content: space-between; align-items: center;
+            margin-top: auto; padding-top: 15px;
+            border-top: 1px solid rgba(0,0,0,0.06);
+        }
+        
+        .price-container { display: flex; flex-direction: column; }
+        .price { font-size: 1.8rem; font-weight: 700; color: var(--primary-color); font-family: 'Playfair Display', serif; line-height: 1;}
+        .old-price { font-size: 1rem; text-decoration: line-through; color: #a0a0a0; font-weight: 400; margin-top: 5px;}
+
+        .add-cart-btn {
+            background: var(--primary-color); color: white; border: none;
+            padding: 12px 30px; border-radius: 30px; cursor: pointer;
+            font-weight: bold; display: flex; align-items: center; gap: 8px;
+            transition: 0.3s; font-size: 1rem;
+        }
+        .add-cart-btn:hover { background: var(--accent-color); color: black; box-shadow: 0 5px 15px rgba(212, 175, 55, 0.4); }
+
+        /* --- RESPONSIVE --- */
+        @media (max-width: 768px) {
+            header { flex-direction: column; gap: 15px; }
+            nav ul { gap: 15px; font-size: 0.85rem; flex-wrap: wrap; justify-content: center;}
+            .banner { flex-direction: column; text-align: center; }
+            .banner-image { width: 100%; justify-content: center; margin-right: 0; }
+            .banner-content { padding: 40px 20px; }
+            .product-grid { grid-template-columns: 1fr; }
+            .top-categories, .hero-section, .featured-products, .section-header { padding: 0 5%; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <i class="fas fa-cupcake"></i> Bakery Delight
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#" class="active">Cake</a></li>
+                <li><a href="#">Fastfood</a></li>
+                <li><a href="#">Flower</a></li>
+                <li><a href="#">Beverages</a></li>
+                <li><a href="#">Anniversary</a></li>
+            </ul>
+        </nav>
+        <div class="header-icons">
+            <i class="fas fa-search" style="cursor: pointer; color: #555;"></i>
+            <i class="far fa-user" style="cursor: pointer; color: #555;"></i>
+            <div class="cart-btn" onclick="addToCart()">
+                <i class="fas fa-shopping-cart"></i> <span id="cart-count">2</span>
+            </div>
+        </div>
+    </header>
+
+    <section class="search-container">
+        <div class="search-box">
+            <input type="text" placeholder="Search for cakes, flowers, fastfood & more...">
+            <button><i class="fas fa-search"></i></button>
+        </div>
+    </section>
+
+    <section class="top-categories">
+        <div class="cat-grid">
+            <div class="cat-card">
+                <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Cake">
+                <h4>Cake</h4>
+            </div>
+            <div class="cat-card">
+                <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Fastfood">
+                <h4>Fastfood</h4>
+            </div>
+            <div class="cat-card">
+                <img src="https://images.unsplash.com/photo-1562690868-60bbe7293e94?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Flower">
+                <h4>Flower</h4>
+            </div>
+            <div class="cat-card">
+                <img src="https://images.unsplash.com/photo-1497935586351-b67a49e012bf?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Beverages">
+                <h4>Beverages</h4>
+            </div>
+            <div class="cat-card">
+                <img src="https://images.unsplash.com/photo-1530103862676-de3c9a59af57?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Anniversary">
+                <h4>Anniversary</h4>
+            </div>
+        </div>
+    </section>
+
+    <section class="hero-section">
+        <div class="banner">
+            <div class="banner-content">
+                <h2>Up to <span style="color: #CCA01D;">25% Off</span><br>Premium Cakes</h2>
+                <p>Sweet selection of our finest cakes. Perfect for birthdays, weddings, and little treats.</p>
+                <button class="btn-primary">Shop Now</button>
+            </div>
+            <div class="banner-image">
+                <img src="https://images.unsplash.com/photo-1588195538326-c5f1f23fa438?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Birthday Cake">
+            </div>
+        </div>
+    </section>
+
+    <div class="section-header">
+        <h3>Trending Categories</h3>
+    </div>
+
+    <section class="top-categories">
+        <div class="cat-grid">
+            <div class="cat-card">
+                <img src="https://images.unsplash.com/photo-1558961363-fa8fdf82db35?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60" alt="First Birthday">
+                <h4>First Birthday</h4>
+            </div>
+            <div class="cat-card">
+                <img src="https://images.unsplash.com/photo-1627308595229-7830a5c91f9f?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60" alt="Patties">
+                <h4>Patties</h4>
+            </div>
+            <div class="cat-card">
+                <img src="https://images.unsplash.com/photo-1566737236500-c8ac43014a67?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60" alt="Anniversary">
+                <h4>Anniversary</h4>
+            </div>
+            <div class="cat-card">
+                <img src="https://images.unsplash.com/photo-1571115177098-24ec42ed204d?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60" alt="Birthday Cake">
+                <h4>Birthday Cake</h4>
+            </div>
+             <div class="cat-card">
+                <img src="https://images.unsplash.com/photo-1544145945-f90425340c7e?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60" alt="Beverages">
+                <h4>Beverages</h4>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-header">
+        <h3>Featured Deals</h3>
+    </div>
+
+    <section class="featured-products">
+        <div class="product-grid">
+            
+            <div class="product-card">
+                <div class="badge">20% OFF</div>
+                <div class="wishlist-icon" onclick="toggleWishlist(this)"><i class="far fa-heart"></i></div>
+                
+                <div class="prod-img-container">
+                    <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Masala Patties">
+                </div>
+                
+                <div class="prod-info">
+                    <h3>Masala Patties</h3>
+                    <p class="prod-desc">Spicy vegetable filling, stuffed with cheese and jalapenos in a crispy crust.</p>
+                    <div class="rating">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                        <span>(120 reviews)</span>
+                    </div>
+                    <div class="price-row">
+                        <div class="price-container">
+                            <span class="price">₹250</span> 
+                            <span class="old-price">₹300</span>
+                        </div>
+                        <button class="add-cart-btn" onclick="addToCart()"><i class="fas fa-cart-plus"></i> Add</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="badge" style="background-color: #CCA01D; color: black;">15% OFF</div>
+                <div class="wishlist-icon" onclick="toggleWishlist(this)"><i class="far fa-heart"></i></div>
+                
+                <div class="prod-img-container">
+                    <img src="https://images.unsplash.com/photo-1574071318508-1cdbab80d002?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Cheezy Pizza">
+                </div>
+                
+                <div class="prod-info">
+                    <h3>CheezyLicious Pizza</h3>
+                    <p class="prod-desc">Double cheese loaded pizza with fresh mozzarella and a secret tomato basil sauce.</p>
+                    <div class="rating">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        <span>(85 reviews)</span>
+                    </div>
+                    <div class="price-row">
+                        <div class="price-container">
+                            <span class="price">₹250</span> 
+                            <span class="old-price">₹300</span>
+                        </div>
+                        <button class="add-cart-btn" onclick="addToCart()"><i class="fas fa-cart-plus"></i> Add</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <script>
+        function toggleWishlist(element) {
+            element.classList.toggle('active');
+            const icon = element.querySelector('i');
+            if (element.classList.contains('active')) {
+                icon.classList.remove('far');
+                icon.classList.add('fas');
+            } else {
+                icon.classList.remove('fas');
+                icon.classList.add('far');
+            }
+        }
+
+        function addToCart() {
+            const cartCountElement = document.getElementById('cart-count');
+            let count = parseInt(cartCountElement.innerText);
+            count++;
+            
+            cartCountElement.style.transform = "scale(1.5)";
+            cartCountElement.style.backgroundColor = "#CCA01D";
+            setTimeout(() => {
+                cartCountElement.innerText = count;
+                cartCountElement.style.transform = "scale(1)";
+                cartCountElement.style.backgroundColor = "#3E2723";
+            }, 300);
+        }
+    </script>
+</body>
+</html>

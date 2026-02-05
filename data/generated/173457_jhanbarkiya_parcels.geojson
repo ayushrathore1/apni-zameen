@@ -1,0 +1,4600 @@
+{
+  "type": "FeatureCollection",
+  "name": "Jhanbarkiya_Parcels",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "173457_1",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.76068720429889,
+              25.977675491401385
+            ],
+            [
+              74.76088216682348,
+              25.97783606998689
+            ],
+            [
+              74.76092520916986,
+              25.978009351070693
+            ],
+            [
+              74.76073660310487,
+              25.97817495665181
+            ],
+            [
+              74.76044064076316,
+              25.97807493714773
+            ],
+            [
+              74.76043106762253,
+              25.977795780767256
+            ],
+            [
+              74.76068720429889,
+              25.977675491401385
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173457/188/1",
+        "khasra_number": "188",
+        "khata_number": "465",
+        "khatauni_number": "689",
+        "village_code": "173457",
+        "village_name": "Jhanbarkiya",
+        "village_name_hi": "झानबरकिया",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.977928,
+        "centroid_lon": 74.760684,
+        "computed_area_sqm": 1909.47,
+        "recorded_area_sqm": 1191.89,
+        "area_difference_sqm": -717.58,
+        "area_text": "0 बीघा 9 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "दोमट",
+        "soil_type_en": "Loamy",
+        "owner_name_hi": "राधा गुर्जर",
+        "owner_name_en": "Radha Gurjar",
+        "father_name_hi": "हरि दुबे",
+        "father_name_en": "Hari Dubey",
+        "ownership_type": "सरकारी",
+        "ownership_share": "100%",
+        "irrigation_type": "तालाब",
+        "irrigation_type_en": "Pond",
+        "is_irrigated": true,
+        "current_crop": "मूंग",
+        "current_crop_en": "Moong",
+        "crop_season": "जायद",
+        "rate_per_sqm": 1336,
+        "estimated_value_inr": 1592361.49,
+        "circle_rate_year": 2024,
+        "has_discrepancy": true,
+        "discrepancy_type": "area_mismatch",
+        "discrepancy_percentage": -37.6,
+        "discrepancy_severity": "high",
+        "record_status": "needs_review",
+        "verification_status": "pending",
+        "source_document": "बी-1",
+        "source_page": "188",
+        "source_year": 2024,
+        "survey_year": 2024,
+        "acquisition_year": null,
+        "mutation_count": 0,
+        "last_mutation_year": null,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.288581",
+        "last_updated": "2026-02-06T00:50:26.288590",
+        "digitized_by": "System",
+        "remarks": "Auto-generated test data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173457_2",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.76143102066717,
+              25.977879408958287
+            ],
+            [
+              74.76172281417988,
+              25.977947364485836
+            ],
+            [
+              74.76163180574417,
+              25.97819078393874
+            ],
+            [
+              74.76133308409894,
+              25.97814341286207
+            ],
+            [
+              74.76143102066717,
+              25.977879408958287
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173457/41/2",
+        "khasra_number": "41",
+        "khata_number": "390",
+        "khatauni_number": "410",
+        "village_code": "173457",
+        "village_name": "Jhanbarkiya",
+        "village_name_hi": "झानबरकिया",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.97804,
+        "centroid_lon": 74.76153,
+        "computed_area_sqm": 890.05,
+        "recorded_area_sqm": 880.76,
+        "area_difference_sqm": -9.29,
+        "area_text": "0 बीघा 7 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "बलुई",
+        "soil_type_en": "Sandy",
+        "owner_name_hi": "मोहन पटेल",
+        "owner_name_en": "Mohan Patel",
+        "father_name_hi": "सीता सिंह",
+        "father_name_en": "Sita Singh",
+        "ownership_type": "व्यक्तिगत",
+        "ownership_share": "10%",
+        "irrigation_type": "वर्षा आधारित",
+        "irrigation_type_en": "Rain Fed",
+        "is_irrigated": false,
+        "current_crop": "चना",
+        "current_crop_en": "Gram",
+        "crop_season": "रबी",
+        "rate_per_sqm": 1229,
+        "estimated_value_inr": 1082452.41,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "पट्टा",
+        "source_page": "177",
+        "source_year": 2018,
+        "survey_year": 2018,
+        "acquisition_year": 1989,
+        "mutation_count": 5,
+        "last_mutation_year": 1999,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.288670",
+        "last_updated": "2026-02-06T00:50:26.288673",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173457_3",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.76222006072783,
+              25.977916535336682
+            ],
+            [
+              74.76229928686064,
+              25.978152184612146
+            ],
+            [
+              74.76205003578889,
+              25.97821935288598
+            ],
+            [
+              74.7620440524012,
+              25.977955233907785
+            ],
+            [
+              74.76222006072783,
+              25.977916535336682
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173457/595/3",
+        "khasra_number": "595",
+        "khata_number": "350",
+        "khatauni_number": "96",
+        "village_code": "173457",
+        "village_name": "Jhanbarkiya",
+        "village_name_hi": "झानबरकिया",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.978061,
+        "centroid_lon": 74.762153,
+        "computed_area_sqm": 613.49,
+        "recorded_area_sqm": 610.84,
+        "area_difference_sqm": -2.65,
+        "area_text": "0 बीघा 4 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "residential",
+        "land_type_hi": "आवासीय",
+        "land_type_code": "RES",
+        "soil_type": "लाल",
+        "soil_type_en": "Red",
+        "owner_name_hi": "हरि दुबे",
+        "owner_name_en": "Hari Dubey",
+        "father_name_hi": "अनिल तिवारी",
+        "father_name_en": "Anil Tiwari",
+        "ownership_type": "व्यक्तिगत",
+        "ownership_share": "20%",
+        "irrigation_type": "कोई नहीं",
+        "irrigation_type_en": "None",
+        "is_irrigated": false,
+        "current_crop": null,
+        "current_crop_en": null,
+        "crop_season": null,
+        "rate_per_sqm": 15871,
+        "estimated_value_inr": 9694671.3,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "जमाबंदी",
+        "source_page": "172",
+        "source_year": 2024,
+        "survey_year": 2019,
+        "acquisition_year": 1983,
+        "mutation_count": 5,
+        "last_mutation_year": 2017,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.288717",
+        "last_updated": "2026-02-06T00:50:26.288718",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173457_4",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.76307019827924,
+              25.978015822040295
+            ],
+            [
+              74.7630701590797,
+              25.978015746713023
+            ],
+            [
+              74.76307018930692,
+              25.9780157309831
+            ],
+            [
+              74.7630702073055,
+              25.978015765569847
+            ],
+            [
+              74.76307023570978,
+              25.978015750788558
+            ],
+            [
+              74.76307025691072,
+              25.978015791529078
+            ],
+            [
+              74.76307019827924,
+              25.978015822040295
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173457/401/4",
+        "khasra_number": "401",
+        "khata_number": "471",
+        "khatauni_number": "677",
+        "village_code": "173457",
+        "village_name": "Jhanbarkiya",
+        "village_name_hi": "झानबरकिया",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.978016,
+        "centroid_lon": 74.76307,
+        "computed_area_sqm": 0.0,
+        "recorded_area_sqm": 0.0,
+        "area_difference_sqm": 0.0,
+        "area_text": "0 बीघा 0 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "residential",
+        "land_type_hi": "आवासीय",
+        "land_type_code": "RES",
+        "soil_type": "लाल",
+        "soil_type_en": "Red",
+        "owner_name_hi": "ब्रजेश गुप्ता",
+        "owner_name_en": "Brajesh Gupta",
+        "father_name_hi": "सरस्वती त्रिपाठी",
+        "father_name_en": "Saraswati Tripathi",
+        "ownership_type": "संयुक्त",
+        "ownership_share": "100%",
+        "irrigation_type": "कुआं",
+        "irrigation_type_en": "Well",
+        "is_irrigated": false,
+        "current_crop": null,
+        "current_crop_en": null,
+        "crop_season": null,
+        "rate_per_sqm": 19433,
+        "estimated_value_inr": 0.0,
+        "circle_rate_year": 2024,
+        "has_discrepancy": true,
+        "discrepancy_type": "area_mismatch",
+        "discrepancy_percentage": 34.6,
+        "discrepancy_severity": "high",
+        "record_status": "needs_review",
+        "verification_status": "pending",
+        "source_document": "बी-1",
+        "source_page": "24",
+        "source_year": 2020,
+        "survey_year": 2015,
+        "acquisition_year": 1994,
+        "mutation_count": 1,
+        "last_mutation_year": 2020,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.288764",
+        "last_updated": "2026-02-06T00:50:26.288765",
+        "digitized_by": "System",
+        "remarks": "Auto-generated test data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173457_5",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.76404687379635,
+              25.977969092187834
+            ],
+            [
+              74.76398041618287,
+              25.978078207867675
+            ],
+            [
+              74.76383007871554,
+              25.978001195392327
+            ],
+            [
+              74.76387628762097,
+              25.977870513536722
+            ],
+            [
+              74.763983302953,
+              25.977862967414598
+            ],
+            [
+              74.76404687379635,
+              25.977969092187834
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173457/748/5",
+        "khasra_number": "748",
+        "khata_number": "468",
+        "khatauni_number": "318",
+        "village_code": "173457",
+        "village_name": "Jhanbarkiya",
+        "village_name_hi": "झानबरकिया",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.977956,
+        "centroid_lon": 74.763943,
+        "computed_area_sqm": 333.43,
+        "recorded_area_sqm": 336.76,
+        "area_difference_sqm": 3.33,
+        "area_text": "0 बीघा 2 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "residential",
+        "land_type_hi": "आवासीय",
+        "land_type_code": "RES",
+        "soil_type": "चिकनी",
+        "soil_type_en": "Clay",
+        "owner_name_hi": "रमेश मिश्रा",
+        "owner_name_en": "Ramesh Mishra",
+        "father_name_hi": "शंकर मिश्रा",
+        "father_name_en": "Shankar Mishra",
+        "ownership_type": "व्यक्तिगत",
+        "ownership_share": "3%",
+        "irrigation_type": "कुआं",
+        "irrigation_type_en": "Well",
+        "is_irrigated": false,
+        "current_crop": null,
+        "current_crop_en": null,
+        "crop_season": null,
+        "rate_per_sqm": 19020,
+        "estimated_value_inr": 6405083.74,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "बी-1",
+        "source_page": "18",
+        "source_year": 2018,
+        "survey_year": 2016,
+        "acquisition_year": 2010,
+        "mutation_count": 2,
+        "last_mutation_year": 2007,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.288801",
+        "last_updated": "2026-02-06T00:50:26.288802",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173457_6",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.76469736169832,
+              25.977980438582378
+            ],
+            [
+              74.76469736243425,
+              25.97798061249332
+            ],
+            [
+              74.76469725986615,
+              25.977980612927347
+            ],
+            [
+              74.76469725948243,
+              25.977980522247694
+            ],
+            [
+              74.76469718518041,
+              25.97798052256211
+            ],
+            [
+              74.76469718482821,
+              25.97798043933082
+            ],
+            [
+              74.76469736169832,
+              25.977980438582378
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173457/631/6",
+        "khasra_number": "631",
+        "khata_number": "302",
+        "khatauni_number": "737",
+        "village_code": "173457",
+        "village_name": "Jhanbarkiya",
+        "village_name_hi": "झानबरकिया",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.977981,
+        "centroid_lon": 74.764697,
+        "computed_area_sqm": 0.0,
+        "recorded_area_sqm": 0.0,
+        "area_difference_sqm": 0.0,
+        "area_text": "0 बीघा 0 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "बलुई",
+        "soil_type_en": "Sandy",
+        "owner_name_hi": "हरि शर्मा",
+        "owner_name_en": "Hari Sharma",
+        "father_name_hi": "रमेश मिश्रा",
+        "father_name_en": "Ramesh Mishra",
+        "ownership_type": "सरकारी",
+        "ownership_share": "4%",
+        "irrigation_type": "कुआं",
+        "irrigation_type_en": "Well",
+        "is_irrigated": true,
+        "current_crop": "चना",
+        "current_crop_en": "Gram",
+        "crop_season": "जायद",
+        "rate_per_sqm": 1183,
+        "estimated_value_inr": 0.0,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "खतौनी",
+        "source_page": "129",
+        "source_year": 2022,
+        "survey_year": 2016,
+        "acquisition_year": 2004,
+        "mutation_count": 1,
+        "last_mutation_year": 2020,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.288838",
+        "last_updated": "2026-02-06T00:50:26.288839",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173457_7",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.7656014105249,
+              25.977892624486714
+            ],
+            [
+              74.76560145660109,
+              25.97789259836619
+            ],
+            [
+              74.76560146925205,
+              25.977892620682283
+            ],
+            [
+              74.76560145478147,
+              25.97789262888563
+            ],
+            [
+              74.76560146748926,
+              25.977892651301975
+            ],
+            [
+              74.76560143588365,
+              25.977892669219152
+            ],
+            [
+              74.7656014105249,
+              25.977892624486714
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173457/897/7",
+        "khasra_number": "897",
+        "khata_number": "70",
+        "khatauni_number": "35",
+        "village_code": "173457",
+        "village_name": "Jhanbarkiya",
+        "village_name_hi": "झानबरकिया",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.977893,
+        "centroid_lon": 74.765601,
+        "computed_area_sqm": 0.0,
+        "recorded_area_sqm": 0.0,
+        "area_difference_sqm": 0.0,
+        "area_text": "0 बीघा 0 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "residential",
+        "land_type_hi": "आवासीय",
+        "land_type_code": "RES",
+        "soil_type": "लाल",
+        "soil_type_en": "Red",
+        "owner_name_hi": "सोहन मिश्रा",
+        "owner_name_en": "Sohan Mishra",
+        "father_name_hi": "गीता दुबे",
+        "father_name_en": "Geeta Dubey",
+        "ownership_type": "सरकारी",
+        "ownership_share": "100%",
+        "irrigation_type": "वर्षा आधारित",
+        "irrigation_type_en": "Rain Fed",
+        "is_irrigated": false,
+        "current_crop": null,
+        "current_crop_en": null,
+        "crop_season": null,
+        "rate_per_sqm": 5457,
+        "estimated_value_inr": 0.0,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "बी-1",
+        "source_page": "169",
+        "source_year": 2019,
+        "survey_year": 2023,
+        "acquisition_year": 1984,
+        "mutation_count": 0,
+        "last_mutation_year": null,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.288869",
+        "last_updated": "2026-02-06T00:50:26.288870",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173457_8",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.7663792579289,
+              25.977910085457694
+            ],
+            [
+              74.76619801950302,
+              25.978116949440505
+            ],
+            [
+              74.76598455376823,
+              25.978023912973864
+            ],
+            [
+              74.76612753623154,
+              25.97778627540259
+            ],
+            [
+              74.7663792579289,
+              25.977910085457694
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173457/526/8",
+        "khasra_number": "526",
+        "khata_number": "82",
+        "khatauni_number": "522",
+        "village_code": "173457",
+        "village_name": "Jhanbarkiya",
+        "village_name_hi": "झानबरकिया",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.977959,
+        "centroid_lon": 74.766172,
+        "computed_area_sqm": 767.25,
+        "recorded_area_sqm": 752.5,
+        "area_difference_sqm": -14.75,
+        "area_text": "0 बीघा 6 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "काली",
+        "soil_type_en": "Black",
+        "owner_name_hi": "विष्णु गुप्ता",
+        "owner_name_en": "Vishnu Gupta",
+        "father_name_hi": "महेश मीना",
+        "father_name_en": "Mahesh Meena",
+        "ownership_type": "व्यक्तिगत",
+        "ownership_share": "100%",
+        "irrigation_type": "कोई नहीं",
+        "irrigation_type_en": "None",
+        "is_irrigated": false,
+        "current_crop": "चना",
+        "current_crop_en": "Gram",
+        "crop_season": "खरीफ",
+        "rate_per_sqm": 840,
+        "estimated_value_inr": 632100.82,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "जमाबंदी",
+        "source_page": "114",
+        "source_year": 2019,
+        "survey_year": 2023,
+        "acquisition_year": 1989,
+        "mutation_count": 0,
+        "last_mutation_year": null,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.288902",
+        "last_updated": "2026-02-06T00:50:26.288903",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173457_9",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.76058998088132,
+              25.979138892904942
+            ],
+            [
+              74.76042961876588,
+              25.978827160597895
+            ],
+            [
+              74.76078372986761,
+              25.97873296915081
+            ],
+            [
+              74.7608904856039,
+              25.97910461584547
+            ],
+            [
+              74.76058998088132,
+              25.979138892904942
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173457/57/9",
+        "khasra_number": "57",
+        "khata_number": "291",
+        "khatauni_number": "137",
+        "village_code": "173457",
+        "village_name": "Jhanbarkiya",
+        "village_name_hi": "झानबरकिया",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.978951,
+        "centroid_lon": 74.760673,
+        "computed_area_sqm": 1333.74,
+        "recorded_area_sqm": 1327.29,
+        "area_difference_sqm": -6.45,
+        "area_text": "0 बीघा 10 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "बलुई",
+        "soil_type_en": "Sandy",
+        "owner_name_hi": "लक्ष्मी गुर्जर",
+        "owner_name_en": "Lakshmi Gurjar",
+        "father_name_hi": "सीता शर्मा",
+        "father_name_en": "Sita Sharma",
+        "ownership_type": "संयुक्त",
+        "ownership_share": "100%",
+        "irrigation_type": "नहर",
+        "irrigation_type_en": "Canal",
+        "is_irrigated": true,
+        "current_crop": "मक्का",
+        "current_crop_en": "Maize",
+        "crop_season": "खरीफ",
+        "rate_per_sqm": 1346,
+        "estimated_value_inr": 1786535.9,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "पट्टा",
+        "source_page": "154",
+        "source_year": 2018,
+        "survey_year": 2015,
+        "acquisition_year": null,
+        "mutation_count": 0,
+        "last_mutation_year": null,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.288935",
+        "last_updated": "2026-02-06T00:50:26.288936",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173457_10",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.76159077699477,
+              25.978790561580507
+            ],
+            [
+              74.76105313561375,
+              25.978854676885756
+            ],
+            [
+              74.76136639246218,
+              25.97835818105803
+            ],
+            [
+              74.76159077699477,
+              25.978790561580507
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173457/972/10",
+        "khasra_number": "972",
+        "khata_number": "319",
+        "khatauni_number": "728",
+        "village_code": "173457",
+        "village_name": "Jhanbarkiya",
+        "village_name_hi": "झानबरकिया",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.978668,
+        "centroid_lon": 74.761337,
+        "computed_area_sqm": 1367.07,
+        "recorded_area_sqm": 1341.35,
+        "area_difference_sqm": -25.72,
+        "area_text": "0 बीघा 10 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "residential",
+        "land_type_hi": "आवासीय",
+        "land_type_code": "RES",
+        "soil_type": "चिकनी",
+        "soil_type_en": "Clay",
+        "owner_name_hi": "राम राय",
+        "owner_name_en": "Ram Rai",
+        "father_name_hi": "अनिल राजपूत",
+        "father_name_en": "Anil Rajput",
+        "ownership_type": "व्यक्तिगत",
+        "ownership_share": "100%",
+        "irrigation_type": "नहर",
+        "irrigation_type_en": "Canal",
+        "is_irrigated": false,
+        "current_crop": null,
+        "current_crop_en": null,
+        "crop_season": null,
+        "rate_per_sqm": 18274,
+        "estimated_value_inr": 24511739.13,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "बी-1",
+        "source_page": "52",
+        "source_year": 2023,
+        "survey_year": 2016,
+        "acquisition_year": null,
+        "mutation_count": 4,
+        "last_mutation_year": 2017,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.288969",
+        "last_updated": "2026-02-06T00:50:26.288970",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173457_11",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.76251354483556,
+              25.978597691452
+            ],
+            [
+              74.76249838902477,
+              25.9788906147329
+            ],
+            [
+              74.76217908102491,
+              25.979053473894073
+            ],
+            [
+              74.76197596219654,
+              25.97874091296742
+            ],
+            [
+              74.76220953869112,
+              25.97851539424733
+            ],
+            [
+              74.76251354483556,
+              25.978597691452
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173457/364/11",
+        "khasra_number": "364",
+        "khata_number": "252",
+        "khatauni_number": "626",
+        "village_code": "173457",
+        "village_name": "Jhanbarkiya",
+        "village_name_hi": "झानबरकिया",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.97876,
+        "centroid_lon": 74.762275,
+        "computed_area_sqm": 2082.1,
+        "recorded_area_sqm": 2049.02,
+        "area_difference_sqm": -33.08,
+        "area_text": "0 बीघा 16 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "लाल",
+        "soil_type_en": "Red",
+        "owner_name_hi": "विनोद यादव",
+        "owner_name_en": "Vinod Yadav",
+        "father_name_hi": "महेश वर्मा",
+        "father_name_en": "Mahesh Verma",
+        "ownership_type": "व्यक्तिगत",
+        "ownership_share": "44%",
+        "irrigation_type": "कुआं",
+        "irrigation_type_en": "Well",
+        "is_irrigated": true,
+        "current_crop": "चावल",
+        "current_crop_en": "Rice",
+        "crop_season": "खरीफ",
+        "rate_per_sqm": 1072,
+        "estimated_value_inr": 2196545.76,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "जमाबंदी",
+        "source_page": "73",
+        "source_year": 2023,
+        "survey_year": 2015,
+        "acquisition_year": null,
+        "mutation_count": 2,
+        "last_mutation_year": 2009,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.289008",
+        "last_updated": "2026-02-06T00:50:26.289009",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173457_12",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.76318574901019,
+              25.978847098602927
+            ],
+            [
+              74.7629592910012,
+              25.978955193980802
+            ],
+            [
+              74.76282744330382,
+              25.978833944159355
+            ],
+            [
+              74.76281535158702,
+              25.978601850937572
+            ],
+            [
+              74.76305349474467,
+              25.97866122401578
+            ],
+            [
+              74.76318574901019,
+              25.978847098602927
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173457/738/12",
+        "khasra_number": "738",
+        "khata_number": "159",
+        "khatauni_number": "749",
+        "village_code": "173457",
+        "village_name": "Jhanbarkiya",
+        "village_name_hi": "झानबरकिया",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.97878,
+        "centroid_lon": 74.762968,
+        "computed_area_sqm": 892.31,
+        "recorded_area_sqm": 616.91,
+        "area_difference_sqm": -275.4,
+        "area_text": "0 बीघा 4 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "काली",
+        "soil_type_en": "Black",
+        "owner_name_hi": "दिनेश कुमावत",
+        "owner_name_en": "Dinesh Kumawat",
+        "father_name_hi": "दुर्गा जाट",
+        "father_name_en": "Durga Jat",
+        "ownership_type": "सरकारी",
+        "ownership_share": "43%",
+        "irrigation_type": "कुआं",
+        "irrigation_type_en": "Well",
+        "is_irrigated": true,
+        "current_crop": "चना",
+        "current_crop_en": "Gram",
+        "crop_season": "खरीफ",
+        "rate_per_sqm": 830,
+        "estimated_value_inr": 512038.4,
+        "circle_rate_year": 2024,
+        "has_discrepancy": true,
+        "discrepancy_type": "area_mismatch",
+        "discrepancy_percentage": -30.9,
+        "discrepancy_severity": "high",
+        "record_status": "needs_review",
+        "verification_status": "pending",
+        "source_document": "खसरा",
+        "source_page": "134",
+        "source_year": 2023,
+        "survey_year": 2015,
+        "acquisition_year": 2017,
+        "mutation_count": 2,
+        "last_mutation_year": 2006,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.289046",
+        "last_updated": "2026-02-06T00:50:26.289048",
+        "digitized_by": "System",
+        "remarks": "Auto-generated test data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173457_13",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.76386882109841,
+              25.978850573376246
+            ],
+            [
+              74.7638688437038,
+              25.97885059546334
+            ],
+            [
+              74.76386883503612,
+              25.978850604334415
+            ],
+            [
+              74.76386882494263,
+              25.978850594472352
+            ],
+            [
+              74.76386881528356,
+              25.97885060435809
+            ],
+            [
+              74.76386880277165,
+              25.97885059213306
+            ],
+            [
+              74.76386882109841,
+              25.978850573376246
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173457/869/13",
+        "khasra_number": "869",
+        "khata_number": "485",
+        "khatauni_number": "19",
+        "village_code": "173457",
+        "village_name": "Jhanbarkiya",
+        "village_name_hi": "झानबरकिया",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.978851,
+        "centroid_lon": 74.763869,
+        "computed_area_sqm": 0.0,
+        "recorded_area_sqm": 0.0,
+        "area_difference_sqm": 0.0,
+        "area_text": "0 बीघा 0 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "बलुई",
+        "soil_type_en": "Sandy",
+        "owner_name_hi": "सुरेश सिंह",
+        "owner_name_en": "Suresh Singh",
+        "father_name_hi": "जगदीश यादव",
+        "father_name_en": "Jagdish Yadav",
+        "ownership_type": "सरकारी",
+        "ownership_share": "100%",
+        "irrigation_type": "कुआं",
+        "irrigation_type_en": "Well",
+        "is_irrigated": true,
+        "current_crop": "मूंग",
+        "current_crop_en": "Moong",
+        "crop_season": "रबी",
+        "rate_per_sqm": 853,
+        "estimated_value_inr": 0.0,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "जमाबंदी",
+        "source_page": "148",
+        "source_year": 2019,
+        "survey_year": 2022,
+        "acquisition_year": null,
+        "mutation_count": 5,
+        "last_mutation_year": 1994,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.289084",
+        "last_updated": "2026-02-06T00:50:26.289085",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173457_14",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.76495618024943,
+              25.978373224989067
+            ],
+            [
+              74.76515854928743,
+              25.978583147337492
+            ],
+            [
+              74.76509065748594,
+              25.9787611572999
+            ],
+            [
+              74.7649947501244,
+              25.978831809518343
+            ],
+            [
+              74.76481294659042,
+              25.97896202133033
+            ],
+            [
+              74.76462402858948,
+              25.978715888793662
+            ],
+            [
+              74.76462694111301,
+              25.9785703668796
+            ],
+            [
+              74.76476263311667,
+              25.97849196919949
+            ],
+            [
+              74.76495618024943,
+              25.978373224989067
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173457/748/14",
+        "khasra_number": "748",
+        "khata_number": "485",
+        "khatauni_number": "119",
+        "village_code": "173457",
+        "village_name": "Jhanbarkiya",
+        "village_name_hi": "झानबरकिया",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.978661,
+        "centroid_lon": 74.764878,
+        "computed_area_sqm": 2094.84,
+        "recorded_area_sqm": 2133.44,
+        "area_difference_sqm": 38.6,
+        "area_text": "0 बीघा 17 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "लाल",
+        "soil_type_en": "Red",
+        "owner_name_hi": "राम मिश्रा",
+        "owner_name_en": "Ram Mishra",
+        "father_name_hi": "लक्ष्मी यादव",
+        "father_name_en": "Lakshmi Yadav",
+        "ownership_type": "संयुक्त",
+        "ownership_share": "100%",
+        "irrigation_type": "कोई नहीं",
+        "irrigation_type_en": "None",
+        "is_irrigated": false,
+        "current_crop": "अन्य",
+        "current_crop_en": "Other",
+        "crop_season": "रबी",
+        "rate_per_sqm": 1361,
+        "estimated_value_inr": 2903613.24,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "खतौनी",
+        "source_page": "51",
+        "source_year": 2019,
+        "survey_year": 2022,
+        "acquisition_year": 2018,
+        "mutation_count": 2,
+        "last_mutation_year": 1993,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.289122",
+        "last_updated": "2026-02-06T00:50:26.289123",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173457_15",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.76510835256052,
+              25.979136893240973
+            ],
+            [
+              74.76493741171294,
+              25.978899653179965
+            ],
+            [
+              74.76520652851767,
+              25.978595730085814
+            ],
+            [
+              74.76548717029732,
+              25.97854838712425
+            ],
+            [
+              74.76565884211986,
+              25.97886305678661
+            ],
+            [
+              74.76550754185986,
+              25.979100070083756
+            ],
+            [
+              74.76510835256052,
+              25.979136893240973
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173457/544/15",
+        "khasra_number": "544",
+        "khata_number": "107",
+        "khatauni_number": "238",
+        "village_code": "173457",
+        "village_name": "Jhanbarkiya",
+        "village_name_hi": "झानबरकिया",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.978857,
+        "centroid_lon": 74.765318,
+        "computed_area_sqm": 3169.38,
+        "recorded_area_sqm": 4341.46,
+        "area_difference_sqm": 1172.08,
+        "area_text": "1 बीघा 14 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "barren",
+        "land_type_hi": "बंजर",
+        "land_type_code": "BAR",
+        "soil_type": "चिकनी",
+        "soil_type_en": "Clay",
+        "owner_name_hi": "राधा राजपूत",
+        "owner_name_en": "Radha Rajput",
+        "father_name_hi": "लक्ष्मी गुर्जर",
+        "father_name_en": "Lakshmi Gurjar",
+        "ownership_type": "सरकारी",
+        "ownership_share": "43%",
+        "irrigation_type": "कोई नहीं",
+        "irrigation_type_en": "None",
+        "is_irrigated": false,
+        "current_crop": null,
+        "current_crop_en": null,
+        "crop_season": null,
+        "rate_per_sqm": 112,
+        "estimated_value_inr": 486243.92,
+        "circle_rate_year": 2024,
+        "has_discrepancy": true,
+        "discrepancy_type": "area_mismatch",
+        "discrepancy_percentage": 37.0,
+        "discrepancy_severity": "high",
+        "record_status": "needs_review",
+        "verification_status": "pending",
+        "source_document": "खसरा",
+        "source_page": "69",
+        "source_year": 2019,
+        "survey_year": 2020,
+        "acquisition_year": null,
+        "mutation_count": 1,
+        "last_mutation_year": 1995,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.289156",
+        "last_updated": "2026-02-06T00:50:26.289157",
+        "digitized_by": "System",
+        "remarks": "Auto-generated test data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173457_16",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.76661883586006,
+              25.97865814364827
+            ],
+            [
+              74.7666849087736,
+              25.979230974684445
+            ],
+            [
+              74.76618842202802,
+              25.97916779557022
+            ],
+            [
+              74.7662350854119,
+              25.978811414810064
+            ],
+            [
+              74.76661883586006,
+              25.97865814364827
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173457/316/16",
+        "khasra_number": "316",
+        "khata_number": "74",
+        "khatauni_number": "432",
+        "village_code": "173457",
+        "village_name": "Jhanbarkiya",
+        "village_name_hi": "झानबरकिया",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.978967,
+        "centroid_lon": 74.766432,
+        "computed_area_sqm": 2269.69,
+        "recorded_area_sqm": 2265.1,
+        "area_difference_sqm": -4.59,
+        "area_text": "0 बीघा 18 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "काली",
+        "soil_type_en": "Black",
+        "owner_name_hi": "हरि गुप्ता",
+        "owner_name_en": "Hari Gupta",
+        "father_name_hi": "पार्वती कुमावत",
+        "father_name_en": "Parvati Kumawat",
+        "ownership_type": "सरकारी",
+        "ownership_share": "62%",
+        "irrigation_type": "तालाब",
+        "irrigation_type_en": "Pond",
+        "is_irrigated": true,
+        "current_crop": "अन्य",
+        "current_crop_en": "Other",
+        "crop_season": "रबी",
+        "rate_per_sqm": 629,
+        "estimated_value_inr": 1424747.57,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "जमाबंदी",
+        "source_page": "59",
+        "source_year": 2024,
+        "survey_year": 2019,
+        "acquisition_year": null,
+        "mutation_count": 4,
+        "last_mutation_year": 2011,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.289190",
+        "last_updated": "2026-02-06T00:50:26.289192",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173457_17",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.76074315885249,
+              25.97954659468861
+            ],
+            [
+              74.7607242401696,
+              25.979229741747154
+            ],
+            [
+              74.76103858878668,
+              25.979285049374795
+            ],
+            [
+              74.76100279688823,
+              25.979522675330973
+            ],
+            [
+              74.76074315885249,
+              25.97954659468861
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173457/552/17",
+        "khasra_number": "552",
+        "khata_number": "455",
+        "khatauni_number": "517",
+        "village_code": "173457",
+        "village_name": "Jhanbarkiya",
+        "village_name_hi": "झानबरकिया",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.979396,
+        "centroid_lon": 74.760877,
+        "computed_area_sqm": 882.74,
+        "recorded_area_sqm": 887.8,
+        "area_difference_sqm": 5.06,
+        "area_text": "0 बीघा 7 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "काली",
+        "soil_type_en": "Black",
+        "owner_name_hi": "हरि पटेल",
+        "owner_name_en": "Hari Patel",
+        "father_name_hi": "भगवान मिश्रा",
+        "father_name_en": "Bhagwan Mishra",
+        "ownership_type": "व्यक्तिगत",
+        "ownership_share": "100%",
+        "irrigation_type": "ट्यूबवेल",
+        "irrigation_type_en": "Tube Well",
+        "is_irrigated": true,
+        "current_crop": "सरसों",
+        "current_crop_en": "Mustard",
+        "crop_season": "जायद",
+        "rate_per_sqm": 567,
+        "estimated_value_inr": 503383.29,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "खतौनी",
+        "source_page": "66",
+        "source_year": 2018,
+        "survey_year": 2022,
+        "acquisition_year": null,
+        "mutation_count": 1,
+        "last_mutation_year": 2011,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.289226",
+        "last_updated": "2026-02-06T00:50:26.289227",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173457_18",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.76164167688869,
+              25.979751119078905
+            ],
+            [
+              74.76149550320497,
+              25.97979697209456
+            ],
+            [
+              74.76142061978594,
+              25.97962540591898
+            ],
+            [
+              74.76156180538817,
+              25.979538759157563
+            ],
+            [
+              74.76167589719088,
+              25.979622177419387
+            ],
+            [
+              74.76164167688869,
+              25.979751119078905
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173457/259/18",
+        "khasra_number": "259",
+        "khata_number": "345",
+        "khatauni_number": "107",
+        "village_code": "173457",
+        "village_name": "Jhanbarkiya",
+        "village_name_hi": "झानबरकिया",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.979667,
+        "centroid_lon": 74.761559,
+        "computed_area_sqm": 459.54,
+        "recorded_area_sqm": 372.03,
+        "area_difference_sqm": -87.51,
+        "area_text": "0 बीघा 2 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "दोमट",
+        "soil_type_en": "Loamy",
+        "owner_name_hi": "विनोद शर्मा",
+        "owner_name_en": "Vinod Sharma",
+        "father_name_hi": "अनिल शर्मा",
+        "father_name_en": "Anil Sharma",
+        "ownership_type": "सरकारी",
+        "ownership_share": "100%",
+        "irrigation_type": "ट्यूबवेल",
+        "irrigation_type_en": "Tube Well",
+        "is_irrigated": true,
+        "current_crop": "अन्य",
+        "current_crop_en": "Other",
+        "crop_season": "जायद",
+        "rate_per_sqm": 975,
+        "estimated_value_inr": 362733.84,
+        "circle_rate_year": 2024,
+        "has_discrepancy": true,
+        "discrepancy_type": "area_mismatch",
+        "discrepancy_percentage": -19.0,
+        "discrepancy_severity": "medium",
+        "record_status": "needs_review",
+        "verification_status": "pending",
+        "source_document": "जमाबंदी",
+        "source_page": "66",
+        "source_year": 2021,
+        "survey_year": 2016,
+        "acquisition_year": null,
+        "mutation_count": 5,
+        "last_mutation_year": 1995,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.289262",
+        "last_updated": "2026-02-06T00:50:26.289263",
+        "digitized_by": "System",
+        "remarks": "Auto-generated test data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173457_19",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.76231258132673,
+              25.97949860903587
+            ],
+            [
+              74.76227801284082,
+              25.979333035323922
+            ],
+            [
+              74.76244502919133,
+              25.97926271187923
+            ],
+            [
+              74.76258657617949,
+              25.979334441327346
+            ],
+            [
+              74.7626081763868,
+              25.979458193922813
+            ],
+            [
+              74.76248683940089,
+              25.979577552027962
+            ],
+            [
+              74.76231258132673,
+              25.97949860903587
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173457/859/19",
+        "khasra_number": "859",
+        "khata_number": "457",
+        "khatauni_number": "403",
+        "village_code": "173457",
+        "village_name": "Jhanbarkiya",
+        "village_name_hi": "झानबरकिया",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.979411,
+        "centroid_lon": 74.762453,
+        "computed_area_sqm": 779.79,
+        "recorded_area_sqm": 621.07,
+        "area_difference_sqm": -158.72,
+        "area_text": "0 बीघा 4 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "commercial",
+        "land_type_hi": "वाणिज्यिक",
+        "land_type_code": "COM",
+        "soil_type": "दोमट",
+        "soil_type_en": "Loamy",
+        "owner_name_hi": "विनोद शर्मा",
+        "owner_name_en": "Vinod Sharma",
+        "father_name_hi": "दिनेश चौहान",
+        "father_name_en": "Dinesh Chauhan",
+        "ownership_type": "संयुक्त",
+        "ownership_share": "100%",
+        "irrigation_type": "नहर",
+        "irrigation_type_en": "Canal",
+        "is_irrigated": false,
+        "current_crop": null,
+        "current_crop_en": null,
+        "crop_season": null,
+        "rate_per_sqm": 30423,
+        "estimated_value_inr": 18894905.45,
+        "circle_rate_year": 2024,
+        "has_discrepancy": true,
+        "discrepancy_type": "area_mismatch",
+        "discrepancy_percentage": -20.4,
+        "discrepancy_severity": "medium",
+        "record_status": "needs_review",
+        "verification_status": "pending",
+        "source_document": "जमाबंदी",
+        "source_page": "193",
+        "source_year": 2019,
+        "survey_year": 2024,
+        "acquisition_year": 1993,
+        "mutation_count": 3,
+        "last_mutation_year": 1999,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.289297",
+        "last_updated": "2026-02-06T00:50:26.289298",
+        "digitized_by": "System",
+        "remarks": "Auto-generated test data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173457_20",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.76286791456714,
+              25.979689757217926
+            ],
+            [
+              74.76292138995981,
+              25.979402065730156
+            ],
+            [
+              74.76314498236127,
+              25.979329169065807
+            ],
+            [
+              74.76332955870112,
+              25.97959372004945
+            ],
+            [
+              74.76325137265783,
+              25.97983145761371
+            ],
+            [
+              74.76302950139171,
+              25.979840436228983
+            ],
+            [
+              74.76286791456714,
+              25.979689757217926
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173457/422/20",
+        "khasra_number": "422",
+        "khata_number": "170",
+        "khatauni_number": "710",
+        "village_code": "173457",
+        "village_name": "Jhanbarkiya",
+        "village_name_hi": "झानबरकिया",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.979614,
+        "centroid_lon": 74.763091,
+        "computed_area_sqm": 1868.55,
+        "recorded_area_sqm": 1847.52,
+        "area_difference_sqm": -21.03,
+        "area_text": "0 बीघा 14 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "barren",
+        "land_type_hi": "बंजर",
+        "land_type_code": "BAR",
+        "soil_type": "काली",
+        "soil_type_en": "Black",
+        "owner_name_hi": "सरस्वती गुर्जर",
+        "owner_name_en": "Saraswati Gurjar",
+        "father_name_hi": "राजेश दुबे",
+        "father_name_en": "Rajesh Dubey",
+        "ownership_type": "संयुक्त",
+        "ownership_share": "100%",
+        "irrigation_type": "कुआं",
+        "irrigation_type_en": "Well",
+        "is_irrigated": false,
+        "current_crop": null,
+        "current_crop_en": null,
+        "crop_season": null,
+        "rate_per_sqm": 385,
+        "estimated_value_inr": 711293.63,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "खसरा",
+        "source_page": "52",
+        "source_year": 2023,
+        "survey_year": 2024,
+        "acquisition_year": 1971,
+        "mutation_count": 1,
+        "last_mutation_year": 2023,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.289329",
+        "last_updated": "2026-02-06T00:50:26.289330",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173457_21",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.76388644684866,
+              25.979555387806716
+            ],
+            [
+              74.76388646610792,
+              25.97955542704391
+            ],
+            [
+              74.7638864433943,
+              25.979555438192705
+            ],
+            [
+              74.7638864327728,
+              25.979555416553353
+            ],
+            [
+              74.76388641212293,
+              25.979555426689174
+            ],
+            [
+              74.76388640348517,
+              25.979555409091336
+            ],
+            [
+              74.76388644684866,
+              25.979555387806716
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173457/598/21",
+        "khasra_number": "598",
+        "khata_number": "218",
+        "khatauni_number": "974",
+        "village_code": "173457",
+        "village_name": "Jhanbarkiya",
+        "village_name_hi": "झानबरकिया",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.979555,
+        "centroid_lon": 74.763886,
+        "computed_area_sqm": 0.0,
+        "recorded_area_sqm": 0.0,
+        "area_difference_sqm": 0.0,
+        "area_text": "0 बीघा 0 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "residential",
+        "land_type_hi": "आवासीय",
+        "land_type_code": "RES",
+        "soil_type": "चिकनी",
+        "soil_type_en": "Clay",
+        "owner_name_hi": "दिनेश पांडेय",
+        "owner_name_en": "Dinesh Pandey",
+        "father_name_hi": "रामू यादव",
+        "father_name_en": "Ramu Yadav",
+        "ownership_type": "व्यक्तिगत",
+        "ownership_share": "59%",
+        "irrigation_type": "कुआं",
+        "irrigation_type_en": "Well",
+        "is_irrigated": false,
+        "current_crop": null,
+        "current_crop_en": null,
+        "crop_season": null,
+        "rate_per_sqm": 12129,
+        "estimated_value_inr": 0.0,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "खतौनी",
+        "source_page": "146",
+        "source_year": 2020,
+        "survey_year": 2015,
+        "acquisition_year": null,
+        "mutation_count": 0,
+        "last_mutation_year": null,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.289362",
+        "last_updated": "2026-02-06T00:50:26.289363",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173457_22",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.764675754338,
+              25.979395305266618
+            ],
+            [
+              74.76476650648395,
+              25.979503831858715
+            ],
+            [
+              74.7646588731857,
+              25.979630719992343
+            ],
+            [
+              74.76452735702647,
+              25.97958033162516
+            ],
+            [
+              74.76455406333919,
+              25.979430934192216
+            ],
+            [
+              74.764675754338,
+              25.979395305266618
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173457/62/22",
+        "khasra_number": "62",
+        "khata_number": "349",
+        "khatauni_number": "304",
+        "village_code": "173457",
+        "village_name": "Jhanbarkiya",
+        "village_name_hi": "झानबरकिया",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.979508,
+        "centroid_lon": 74.764637,
+        "computed_area_sqm": 400.05,
+        "recorded_area_sqm": 398.74,
+        "area_difference_sqm": -1.31,
+        "area_text": "0 बीघा 3 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "चिकनी",
+        "soil_type_en": "Clay",
+        "owner_name_hi": "श्याम पटेल",
+        "owner_name_en": "Shyam Patel",
+        "father_name_hi": "जगदीश गुर्जर",
+        "father_name_en": "Jagdish Gurjar",
+        "ownership_type": "सरकारी",
+        "ownership_share": "75%",
+        "irrigation_type": "नहर",
+        "irrigation_type_en": "Canal",
+        "is_irrigated": true,
+        "current_crop": "चावल",
+        "current_crop_en": "Rice",
+        "crop_season": "रबी",
+        "rate_per_sqm": 753,
+        "estimated_value_inr": 300247.48,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "बी-1",
+        "source_page": "95",
+        "source_year": 2024,
+        "survey_year": 2019,
+        "acquisition_year": 2000,
+        "mutation_count": 2,
+        "last_mutation_year": 1996,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.289399",
+        "last_updated": "2026-02-06T00:50:26.289400",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173457_23",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.76522045330844,
+              25.979591033468253
+            ],
+            [
+              74.7655762571775,
+              25.979651762394894
+            ],
+            [
+              74.76535105564409,
+              25.979936833083404
+            ],
+            [
+              74.76522045330844,
+              25.979591033468253
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173457/917/23",
+        "khasra_number": "917",
+        "khata_number": "354",
+        "khatauni_number": "437",
+        "village_code": "173457",
+        "village_name": "Jhanbarkiya",
+        "village_name_hi": "झानबरकिया",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.979727,
+        "centroid_lon": 74.765383,
+        "computed_area_sqm": 637.45,
+        "recorded_area_sqm": 647.04,
+        "area_difference_sqm": 9.59,
+        "area_text": "0 बीघा 5 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "काली",
+        "soil_type_en": "Black",
+        "owner_name_hi": "कृष्ण पटेल",
+        "owner_name_en": "Krishna Patel",
+        "father_name_hi": "महेश मिश्रा",
+        "father_name_en": "Mahesh Mishra",
+        "ownership_type": "सरकारी",
+        "ownership_share": "100%",
+        "irrigation_type": "तालाब",
+        "irrigation_type_en": "Pond",
+        "is_irrigated": true,
+        "current_crop": "मूंग",
+        "current_crop_en": "Moong",
+        "crop_season": "खरीफ",
+        "rate_per_sqm": 1060,
+        "estimated_value_inr": 685861.61,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "जमाबंदी",
+        "source_page": "162",
+        "source_year": 2021,
+        "survey_year": 2018,
+        "acquisition_year": null,
+        "mutation_count": 4,
+        "last_mutation_year": 1998,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.289430",
+        "last_updated": "2026-02-06T00:50:26.289431",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173457_24",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.76629396332292,
+              25.979610769179047
+            ],
+            [
+              74.76629397776661,
+              25.979610844455205
+            ],
+            [
+              74.76629392771383,
+              25.979610854059132
+            ],
+            [
+              74.76629392161944,
+              25.979610822296987
+            ],
+            [
+              74.76629389295775,
+              25.979610827796474
+            ],
+            [
+              74.76629388460846,
+              25.97961078428246
+            ],
+            [
+              74.76629396332292,
+              25.979610769179047
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173457/588/24",
+        "khasra_number": "588",
+        "khata_number": "157",
+        "khatauni_number": "986",
+        "village_code": "173457",
+        "village_name": "Jhanbarkiya",
+        "village_name_hi": "झानबरकिया",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.979611,
+        "centroid_lon": 74.766294,
+        "computed_area_sqm": 0.0,
+        "recorded_area_sqm": 0.0,
+        "area_difference_sqm": 0.0,
+        "area_text": "0 बीघा 0 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "लाल",
+        "soil_type_en": "Red",
+        "owner_name_hi": "राजेश जाट",
+        "owner_name_en": "Rajesh Jat",
+        "father_name_hi": "सोहन त्रिपाठी",
+        "father_name_en": "Sohan Tripathi",
+        "ownership_type": "संयुक्त",
+        "ownership_share": "100%",
+        "irrigation_type": "कुआं",
+        "irrigation_type_en": "Well",
+        "is_irrigated": true,
+        "current_crop": "गेहूं",
+        "current_crop_en": "Wheat",
+        "crop_season": "रबी",
+        "rate_per_sqm": 1421,
+        "estimated_value_inr": 0.0,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "खतौनी",
+        "source_page": "4",
+        "source_year": 2020,
+        "survey_year": 2016,
+        "acquisition_year": null,
+        "mutation_count": 2,
+        "last_mutation_year": 1993,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.289463",
+        "last_updated": "2026-02-06T00:50:26.289464",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173457_25",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.76044189583571,
+              25.98038298408039
+            ],
+            [
+              74.76030620256243,
+              25.980334569822386
+            ],
+            [
+              74.76031540672984,
+              25.980087134848056
+            ],
+            [
+              74.76042873014613,
+              25.980050739580303
+            ],
+            [
+              74.76056208831685,
+              25.980082300314006
+            ],
+            [
+              74.76073454001548,
+              25.980143128742323
+            ],
+            [
+              74.76069896133973,
+              25.980351518306477
+            ],
+            [
+              74.7606080353193,
+              25.980440699797885
+            ],
+            [
+              74.76044189583571,
+              25.98038298408039
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173457/852/25",
+        "khasra_number": "852",
+        "khata_number": "282",
+        "khatauni_number": "958",
+        "village_code": "173457",
+        "village_name": "Jhanbarkiya",
+        "village_name_hi": "झानबरकिया",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.980234,
+        "centroid_lon": 74.760512,
+        "computed_area_sqm": 1371.87,
+        "recorded_area_sqm": 1372.81,
+        "area_difference_sqm": 0.94,
+        "area_text": "0 बीघा 10 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "दोमट",
+        "soil_type_en": "Loamy",
+        "owner_name_hi": "विनोद त्रिपाठी",
+        "owner_name_en": "Vinod Tripathi",
+        "father_name_hi": "विष्णु पांडेय",
+        "father_name_en": "Vishnu Pandey",
+        "ownership_type": "व्यक्तिगत",
+        "ownership_share": "100%",
+        "irrigation_type": "नहर",
+        "irrigation_type_en": "Canal",
+        "is_irrigated": true,
+        "current_crop": "अन्य",
+        "current_crop_en": "Other",
+        "crop_season": "जायद",
+        "rate_per_sqm": 784,
+        "estimated_value_inr": 1076279.89,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "खसरा",
+        "source_page": "172",
+        "source_year": 2023,
+        "survey_year": 2018,
+        "acquisition_year": null,
+        "mutation_count": 1,
+        "last_mutation_year": 1996,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.289498",
+        "last_updated": "2026-02-06T00:50:26.289499",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173457_26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.76141961980434,
+              25.98073430433038
+            ],
+            [
+              74.76132073492441,
+              25.980665420565792
+            ],
+            [
+              74.76126413819672,
+              25.980516521121757
+            ],
+            [
+              74.76141923680328,
+              25.980469439804896
+            ],
+            [
+              74.7614940386363,
+              25.980512560751873
+            ],
+            [
+              74.76152315590471,
+              25.980635929957025
+            ],
+            [
+              74.76141961980434,
+              25.98073430433038
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173457/958/26",
+        "khasra_number": "958",
+        "khata_number": "36",
+        "khatauni_number": "144",
+        "village_code": "173457",
+        "village_name": "Jhanbarkiya",
+        "village_name_hi": "झानबरकिया",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.980589,
+        "centroid_lon": 74.761407,
+        "computed_area_sqm": 483.78,
+        "recorded_area_sqm": 379.32,
+        "area_difference_sqm": -104.46,
+        "area_text": "0 बीघा 3 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "बलुई",
+        "soil_type_en": "Sandy",
+        "owner_name_hi": "राजेश राजपूत",
+        "owner_name_en": "Rajesh Rajput",
+        "father_name_hi": "रमेश सिंह",
+        "father_name_en": "Ramesh Singh",
+        "ownership_type": "व्यक्तिगत",
+        "ownership_share": "100%",
+        "irrigation_type": "कुआं",
+        "irrigation_type_en": "Well",
+        "is_irrigated": true,
+        "current_crop": "सरसों",
+        "current_crop_en": "Mustard",
+        "crop_season": "खरीफ",
+        "rate_per_sqm": 1312,
+        "estimated_value_inr": 497670.65,
+        "circle_rate_year": 2024,
+        "has_discrepancy": true,
+        "discrepancy_type": "area_mismatch",
+        "discrepancy_percentage": -21.6,
+        "discrepancy_severity": "medium",
+        "record_status": "needs_review",
+        "verification_status": "pending",
+        "source_document": "खसरा",
+        "source_page": "194",
+        "source_year": 2023,
+        "survey_year": 2021,
+        "acquisition_year": 2017,
+        "mutation_count": 3,
+        "last_mutation_year": 2016,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.289533",
+        "last_updated": "2026-02-06T00:50:26.289534",
+        "digitized_by": "System",
+        "remarks": "Auto-generated test data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173457_27",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.7622973817653,
+              25.980207229105343
+            ],
+            [
+              74.76229735423767,
+              25.98020722920505
+            ],
+            [
+              74.76229735417174,
+              25.980207211000245
+            ],
+            [
+              74.76229736609613,
+              25.980207210957055
+            ],
+            [
+              74.76229736605185,
+              25.980207198731186
+            ],
+            [
+              74.76229738165507,
+              25.98020719867467
+            ],
+            [
+              74.7622973817653,
+              25.980207229105343
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173457/424/27",
+        "khasra_number": "424",
+        "khata_number": "369",
+        "khatauni_number": "124",
+        "village_code": "173457",
+        "village_name": "Jhanbarkiya",
+        "village_name_hi": "झानबरकिया",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.980207,
+        "centroid_lon": 74.762297,
+        "computed_area_sqm": 0.0,
+        "recorded_area_sqm": 0.0,
+        "area_difference_sqm": 0.0,
+        "area_text": "0 बीघा 0 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "काली",
+        "soil_type_en": "Black",
+        "owner_name_hi": "सुरेश त्रिपाठी",
+        "owner_name_en": "Suresh Tripathi",
+        "father_name_hi": "शंकर चौहान",
+        "father_name_en": "Shankar Chauhan",
+        "ownership_type": "सरकारी",
+        "ownership_share": "100%",
+        "irrigation_type": "कुआं",
+        "irrigation_type_en": "Well",
+        "is_irrigated": true,
+        "current_crop": "गेहूं",
+        "current_crop_en": "Wheat",
+        "crop_season": "जायद",
+        "rate_per_sqm": 1488,
+        "estimated_value_inr": 0.0,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "पट्टा",
+        "source_page": "116",
+        "source_year": 2023,
+        "survey_year": 2021,
+        "acquisition_year": null,
+        "mutation_count": 3,
+        "last_mutation_year": 2018,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.289566",
+        "last_updated": "2026-02-06T00:50:26.289567",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173457_28",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.76299281524277,
+              25.980325528090813
+            ],
+            [
+              74.76326375280911,
+              25.98041317688714
+            ],
+            [
+              74.76315925942728,
+              25.980770396783242
+            ],
+            [
+              74.76290027714842,
+              25.980669423122777
+            ],
+            [
+              74.76299281524277,
+              25.980325528090813
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173457/169/28",
+        "khasra_number": "169",
+        "khata_number": "318",
+        "khatauni_number": "756",
+        "village_code": "173457",
+        "village_name": "Jhanbarkiya",
+        "village_name_hi": "झानबरकिया",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.980545,
+        "centroid_lon": 74.763079,
+        "computed_area_sqm": 1131.68,
+        "recorded_area_sqm": 1327.62,
+        "area_difference_sqm": 195.94,
+        "area_text": "0 बीघा 10 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "residential",
+        "land_type_hi": "आवासीय",
+        "land_type_code": "RES",
+        "soil_type": "काली",
+        "soil_type_en": "Black",
+        "owner_name_hi": "विनोद जाट",
+        "owner_name_en": "Vinod Jat",
+        "father_name_hi": "राम पांडेय",
+        "father_name_en": "Ram Pandey",
+        "ownership_type": "व्यक्तिगत",
+        "ownership_share": "100%",
+        "irrigation_type": "नहर",
+        "irrigation_type_en": "Canal",
+        "is_irrigated": false,
+        "current_crop": null,
+        "current_crop_en": null,
+        "crop_season": null,
+        "rate_per_sqm": 9959,
+        "estimated_value_inr": 13221801.73,
+        "circle_rate_year": 2024,
+        "has_discrepancy": true,
+        "discrepancy_type": "area_mismatch",
+        "discrepancy_percentage": 17.3,
+        "discrepancy_severity": "medium",
+        "record_status": "needs_review",
+        "verification_status": "pending",
+        "source_document": "खतौनी",
+        "source_page": "171",
+        "source_year": 2023,
+        "survey_year": 2021,
+        "acquisition_year": 1971,
+        "mutation_count": 4,
+        "last_mutation_year": 2020,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.289597",
+        "last_updated": "2026-02-06T00:50:26.289598",
+        "digitized_by": "System",
+        "remarks": "Auto-generated test data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173457_29",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.76362782790241,
+              25.98009229093411
+            ],
+            [
+              74.76394899482604,
+              25.98022841333665
+            ],
+            [
+              74.76389755313163,
+              25.98047912992746
+            ],
+            [
+              74.76367509859428,
+              25.98059010073217
+            ],
+            [
+              74.763449831408,
+              25.980381369935657
+            ],
+            [
+              74.76362782790241,
+              25.98009229093411
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173457/250/29",
+        "khasra_number": "250",
+        "khata_number": "338",
+        "khatauni_number": "585",
+        "village_code": "173457",
+        "village_name": "Jhanbarkiya",
+        "village_name_hi": "झानबरकिया",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.980354,
+        "centroid_lon": 74.76372,
+        "computed_area_sqm": 1693.42,
+        "recorded_area_sqm": 1727.22,
+        "area_difference_sqm": 33.8,
+        "area_text": "0 बीघा 13 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "चिकनी",
+        "soil_type_en": "Clay",
+        "owner_name_hi": "दिनेश गुप्ता",
+        "owner_name_en": "Dinesh Gupta",
+        "father_name_hi": "रमेश गुप्ता",
+        "father_name_en": "Ramesh Gupta",
+        "ownership_type": "संयुक्त",
+        "ownership_share": "100%",
+        "irrigation_type": "तालाब",
+        "irrigation_type_en": "Pond",
+        "is_irrigated": true,
+        "current_crop": "अन्य",
+        "current_crop_en": "Other",
+        "crop_season": "रबी",
+        "rate_per_sqm": 1965,
+        "estimated_value_inr": 3393985.43,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "जमाबंदी",
+        "source_page": "135",
+        "source_year": 2022,
+        "survey_year": 2023,
+        "acquisition_year": null,
+        "mutation_count": 4,
+        "last_mutation_year": 2002,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.289629",
+        "last_updated": "2026-02-06T00:50:26.289630",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173457_30",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.76476481107659,
+              25.9801274921328
+            ],
+            [
+              74.765030435148,
+              25.98022866918471
+            ],
+            [
+              74.76482753559189,
+              25.980357009828403
+            ],
+            [
+              74.76476481107659,
+              25.9801274921328
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173457/319/30",
+        "khasra_number": "319",
+        "khata_number": "225",
+        "khatauni_number": "1",
+        "village_code": "173457",
+        "village_name": "Jhanbarkiya",
+        "village_name_hi": "झानबरकिया",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.980238,
+        "centroid_lon": 74.764874,
+        "computed_area_sqm": 302.48,
+        "recorded_area_sqm": 307.17,
+        "area_difference_sqm": 4.69,
+        "area_text": "0 बीघा 2 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "काली",
+        "soil_type_en": "Black",
+        "owner_name_hi": "कृष्ण गुर्जर",
+        "owner_name_en": "Krishna Gurjar",
+        "father_name_hi": "सरस्वती वर्मा",
+        "father_name_en": "Saraswati Verma",
+        "ownership_type": "संयुक्त",
+        "ownership_share": "30%",
+        "irrigation_type": "ट्यूबवेल",
+        "irrigation_type_en": "Tube Well",
+        "is_irrigated": true,
+        "current_crop": "मूंग",
+        "current_crop_en": "Moong",
+        "crop_season": "खरीफ",
+        "rate_per_sqm": 1756,
+        "estimated_value_inr": 539388.61,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "खसरा",
+        "source_page": "95",
+        "source_year": 2019,
+        "survey_year": 2024,
+        "acquisition_year": 2009,
+        "mutation_count": 0,
+        "last_mutation_year": null,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.289658",
+        "last_updated": "2026-02-06T00:50:26.289659",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173457_31",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.76542886421748,
+              25.98048523226302
+            ],
+            [
+              74.76528665460653,
+              25.980638726286013
+            ],
+            [
+              74.7650989252581,
+              25.980490422455418
+            ],
+            [
+              74.76515156764295,
+              25.980271982239177
+            ],
+            [
+              74.7652860474432,
+              25.980255055755386
+            ],
+            [
+              74.76546817588076,
+              25.980346248324675
+            ],
+            [
+              74.76542886421748,
+              25.98048523226302
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173457/225/31",
+        "khasra_number": "225",
+        "khata_number": "61",
+        "khatauni_number": "900",
+        "village_code": "173457",
+        "village_name": "Jhanbarkiya",
+        "village_name_hi": "झानबरकिया",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.980415,
+        "centroid_lon": 74.765287,
+        "computed_area_sqm": 1018.84,
+        "recorded_area_sqm": 1001.67,
+        "area_difference_sqm": -17.17,
+        "area_text": "0 बीघा 8 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "काली",
+        "soil_type_en": "Black",
+        "owner_name_hi": "ब्रजेश राजपूत",
+        "owner_name_en": "Brajesh Rajput",
+        "father_name_hi": "दुर्गा चौहान",
+        "father_name_en": "Durga Chauhan",
+        "ownership_type": "व्यक्तिगत",
+        "ownership_share": "100%",
+        "irrigation_type": "नहर",
+        "irrigation_type_en": "Canal",
+        "is_irrigated": true,
+        "current_crop": "गेहूं",
+        "current_crop_en": "Wheat",
+        "crop_season": "रबी",
+        "rate_per_sqm": 531,
+        "estimated_value_inr": 531884.4,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "खसरा",
+        "source_page": "64",
+        "source_year": 2024,
+        "survey_year": 2017,
+        "acquisition_year": 2001,
+        "mutation_count": 3,
+        "last_mutation_year": 2018,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.289704",
+        "last_updated": "2026-02-06T00:50:26.289705",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173457_32",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.76636833926138,
+              25.980320562041232
+            ],
+            [
+              74.76663123658513,
+              25.980352612194736
+            ],
+            [
+              74.76660649045785,
+              25.98060373512333
+            ],
+            [
+              74.76634605326002,
+              25.980562259155775
+            ],
+            [
+              74.76636833926138,
+              25.980320562041232
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173457/265/32",
+        "khasra_number": "265",
+        "khata_number": "379",
+        "khatauni_number": "997",
+        "village_code": "173457",
+        "village_name": "Jhanbarkiya",
+        "village_name_hi": "झानबरकिया",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.98046,
+        "centroid_lon": 74.766488,
+        "computed_area_sqm": 723.72,
+        "recorded_area_sqm": 728.92,
+        "area_difference_sqm": 5.2,
+        "area_text": "0 बीघा 5 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "दोमट",
+        "soil_type_en": "Loamy",
+        "owner_name_hi": "राम शर्मा",
+        "owner_name_en": "Ram Sharma",
+        "father_name_hi": "रामू चौहान",
+        "father_name_en": "Ramu Chauhan",
+        "ownership_type": "सरकारी",
+        "ownership_share": "100%",
+        "irrigation_type": "ट्यूबवेल",
+        "irrigation_type_en": "Tube Well",
+        "is_irrigated": true,
+        "current_crop": "बाजरा",
+        "current_crop_en": "Millet",
+        "crop_season": "जायद",
+        "rate_per_sqm": 969,
+        "estimated_value_inr": 706319.56,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "पट्टा",
+        "source_page": "179",
+        "source_year": 2020,
+        "survey_year": 2024,
+        "acquisition_year": null,
+        "mutation_count": 1,
+        "last_mutation_year": 2022,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.289734",
+        "last_updated": "2026-02-06T00:50:26.289735",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173457_33",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.76056083507747,
+              25.98152769511272
+            ],
+            [
+              74.76039381323643,
+              25.98118330227869
+            ],
+            [
+              74.76077769717956,
+              25.981156786186773
+            ],
+            [
+              74.7608816076128,
+              25.981481551285594
+            ],
+            [
+              74.76056083507747,
+              25.98152769511272
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173457/286/33",
+        "khasra_number": "286",
+        "khata_number": "395",
+        "khatauni_number": "895",
+        "village_code": "173457",
+        "village_name": "Jhanbarkiya",
+        "village_name_hi": "झानबरकिया",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.981337,
+        "centroid_lon": 74.760653,
+        "computed_area_sqm": 1360.14,
+        "recorded_area_sqm": 1386.19,
+        "area_difference_sqm": 26.05,
+        "area_text": "0 बीघा 11 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "forest",
+        "land_type_hi": "वन भूमि",
+        "land_type_code": "FOR",
+        "soil_type": "लाल",
+        "soil_type_en": "Red",
+        "owner_name_hi": "महेश कुमावत",
+        "owner_name_en": "Mahesh Kumawat",
+        "father_name_hi": "ब्रजेश पटेल",
+        "father_name_en": "Brajesh Patel",
+        "ownership_type": "सरकारी",
+        "ownership_share": "94%",
+        "irrigation_type": "तालाब",
+        "irrigation_type_en": "Pond",
+        "is_irrigated": false,
+        "current_crop": null,
+        "current_crop_en": null,
+        "crop_season": null,
+        "rate_per_sqm": 635,
+        "estimated_value_inr": 880231.03,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "खसरा",
+        "source_page": "39",
+        "source_year": 2024,
+        "survey_year": 2019,
+        "acquisition_year": null,
+        "mutation_count": 0,
+        "last_mutation_year": null,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.289764",
+        "last_updated": "2026-02-06T00:50:26.289765",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173457_34",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.76155602851156,
+              25.981184409583943
+            ],
+            [
+              74.76144194976725,
+              25.981366469397248
+            ],
+            [
+              74.76123018984528,
+              25.981332771471948
+            ],
+            [
+              74.76120973191773,
+              25.981096562694518
+            ],
+            [
+              74.76142021620018,
+              25.981046878197795
+            ],
+            [
+              74.76155602851156,
+              25.981184409583943
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173457/972/34",
+        "khasra_number": "972",
+        "khata_number": "20",
+        "khatauni_number": "251",
+        "village_code": "173457",
+        "village_name": "Jhanbarkiya",
+        "village_name_hi": "झानबरकिया",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.981205,
+        "centroid_lon": 74.761372,
+        "computed_area_sqm": 875.51,
+        "recorded_area_sqm": 1217.43,
+        "area_difference_sqm": 341.92,
+        "area_text": "0 बीघा 9 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "बलुई",
+        "soil_type_en": "Sandy",
+        "owner_name_hi": "रमेश वर्मा",
+        "owner_name_en": "Ramesh Verma",
+        "father_name_hi": "गीता मीना",
+        "father_name_en": "Geeta Meena",
+        "ownership_type": "व्यक्तिगत",
+        "ownership_share": "100%",
+        "irrigation_type": "कुआं",
+        "irrigation_type_en": "Well",
+        "is_irrigated": true,
+        "current_crop": "चना",
+        "current_crop_en": "Gram",
+        "crop_season": "जायद",
+        "rate_per_sqm": 651,
+        "estimated_value_inr": 792547.37,
+        "circle_rate_year": 2024,
+        "has_discrepancy": true,
+        "discrepancy_type": "area_mismatch",
+        "discrepancy_percentage": 39.1,
+        "discrepancy_severity": "high",
+        "record_status": "needs_review",
+        "verification_status": "pending",
+        "source_document": "खतौनी",
+        "source_page": "72",
+        "source_year": 2018,
+        "survey_year": 2022,
+        "acquisition_year": 1989,
+        "mutation_count": 1,
+        "last_mutation_year": 2023,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.289798",
+        "last_updated": "2026-02-06T00:50:26.289799",
+        "digitized_by": "System",
+        "remarks": "Auto-generated test data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173457_35",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.76218712449521,
+              25.981321915716002
+            ],
+            [
+              74.7623099956926,
+              25.98120293476113
+            ],
+            [
+              74.76240013102465,
+              25.98129427978301
+            ],
+            [
+              74.76239864599562,
+              25.981443470745447
+            ],
+            [
+              74.76223062368001,
+              25.98142477088875
+            ],
+            [
+              74.76218712449521,
+              25.981321915716002
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173457/893/35",
+        "khasra_number": "893",
+        "khata_number": "195",
+        "khatauni_number": "638",
+        "village_code": "173457",
+        "village_name": "Jhanbarkiya",
+        "village_name_hi": "झानबरकिया",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.981337,
+        "centroid_lon": 74.762305,
+        "computed_area_sqm": 388.51,
+        "recorded_area_sqm": 395.42,
+        "area_difference_sqm": 6.91,
+        "area_text": "0 बीघा 3 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "लाल",
+        "soil_type_en": "Red",
+        "owner_name_hi": "सीता वर्मा",
+        "owner_name_en": "Sita Verma",
+        "father_name_hi": "रामू दुबे",
+        "father_name_en": "Ramu Dubey",
+        "ownership_type": "व्यक्तिगत",
+        "ownership_share": "62%",
+        "irrigation_type": "वर्षा आधारित",
+        "irrigation_type_en": "Rain Fed",
+        "is_irrigated": false,
+        "current_crop": "चना",
+        "current_crop_en": "Gram",
+        "crop_season": "रबी",
+        "rate_per_sqm": 574,
+        "estimated_value_inr": 226973.63,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "पट्टा",
+        "source_page": "5",
+        "source_year": 2022,
+        "survey_year": 2020,
+        "acquisition_year": 2012,
+        "mutation_count": 4,
+        "last_mutation_year": 1998,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.289832",
+        "last_updated": "2026-02-06T00:50:26.289835",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173457_36",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.76302405247242,
+              25.98145808824861
+            ],
+            [
+              74.76294895947727,
+              25.98116538256338
+            ],
+            [
+              74.76324964477028,
+              25.981209725107956
+            ],
+            [
+              74.76302405247242,
+              25.98145808824861
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173457/137/36",
+        "khasra_number": "137",
+        "khata_number": "251",
+        "khatauni_number": "419",
+        "village_code": "173457",
+        "village_name": "Jhanbarkiya",
+        "village_name_hi": "झानबरकिया",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.981278,
+        "centroid_lon": 74.763074,
+        "computed_area_sqm": 468.96,
+        "recorded_area_sqm": 465.11,
+        "area_difference_sqm": -3.85,
+        "area_text": "0 बीघा 3 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "बलुई",
+        "soil_type_en": "Sandy",
+        "owner_name_hi": "अनिल राजपूत",
+        "owner_name_en": "Anil Rajput",
+        "father_name_hi": "श्याम पटेल",
+        "father_name_en": "Shyam Patel",
+        "ownership_type": "संयुक्त",
+        "ownership_share": "100%",
+        "irrigation_type": "ट्यूबवेल",
+        "irrigation_type_en": "Tube Well",
+        "is_irrigated": true,
+        "current_crop": "चना",
+        "current_crop_en": "Gram",
+        "crop_season": "रबी",
+        "rate_per_sqm": 1719,
+        "estimated_value_inr": 799516.07,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "बी-1",
+        "source_page": "128",
+        "source_year": 2020,
+        "survey_year": 2017,
+        "acquisition_year": null,
+        "mutation_count": 0,
+        "last_mutation_year": null,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.289864",
+        "last_updated": "2026-02-06T00:50:26.289865",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173457_37",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.76360644833265,
+              25.98119467029054
+            ],
+            [
+              74.76359379113053,
+              25.980884123567684
+            ],
+            [
+              74.76383559846555,
+              25.980849784325166
+            ],
+            [
+              74.76382904299693,
+              25.981115363358622
+            ],
+            [
+              74.76360644833265,
+              25.98119467029054
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173457/870/37",
+        "khasra_number": "870",
+        "khata_number": "485",
+        "khatauni_number": "71",
+        "village_code": "173457",
+        "village_name": "Jhanbarkiya",
+        "village_name_hi": "झानबरकिया",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.981011,
+        "centroid_lon": 74.763716,
+        "computed_area_sqm": 742.76,
+        "recorded_area_sqm": 1030.06,
+        "area_difference_sqm": 287.3,
+        "area_text": "0 बीघा 8 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "residential",
+        "land_type_hi": "आवासीय",
+        "land_type_code": "RES",
+        "soil_type": "दोमट",
+        "soil_type_en": "Loamy",
+        "owner_name_hi": "हरि पांडेय",
+        "owner_name_en": "Hari Pandey",
+        "father_name_hi": "श्याम पटेल",
+        "father_name_en": "Shyam Patel",
+        "ownership_type": "संयुक्त",
+        "ownership_share": "70%",
+        "irrigation_type": "कुआं",
+        "irrigation_type_en": "Well",
+        "is_irrigated": false,
+        "current_crop": null,
+        "current_crop_en": null,
+        "crop_season": null,
+        "rate_per_sqm": 9649,
+        "estimated_value_inr": 9939078.26,
+        "circle_rate_year": 2024,
+        "has_discrepancy": true,
+        "discrepancy_type": "area_mismatch",
+        "discrepancy_percentage": 38.7,
+        "discrepancy_severity": "high",
+        "record_status": "needs_review",
+        "verification_status": "pending",
+        "source_document": "जमाबंदी",
+        "source_page": "67",
+        "source_year": 2022,
+        "survey_year": 2017,
+        "acquisition_year": 1970,
+        "mutation_count": 2,
+        "last_mutation_year": 2020,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.289895",
+        "last_updated": "2026-02-06T00:50:26.289896",
+        "digitized_by": "System",
+        "remarks": "Auto-generated test data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173457_38",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.76468224566887,
+              25.98091484045154
+            ],
+            [
+              74.76499633568218,
+              25.981202543246457
+            ],
+            [
+              74.76460523770623,
+              25.981308079727526
+            ],
+            [
+              74.76468224566887,
+              25.98091484045154
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173457/305/38",
+        "khasra_number": "305",
+        "khata_number": "169",
+        "khatauni_number": "984",
+        "village_code": "173457",
+        "village_name": "Jhanbarkiya",
+        "village_name_hi": "झानबरकिया",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.981142,
+        "centroid_lon": 74.764761,
+        "computed_area_sqm": 806.7,
+        "recorded_area_sqm": 792.3,
+        "area_difference_sqm": -14.4,
+        "area_text": "0 बीघा 6 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "बलुई",
+        "soil_type_en": "Sandy",
+        "owner_name_hi": "राधा मिश्रा",
+        "owner_name_en": "Radha Mishra",
+        "father_name_hi": "सरस्वती गुर्जर",
+        "father_name_en": "Saraswati Gurjar",
+        "ownership_type": "सरकारी",
+        "ownership_share": "61%",
+        "irrigation_type": "नहर",
+        "irrigation_type_en": "Canal",
+        "is_irrigated": true,
+        "current_crop": "सरसों",
+        "current_crop_en": "Mustard",
+        "crop_season": "खरीफ",
+        "rate_per_sqm": 782,
+        "estimated_value_inr": 619579.39,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "खतौनी",
+        "source_page": "81",
+        "source_year": 2021,
+        "survey_year": 2015,
+        "acquisition_year": 2001,
+        "mutation_count": 1,
+        "last_mutation_year": 2008,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.289926",
+        "last_updated": "2026-02-06T00:50:26.289927",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173457_39",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.76516029235412,
+              25.98125468983215
+            ],
+            [
+              74.76524086985634,
+              25.98111456398737
+            ],
+            [
+              74.76545109249763,
+              25.98111513499494
+            ],
+            [
+              74.76541910417934,
+              25.981316974451587
+            ],
+            [
+              74.76527427520709,
+              25.98138303031737
+            ],
+            [
+              74.76516029235412,
+              25.98125468983215
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173457/379/39",
+        "khasra_number": "379",
+        "khata_number": "263",
+        "khatauni_number": "105",
+        "village_code": "173457",
+        "village_name": "Jhanbarkiya",
+        "village_name_hi": "झानबरकिया",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.981237,
+        "centroid_lon": 74.765309,
+        "computed_area_sqm": 608.34,
+        "recorded_area_sqm": 612.62,
+        "area_difference_sqm": 4.28,
+        "area_text": "0 बीघा 4 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "काली",
+        "soil_type_en": "Black",
+        "owner_name_hi": "दुर्गा चौहान",
+        "owner_name_en": "Durga Chauhan",
+        "father_name_hi": "राधा त्रिपाठी",
+        "father_name_en": "Radha Tripathi",
+        "ownership_type": "संयुक्त",
+        "ownership_share": "13%",
+        "irrigation_type": "तालाब",
+        "irrigation_type_en": "Pond",
+        "is_irrigated": true,
+        "current_crop": "बाजरा",
+        "current_crop_en": "Millet",
+        "crop_season": "खरीफ",
+        "rate_per_sqm": 1890,
+        "estimated_value_inr": 1157856.77,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "बी-1",
+        "source_page": "39",
+        "source_year": 2024,
+        "survey_year": 2021,
+        "acquisition_year": 1973,
+        "mutation_count": 5,
+        "last_mutation_year": 1998,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.289960",
+        "last_updated": "2026-02-06T00:50:26.289962",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173457_40",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.76607897086372,
+              25.981114976172865
+            ],
+            [
+              74.76626436231507,
+              25.980783048745767
+            ],
+            [
+              74.76649998091791,
+              25.980708254140897
+            ],
+            [
+              74.76673844194246,
+              25.98106561090364
+            ],
+            [
+              74.76652696486549,
+              25.981271178795836
+            ],
+            [
+              74.76633089857191,
+              25.981268543511316
+            ],
+            [
+              74.76607897086372,
+              25.981114976172865
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173457/331/40",
+        "khasra_number": "331",
+        "khata_number": "204",
+        "khatauni_number": "281",
+        "village_code": "173457",
+        "village_name": "Jhanbarkiya",
+        "village_name_hi": "झानबरकिया",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.981035,
+        "centroid_lon": 74.766407,
+        "computed_area_sqm": 2582.61,
+        "recorded_area_sqm": 2179.64,
+        "area_difference_sqm": -402.97,
+        "area_text": "0 बीघा 17 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "barren",
+        "land_type_hi": "बंजर",
+        "land_type_code": "BAR",
+        "soil_type": "दोमट",
+        "soil_type_en": "Loamy",
+        "owner_name_hi": "सोहन शर्मा",
+        "owner_name_en": "Sohan Sharma",
+        "father_name_hi": "हरि राजपूत",
+        "father_name_en": "Hari Rajput",
+        "ownership_type": "संयुक्त",
+        "ownership_share": "100%",
+        "irrigation_type": "कुआं",
+        "irrigation_type_en": "Well",
+        "is_irrigated": false,
+        "current_crop": null,
+        "current_crop_en": null,
+        "crop_season": null,
+        "rate_per_sqm": 467,
+        "estimated_value_inr": 1017891.41,
+        "circle_rate_year": 2024,
+        "has_discrepancy": true,
+        "discrepancy_type": "area_mismatch",
+        "discrepancy_percentage": -15.6,
+        "discrepancy_severity": "medium",
+        "record_status": "needs_review",
+        "verification_status": "pending",
+        "source_document": "बी-1",
+        "source_page": "170",
+        "source_year": 2023,
+        "survey_year": 2017,
+        "acquisition_year": 2001,
+        "mutation_count": 3,
+        "last_mutation_year": 2007,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.289994",
+        "last_updated": "2026-02-06T00:50:26.289995",
+        "digitized_by": "System",
+        "remarks": "Auto-generated test data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173457_41",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.76074911587449,
+              25.982129155343067
+            ],
+            [
+              74.76080746913212,
+              25.981926885656403
+            ],
+            [
+              74.76109213826399,
+              25.982055327735566
+            ],
+            [
+              74.76094668509863,
+              25.982318153753123
+            ],
+            [
+              74.76074911587449,
+              25.982129155343067
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173457/275/41",
+        "khasra_number": "275",
+        "khata_number": "57",
+        "khatauni_number": "420",
+        "village_code": "173457",
+        "village_name": "Jhanbarkiya",
+        "village_name_hi": "झानबरकिया",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.982107,
+        "centroid_lon": 74.760899,
+        "computed_area_sqm": 800.17,
+        "recorded_area_sqm": 792.02,
+        "area_difference_sqm": -8.15,
+        "area_text": "0 बीघा 6 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "चिकनी",
+        "soil_type_en": "Clay",
+        "owner_name_hi": "शंकर गुर्जर",
+        "owner_name_en": "Shankar Gurjar",
+        "father_name_hi": "सरस्वती दुबे",
+        "father_name_en": "Saraswati Dubey",
+        "ownership_type": "व्यक्तिगत",
+        "ownership_share": "100%",
+        "irrigation_type": "कोई नहीं",
+        "irrigation_type_en": "None",
+        "is_irrigated": false,
+        "current_crop": "मूंग",
+        "current_crop_en": "Moong",
+        "crop_season": "खरीफ",
+        "rate_per_sqm": 1940,
+        "estimated_value_inr": 1536518.58,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "पट्टा",
+        "source_page": "176",
+        "source_year": 2018,
+        "survey_year": 2022,
+        "acquisition_year": null,
+        "mutation_count": 1,
+        "last_mutation_year": 2004,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.290025",
+        "last_updated": "2026-02-06T00:50:26.290026",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173457_42",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.76165203899365,
+              25.98180804100746
+            ],
+            [
+              74.7616520520013,
+              25.981807956008822
+            ],
+            [
+              74.76165209471023,
+              25.981807962544725
+            ],
+            [
+              74.76165208772984,
+              25.98180800815817
+            ],
+            [
+              74.7616521165857,
+              25.981808012574085
+            ],
+            [
+              74.76165211055843,
+              25.981808051959277
+            ],
+            [
+              74.76165203899365,
+              25.98180804100746
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173457/711/42",
+        "khasra_number": "711",
+        "khata_number": "101",
+        "khatauni_number": "76",
+        "village_code": "173457",
+        "village_name": "Jhanbarkiya",
+        "village_name_hi": "झानबरकिया",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.981808,
+        "centroid_lon": 74.761652,
+        "computed_area_sqm": 0.0,
+        "recorded_area_sqm": 0.0,
+        "area_difference_sqm": 0.0,
+        "area_text": "0 बीघा 0 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "दोमट",
+        "soil_type_en": "Loamy",
+        "owner_name_hi": "विष्णु यादव",
+        "owner_name_en": "Vishnu Yadav",
+        "father_name_hi": "मोहन पटेल",
+        "father_name_en": "Mohan Patel",
+        "ownership_type": "सरकारी",
+        "ownership_share": "100%",
+        "irrigation_type": "ट्यूबवेल",
+        "irrigation_type_en": "Tube Well",
+        "is_irrigated": true,
+        "current_crop": "बाजरा",
+        "current_crop_en": "Millet",
+        "crop_season": "खरीफ",
+        "rate_per_sqm": 1499,
+        "estimated_value_inr": 0.0,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "बी-1",
+        "source_page": "35",
+        "source_year": 2021,
+        "survey_year": 2022,
+        "acquisition_year": null,
+        "mutation_count": 0,
+        "last_mutation_year": null,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.290056",
+        "last_updated": "2026-02-06T00:50:26.290057",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173457_43",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.76218912402365,
+              25.982091137162865
+            ],
+            [
+              74.76193130784435,
+              25.98202184485493
+            ],
+            [
+              74.76201311738446,
+              25.981777975113555
+            ],
+            [
+              74.76222049688693,
+              25.981721556507416
+            ],
+            [
+              74.7623378973884,
+              25.98188911191151
+            ],
+            [
+              74.76218912402365,
+              25.982091137162865
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173457/761/43",
+        "khasra_number": "761",
+        "khata_number": "260",
+        "khatauni_number": "810",
+        "village_code": "173457",
+        "village_name": "Jhanbarkiya",
+        "village_name_hi": "झानबरकिया",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.9819,
+        "centroid_lon": 74.762138,
+        "computed_area_sqm": 1063.61,
+        "recorded_area_sqm": 1084.61,
+        "area_difference_sqm": 21.0,
+        "area_text": "0 बीघा 8 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "forest",
+        "land_type_hi": "वन भूमि",
+        "land_type_code": "FOR",
+        "soil_type": "बलुई",
+        "soil_type_en": "Sandy",
+        "owner_name_hi": "शंकर वर्मा",
+        "owner_name_en": "Shankar Verma",
+        "father_name_hi": "दुर्गा यादव",
+        "father_name_en": "Durga Yadav",
+        "ownership_type": "संयुक्त",
+        "ownership_share": "100%",
+        "irrigation_type": "तालाब",
+        "irrigation_type_en": "Pond",
+        "is_irrigated": false,
+        "current_crop": null,
+        "current_crop_en": null,
+        "crop_season": null,
+        "rate_per_sqm": 756,
+        "estimated_value_inr": 819964.29,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "खतौनी",
+        "source_page": "155",
+        "source_year": 2022,
+        "survey_year": 2019,
+        "acquisition_year": 1993,
+        "mutation_count": 4,
+        "last_mutation_year": 2003,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.290091",
+        "last_updated": "2026-02-06T00:50:26.290092",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173457_44",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.7628127753299,
+              25.98234151084811
+            ],
+            [
+              74.76275995962716,
+              25.98206214200302
+            ],
+            [
+              74.7629841815555,
+              25.9819347211591
+            ],
+            [
+              74.76314718531154,
+              25.982316182789635
+            ],
+            [
+              74.7628127753299,
+              25.98234151084811
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173457/378/44",
+        "khasra_number": "378",
+        "khata_number": "193",
+        "khatauni_number": "548",
+        "village_code": "173457",
+        "village_name": "Jhanbarkiya",
+        "village_name_hi": "झानबरकिया",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.982164,
+        "centroid_lon": 74.762926,
+        "computed_area_sqm": 1113.46,
+        "recorded_area_sqm": 1123.0,
+        "area_difference_sqm": 9.54,
+        "area_text": "0 बीघा 8 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "काली",
+        "soil_type_en": "Black",
+        "owner_name_hi": "राधा राजपूत",
+        "owner_name_en": "Radha Rajput",
+        "father_name_hi": "राधा दुबे",
+        "father_name_en": "Radha Dubey",
+        "ownership_type": "संयुक्त",
+        "ownership_share": "100%",
+        "irrigation_type": "तालाब",
+        "irrigation_type_en": "Pond",
+        "is_irrigated": true,
+        "current_crop": "अन्य",
+        "current_crop_en": "Other",
+        "crop_season": "रबी",
+        "rate_per_sqm": 1226,
+        "estimated_value_inr": 1376795.99,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "पट्टा",
+        "source_page": "175",
+        "source_year": 2023,
+        "survey_year": 2019,
+        "acquisition_year": null,
+        "mutation_count": 0,
+        "last_mutation_year": null,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.290122",
+        "last_updated": "2026-02-06T00:50:26.290123",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173457_45",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.76382087012544,
+              25.982113700693656
+            ],
+            [
+              74.763660471918,
+              25.98196628348337
+            ],
+            [
+              74.76374058766757,
+              25.98182196537238
+            ],
+            [
+              74.76394862355858,
+              25.981923238054545
+            ],
+            [
+              74.76382087012544,
+              25.982113700693656
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173457/412/45",
+        "khasra_number": "412",
+        "khata_number": "449",
+        "khatauni_number": "777",
+        "village_code": "173457",
+        "village_name": "Jhanbarkiya",
+        "village_name_hi": "झानबरकिया",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.981956,
+        "centroid_lon": 74.763793,
+        "computed_area_sqm": 484.67,
+        "recorded_area_sqm": 493.34,
+        "area_difference_sqm": 8.67,
+        "area_text": "0 बीघा 3 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "बलुई",
+        "soil_type_en": "Sandy",
+        "owner_name_hi": "दिनेश वर्मा",
+        "owner_name_en": "Dinesh Verma",
+        "father_name_hi": "विनोद राय",
+        "father_name_en": "Vinod Rai",
+        "ownership_type": "संयुक्त",
+        "ownership_share": "100%",
+        "irrigation_type": "तालाब",
+        "irrigation_type_en": "Pond",
+        "is_irrigated": true,
+        "current_crop": "चना",
+        "current_crop_en": "Gram",
+        "crop_season": "खरीफ",
+        "rate_per_sqm": 1939,
+        "estimated_value_inr": 956593.06,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "जमाबंदी",
+        "source_page": "93",
+        "source_year": 2023,
+        "survey_year": 2016,
+        "acquisition_year": null,
+        "mutation_count": 0,
+        "last_mutation_year": null,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.290151",
+        "last_updated": "2026-02-06T00:50:26.290152",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173457_46",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.76461718175149,
+              25.982033005134728
+            ],
+            [
+              74.7646877829643,
+              25.98185077655104
+            ],
+            [
+              74.76488406102742,
+              25.981863203306478
+            ],
+            [
+              74.76500374628165,
+              25.98201176658448
+            ],
+            [
+              74.76479934148902,
+              25.982174794679697
+            ],
+            [
+              74.76461718175149,
+              25.982033005134728
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173457/98/46",
+        "khasra_number": "98",
+        "khata_number": "259",
+        "khatauni_number": "4",
+        "village_code": "173457",
+        "village_name": "Jhanbarkiya",
+        "village_name_hi": "झानबरकिया",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.981987,
+        "centroid_lon": 74.764798,
+        "computed_area_sqm": 860.01,
+        "recorded_area_sqm": 850.97,
+        "area_difference_sqm": -9.04,
+        "area_text": "0 बीघा 6 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "काली",
+        "soil_type_en": "Black",
+        "owner_name_hi": "पार्वती मिश्रा",
+        "owner_name_en": "Parvati Mishra",
+        "father_name_hi": "लक्ष्मी वर्मा",
+        "father_name_en": "Lakshmi Verma",
+        "ownership_type": "सरकारी",
+        "ownership_share": "100%",
+        "irrigation_type": "कोई नहीं",
+        "irrigation_type_en": "None",
+        "is_irrigated": false,
+        "current_crop": "बाजरा",
+        "current_crop_en": "Millet",
+        "crop_season": "जायद",
+        "rate_per_sqm": 1192,
+        "estimated_value_inr": 1014361.67,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "पट्टा",
+        "source_page": "68",
+        "source_year": 2023,
+        "survey_year": 2021,
+        "acquisition_year": null,
+        "mutation_count": 0,
+        "last_mutation_year": null,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.290181",
+        "last_updated": "2026-02-06T00:50:26.290182",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173457_47",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.7655489174075,
+              25.981849162853376
+            ],
+            [
+              74.76591663159792,
+              25.98201552148514
+            ],
+            [
+              74.76574371142006,
+              25.982379103740044
+            ],
+            [
+              74.76541166593954,
+              25.982271633660506
+            ],
+            [
+              74.7655489174075,
+              25.981849162853376
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173457/390/47",
+        "khasra_number": "390",
+        "khata_number": "436",
+        "khatauni_number": "982",
+        "village_code": "173457",
+        "village_name": "Jhanbarkiya",
+        "village_name_hi": "झानबरकिया",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.982129,
+        "centroid_lon": 74.765655,
+        "computed_area_sqm": 1758.23,
+        "recorded_area_sqm": 2053.57,
+        "area_difference_sqm": 295.34,
+        "area_text": "0 बीघा 16 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "residential",
+        "land_type_hi": "आवासीय",
+        "land_type_code": "RES",
+        "soil_type": "लाल",
+        "soil_type_en": "Red",
+        "owner_name_hi": "नारायण चौहान",
+        "owner_name_en": "Narayan Chauhan",
+        "father_name_hi": "महेश पटेल",
+        "father_name_en": "Mahesh Patel",
+        "ownership_type": "सरकारी",
+        "ownership_share": "100%",
+        "irrigation_type": "वर्षा आधारित",
+        "irrigation_type_en": "Rain Fed",
+        "is_irrigated": false,
+        "current_crop": null,
+        "current_crop_en": null,
+        "crop_season": null,
+        "rate_per_sqm": 18753,
+        "estimated_value_inr": 38510622.97,
+        "circle_rate_year": 2024,
+        "has_discrepancy": true,
+        "discrepancy_type": "area_mismatch",
+        "discrepancy_percentage": 16.8,
+        "discrepancy_severity": "medium",
+        "record_status": "needs_review",
+        "verification_status": "pending",
+        "source_document": "जमाबंदी",
+        "source_page": "179",
+        "source_year": 2019,
+        "survey_year": 2021,
+        "acquisition_year": null,
+        "mutation_count": 0,
+        "last_mutation_year": null,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.290210",
+        "last_updated": "2026-02-06T00:50:26.290211",
+        "digitized_by": "System",
+        "remarks": "Auto-generated test data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173457_48",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.76597219366487,
+              25.982325747299058
+            ],
+            [
+              74.7659395514402,
+              25.982089022214275
+            ],
+            [
+              74.76604558422619,
+              25.981919263032015
+            ],
+            [
+              74.76626683132125,
+              25.98195066526684
+            ],
+            [
+              74.76637302472079,
+              25.98210850614293
+            ],
+            [
+              74.76622221580311,
+              25.982281926846927
+            ],
+            [
+              74.76597219366487,
+              25.982325747299058
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173457/56/48",
+        "khasra_number": "56",
+        "khata_number": "428",
+        "khatauni_number": "581",
+        "village_code": "173457",
+        "village_name": "Jhanbarkiya",
+        "village_name_hi": "झानबरकिया",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.982113,
+        "centroid_lon": 74.766137,
+        "computed_area_sqm": 1362.13,
+        "recorded_area_sqm": 1374.23,
+        "area_difference_sqm": 12.1,
+        "area_text": "0 बीघा 10 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "residential",
+        "land_type_hi": "आवासीय",
+        "land_type_code": "RES",
+        "soil_type": "बलुई",
+        "soil_type_en": "Sandy",
+        "owner_name_hi": "भगवान गुप्ता",
+        "owner_name_en": "Bhagwan Gupta",
+        "father_name_hi": "मोहन राजपूत",
+        "father_name_en": "Mohan Rajput",
+        "ownership_type": "व्यक्तिगत",
+        "ownership_share": "100%",
+        "irrigation_type": "तालाब",
+        "irrigation_type_en": "Pond",
+        "is_irrigated": false,
+        "current_crop": null,
+        "current_crop_en": null,
+        "crop_season": null,
+        "rate_per_sqm": 8756,
+        "estimated_value_inr": 12032768.18,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "पट्टा",
+        "source_page": "82",
+        "source_year": 2023,
+        "survey_year": 2023,
+        "acquisition_year": 1990,
+        "mutation_count": 1,
+        "last_mutation_year": 2010,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.290242",
+        "last_updated": "2026-02-06T00:50:26.290244",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173457_49",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.76068614289427,
+              25.98302733299133
+            ],
+            [
+              74.76054085578555,
+              25.983108377933195
+            ],
+            [
+              74.76037220519919,
+              25.983053349177695
+            ],
+            [
+              74.7604182252349,
+              25.982816699833762
+            ],
+            [
+              74.76063610357886,
+              25.9827985134984
+            ],
+            [
+              74.76068614289427,
+              25.98302733299133
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173457/140/49",
+        "khasra_number": "140",
+        "khata_number": "448",
+        "khatauni_number": "117",
+        "village_code": "173457",
+        "village_name": "Jhanbarkiya",
+        "village_name_hi": "झानबरकिया",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.982961,
+        "centroid_lon": 74.760531,
+        "computed_area_sqm": 805.89,
+        "recorded_area_sqm": 814.14,
+        "area_difference_sqm": 8.25,
+        "area_text": "0 बीघा 6 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "काली",
+        "soil_type_en": "Black",
+        "owner_name_hi": "ब्रजेश तिवारी",
+        "owner_name_en": "Brajesh Tiwari",
+        "father_name_hi": "ब्रजेश शर्मा",
+        "father_name_en": "Brajesh Sharma",
+        "ownership_type": "व्यक्तिगत",
+        "ownership_share": "100%",
+        "irrigation_type": "कुआं",
+        "irrigation_type_en": "Well",
+        "is_irrigated": true,
+        "current_crop": "चना",
+        "current_crop_en": "Gram",
+        "crop_season": "खरीफ",
+        "rate_per_sqm": 504,
+        "estimated_value_inr": 410326.15,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "बी-1",
+        "source_page": "22",
+        "source_year": 2022,
+        "survey_year": 2024,
+        "acquisition_year": null,
+        "mutation_count": 5,
+        "last_mutation_year": 2006,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.290281",
+        "last_updated": "2026-02-06T00:50:26.290282",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173457_50",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.76167822089717,
+              25.98272434594553
+            ],
+            [
+              74.76194288904635,
+              25.98287223957287
+            ],
+            [
+              74.76172409178872,
+              25.98323660794419
+            ],
+            [
+              74.76139329820857,
+              25.983008372103647
+            ],
+            [
+              74.76167822089717,
+              25.98272434594553
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173457/261/50",
+        "khasra_number": "261",
+        "khata_number": "175",
+        "khatauni_number": "728",
+        "village_code": "173457",
+        "village_name": "Jhanbarkiya",
+        "village_name_hi": "झानबरकिया",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.98296,
+        "centroid_lon": 74.761685,
+        "computed_area_sqm": 1593.67,
+        "recorded_area_sqm": 1615.57,
+        "area_difference_sqm": 21.9,
+        "area_text": "0 बीघा 12 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "बलुई",
+        "soil_type_en": "Sandy",
+        "owner_name_hi": "विष्णु राय",
+        "owner_name_en": "Vishnu Rai",
+        "father_name_hi": "भगवान पांडेय",
+        "father_name_en": "Bhagwan Pandey",
+        "ownership_type": "व्यक्तिगत",
+        "ownership_share": "100%",
+        "irrigation_type": "वर्षा आधारित",
+        "irrigation_type_en": "Rain Fed",
+        "is_irrigated": false,
+        "current_crop": "मूंग",
+        "current_crop_en": "Moong",
+        "crop_season": "जायद",
+        "rate_per_sqm": 1430,
+        "estimated_value_inr": 2310265.37,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "बी-1",
+        "source_page": "124",
+        "source_year": 2022,
+        "survey_year": 2023,
+        "acquisition_year": 1982,
+        "mutation_count": 4,
+        "last_mutation_year": 1996,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.290312",
+        "last_updated": "2026-02-06T00:50:26.290313",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    }
+  ]
+}

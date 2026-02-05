@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-02-06T00:50:26.336685",
+  "total_parcels": 250,
+  "total_discrepancies": 51,
+  "villages": [
+    {
+      "village_code": "172035",
+      "village_name": "Gordhanpura",
+      "total_parcels": 50,
+      "discrepancies": 4
+    },
+    {
+      "village_code": "173109",
+      "village_name": "Gujarwara",
+      "total_parcels": 50,
+      "discrepancies": 14
+    },
+    {
+      "village_code": "173457",
+      "village_name": "Jhanbarkiya",
+      "total_parcels": 50,
+      "discrepancies": 12
+    },
+    {
+      "village_code": "173574",
+      "village_name": "Neemra (Kerot)",
+      "total_parcels": 50,
+      "discrepancies": 11
+    },
+    {
+      "village_code": "172618",
+      "village_name": "Padaliya (Bhinay)",
+      "total_parcels": 50,
+      "discrepancies": 10
+    }
+  ]
+}

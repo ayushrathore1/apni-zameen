@@ -1,0 +1,102 @@
+{
+  "type": "FeatureCollection",
+  "name": "Bhinay_Block_Villages",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "172035",
+      "properties": {
+        "village_id": 172035,
+        "village_name": "Gordhanpura",
+        "village_name_hi": "गोर्धनपुरा",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 26.068699,
+        "centroid_lon": 74.732802
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [74.732802, 26.068699]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173109",
+      "properties": {
+        "village_id": 173109,
+        "village_name": "Gujarwara",
+        "village_name_hi": "गुजरवाड़ा",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 26.079869,
+        "centroid_lon": 74.796568
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [74.796568, 26.079869]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173457",
+      "properties": {
+        "village_id": 173457,
+        "village_name": "Jhanbarkiya",
+        "village_name_hi": "झानबरकिया",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.981195,
+        "centroid_lon": 74.763894
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [74.763894, 25.981195]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173574",
+      "properties": {
+        "village_id": 173574,
+        "village_name": "Neemra (Kerot)",
+        "village_name_hi": "नीमड़ा (केरोट)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.949975,
+        "centroid_lon": 74.968747
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [74.968747, 25.949975]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "172618",
+      "properties": {
+        "village_id": 172618,
+        "village_name": "Padaliya (Bhinay)",
+        "village_name_hi": "पाडलिया (भीनाय)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.960581,
+        "centroid_lon": 74.895811
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [74.895811, 25.960581]
+      }
+    }
+  ]
+}

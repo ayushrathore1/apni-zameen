@@ -1,0 +1,4560 @@
+{
+  "type": "FeatureCollection",
+  "name": "Gujarwara_Parcels",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "173109_1",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.79328871874957,
+              26.076964441259012
+            ],
+            [
+              74.79345349223745,
+              26.076649002876422
+            ],
+            [
+              74.79369491542964,
+              26.076790771451176
+            ],
+            [
+              74.79358482184858,
+              26.077062925722228
+            ],
+            [
+              74.79328871874957,
+              26.076964441259012
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173109/322/1",
+        "khasra_number": "322",
+        "khata_number": "59",
+        "khatauni_number": "942",
+        "village_code": "173109",
+        "village_name": "Gujarwara",
+        "village_name_hi": "गुजरवाड़ा",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 26.076867,
+        "centroid_lon": 74.793505,
+        "computed_area_sqm": 1056.56,
+        "recorded_area_sqm": 1052.09,
+        "area_difference_sqm": -4.47,
+        "area_text": "0 बीघा 8 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "काली",
+        "soil_type_en": "Black",
+        "owner_name_hi": "हरि तिवारी",
+        "owner_name_en": "Hari Tiwari",
+        "father_name_hi": "भगवान वर्मा",
+        "father_name_en": "Bhagwan Verma",
+        "ownership_type": "संयुक्त",
+        "ownership_share": "100%",
+        "irrigation_type": "वर्षा आधारित",
+        "irrigation_type_en": "Rain Fed",
+        "is_irrigated": false,
+        "current_crop": "सरसों",
+        "current_crop_en": "Mustard",
+        "crop_season": "रबी",
+        "rate_per_sqm": 1743,
+        "estimated_value_inr": 1833793.73,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "बी-1",
+        "source_page": "96",
+        "source_year": 2018,
+        "survey_year": 2020,
+        "acquisition_year": 2009,
+        "mutation_count": 2,
+        "last_mutation_year": 1994,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.280404",
+        "last_updated": "2026-02-06T00:50:26.280416",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173109_2",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.79394216345177,
+              26.076466648130193
+            ],
+            [
+              74.79409842745129,
+              26.07636719840923
+            ],
+            [
+              74.79424116795153,
+              26.076448606889098
+            ],
+            [
+              74.79423938293633,
+              26.076570767796177
+            ],
+            [
+              74.79415414144366,
+              26.076686781935102
+            ],
+            [
+              74.79405733577454,
+              26.07669762929385
+            ],
+            [
+              74.79392235692448,
+              26.076587054889504
+            ],
+            [
+              74.79394216345177,
+              26.076466648130193
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173109/510/2",
+        "khasra_number": "510",
+        "khata_number": "202",
+        "khatauni_number": "366",
+        "village_code": "173109",
+        "village_name": "Gujarwara",
+        "village_name_hi": "गुजरवाड़ा",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 26.076546,
+        "centroid_lon": 74.794094,
+        "computed_area_sqm": 823.48,
+        "recorded_area_sqm": 839.72,
+        "area_difference_sqm": 16.24,
+        "area_text": "0 बीघा 6 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "चिकनी",
+        "soil_type_en": "Clay",
+        "owner_name_hi": "रमेश गुप्ता",
+        "owner_name_en": "Ramesh Gupta",
+        "father_name_hi": "गोपाल जाट",
+        "father_name_en": "Gopal Jat",
+        "ownership_type": "संयुक्त",
+        "ownership_share": "100%",
+        "irrigation_type": "तालाब",
+        "irrigation_type_en": "Pond",
+        "is_irrigated": true,
+        "current_crop": "अन्य",
+        "current_crop_en": "Other",
+        "crop_season": "रबी",
+        "rate_per_sqm": 1579,
+        "estimated_value_inr": 1325922.35,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "खसरा",
+        "source_page": "116",
+        "source_year": 2024,
+        "survey_year": 2015,
+        "acquisition_year": null,
+        "mutation_count": 2,
+        "last_mutation_year": 1992,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.280488",
+        "last_updated": "2026-02-06T00:50:26.280491",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173109_3",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.79468663207628,
+              26.076835482034806
+            ],
+            [
+              74.79471819081236,
+              26.076718872095604
+            ],
+            [
+              74.79489496792176,
+              26.07671305417994
+            ],
+            [
+              74.79493080770159,
+              26.076843642915144
+            ],
+            [
+              74.79487922361088,
+              26.07696508377351
+            ],
+            [
+              74.79471957939069,
+              26.076910146170373
+            ],
+            [
+              74.79468663207628,
+              26.076835482034806
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173109/738/3",
+        "khasra_number": "738",
+        "khata_number": "403",
+        "khatauni_number": "896",
+        "village_code": "173109",
+        "village_name": "Gujarwara",
+        "village_name_hi": "गुजरवाड़ा",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 26.076831,
+        "centroid_lon": 74.794805,
+        "computed_area_sqm": 510.22,
+        "recorded_area_sqm": 335.76,
+        "area_difference_sqm": -174.46,
+        "area_text": "0 बीघा 2 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "बलुई",
+        "soil_type_en": "Sandy",
+        "owner_name_hi": "जगदीश राय",
+        "owner_name_en": "Jagdish Rai",
+        "father_name_hi": "कृष्ण त्रिपाठी",
+        "father_name_en": "Krishna Tripathi",
+        "ownership_type": "व्यक्तिगत",
+        "ownership_share": "100%",
+        "irrigation_type": "वर्षा आधारित",
+        "irrigation_type_en": "Rain Fed",
+        "is_irrigated": false,
+        "current_crop": "सरसों",
+        "current_crop_en": "Mustard",
+        "crop_season": "जायद",
+        "rate_per_sqm": 1582,
+        "estimated_value_inr": 531171.48,
+        "circle_rate_year": 2024,
+        "has_discrepancy": true,
+        "discrepancy_type": "area_mismatch",
+        "discrepancy_percentage": -34.2,
+        "discrepancy_severity": "high",
+        "record_status": "needs_review",
+        "verification_status": "pending",
+        "source_document": "जमाबंदी",
+        "source_page": "140",
+        "source_year": 2020,
+        "survey_year": 2020,
+        "acquisition_year": 1986,
+        "mutation_count": 4,
+        "last_mutation_year": 2014,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.280561",
+        "last_updated": "2026-02-06T00:50:26.280562",
+        "digitized_by": "System",
+        "remarks": "Auto-generated test data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173109_4",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.7959039156179,
+              26.076422558825115
+            ],
+            [
+              74.79607249614214,
+              26.076715038894495
+            ],
+            [
+              74.79599285038483,
+              26.076994366009483
+            ],
+            [
+              74.79569947195654,
+              26.07685522879871
+            ],
+            [
+              74.79562017702838,
+              26.076562421609285
+            ],
+            [
+              74.7959039156179,
+              26.076422558825115
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173109/695/4",
+        "khasra_number": "695",
+        "khata_number": "262",
+        "khatauni_number": "855",
+        "village_code": "173109",
+        "village_name": "Gujarwara",
+        "village_name_hi": "गुजरवाड़ा",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 26.07671,
+        "centroid_lon": 74.795858,
+        "computed_area_sqm": 1770.34,
+        "recorded_area_sqm": 1785.25,
+        "area_difference_sqm": 14.91,
+        "area_text": "0 बीघा 14 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "लाल",
+        "soil_type_en": "Red",
+        "owner_name_hi": "दिनेश जाट",
+        "owner_name_en": "Dinesh Jat",
+        "father_name_hi": "गीता यादव",
+        "father_name_en": "Geeta Yadav",
+        "ownership_type": "सरकारी",
+        "ownership_share": "100%",
+        "irrigation_type": "कुआं",
+        "irrigation_type_en": "Well",
+        "is_irrigated": true,
+        "current_crop": "मक्का",
+        "current_crop_en": "Maize",
+        "crop_season": "जायद",
+        "rate_per_sqm": 1657,
+        "estimated_value_inr": 2958158.8,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "खसरा",
+        "source_page": "184",
+        "source_year": 2022,
+        "survey_year": 2023,
+        "acquisition_year": 1989,
+        "mutation_count": 5,
+        "last_mutation_year": 2000,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.280634",
+        "last_updated": "2026-02-06T00:50:26.280635",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173109_5",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.79657253578446,
+              26.07660323788438
+            ],
+            [
+              74.79692832047859,
+              26.07650694099713
+            ],
+            [
+              74.79690290347448,
+              26.076789782056597
+            ],
+            [
+              74.79657733060203,
+              26.076904045651343
+            ],
+            [
+              74.79657253578446,
+              26.07660323788438
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173109/924/5",
+        "khasra_number": "924",
+        "khata_number": "487",
+        "khatauni_number": "390",
+        "village_code": "173109",
+        "village_name": "Gujarwara",
+        "village_name_hi": "गुजरवाड़ा",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 26.076701,
+        "centroid_lon": 74.796745,
+        "computed_area_sqm": 1088.23,
+        "recorded_area_sqm": 1409.96,
+        "area_difference_sqm": 321.73,
+        "area_text": "0 बीघा 11 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "residential",
+        "land_type_hi": "आवासीय",
+        "land_type_code": "RES",
+        "soil_type": "लाल",
+        "soil_type_en": "Red",
+        "owner_name_hi": "राधा पटेल",
+        "owner_name_en": "Radha Patel",
+        "father_name_hi": "गोपाल राजपूत",
+        "father_name_en": "Gopal Rajput",
+        "ownership_type": "व्यक्तिगत",
+        "ownership_share": "100%",
+        "irrigation_type": "कोई नहीं",
+        "irrigation_type_en": "None",
+        "is_irrigated": false,
+        "current_crop": null,
+        "current_crop_en": null,
+        "crop_season": null,
+        "rate_per_sqm": 9409,
+        "estimated_value_inr": 13266312.99,
+        "circle_rate_year": 2024,
+        "has_discrepancy": true,
+        "discrepancy_type": "area_mismatch",
+        "discrepancy_percentage": 29.6,
+        "discrepancy_severity": "high",
+        "record_status": "needs_review",
+        "verification_status": "pending",
+        "source_document": "बी-1",
+        "source_page": "198",
+        "source_year": 2022,
+        "survey_year": 2016,
+        "acquisition_year": null,
+        "mutation_count": 2,
+        "last_mutation_year": 2020,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.280711",
+        "last_updated": "2026-02-06T00:50:26.280714",
+        "digitized_by": "System",
+        "remarks": "Auto-generated test data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173109_6",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.79777384326383,
+              26.076411866665087
+            ],
+            [
+              74.79770321056581,
+              26.076658215411037
+            ],
+            [
+              74.79740922026265,
+              26.07674418845754
+            ],
+            [
+              74.79725129478989,
+              26.07657018212406
+            ],
+            [
+              74.79732387232809,
+              26.076300207280052
+            ],
+            [
+              74.79763106323225,
+              26.07622033298847
+            ],
+            [
+              74.79777384326383,
+              26.076411866665087
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173109/553/6",
+        "khasra_number": "553",
+        "khata_number": "196",
+        "khatauni_number": "89",
+        "village_code": "173109",
+        "village_name": "Gujarwara",
+        "village_name_hi": "गुजरवाड़ा",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 26.076484,
+        "centroid_lon": 74.797515,
+        "computed_area_sqm": 2114.36,
+        "recorded_area_sqm": 2082.33,
+        "area_difference_sqm": -32.03,
+        "area_text": "0 बीघा 16 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "चिकनी",
+        "soil_type_en": "Clay",
+        "owner_name_hi": "लक्ष्मी कुमावत",
+        "owner_name_en": "Lakshmi Kumawat",
+        "father_name_hi": "दुर्गा मिश्रा",
+        "father_name_en": "Durga Mishra",
+        "ownership_type": "सरकारी",
+        "ownership_share": "100%",
+        "irrigation_type": "नहर",
+        "irrigation_type_en": "Canal",
+        "is_irrigated": true,
+        "current_crop": "चावल",
+        "current_crop_en": "Rice",
+        "crop_season": "खरीफ",
+        "rate_per_sqm": 1004,
+        "estimated_value_inr": 2090660.08,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "खतौनी",
+        "source_page": "137",
+        "source_year": 2024,
+        "survey_year": 2022,
+        "acquisition_year": 2018,
+        "mutation_count": 0,
+        "last_mutation_year": null,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.280773",
+        "last_updated": "2026-02-06T00:50:26.280775",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173109_7",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.79842228057049,
+              26.076942267645087
+            ],
+            [
+              74.79808881891728,
+              26.076604507462836
+            ],
+            [
+              74.7983703816752,
+              26.07635162556907
+            ],
+            [
+              74.79858375456574,
+              26.07655576633303
+            ],
+            [
+              74.79842228057049,
+              26.076942267645087
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173109/986/7",
+        "khasra_number": "986",
+        "khata_number": "324",
+        "khatauni_number": "338",
+        "village_code": "173109",
+        "village_name": "Gujarwara",
+        "village_name_hi": "गुजरवाड़ा",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 26.076614,
+        "centroid_lon": 74.798366,
+        "computed_area_sqm": 1631.57,
+        "recorded_area_sqm": 1644.95,
+        "area_difference_sqm": 13.38,
+        "area_text": "0 बीघा 13 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "residential",
+        "land_type_hi": "आवासीय",
+        "land_type_code": "RES",
+        "soil_type": "काली",
+        "soil_type_en": "Black",
+        "owner_name_hi": "नारायण राय",
+        "owner_name_en": "Narayan Rai",
+        "father_name_hi": "नारायण शर्मा",
+        "father_name_en": "Narayan Sharma",
+        "ownership_type": "सरकारी",
+        "ownership_share": "73%",
+        "irrigation_type": "कोई नहीं",
+        "irrigation_type_en": "None",
+        "is_irrigated": false,
+        "current_crop": null,
+        "current_crop_en": null,
+        "crop_season": null,
+        "rate_per_sqm": 11027,
+        "estimated_value_inr": 18138893.16,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "बी-1",
+        "source_page": "137",
+        "source_year": 2022,
+        "survey_year": 2016,
+        "acquisition_year": 1997,
+        "mutation_count": 1,
+        "last_mutation_year": 2001,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.280813",
+        "last_updated": "2026-02-06T00:50:26.280814",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173109_8",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.79909272483599,
+              26.076397788561547
+            ],
+            [
+              74.799291165046,
+              26.076646255776176
+            ],
+            [
+              74.79921527957389,
+              26.076934731496294
+            ],
+            [
+              74.79892930900982,
+              26.076697475855823
+            ],
+            [
+              74.79909272483599,
+              26.076397788561547
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173109/930/8",
+        "khasra_number": "930",
+        "khata_number": "492",
+        "khatauni_number": "586",
+        "village_code": "173109",
+        "village_name": "Gujarwara",
+        "village_name_hi": "गुजरवाड़ा",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 26.076669,
+        "centroid_lon": 74.799132,
+        "computed_area_sqm": 1109.86,
+        "recorded_area_sqm": 1098.6,
+        "area_difference_sqm": -11.26,
+        "area_text": "0 बीघा 8 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "चिकनी",
+        "soil_type_en": "Clay",
+        "owner_name_hi": "राधा गुर्जर",
+        "owner_name_en": "Radha Gurjar",
+        "father_name_hi": "कृष्ण गुप्ता",
+        "father_name_en": "Krishna Gupta",
+        "ownership_type": "संयुक्त",
+        "ownership_share": "100%",
+        "irrigation_type": "कुआं",
+        "irrigation_type_en": "Well",
+        "is_irrigated": true,
+        "current_crop": "मक्का",
+        "current_crop_en": "Maize",
+        "crop_season": "रबी",
+        "rate_per_sqm": 1887,
+        "estimated_value_inr": 2073067.63,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "जमाबंदी",
+        "source_page": "96",
+        "source_year": 2018,
+        "survey_year": 2019,
+        "acquisition_year": null,
+        "mutation_count": 5,
+        "last_mutation_year": 1993,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.280857",
+        "last_updated": "2026-02-06T00:50:26.280858",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173109_9",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.79349175685942,
+              26.07715497910132
+            ],
+            [
+              74.79346784998098,
+              26.077392832091675
+            ],
+            [
+              74.79326988902453,
+              26.077266520699112
+            ],
+            [
+              74.79349175685942,
+              26.07715497910132
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173109/733/9",
+        "khasra_number": "733",
+        "khata_number": "439",
+        "khatauni_number": "284",
+        "village_code": "173109",
+        "village_name": "Gujarwara",
+        "village_name_hi": "गुजरवाड़ा",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 26.077271,
+        "centroid_lon": 74.79341,
+        "computed_area_sqm": 277.25,
+        "recorded_area_sqm": 273.55,
+        "area_difference_sqm": -3.7,
+        "area_text": "0 बीघा 2 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "बलुई",
+        "soil_type_en": "Sandy",
+        "owner_name_hi": "विनोद मीना",
+        "owner_name_en": "Vinod Meena",
+        "father_name_hi": "ब्रजेश राय",
+        "father_name_en": "Brajesh Rai",
+        "ownership_type": "संयुक्त",
+        "ownership_share": "100%",
+        "irrigation_type": "ट्यूबवेल",
+        "irrigation_type_en": "Tube Well",
+        "is_irrigated": true,
+        "current_crop": "बाजरा",
+        "current_crop_en": "Millet",
+        "crop_season": "खरीफ",
+        "rate_per_sqm": 1082,
+        "estimated_value_inr": 295980.27,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "पट्टा",
+        "source_page": "131",
+        "source_year": 2021,
+        "survey_year": 2015,
+        "acquisition_year": 1988,
+        "mutation_count": 5,
+        "last_mutation_year": 1998,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.280895",
+        "last_updated": "2026-02-06T00:50:26.280896",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173109_10",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.79388083943486,
+              26.077848579829816
+            ],
+            [
+              74.7938030336792,
+              26.077657633124915
+            ],
+            [
+              74.79395933255233,
+              26.077483159915893
+            ],
+            [
+              74.79412026621645,
+              26.077391339020693
+            ],
+            [
+              74.79427736988413,
+              26.07759648082026
+            ],
+            [
+              74.7943198524166,
+              26.077829515956058
+            ],
+            [
+              74.79407534118405,
+              26.077867154127016
+            ],
+            [
+              74.79388083943486,
+              26.077848579829816
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173109/914/10",
+        "khasra_number": "914",
+        "khata_number": "467",
+        "khatauni_number": "696",
+        "village_code": "173109",
+        "village_name": "Gujarwara",
+        "village_name_hi": "गुजरवाड़ा",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 26.077668,
+        "centroid_lon": 74.794062,
+        "computed_area_sqm": 1831.26,
+        "recorded_area_sqm": 1111.25,
+        "area_difference_sqm": -720.01,
+        "area_text": "0 बीघा 8 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "residential",
+        "land_type_hi": "आवासीय",
+        "land_type_code": "RES",
+        "soil_type": "दोमट",
+        "soil_type_en": "Loamy",
+        "owner_name_hi": "मोहन दुबे",
+        "owner_name_en": "Mohan Dubey",
+        "father_name_hi": "गोपाल कुमावत",
+        "father_name_en": "Gopal Kumawat",
+        "ownership_type": "व्यक्तिगत",
+        "ownership_share": "100%",
+        "irrigation_type": "ट्यूबवेल",
+        "irrigation_type_en": "Tube Well",
+        "is_irrigated": false,
+        "current_crop": null,
+        "current_crop_en": null,
+        "crop_season": null,
+        "rate_per_sqm": 12558,
+        "estimated_value_inr": 13955064.53,
+        "circle_rate_year": 2024,
+        "has_discrepancy": true,
+        "discrepancy_type": "area_mismatch",
+        "discrepancy_percentage": -39.3,
+        "discrepancy_severity": "high",
+        "record_status": "needs_review",
+        "verification_status": "pending",
+        "source_document": "खतौनी",
+        "source_page": "21",
+        "source_year": 2023,
+        "survey_year": 2022,
+        "acquisition_year": null,
+        "mutation_count": 5,
+        "last_mutation_year": 2006,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.280937",
+        "last_updated": "2026-02-06T00:50:26.280938",
+        "digitized_by": "System",
+        "remarks": "Auto-generated test data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173109_11",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.79470881680767,
+              26.077584864642564
+            ],
+            [
+              74.7948471105194,
+              26.07717375570407
+            ],
+            [
+              74.79517859543425,
+              26.077418357301596
+            ],
+            [
+              74.79503154648351,
+              26.077756595142006
+            ],
+            [
+              74.79470881680767,
+              26.077584864642564
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173109/956/11",
+        "khasra_number": "956",
+        "khata_number": "51",
+        "khatauni_number": "675",
+        "village_code": "173109",
+        "village_name": "Gujarwara",
+        "village_name_hi": "गुजरवाड़ा",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 26.077483,
+        "centroid_lon": 74.794942,
+        "computed_area_sqm": 1684.99,
+        "recorded_area_sqm": 2100.58,
+        "area_difference_sqm": 415.59,
+        "area_text": "0 बीघा 16 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "काली",
+        "soil_type_en": "Black",
+        "owner_name_hi": "राधा मीना",
+        "owner_name_en": "Radha Meena",
+        "father_name_hi": "सुरेश राजपूत",
+        "father_name_en": "Suresh Rajput",
+        "ownership_type": "व्यक्तिगत",
+        "ownership_share": "29%",
+        "irrigation_type": "नहर",
+        "irrigation_type_en": "Canal",
+        "is_irrigated": true,
+        "current_crop": "चना",
+        "current_crop_en": "Gram",
+        "crop_season": "रबी",
+        "rate_per_sqm": 784,
+        "estimated_value_inr": 1646851.17,
+        "circle_rate_year": 2024,
+        "has_discrepancy": true,
+        "discrepancy_type": "area_mismatch",
+        "discrepancy_percentage": 24.7,
+        "discrepancy_severity": "medium",
+        "record_status": "needs_review",
+        "verification_status": "pending",
+        "source_document": "बी-1",
+        "source_page": "34",
+        "source_year": 2020,
+        "survey_year": 2018,
+        "acquisition_year": null,
+        "mutation_count": 5,
+        "last_mutation_year": 1990,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.280975",
+        "last_updated": "2026-02-06T00:50:26.280976",
+        "digitized_by": "System",
+        "remarks": "Auto-generated test data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173109_12",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.79570938103086,
+              26.07746103089751
+            ],
+            [
+              74.79550859413996,
+              26.07730923719794
+            ],
+            [
+              74.7956378164915,
+              26.077144947978145
+            ],
+            [
+              74.79579701241653,
+              26.07722002027867
+            ],
+            [
+              74.79570938103086,
+              26.07746103089751
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173109/823/12",
+        "khasra_number": "823",
+        "khata_number": "110",
+        "khatauni_number": "674",
+        "village_code": "173109",
+        "village_name": "Gujarwara",
+        "village_name_hi": "गुजरवाड़ा",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 26.077284,
+        "centroid_lon": 74.795663,
+        "computed_area_sqm": 539.77,
+        "recorded_area_sqm": 376.38,
+        "area_difference_sqm": -163.39,
+        "area_text": "0 बीघा 3 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "commercial",
+        "land_type_hi": "वाणिज्यिक",
+        "land_type_code": "COM",
+        "soil_type": "लाल",
+        "soil_type_en": "Red",
+        "owner_name_hi": "राधा यादव",
+        "owner_name_en": "Radha Yadav",
+        "father_name_hi": "भगवान कुमावत",
+        "father_name_en": "Bhagwan Kumawat",
+        "ownership_type": "व्यक्तिगत",
+        "ownership_share": "100%",
+        "irrigation_type": "वर्षा आधारित",
+        "irrigation_type_en": "Rain Fed",
+        "is_irrigated": false,
+        "current_crop": null,
+        "current_crop_en": null,
+        "crop_season": null,
+        "rate_per_sqm": 43289,
+        "estimated_value_inr": 16293210.15,
+        "circle_rate_year": 2024,
+        "has_discrepancy": true,
+        "discrepancy_type": "area_mismatch",
+        "discrepancy_percentage": -30.3,
+        "discrepancy_severity": "high",
+        "record_status": "needs_review",
+        "verification_status": "pending",
+        "source_document": "खसरा",
+        "source_page": "133",
+        "source_year": 2022,
+        "survey_year": 2023,
+        "acquisition_year": null,
+        "mutation_count": 4,
+        "last_mutation_year": 2002,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.281010",
+        "last_updated": "2026-02-06T00:50:26.281011",
+        "digitized_by": "System",
+        "remarks": "Auto-generated test data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173109_13",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.79653300910407,
+              26.077758925234086
+            ],
+            [
+              74.7965334125893,
+              26.07737690407094
+            ],
+            [
+              74.7968469994599,
+              26.07735390767831
+            ],
+            [
+              74.79700972236745,
+              26.077577153738936
+            ],
+            [
+              74.79684080880233,
+              26.077846772998047
+            ],
+            [
+              74.79653300910407,
+              26.077758925234086
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173109/439/13",
+        "khasra_number": "439",
+        "khata_number": "55",
+        "khatauni_number": "331",
+        "village_code": "173109",
+        "village_name": "Gujarwara",
+        "village_name_hi": "गुजरवाड़ा",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 26.077583,
+        "centroid_lon": 74.796753,
+        "computed_area_sqm": 1956.69,
+        "recorded_area_sqm": 1923.42,
+        "area_difference_sqm": -33.27,
+        "area_text": "0 बीघा 15 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "बलुई",
+        "soil_type_en": "Sandy",
+        "owner_name_hi": "महेश गुर्जर",
+        "owner_name_en": "Mahesh Gurjar",
+        "father_name_hi": "दुर्गा पटेल",
+        "father_name_en": "Durga Patel",
+        "ownership_type": "संयुक्त",
+        "ownership_share": "53%",
+        "irrigation_type": "ट्यूबवेल",
+        "irrigation_type_en": "Tube Well",
+        "is_irrigated": true,
+        "current_crop": "मूंग",
+        "current_crop_en": "Moong",
+        "crop_season": "जायद",
+        "rate_per_sqm": 860,
+        "estimated_value_inr": 1654143.59,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "जमाबंदी",
+        "source_page": "92",
+        "source_year": 2018,
+        "survey_year": 2022,
+        "acquisition_year": 1973,
+        "mutation_count": 4,
+        "last_mutation_year": 1993,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.281046",
+        "last_updated": "2026-02-06T00:50:26.281047",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173109_14",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.79770308023801,
+              26.077121747310567
+            ],
+            [
+              74.79735955958101,
+              26.077650982369857
+            ],
+            [
+              74.79728473057796,
+              26.077166728100476
+            ],
+            [
+              74.79770308023801,
+              26.077121747310567
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173109/26/14",
+        "khasra_number": "26",
+        "khata_number": "428",
+        "khatauni_number": "443",
+        "village_code": "173109",
+        "village_name": "Gujarwara",
+        "village_name_hi": "गुजरवाड़ा",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 26.077313,
+        "centroid_lon": 74.797449,
+        "computed_area_sqm": 1139.62,
+        "recorded_area_sqm": 830.74,
+        "area_difference_sqm": -308.88,
+        "area_text": "0 बीघा 6 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "residential",
+        "land_type_hi": "आवासीय",
+        "land_type_code": "RES",
+        "soil_type": "दोमट",
+        "soil_type_en": "Loamy",
+        "owner_name_hi": "राम वर्मा",
+        "owner_name_en": "Ram Verma",
+        "father_name_hi": "कृष्ण सिंह",
+        "father_name_en": "Krishna Singh",
+        "ownership_type": "व्यक्तिगत",
+        "ownership_share": "74%",
+        "irrigation_type": "नहर",
+        "irrigation_type_en": "Canal",
+        "is_irrigated": false,
+        "current_crop": null,
+        "current_crop_en": null,
+        "crop_season": null,
+        "rate_per_sqm": 9180,
+        "estimated_value_inr": 7626200.85,
+        "circle_rate_year": 2024,
+        "has_discrepancy": true,
+        "discrepancy_type": "area_mismatch",
+        "discrepancy_percentage": -27.1,
+        "discrepancy_severity": "high",
+        "record_status": "needs_review",
+        "verification_status": "pending",
+        "source_document": "बी-1",
+        "source_page": "50",
+        "source_year": 2024,
+        "survey_year": 2017,
+        "acquisition_year": null,
+        "mutation_count": 3,
+        "last_mutation_year": 2022,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.281080",
+        "last_updated": "2026-02-06T00:50:26.281081",
+        "digitized_by": "System",
+        "remarks": "Auto-generated test data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173109_15",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.79822744312104,
+              26.077230470236234
+            ],
+            [
+              74.79822434457613,
+              26.077402897395093
+            ],
+            [
+              74.79808891140077,
+              26.077465880205228
+            ],
+            [
+              74.79801189204875,
+              26.07729369953715
+            ],
+            [
+              74.79822744312104,
+              26.077230470236234
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173109/556/15",
+        "khasra_number": "556",
+        "khata_number": "333",
+        "khatauni_number": "505",
+        "village_code": "173109",
+        "village_name": "Gujarwara",
+        "village_name_hi": "गुजरवाड़ा",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 26.077348,
+        "centroid_lon": 74.798138,
+        "computed_area_sqm": 360.45,
+        "recorded_area_sqm": 428.78,
+        "area_difference_sqm": 68.33,
+        "area_text": "0 बीघा 3 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "चिकनी",
+        "soil_type_en": "Clay",
+        "owner_name_hi": "पार्वती राजपूत",
+        "owner_name_en": "Parvati Rajput",
+        "father_name_hi": "राजेश गुप्ता",
+        "father_name_en": "Rajesh Gupta",
+        "ownership_type": "संयुक्त",
+        "ownership_share": "100%",
+        "irrigation_type": "नहर",
+        "irrigation_type_en": "Canal",
+        "is_irrigated": true,
+        "current_crop": "बाजरा",
+        "current_crop_en": "Millet",
+        "crop_season": "जायद",
+        "rate_per_sqm": 1557,
+        "estimated_value_inr": 667611.53,
+        "circle_rate_year": 2024,
+        "has_discrepancy": true,
+        "discrepancy_type": "area_mismatch",
+        "discrepancy_percentage": 19.0,
+        "discrepancy_severity": "medium",
+        "record_status": "needs_review",
+        "verification_status": "pending",
+        "source_document": "पट्टा",
+        "source_page": "179",
+        "source_year": 2018,
+        "survey_year": 2020,
+        "acquisition_year": null,
+        "mutation_count": 3,
+        "last_mutation_year": 1999,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.281114",
+        "last_updated": "2026-02-06T00:50:26.281115",
+        "digitized_by": "System",
+        "remarks": "Auto-generated test data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173109_16",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.79894450483687,
+              26.077440502072193
+            ],
+            [
+              74.79905878820134,
+              26.077271689657522
+            ],
+            [
+              74.79926399688347,
+              26.07738743794602
+            ],
+            [
+              74.79911055311499,
+              26.07758100712266
+            ],
+            [
+              74.79894450483687,
+              26.077440502072193
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173109/918/16",
+        "khasra_number": "918",
+        "khata_number": "259",
+        "khatauni_number": "328",
+        "village_code": "173109",
+        "village_name": "Gujarwara",
+        "village_name_hi": "गुजरवाड़ा",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 26.07742,
+        "centroid_lon": 74.799094,
+        "computed_area_sqm": 562.03,
+        "recorded_area_sqm": 558.56,
+        "area_difference_sqm": -3.47,
+        "area_text": "0 बीघा 4 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "दोमट",
+        "soil_type_en": "Loamy",
+        "owner_name_hi": "मोहन पटेल",
+        "owner_name_en": "Mohan Patel",
+        "father_name_hi": "दुर्गा पांडेय",
+        "father_name_en": "Durga Pandey",
+        "ownership_type": "संयुक्त",
+        "ownership_share": "100%",
+        "irrigation_type": "वर्षा आधारित",
+        "irrigation_type_en": "Rain Fed",
+        "is_irrigated": false,
+        "current_crop": "बाजरा",
+        "current_crop_en": "Millet",
+        "crop_season": "खरीफ",
+        "rate_per_sqm": 1102,
+        "estimated_value_inr": 615532.38,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "जमाबंदी",
+        "source_page": "4",
+        "source_year": 2020,
+        "survey_year": 2015,
+        "acquisition_year": null,
+        "mutation_count": 2,
+        "last_mutation_year": 1994,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.281144",
+        "last_updated": "2026-02-06T00:50:26.281145",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173109_17",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.79319648749996,
+              26.07816705958564
+            ],
+            [
+              74.79329616935955,
+              26.07790785077883
+            ],
+            [
+              74.79361487492741,
+              26.07802840667725
+            ],
+            [
+              74.79343830789422,
+              26.07828468194349
+            ],
+            [
+              74.79319648749996,
+              26.07816705958564
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173109/963/17",
+        "khasra_number": "963",
+        "khata_number": "123",
+        "khatauni_number": "116",
+        "village_code": "173109",
+        "village_name": "Gujarwara",
+        "village_name_hi": "गुजरवाड़ा",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 26.078097,
+        "centroid_lon": 74.793386,
+        "computed_area_sqm": 981.44,
+        "recorded_area_sqm": 996.82,
+        "area_difference_sqm": 15.38,
+        "area_text": "0 बीघा 7 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "commercial",
+        "land_type_hi": "वाणिज्यिक",
+        "land_type_code": "COM",
+        "soil_type": "चिकनी",
+        "soil_type_en": "Clay",
+        "owner_name_hi": "नारायण सिंह",
+        "owner_name_en": "Narayan Singh",
+        "father_name_hi": "जगदीश चौहान",
+        "father_name_en": "Jagdish Chauhan",
+        "ownership_type": "सरकारी",
+        "ownership_share": "62%",
+        "irrigation_type": "नहर",
+        "irrigation_type_en": "Canal",
+        "is_irrigated": false,
+        "current_crop": null,
+        "current_crop_en": null,
+        "crop_season": null,
+        "rate_per_sqm": 28046,
+        "estimated_value_inr": 27956797.38,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "पट्टा",
+        "source_page": "162",
+        "source_year": 2024,
+        "survey_year": 2024,
+        "acquisition_year": 2001,
+        "mutation_count": 1,
+        "last_mutation_year": 1993,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.281184",
+        "last_updated": "2026-02-06T00:50:26.281187",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173109_18",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.79438029848087,
+              26.07819979818538
+            ],
+            [
+              74.79457800468894,
+              26.07841207176539
+            ],
+            [
+              74.79452053834105,
+              26.078626893975713
+            ],
+            [
+              74.79423377078557,
+              26.07872210740204
+            ],
+            [
+              74.79405128922235,
+              26.07851832463438
+            ],
+            [
+              74.79407261941236,
+              26.07824880313307
+            ],
+            [
+              74.79438029848087,
+              26.07819979818538
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173109/123/18",
+        "khasra_number": "123",
+        "khata_number": "447",
+        "khatauni_number": "710",
+        "village_code": "173109",
+        "village_name": "Gujarwara",
+        "village_name_hi": "गुजरवाड़ा",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 26.078455,
+        "centroid_lon": 74.794306,
+        "computed_area_sqm": 2199.79,
+        "recorded_area_sqm": 2214.01,
+        "area_difference_sqm": 14.22,
+        "area_text": "0 बीघा 17 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "residential",
+        "land_type_hi": "आवासीय",
+        "land_type_code": "RES",
+        "soil_type": "चिकनी",
+        "soil_type_en": "Clay",
+        "owner_name_hi": "जगदीश कुमावत",
+        "owner_name_en": "Jagdish Kumawat",
+        "father_name_hi": "राधा सिंह",
+        "father_name_en": "Radha Singh",
+        "ownership_type": "सरकारी",
+        "ownership_share": "100%",
+        "irrigation_type": "ट्यूबवेल",
+        "irrigation_type_en": "Tube Well",
+        "is_irrigated": false,
+        "current_crop": null,
+        "current_crop_en": null,
+        "crop_season": null,
+        "rate_per_sqm": 5477,
+        "estimated_value_inr": 12126156.43,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "खतौनी",
+        "source_page": "101",
+        "source_year": 2018,
+        "survey_year": 2020,
+        "acquisition_year": 2020,
+        "mutation_count": 5,
+        "last_mutation_year": 2010,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.281228",
+        "last_updated": "2026-02-06T00:50:26.281230",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173109_19",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.79505322533342,
+              26.078494727517437
+            ],
+            [
+              74.79485421078864,
+              26.078489180624718
+            ],
+            [
+              74.79496598061066,
+              26.078280893387944
+            ],
+            [
+              74.79505322533342,
+              26.078494727517437
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173109/227/19",
+        "khasra_number": "227",
+        "khata_number": "441",
+        "khatauni_number": "122",
+        "village_code": "173109",
+        "village_name": "Gujarwara",
+        "village_name_hi": "गुजरवाड़ा",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 26.078422,
+        "centroid_lon": 74.794958,
+        "computed_area_sqm": 232.8,
+        "recorded_area_sqm": 231.95,
+        "area_difference_sqm": -0.85,
+        "area_text": "0 बीघा 1 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "commercial",
+        "land_type_hi": "वाणिज्यिक",
+        "land_type_code": "COM",
+        "soil_type": "बलुई",
+        "soil_type_en": "Sandy",
+        "owner_name_hi": "गोपाल मीना",
+        "owner_name_en": "Gopal Meena",
+        "father_name_hi": "राधा गुप्ता",
+        "father_name_en": "Radha Gupta",
+        "ownership_type": "व्यक्तिगत",
+        "ownership_share": "100%",
+        "irrigation_type": "कोई नहीं",
+        "irrigation_type_en": "None",
+        "is_irrigated": false,
+        "current_crop": null,
+        "current_crop_en": null,
+        "crop_season": null,
+        "rate_per_sqm": 24761,
+        "estimated_value_inr": 5743316.3,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "खतौनी",
+        "source_page": "117",
+        "source_year": 2020,
+        "survey_year": 2023,
+        "acquisition_year": 1970,
+        "mutation_count": 0,
+        "last_mutation_year": null,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.281259",
+        "last_updated": "2026-02-06T00:50:26.281260",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173109_20",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.79574696086767,
+              26.07811958124891
+            ],
+            [
+              74.79574691175179,
+              26.07811964398343
+            ],
+            [
+              74.79574687549321,
+              26.078119615595995
+            ],
+            [
+              74.79574689544552,
+              26.078119590111402
+            ],
+            [
+              74.7957468797898,
+              26.078119577854295
+            ],
+            [
+              74.79574690895339,
+              26.078119540604366
+            ],
+            [
+              74.79574696086767,
+              26.07811958124891
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173109/261/20",
+        "khasra_number": "261",
+        "khata_number": "32",
+        "khatauni_number": "810",
+        "village_code": "173109",
+        "village_name": "Gujarwara",
+        "village_name_hi": "गुजरवाड़ा",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 26.07812,
+        "centroid_lon": 74.795747,
+        "computed_area_sqm": 0.0,
+        "recorded_area_sqm": 0.0,
+        "area_difference_sqm": 0.0,
+        "area_text": "0 बीघा 0 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "barren",
+        "land_type_hi": "बंजर",
+        "land_type_code": "BAR",
+        "soil_type": "लाल",
+        "soil_type_en": "Red",
+        "owner_name_hi": "सोहन गुर्जर",
+        "owner_name_en": "Sohan Gurjar",
+        "father_name_hi": "राजेश गुप्ता",
+        "father_name_en": "Rajesh Gupta",
+        "ownership_type": "सरकारी",
+        "ownership_share": "100%",
+        "irrigation_type": "वर्षा आधारित",
+        "irrigation_type_en": "Rain Fed",
+        "is_irrigated": false,
+        "current_crop": null,
+        "current_crop_en": null,
+        "crop_season": null,
+        "rate_per_sqm": 198,
+        "estimated_value_inr": 0.0,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "खतौनी",
+        "source_page": "129",
+        "source_year": 2024,
+        "survey_year": 2015,
+        "acquisition_year": null,
+        "mutation_count": 1,
+        "last_mutation_year": 2002,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.281302",
+        "last_updated": "2026-02-06T00:50:26.281304",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173109_21",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.79667657715663,
+              26.078554955647494
+            ],
+            [
+              74.7964242683714,
+              26.07841502660006
+            ],
+            [
+              74.79663128489285,
+              26.078161621471
+            ],
+            [
+              74.79680374844392,
+              26.078354811668568
+            ],
+            [
+              74.79667657715663,
+              26.078554955647494
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173109/237/21",
+        "khasra_number": "237",
+        "khata_number": "374",
+        "khatauni_number": "522",
+        "village_code": "173109",
+        "village_name": "Gujarwara",
+        "village_name_hi": "गुजरवाड़ा",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 26.078372,
+        "centroid_lon": 74.796634,
+        "computed_area_sqm": 841.0,
+        "recorded_area_sqm": 830.15,
+        "area_difference_sqm": -10.85,
+        "area_text": "0 बीघा 6 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "दोमट",
+        "soil_type_en": "Loamy",
+        "owner_name_hi": "राम राय",
+        "owner_name_en": "Ram Rai",
+        "father_name_hi": "मोहन त्रिपाठी",
+        "father_name_en": "Mohan Tripathi",
+        "ownership_type": "संयुक्त",
+        "ownership_share": "4%",
+        "irrigation_type": "कोई नहीं",
+        "irrigation_type_en": "None",
+        "is_irrigated": false,
+        "current_crop": "अन्य",
+        "current_crop_en": "Other",
+        "crop_season": "जायद",
+        "rate_per_sqm": 1053,
+        "estimated_value_inr": 874148.79,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "बी-1",
+        "source_page": "53",
+        "source_year": 2018,
+        "survey_year": 2024,
+        "acquisition_year": null,
+        "mutation_count": 2,
+        "last_mutation_year": 2015,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.281340",
+        "last_updated": "2026-02-06T00:50:26.281341",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173109_22",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.79767924629924,
+              26.07862754674607
+            ],
+            [
+              74.7973759174143,
+              26.07846023107973
+            ],
+            [
+              74.79749090069461,
+              26.078140528041352
+            ],
+            [
+              74.79780379545578,
+              26.078307198973707
+            ],
+            [
+              74.79767924629924,
+              26.07862754674607
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173109/891/22",
+        "khasra_number": "891",
+        "khata_number": "44",
+        "khatauni_number": "276",
+        "village_code": "173109",
+        "village_name": "Gujarwara",
+        "village_name_hi": "गुजरवाड़ा",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 26.078384,
+        "centroid_lon": 74.797587,
+        "computed_area_sqm": 1312.54,
+        "recorded_area_sqm": 1316.1,
+        "area_difference_sqm": 3.56,
+        "area_text": "0 बीघा 10 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "residential",
+        "land_type_hi": "आवासीय",
+        "land_type_code": "RES",
+        "soil_type": "काली",
+        "soil_type_en": "Black",
+        "owner_name_hi": "दुर्गा सिंह",
+        "owner_name_en": "Durga Singh",
+        "father_name_hi": "राजेश राजपूत",
+        "father_name_en": "Rajesh Rajput",
+        "ownership_type": "व्यक्तिगत",
+        "ownership_share": "100%",
+        "irrigation_type": "नहर",
+        "irrigation_type_en": "Canal",
+        "is_irrigated": false,
+        "current_crop": null,
+        "current_crop_en": null,
+        "crop_season": null,
+        "rate_per_sqm": 7644,
+        "estimated_value_inr": 10060301.95,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "खसरा",
+        "source_page": "55",
+        "source_year": 2022,
+        "survey_year": 2017,
+        "acquisition_year": null,
+        "mutation_count": 3,
+        "last_mutation_year": 1994,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.281374",
+        "last_updated": "2026-02-06T00:50:26.281375",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173109_23",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.79811495357794,
+              26.078050376998064
+            ],
+            [
+              74.79833693196161,
+              26.078345764247256
+            ],
+            [
+              74.79803140905169,
+              26.07857454323967
+            ],
+            [
+              74.79785983267185,
+              26.078334025100506
+            ],
+            [
+              74.79811495357794,
+              26.078050376998064
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173109/306/23",
+        "khasra_number": "306",
+        "khata_number": "66",
+        "khatauni_number": "67",
+        "village_code": "173109",
+        "village_name": "Gujarwara",
+        "village_name_hi": "गुजरवाड़ा",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 26.078326,
+        "centroid_lon": 74.798086,
+        "computed_area_sqm": 1389.2,
+        "recorded_area_sqm": 1408.75,
+        "area_difference_sqm": 19.55,
+        "area_text": "0 बीघा 11 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "चिकनी",
+        "soil_type_en": "Clay",
+        "owner_name_hi": "विष्णु त्रिपाठी",
+        "owner_name_en": "Vishnu Tripathi",
+        "father_name_hi": "सरस्वती सिंह",
+        "father_name_en": "Saraswati Singh",
+        "ownership_type": "संयुक्त",
+        "ownership_share": "52%",
+        "irrigation_type": "कुआं",
+        "irrigation_type_en": "Well",
+        "is_irrigated": true,
+        "current_crop": "गेहूं",
+        "current_crop_en": "Wheat",
+        "crop_season": "जायद",
+        "rate_per_sqm": 599,
+        "estimated_value_inr": 843840.88,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "खसरा",
+        "source_page": "9",
+        "source_year": 2020,
+        "survey_year": 2016,
+        "acquisition_year": 1973,
+        "mutation_count": 3,
+        "last_mutation_year": 2016,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.281406",
+        "last_updated": "2026-02-06T00:50:26.281407",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173109_24",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.79882433326836,
+              26.077933028146685
+            ],
+            [
+              74.79896274984954,
+              26.078077456784072
+            ],
+            [
+              74.79886901880629,
+              26.078255094600898
+            ],
+            [
+              74.7987156256032,
+              26.078094318098824
+            ],
+            [
+              74.79882433326836,
+              26.077933028146685
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173109/341/24",
+        "khasra_number": "341",
+        "khata_number": "454",
+        "khatauni_number": "15",
+        "village_code": "173109",
+        "village_name": "Gujarwara",
+        "village_name_hi": "गुजरवाड़ा",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 26.07809,
+        "centroid_lon": 74.798843,
+        "computed_area_sqm": 444.57,
+        "recorded_area_sqm": 437.43,
+        "area_difference_sqm": -7.14,
+        "area_text": "0 बीघा 3 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "forest",
+        "land_type_hi": "वन भूमि",
+        "land_type_code": "FOR",
+        "soil_type": "दोमट",
+        "soil_type_en": "Loamy",
+        "owner_name_hi": "दुर्गा मिश्रा",
+        "owner_name_en": "Durga Mishra",
+        "father_name_hi": "सुरेश चौहान",
+        "father_name_en": "Suresh Chauhan",
+        "ownership_type": "संयुक्त",
+        "ownership_share": "20%",
+        "irrigation_type": "कुआं",
+        "irrigation_type_en": "Well",
+        "is_irrigated": false,
+        "current_crop": null,
+        "current_crop_en": null,
+        "crop_season": null,
+        "rate_per_sqm": 317,
+        "estimated_value_inr": 138666.79,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "खसरा",
+        "source_page": "50",
+        "source_year": 2024,
+        "survey_year": 2019,
+        "acquisition_year": null,
+        "mutation_count": 4,
+        "last_mutation_year": 2010,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.281440",
+        "last_updated": "2026-02-06T00:50:26.281441",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173109_25",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.7931494727528,
+              26.078989778329362
+            ],
+            [
+              74.79339957714726,
+              26.07881198779653
+            ],
+            [
+              74.79336647985862,
+              26.07916114972363
+            ],
+            [
+              74.7931494727528,
+              26.078989778329362
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173109/683/25",
+        "khasra_number": "683",
+        "khata_number": "65",
+        "khatauni_number": "305",
+        "village_code": "173109",
+        "village_name": "Gujarwara",
+        "village_name_hi": "गुजरवाड़ा",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 26.078988,
+        "centroid_lon": 74.793305,
+        "computed_area_sqm": 450.64,
+        "recorded_area_sqm": 549.45,
+        "area_difference_sqm": 98.81,
+        "area_text": "0 बीघा 4 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "बलुई",
+        "soil_type_en": "Sandy",
+        "owner_name_hi": "श्याम कुमावत",
+        "owner_name_en": "Shyam Kumawat",
+        "father_name_hi": "भगवान मिश्रा",
+        "father_name_en": "Bhagwan Mishra",
+        "ownership_type": "व्यक्तिगत",
+        "ownership_share": "100%",
+        "irrigation_type": "नहर",
+        "irrigation_type_en": "Canal",
+        "is_irrigated": true,
+        "current_crop": "मूंग",
+        "current_crop_en": "Moong",
+        "crop_season": "रबी",
+        "rate_per_sqm": 764,
+        "estimated_value_inr": 419779.21,
+        "circle_rate_year": 2024,
+        "has_discrepancy": true,
+        "discrepancy_type": "area_mismatch",
+        "discrepancy_percentage": 21.9,
+        "discrepancy_severity": "medium",
+        "record_status": "needs_review",
+        "verification_status": "pending",
+        "source_document": "खतौनी",
+        "source_page": "161",
+        "source_year": 2021,
+        "survey_year": 2020,
+        "acquisition_year": 1987,
+        "mutation_count": 0,
+        "last_mutation_year": null,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.281470",
+        "last_updated": "2026-02-06T00:50:26.281471",
+        "digitized_by": "System",
+        "remarks": "Auto-generated test data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173109_26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.79413269909016,
+              26.079459558457398
+            ],
+            [
+              74.79391822634325,
+              26.079249964137823
+            ],
+            [
+              74.79399838694806,
+              26.078981140978783
+            ],
+            [
+              74.79422679374846,
+              26.07885255251308
+            ],
+            [
+              74.79444941801522,
+              26.07891237644519
+            ],
+            [
+              74.7943747555647,
+              26.079242543145842
+            ],
+            [
+              74.79413269909016,
+              26.079459558457398
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173109/515/26",
+        "khasra_number": "515",
+        "khata_number": "484",
+        "khatauni_number": "250",
+        "village_code": "173109",
+        "village_name": "Gujarwara",
+        "village_name_hi": "गुजरवाड़ा",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 26.079116,
+        "centroid_lon": 74.794183,
+        "computed_area_sqm": 2243.64,
+        "recorded_area_sqm": 2220.75,
+        "area_difference_sqm": -22.89,
+        "area_text": "0 बीघा 17 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "barren",
+        "land_type_hi": "बंजर",
+        "land_type_code": "BAR",
+        "soil_type": "चिकनी",
+        "soil_type_en": "Clay",
+        "owner_name_hi": "दिनेश यादव",
+        "owner_name_en": "Dinesh Yadav",
+        "father_name_hi": "भगवान तिवारी",
+        "father_name_en": "Bhagwan Tiwari",
+        "ownership_type": "संयुक्त",
+        "ownership_share": "100%",
+        "irrigation_type": "कोई नहीं",
+        "irrigation_type_en": "None",
+        "is_irrigated": false,
+        "current_crop": null,
+        "current_crop_en": null,
+        "crop_season": null,
+        "rate_per_sqm": 413,
+        "estimated_value_inr": 917168.43,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "बी-1",
+        "source_page": "199",
+        "source_year": 2022,
+        "survey_year": 2016,
+        "acquisition_year": null,
+        "mutation_count": 4,
+        "last_mutation_year": 2002,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.281506",
+        "last_updated": "2026-02-06T00:50:26.281507",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173109_27",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.79497352520937,
+              26.079525308143335
+            ],
+            [
+              74.79487431960163,
+              26.079238583431664
+            ],
+            [
+              74.79502625854253,
+              26.078930811139585
+            ],
+            [
+              74.79535754981943,
+              26.079077519153174
+            ],
+            [
+              74.79520052277762,
+              26.07939650962158
+            ],
+            [
+              74.79497352520937,
+              26.079525308143335
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173109/453/27",
+        "khasra_number": "453",
+        "khata_number": "24",
+        "khatauni_number": "482",
+        "village_code": "173109",
+        "village_name": "Gujarwara",
+        "village_name_hi": "गुजरवाड़ा",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 26.079234,
+        "centroid_lon": 74.795086,
+        "computed_area_sqm": 1831.35,
+        "recorded_area_sqm": 1823.1,
+        "area_difference_sqm": -8.25,
+        "area_text": "0 बीघा 14 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "दोमट",
+        "soil_type_en": "Loamy",
+        "owner_name_hi": "शंकर शर्मा",
+        "owner_name_en": "Shankar Sharma",
+        "father_name_hi": "सरस्वती मिश्रा",
+        "father_name_en": "Saraswati Mishra",
+        "ownership_type": "व्यक्तिगत",
+        "ownership_share": "100%",
+        "irrigation_type": "तालाब",
+        "irrigation_type_en": "Pond",
+        "is_irrigated": true,
+        "current_crop": "बाजरा",
+        "current_crop_en": "Millet",
+        "crop_season": "रबी",
+        "rate_per_sqm": 846,
+        "estimated_value_inr": 1542343.03,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "बी-1",
+        "source_page": "153",
+        "source_year": 2022,
+        "survey_year": 2023,
+        "acquisition_year": 1994,
+        "mutation_count": 2,
+        "last_mutation_year": 1995,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.281538",
+        "last_updated": "2026-02-06T00:50:26.281539",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173109_28",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.79575700767413,
+              26.079041619265798
+            ],
+            [
+              74.79613012535778,
+              26.079092564536694
+            ],
+            [
+              74.79598646223306,
+              26.07950630437854
+            ],
+            [
+              74.79560910334203,
+              26.079353056395583
+            ],
+            [
+              74.79575700767413,
+              26.079041619265798
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173109/127/28",
+        "khasra_number": "127",
+        "khata_number": "491",
+        "khatauni_number": "774",
+        "village_code": "173109",
+        "village_name": "Gujarwara",
+        "village_name_hi": "गुजरवाड़ा",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 26.079248,
+        "centroid_lon": 74.795871,
+        "computed_area_sqm": 1670.4,
+        "recorded_area_sqm": 1637.41,
+        "area_difference_sqm": -32.99,
+        "area_text": "0 बीघा 13 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "forest",
+        "land_type_hi": "वन भूमि",
+        "land_type_code": "FOR",
+        "soil_type": "दोमट",
+        "soil_type_en": "Loamy",
+        "owner_name_hi": "सीता यादव",
+        "owner_name_en": "Sita Yadav",
+        "father_name_hi": "भगवान राजपूत",
+        "father_name_en": "Bhagwan Rajput",
+        "ownership_type": "सरकारी",
+        "ownership_share": "100%",
+        "irrigation_type": "तालाब",
+        "irrigation_type_en": "Pond",
+        "is_irrigated": false,
+        "current_crop": null,
+        "current_crop_en": null,
+        "crop_season": null,
+        "rate_per_sqm": 778,
+        "estimated_value_inr": 1273904.86,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "खसरा",
+        "source_page": "37",
+        "source_year": 2018,
+        "survey_year": 2019,
+        "acquisition_year": null,
+        "mutation_count": 2,
+        "last_mutation_year": 1996,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.281571",
+        "last_updated": "2026-02-06T00:50:26.281572",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173109_29",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.79671998093714,
+              26.078965237350143
+            ],
+            [
+              74.79686583323316,
+              26.079354914201833
+            ],
+            [
+              74.79648468793579,
+              26.079380247837978
+            ],
+            [
+              74.79671998093714,
+              26.078965237350143
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173109/557/29",
+        "khasra_number": "557",
+        "khata_number": "375",
+        "khatauni_number": "436",
+        "village_code": "173109",
+        "village_name": "Gujarwara",
+        "village_name_hi": "गुजरवाड़ा",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 26.079233,
+        "centroid_lon": 74.79669,
+        "computed_area_sqm": 842.27,
+        "recorded_area_sqm": 830.94,
+        "area_difference_sqm": -11.33,
+        "area_text": "0 बीघा 6 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "residential",
+        "land_type_hi": "आवासीय",
+        "land_type_code": "RES",
+        "soil_type": "बलुई",
+        "soil_type_en": "Sandy",
+        "owner_name_hi": "दुर्गा शर्मा",
+        "owner_name_en": "Durga Sharma",
+        "father_name_hi": "रामू दुबे",
+        "father_name_en": "Ramu Dubey",
+        "ownership_type": "व्यक्तिगत",
+        "ownership_share": "100%",
+        "irrigation_type": "नहर",
+        "irrigation_type_en": "Canal",
+        "is_irrigated": false,
+        "current_crop": null,
+        "current_crop_en": null,
+        "crop_season": null,
+        "rate_per_sqm": 10396,
+        "estimated_value_inr": 8638472.02,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "बी-1",
+        "source_page": "30",
+        "source_year": 2020,
+        "survey_year": 2024,
+        "acquisition_year": null,
+        "mutation_count": 5,
+        "last_mutation_year": 2006,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.281603",
+        "last_updated": "2026-02-06T00:50:26.281604",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173109_30",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.79753608357326,
+              26.0792341245076
+            ],
+            [
+              74.79710818514027,
+              26.07934260244063
+            ],
+            [
+              74.79707156457859,
+              26.07893166937472
+            ],
+            [
+              74.7974104405029,
+              26.078891018531948
+            ],
+            [
+              74.79753608357326,
+              26.0792341245076
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173109/881/30",
+        "khasra_number": "881",
+        "khata_number": "191",
+        "khatauni_number": "563",
+        "village_code": "173109",
+        "village_name": "Gujarwara",
+        "village_name_hi": "गुजरवाड़ा",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 26.0791,
+        "centroid_lon": 74.797282,
+        "computed_area_sqm": 1666.56,
+        "recorded_area_sqm": 1679.01,
+        "area_difference_sqm": 12.45,
+        "area_text": "0 बीघा 13 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "commercial",
+        "land_type_hi": "वाणिज्यिक",
+        "land_type_code": "COM",
+        "soil_type": "लाल",
+        "soil_type_en": "Red",
+        "owner_name_hi": "लक्ष्मी गुप्ता",
+        "owner_name_en": "Lakshmi Gupta",
+        "father_name_hi": "विष्णु जाट",
+        "father_name_en": "Vishnu Jat",
+        "ownership_type": "व्यक्तिगत",
+        "ownership_share": "100%",
+        "irrigation_type": "तालाब",
+        "irrigation_type_en": "Pond",
+        "is_irrigated": false,
+        "current_crop": null,
+        "current_crop_en": null,
+        "crop_season": null,
+        "rate_per_sqm": 23339,
+        "estimated_value_inr": 39186518.52,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "बी-1",
+        "source_page": "12",
+        "source_year": 2022,
+        "survey_year": 2020,
+        "acquisition_year": null,
+        "mutation_count": 4,
+        "last_mutation_year": 2000,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.281637",
+        "last_updated": "2026-02-06T00:50:26.281638",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173109_31",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.79788965628632,
+              26.078796095867627
+            ],
+            [
+              74.7981603454021,
+              26.078876571543514
+            ],
+            [
+              74.79800825589325,
+              26.07907769182902
+            ],
+            [
+              74.79788965628632,
+              26.078796095867627
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173109/542/31",
+        "khasra_number": "542",
+        "khata_number": "66",
+        "khatauni_number": "520",
+        "village_code": "173109",
+        "village_name": "Gujarwara",
+        "village_name_hi": "गुजरवाड़ा",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 26.078917,
+        "centroid_lon": 74.798019,
+        "computed_area_sqm": 368.96,
+        "recorded_area_sqm": 238.61,
+        "area_difference_sqm": -130.35,
+        "area_text": "0 बीघा 1 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "काली",
+        "soil_type_en": "Black",
+        "owner_name_hi": "सीता राय",
+        "owner_name_en": "Sita Rai",
+        "father_name_hi": "सुरेश तिवारी",
+        "father_name_en": "Suresh Tiwari",
+        "ownership_type": "व्यक्तिगत",
+        "ownership_share": "100%",
+        "irrigation_type": "कोई नहीं",
+        "irrigation_type_en": "None",
+        "is_irrigated": false,
+        "current_crop": "अन्य",
+        "current_crop_en": "Other",
+        "crop_season": "खरीफ",
+        "rate_per_sqm": 1009,
+        "estimated_value_inr": 240758.11,
+        "circle_rate_year": 2024,
+        "has_discrepancy": true,
+        "discrepancy_type": "area_mismatch",
+        "discrepancy_percentage": -35.3,
+        "discrepancy_severity": "high",
+        "record_status": "needs_review",
+        "verification_status": "pending",
+        "source_document": "खतौनी",
+        "source_page": "52",
+        "source_year": 2024,
+        "survey_year": 2022,
+        "acquisition_year": null,
+        "mutation_count": 5,
+        "last_mutation_year": 1992,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.281670",
+        "last_updated": "2026-02-06T00:50:26.281671",
+        "digitized_by": "System",
+        "remarks": "Auto-generated test data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173109_32",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.79879998219991,
+              26.078862790111117
+            ],
+            [
+              74.79909469146574,
+              26.078631241331564
+            ],
+            [
+              74.799451382693,
+              26.078869243138247
+            ],
+            [
+              74.7991532554496,
+              26.079143011937138
+            ],
+            [
+              74.79879998219991,
+              26.078862790111117
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173109/114/32",
+        "khasra_number": "114",
+        "khata_number": "11",
+        "khatauni_number": "647",
+        "village_code": "173109",
+        "village_name": "Gujarwara",
+        "village_name_hi": "गुजरवाड़ा",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 26.078877,
+        "centroid_lon": 74.799125,
+        "computed_area_sqm": 1842.53,
+        "recorded_area_sqm": 1847.62,
+        "area_difference_sqm": 5.09,
+        "area_text": "0 बीघा 14 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "residential",
+        "land_type_hi": "आवासीय",
+        "land_type_code": "RES",
+        "soil_type": "चिकनी",
+        "soil_type_en": "Clay",
+        "owner_name_hi": "रामू दुबे",
+        "owner_name_en": "Ramu Dubey",
+        "father_name_hi": "मोहन कुमावत",
+        "father_name_en": "Mohan Kumawat",
+        "ownership_type": "व्यक्तिगत",
+        "ownership_share": "100%",
+        "irrigation_type": "कोई नहीं",
+        "irrigation_type_en": "None",
+        "is_irrigated": false,
+        "current_crop": null,
+        "current_crop_en": null,
+        "crop_season": null,
+        "rate_per_sqm": 10394,
+        "estimated_value_inr": 19204175.64,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "खतौनी",
+        "source_page": "123",
+        "source_year": 2024,
+        "survey_year": 2017,
+        "acquisition_year": null,
+        "mutation_count": 5,
+        "last_mutation_year": 2013,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.281701",
+        "last_updated": "2026-02-06T00:50:26.281702",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173109_33",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.79330262033403,
+              26.079821492425026
+            ],
+            [
+              74.79360832009701,
+              26.07960715430317
+            ],
+            [
+              74.79378791925951,
+              26.0799763071507
+            ],
+            [
+              74.79339409008207,
+              26.08015521039847
+            ],
+            [
+              74.79330262033403,
+              26.079821492425026
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173109/586/33",
+        "khasra_number": "586",
+        "khata_number": "45",
+        "khatauni_number": "922",
+        "village_code": "173109",
+        "village_name": "Gujarwara",
+        "village_name_hi": "गुजरवाड़ा",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 26.07989,
+        "centroid_lon": 74.793523,
+        "computed_area_sqm": 1655.2,
+        "recorded_area_sqm": 1645.95,
+        "area_difference_sqm": -9.25,
+        "area_text": "0 बीघा 13 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "दोमट",
+        "soil_type_en": "Loamy",
+        "owner_name_hi": "सुरेश त्रिपाठी",
+        "owner_name_en": "Suresh Tripathi",
+        "father_name_hi": "हरि गुप्ता",
+        "father_name_en": "Hari Gupta",
+        "ownership_type": "व्यक्तिगत",
+        "ownership_share": "3%",
+        "irrigation_type": "ट्यूबवेल",
+        "irrigation_type_en": "Tube Well",
+        "is_irrigated": true,
+        "current_crop": "सरसों",
+        "current_crop_en": "Mustard",
+        "crop_season": "जायद",
+        "rate_per_sqm": 1066,
+        "estimated_value_inr": 1754584.7,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "जमाबंदी",
+        "source_page": "189",
+        "source_year": 2024,
+        "survey_year": 2020,
+        "acquisition_year": null,
+        "mutation_count": 3,
+        "last_mutation_year": 2008,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.281749",
+        "last_updated": "2026-02-06T00:50:26.281750",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173109_34",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.79398390762854,
+              26.079907315678486
+            ],
+            [
+              74.79398393087563,
+              26.07990742118165
+            ],
+            [
+              74.79398387188508,
+              26.07990743417992
+            ],
+            [
+              74.79398386317392,
+              26.079907394645783
+            ],
+            [
+              74.79398382584763,
+              26.079907402870443
+            ],
+            [
+              74.79398381131169,
+              26.079907336901414
+            ],
+            [
+              74.79398390762854,
+              26.079907315678486
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173109/227/34",
+        "khasra_number": "227",
+        "khata_number": "329",
+        "khatauni_number": "436",
+        "village_code": "173109",
+        "village_name": "Gujarwara",
+        "village_name_hi": "गुजरवाड़ा",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 26.079907,
+        "centroid_lon": 74.793984,
+        "computed_area_sqm": 0.0,
+        "recorded_area_sqm": 0.0,
+        "area_difference_sqm": 0.0,
+        "area_text": "0 बीघा 0 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "लाल",
+        "soil_type_en": "Red",
+        "owner_name_hi": "राधा राजपूत",
+        "owner_name_en": "Radha Rajput",
+        "father_name_hi": "राधा दुबे",
+        "father_name_en": "Radha Dubey",
+        "ownership_type": "व्यक्तिगत",
+        "ownership_share": "100%",
+        "irrigation_type": "कोई नहीं",
+        "irrigation_type_en": "None",
+        "is_irrigated": false,
+        "current_crop": "अन्य",
+        "current_crop_en": "Other",
+        "crop_season": "रबी",
+        "rate_per_sqm": 1900,
+        "estimated_value_inr": 0.0,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "पट्टा",
+        "source_page": "128",
+        "source_year": 2022,
+        "survey_year": 2016,
+        "acquisition_year": 1976,
+        "mutation_count": 5,
+        "last_mutation_year": 1990,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.281788",
+        "last_updated": "2026-02-06T00:50:26.281789",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173109_35",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.7950500940712,
+              26.079732033570046
+            ],
+            [
+              74.79505021372546,
+              26.07973212592477
+            ],
+            [
+              74.79505017982507,
+              26.079732169845933
+            ],
+            [
+              74.79505011911044,
+              26.079732122983568
+            ],
+            [
+              74.79505006960501,
+              26.079732187122534
+            ],
+            [
+              74.79505001066536,
+              26.079732141630174
+            ],
+            [
+              74.7950500940712,
+              26.079732033570046
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173109/412/35",
+        "khasra_number": "412",
+        "khata_number": "51",
+        "khatauni_number": "396",
+        "village_code": "173109",
+        "village_name": "Gujarwara",
+        "village_name_hi": "गुजरवाड़ा",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 26.079732,
+        "centroid_lon": 74.79505,
+        "computed_area_sqm": 0.0,
+        "recorded_area_sqm": 0.0,
+        "area_difference_sqm": 0.0,
+        "area_text": "0 बीघा 0 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "residential",
+        "land_type_hi": "आवासीय",
+        "land_type_code": "RES",
+        "soil_type": "लाल",
+        "soil_type_en": "Red",
+        "owner_name_hi": "अनिल राजपूत",
+        "owner_name_en": "Anil Rajput",
+        "father_name_hi": "गीता राजपूत",
+        "father_name_en": "Geeta Rajput",
+        "ownership_type": "सरकारी",
+        "ownership_share": "100%",
+        "irrigation_type": "तालाब",
+        "irrigation_type_en": "Pond",
+        "is_irrigated": false,
+        "current_crop": null,
+        "current_crop_en": null,
+        "crop_season": null,
+        "rate_per_sqm": 18014,
+        "estimated_value_inr": 0.0,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "खसरा",
+        "source_page": "69",
+        "source_year": 2018,
+        "survey_year": 2015,
+        "acquisition_year": null,
+        "mutation_count": 0,
+        "last_mutation_year": null,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.281819",
+        "last_updated": "2026-02-06T00:50:26.281820",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173109_36",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.7956422842226,
+              26.080011888747688
+            ],
+            [
+              74.79581644472012,
+              26.079815142889373
+            ],
+            [
+              74.79587874978843,
+              26.08013034936359
+            ],
+            [
+              74.7956422842226,
+              26.080011888747688
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173109/638/36",
+        "khasra_number": "638",
+        "khata_number": "365",
+        "khatauni_number": "180",
+        "village_code": "173109",
+        "village_name": "Gujarwara",
+        "village_name_hi": "गुजरवाड़ा",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 26.079986,
+        "centroid_lon": 74.795779,
+        "computed_area_sqm": 371.59,
+        "recorded_area_sqm": 492.95,
+        "area_difference_sqm": 121.36,
+        "area_text": "0 बीघा 3 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "चिकनी",
+        "soil_type_en": "Clay",
+        "owner_name_hi": "गीता कुमावत",
+        "owner_name_en": "Geeta Kumawat",
+        "father_name_hi": "दुर्गा राजपूत",
+        "father_name_en": "Durga Rajput",
+        "ownership_type": "सरकारी",
+        "ownership_share": "100%",
+        "irrigation_type": "कोई नहीं",
+        "irrigation_type_en": "None",
+        "is_irrigated": false,
+        "current_crop": "मक्का",
+        "current_crop_en": "Maize",
+        "crop_season": "रबी",
+        "rate_per_sqm": 1737,
+        "estimated_value_inr": 856261.96,
+        "circle_rate_year": 2024,
+        "has_discrepancy": true,
+        "discrepancy_type": "area_mismatch",
+        "discrepancy_percentage": 32.7,
+        "discrepancy_severity": "high",
+        "record_status": "needs_review",
+        "verification_status": "pending",
+        "source_document": "खसरा",
+        "source_page": "151",
+        "source_year": 2018,
+        "survey_year": 2019,
+        "acquisition_year": null,
+        "mutation_count": 5,
+        "last_mutation_year": 2023,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.281853",
+        "last_updated": "2026-02-06T00:50:26.281854",
+        "digitized_by": "System",
+        "remarks": "Auto-generated test data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173109_37",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.79650628873173,
+              26.079914490568026
+            ],
+            [
+              74.79650628664632,
+              26.079914611422836
+            ],
+            [
+              74.79650621496626,
+              26.079914610185956
+            ],
+            [
+              74.7965062161658,
+              26.079914540669908
+            ],
+            [
+              74.79650616388,
+              26.07991453976769
+            ],
+            [
+              74.79650616476587,
+              26.079914488428926
+            ],
+            [
+              74.79650628873173,
+              26.079914490568026
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173109/432/37",
+        "khasra_number": "432",
+        "khata_number": "423",
+        "khatauni_number": "393",
+        "village_code": "173109",
+        "village_name": "Gujarwara",
+        "village_name_hi": "गुजरवाड़ा",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 26.079915,
+        "centroid_lon": 74.796506,
+        "computed_area_sqm": 0.0,
+        "recorded_area_sqm": 0.0,
+        "area_difference_sqm": 0.0,
+        "area_text": "0 बीघा 0 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "बलुई",
+        "soil_type_en": "Sandy",
+        "owner_name_hi": "महेश तिवारी",
+        "owner_name_en": "Mahesh Tiwari",
+        "father_name_hi": "लक्ष्मी यादव",
+        "father_name_en": "Lakshmi Yadav",
+        "ownership_type": "सरकारी",
+        "ownership_share": "79%",
+        "irrigation_type": "ट्यूबवेल",
+        "irrigation_type_en": "Tube Well",
+        "is_irrigated": true,
+        "current_crop": "चना",
+        "current_crop_en": "Gram",
+        "crop_season": "रबी",
+        "rate_per_sqm": 691,
+        "estimated_value_inr": 0.0,
+        "circle_rate_year": 2024,
+        "has_discrepancy": true,
+        "discrepancy_type": "area_mismatch",
+        "discrepancy_percentage": -30.7,
+        "discrepancy_severity": "high",
+        "record_status": "needs_review",
+        "verification_status": "pending",
+        "source_document": "बी-1",
+        "source_page": "171",
+        "source_year": 2021,
+        "survey_year": 2023,
+        "acquisition_year": null,
+        "mutation_count": 4,
+        "last_mutation_year": 1999,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.281892",
+        "last_updated": "2026-02-06T00:50:26.281893",
+        "digitized_by": "System",
+        "remarks": "Auto-generated test data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173109_38",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.79747962784388,
+              26.080021587580205
+            ],
+            [
+              74.79730078780528,
+              26.080033733677528
+            ],
+            [
+              74.79714340828531,
+              26.079772877345068
+            ],
+            [
+              74.79726778990002,
+              26.079615178924662
+            ],
+            [
+              74.79746014294979,
+              26.079503777103692
+            ],
+            [
+              74.79762017954747,
+              26.07975945237604
+            ],
+            [
+              74.79747962784388,
+              26.080021587580205
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173109/560/38",
+        "khasra_number": "560",
+        "khata_number": "258",
+        "khatauni_number": "701",
+        "village_code": "173109",
+        "village_name": "Gujarwara",
+        "village_name_hi": "गुजरवाड़ा",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 26.079784,
+        "centroid_lon": 74.797379,
+        "computed_area_sqm": 1727.37,
+        "recorded_area_sqm": 1720.01,
+        "area_difference_sqm": -7.36,
+        "area_text": "0 बीघा 13 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "barren",
+        "land_type_hi": "बंजर",
+        "land_type_code": "BAR",
+        "soil_type": "बलुई",
+        "soil_type_en": "Sandy",
+        "owner_name_hi": "नारायण दुबे",
+        "owner_name_en": "Narayan Dubey",
+        "father_name_hi": "अनिल मिश्रा",
+        "father_name_en": "Anil Mishra",
+        "ownership_type": "संयुक्त",
+        "ownership_share": "100%",
+        "irrigation_type": "नहर",
+        "irrigation_type_en": "Canal",
+        "is_irrigated": false,
+        "current_crop": null,
+        "current_crop_en": null,
+        "crop_season": null,
+        "rate_per_sqm": 254,
+        "estimated_value_inr": 436883.46,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "खतौनी",
+        "source_page": "16",
+        "source_year": 2023,
+        "survey_year": 2023,
+        "acquisition_year": 2005,
+        "mutation_count": 3,
+        "last_mutation_year": 2017,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.281926",
+        "last_updated": "2026-02-06T00:50:26.281927",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173109_39",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.79827109411366,
+              26.079905989881908
+            ],
+            [
+              74.7982946030216,
+              26.080102243200717
+            ],
+            [
+              74.79812242868577,
+              26.08011438381026
+            ],
+            [
+              74.79789839257555,
+              26.080091434363528
+            ],
+            [
+              74.79786517038347,
+              26.079875872436812
+            ],
+            [
+              74.79803031646333,
+              26.07972285184385
+            ],
+            [
+              74.79819027846578,
+              26.079704607685514
+            ],
+            [
+              74.79827109411366,
+              26.079905989881908
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173109/105/39",
+        "khasra_number": "105",
+        "khata_number": "393",
+        "khatauni_number": "395",
+        "village_code": "173109",
+        "village_name": "Gujarwara",
+        "village_name_hi": "गुजरवाड़ा",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 26.079931,
+        "centroid_lon": 74.798096,
+        "computed_area_sqm": 1502.01,
+        "recorded_area_sqm": 1507.72,
+        "area_difference_sqm": 5.71,
+        "area_text": "0 बीघा 12 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "काली",
+        "soil_type_en": "Black",
+        "owner_name_hi": "राधा जाट",
+        "owner_name_en": "Radha Jat",
+        "father_name_hi": "विष्णु यादव",
+        "father_name_en": "Vishnu Yadav",
+        "ownership_type": "व्यक्तिगत",
+        "ownership_share": "100%",
+        "irrigation_type": "कुआं",
+        "irrigation_type_en": "Well",
+        "is_irrigated": true,
+        "current_crop": "गेहूं",
+        "current_crop_en": "Wheat",
+        "crop_season": "जायद",
+        "rate_per_sqm": 1974,
+        "estimated_value_inr": 2976244.42,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "पट्टा",
+        "source_page": "153",
+        "source_year": 2019,
+        "survey_year": 2017,
+        "acquisition_year": 1990,
+        "mutation_count": 3,
+        "last_mutation_year": 2024,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.281963",
+        "last_updated": "2026-02-06T00:50:26.281964",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173109_40",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.79892142347475,
+              26.07984220430325
+            ],
+            [
+              74.79884398437784,
+              26.08004202906973
+            ],
+            [
+              74.7985561464503,
+              26.0798865903831
+            ],
+            [
+              74.79872458700787,
+              26.079631464790378
+            ],
+            [
+              74.79892142347475,
+              26.07984220430325
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173109/482/40",
+        "khasra_number": "482",
+        "khata_number": "404",
+        "khatauni_number": "373",
+        "village_code": "173109",
+        "village_name": "Gujarwara",
+        "village_name_hi": "गुजरवाड़ा",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 26.079851,
+        "centroid_lon": 74.798762,
+        "computed_area_sqm": 859.14,
+        "recorded_area_sqm": 864.54,
+        "area_difference_sqm": 5.4,
+        "area_text": "0 बीघा 6 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "forest",
+        "land_type_hi": "वन भूमि",
+        "land_type_code": "FOR",
+        "soil_type": "बलुई",
+        "soil_type_en": "Sandy",
+        "owner_name_hi": "राजेश तिवारी",
+        "owner_name_en": "Rajesh Tiwari",
+        "father_name_hi": "रामू मीना",
+        "father_name_en": "Ramu Meena",
+        "ownership_type": "व्यक्तिगत",
+        "ownership_share": "3%",
+        "irrigation_type": "कोई नहीं",
+        "irrigation_type_en": "None",
+        "is_irrigated": false,
+        "current_crop": null,
+        "current_crop_en": null,
+        "crop_season": null,
+        "rate_per_sqm": 400,
+        "estimated_value_inr": 345817.13,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "जमाबंदी",
+        "source_page": "144",
+        "source_year": 2024,
+        "survey_year": 2019,
+        "acquisition_year": null,
+        "mutation_count": 4,
+        "last_mutation_year": 2024,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.281999",
+        "last_updated": "2026-02-06T00:50:26.282000",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173109_41",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.79337015834784,
+              26.08068996648484
+            ],
+            [
+              74.79316076684498,
+              26.080606113230182
+            ],
+            [
+              74.79313979340652,
+              26.080419222722874
+            ],
+            [
+              74.79328396558049,
+              26.080391917244246
+            ],
+            [
+              74.79344803692914,
+              26.08052253298993
+            ],
+            [
+              74.79337015834784,
+              26.08068996648484
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173109/601/41",
+        "khasra_number": "601",
+        "khata_number": "312",
+        "khatauni_number": "13",
+        "village_code": "173109",
+        "village_name": "Gujarwara",
+        "village_name_hi": "गुजरवाड़ा",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 26.080526,
+        "centroid_lon": 74.793281,
+        "computed_area_sqm": 665.88,
+        "recorded_area_sqm": 675.51,
+        "area_difference_sqm": 9.63,
+        "area_text": "0 बीघा 5 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "दोमट",
+        "soil_type_en": "Loamy",
+        "owner_name_hi": "श्याम शर्मा",
+        "owner_name_en": "Shyam Sharma",
+        "father_name_hi": "ब्रजेश मीना",
+        "father_name_en": "Brajesh Meena",
+        "ownership_type": "संयुक्त",
+        "ownership_share": "100%",
+        "irrigation_type": "वर्षा आधारित",
+        "irrigation_type_en": "Rain Fed",
+        "is_irrigated": false,
+        "current_crop": "मक्का",
+        "current_crop_en": "Maize",
+        "crop_season": "जायद",
+        "rate_per_sqm": 1764,
+        "estimated_value_inr": 1191594.42,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "पट्टा",
+        "source_page": "49",
+        "source_year": 2021,
+        "survey_year": 2024,
+        "acquisition_year": null,
+        "mutation_count": 2,
+        "last_mutation_year": 2016,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.282031",
+        "last_updated": "2026-02-06T00:50:26.282032",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173109_42",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.79398314505235,
+              26.080532176099783
+            ],
+            [
+              74.79398310303908,
+              26.080532123297274
+            ],
+            [
+              74.79398312318065,
+              26.080532107271267
+            ],
+            [
+              74.79398314008245,
+              26.080532128513525
+            ],
+            [
+              74.79398316210278,
+              26.080532110992646
+            ],
+            [
+              74.79398318721427,
+              26.080532142552897
+            ],
+            [
+              74.79398314505235,
+              26.080532176099783
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173109/884/42",
+        "khasra_number": "884",
+        "khata_number": "494",
+        "khatauni_number": "443",
+        "village_code": "173109",
+        "village_name": "Gujarwara",
+        "village_name_hi": "गुजरवाड़ा",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 26.080532,
+        "centroid_lon": 74.793983,
+        "computed_area_sqm": 0.0,
+        "recorded_area_sqm": 0.0,
+        "area_difference_sqm": 0.0,
+        "area_text": "0 बीघा 0 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "दोमट",
+        "soil_type_en": "Loamy",
+        "owner_name_hi": "श्याम जाट",
+        "owner_name_en": "Shyam Jat",
+        "father_name_hi": "गीता सिंह",
+        "father_name_en": "Geeta Singh",
+        "ownership_type": "व्यक्तिगत",
+        "ownership_share": "100%",
+        "irrigation_type": "ट्यूबवेल",
+        "irrigation_type_en": "Tube Well",
+        "is_irrigated": true,
+        "current_crop": "बाजरा",
+        "current_crop_en": "Millet",
+        "crop_season": "रबी",
+        "rate_per_sqm": 1638,
+        "estimated_value_inr": 0.0,
+        "circle_rate_year": 2024,
+        "has_discrepancy": true,
+        "discrepancy_type": "area_mismatch",
+        "discrepancy_percentage": 26.8,
+        "discrepancy_severity": "high",
+        "record_status": "needs_review",
+        "verification_status": "pending",
+        "source_document": "खसरा",
+        "source_page": "120",
+        "source_year": 2018,
+        "survey_year": 2024,
+        "acquisition_year": null,
+        "mutation_count": 5,
+        "last_mutation_year": 2017,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.282070",
+        "last_updated": "2026-02-06T00:50:26.282071",
+        "digitized_by": "System",
+        "remarks": "Auto-generated test data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173109_43",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.7954377151989,
+              26.080629936131054
+            ],
+            [
+              74.79535838511107,
+              26.081048358365013
+            ],
+            [
+              74.7948998309762,
+              26.08103050449932
+            ],
+            [
+              74.79500449550214,
+              26.08067834465422
+            ],
+            [
+              74.7954377151989,
+              26.080629936131054
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173109/79/43",
+        "khasra_number": "79",
+        "khata_number": "459",
+        "khatauni_number": "520",
+        "village_code": "173109",
+        "village_name": "Gujarwara",
+        "village_name_hi": "गुजरवाड़ा",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 26.080847,
+        "centroid_lon": 74.795175,
+        "computed_area_sqm": 1885.62,
+        "recorded_area_sqm": 1880.54,
+        "area_difference_sqm": -5.08,
+        "area_text": "0 बीघा 15 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "commercial",
+        "land_type_hi": "वाणिज्यिक",
+        "land_type_code": "COM",
+        "soil_type": "लाल",
+        "soil_type_en": "Red",
+        "owner_name_hi": "गीता तिवारी",
+        "owner_name_en": "Geeta Tiwari",
+        "father_name_hi": "लक्ष्मी राय",
+        "father_name_en": "Lakshmi Rai",
+        "ownership_type": "व्यक्तिगत",
+        "ownership_share": "100%",
+        "irrigation_type": "ट्यूबवेल",
+        "irrigation_type_en": "Tube Well",
+        "is_irrigated": false,
+        "current_crop": null,
+        "current_crop_en": null,
+        "crop_season": null,
+        "rate_per_sqm": 44368,
+        "estimated_value_inr": 83435651.83,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "पट्टा",
+        "source_page": "68",
+        "source_year": 2019,
+        "survey_year": 2019,
+        "acquisition_year": null,
+        "mutation_count": 0,
+        "last_mutation_year": null,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.282103",
+        "last_updated": "2026-02-06T00:50:26.282104",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173109_44",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.79579533569617,
+              26.080792871439808
+            ],
+            [
+              74.79560088160402,
+              26.080943492200205
+            ],
+            [
+              74.79548712935139,
+              26.080823794427648
+            ],
+            [
+              74.79564258674333,
+              26.080657011418893
+            ],
+            [
+              74.79579533569617,
+              26.080792871439808
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173109/631/44",
+        "khasra_number": "631",
+        "khata_number": "481",
+        "khatauni_number": "719",
+        "village_code": "173109",
+        "village_name": "Gujarwara",
+        "village_name_hi": "गुजरवाड़ा",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 26.080804,
+        "centroid_lon": 74.795631,
+        "computed_area_sqm": 481.42,
+        "recorded_area_sqm": 487.23,
+        "area_difference_sqm": 5.81,
+        "area_text": "0 बीघा 3 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "लाल",
+        "soil_type_en": "Red",
+        "owner_name_hi": "राधा कुमावत",
+        "owner_name_en": "Radha Kumawat",
+        "father_name_hi": "शंकर गुर्जर",
+        "father_name_en": "Shankar Gurjar",
+        "ownership_type": "सरकारी",
+        "ownership_share": "100%",
+        "irrigation_type": "वर्षा आधारित",
+        "irrigation_type_en": "Rain Fed",
+        "is_irrigated": false,
+        "current_crop": "बाजरा",
+        "current_crop_en": "Millet",
+        "crop_season": "खरीफ",
+        "rate_per_sqm": 1331,
+        "estimated_value_inr": 648505.5,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "जमाबंदी",
+        "source_page": "54",
+        "source_year": 2022,
+        "survey_year": 2019,
+        "acquisition_year": null,
+        "mutation_count": 0,
+        "last_mutation_year": null,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.282133",
+        "last_updated": "2026-02-06T00:50:26.282134",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173109_45",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.79664927046304,
+              26.08069109943717
+            ],
+            [
+              74.79659072956599,
+              26.08105312182228
+            ],
+            [
+              74.79622619656993,
+              26.08104117864531
+            ],
+            [
+              74.79611414513244,
+              26.08059516707679
+            ],
+            [
+              74.79664927046304,
+              26.08069109943717
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173109/756/45",
+        "khasra_number": "756",
+        "khata_number": "246",
+        "khatauni_number": "572",
+        "village_code": "173109",
+        "village_name": "Gujarwara",
+        "village_name_hi": "गुजरवाड़ा",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 26.080845,
+        "centroid_lon": 74.796395,
+        "computed_area_sqm": 1995.23,
+        "recorded_area_sqm": 2548.5,
+        "area_difference_sqm": 553.27,
+        "area_text": "1 बीघा 0 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "लाल",
+        "soil_type_en": "Red",
+        "owner_name_hi": "राजेश राजपूत",
+        "owner_name_en": "Rajesh Rajput",
+        "father_name_hi": "सुरेश शर्मा",
+        "father_name_en": "Suresh Sharma",
+        "ownership_type": "सरकारी",
+        "ownership_share": "42%",
+        "irrigation_type": "तालाब",
+        "irrigation_type_en": "Pond",
+        "is_irrigated": true,
+        "current_crop": "चना",
+        "current_crop_en": "Gram",
+        "crop_season": "रबी",
+        "rate_per_sqm": 670,
+        "estimated_value_inr": 1707494.87,
+        "circle_rate_year": 2024,
+        "has_discrepancy": true,
+        "discrepancy_type": "area_mismatch",
+        "discrepancy_percentage": 27.7,
+        "discrepancy_severity": "high",
+        "record_status": "needs_review",
+        "verification_status": "pending",
+        "source_document": "खतौनी",
+        "source_page": "22",
+        "source_year": 2020,
+        "survey_year": 2022,
+        "acquisition_year": null,
+        "mutation_count": 4,
+        "last_mutation_year": 1991,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.282166",
+        "last_updated": "2026-02-06T00:50:26.282167",
+        "digitized_by": "System",
+        "remarks": "Auto-generated test data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173109_46",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.79739160256688,
+              26.08092747965883
+            ],
+            [
+              74.79723913759219,
+              26.08092441900576
+            ],
+            [
+              74.7971166241564,
+              26.080782205541
+            ],
+            [
+              74.79720185365754,
+              26.080578561873928
+            ],
+            [
+              74.79736693299935,
+              26.080545546805155
+            ],
+            [
+              74.79750034200384,
+              26.080658176840743
+            ],
+            [
+              74.79744970772575,
+              26.080817006086484
+            ],
+            [
+              74.79739160256688,
+              26.08092747965883
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173109/324/46",
+        "khasra_number": "324",
+        "khata_number": "89",
+        "khatauni_number": "325",
+        "village_code": "173109",
+        "village_name": "Gujarwara",
+        "village_name_hi": "गुजरवाड़ा",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 26.080748,
+        "centroid_lon": 74.797324,
+        "computed_area_sqm": 1136.3,
+        "recorded_area_sqm": 1590.38,
+        "area_difference_sqm": 454.08,
+        "area_text": "0 बीघा 12 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "दोमट",
+        "soil_type_en": "Loamy",
+        "owner_name_hi": "सोहन त्रिपाठी",
+        "owner_name_en": "Sohan Tripathi",
+        "father_name_hi": "जगदीश तिवारी",
+        "father_name_en": "Jagdish Tiwari",
+        "ownership_type": "व्यक्तिगत",
+        "ownership_share": "100%",
+        "irrigation_type": "तालाब",
+        "irrigation_type_en": "Pond",
+        "is_irrigated": true,
+        "current_crop": "बाजरा",
+        "current_crop_en": "Millet",
+        "crop_season": "रबी",
+        "rate_per_sqm": 966,
+        "estimated_value_inr": 1536305.26,
+        "circle_rate_year": 2024,
+        "has_discrepancy": true,
+        "discrepancy_type": "area_mismatch",
+        "discrepancy_percentage": 40.0,
+        "discrepancy_severity": "high",
+        "record_status": "needs_review",
+        "verification_status": "pending",
+        "source_document": "खसरा",
+        "source_page": "151",
+        "source_year": 2021,
+        "survey_year": 2019,
+        "acquisition_year": null,
+        "mutation_count": 2,
+        "last_mutation_year": 2017,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.282202",
+        "last_updated": "2026-02-06T00:50:26.282203",
+        "digitized_by": "System",
+        "remarks": "Auto-generated test data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173109_47",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.79820890202542,
+              26.080745163429672
+            ],
+            [
+              74.7981315212037,
+              26.08068166563362
+            ],
+            [
+              74.79807082103396,
+              26.080503211441965
+            ],
+            [
+              74.79812244252535,
+              26.080385002084324
+            ],
+            [
+              74.79825284507994,
+              26.080329879391005
+            ],
+            [
+              74.79837755817037,
+              26.080394016630073
+            ],
+            [
+              74.79846657222508,
+              26.080568888395423
+            ],
+            [
+              74.79841701527945,
+              26.08067412640786
+            ],
+            [
+              74.79820890202542,
+              26.080745163429672
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173109/747/47",
+        "khasra_number": "747",
+        "khata_number": "450",
+        "khatauni_number": "753",
+        "village_code": "173109",
+        "village_name": "Gujarwara",
+        "village_name_hi": "गुजरवाड़ा",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 26.080535,
+        "centroid_lon": 74.798256,
+        "computed_area_sqm": 1240.76,
+        "recorded_area_sqm": 1258.29,
+        "area_difference_sqm": 17.53,
+        "area_text": "0 बीघा 10 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "काली",
+        "soil_type_en": "Black",
+        "owner_name_hi": "दुर्गा शर्मा",
+        "owner_name_en": "Durga Sharma",
+        "father_name_hi": "हरि पटेल",
+        "father_name_en": "Hari Patel",
+        "ownership_type": "सरकारी",
+        "ownership_share": "100%",
+        "irrigation_type": "नहर",
+        "irrigation_type_en": "Canal",
+        "is_irrigated": true,
+        "current_crop": "मूंग",
+        "current_crop_en": "Moong",
+        "crop_season": "जायद",
+        "rate_per_sqm": 512,
+        "estimated_value_inr": 644244.71,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "पट्टा",
+        "source_page": "157",
+        "source_year": 2023,
+        "survey_year": 2024,
+        "acquisition_year": 1991,
+        "mutation_count": 2,
+        "last_mutation_year": 1998,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.282239",
+        "last_updated": "2026-02-06T00:50:26.282242",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173109_48",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.79920824611762,
+              26.080593754989778
+            ],
+            [
+              74.799111666725,
+              26.080795096336086
+            ],
+            [
+              74.79902147553983,
+              26.08092186930219
+            ],
+            [
+              74.79886897095282,
+              26.080850957811887
+            ],
+            [
+              74.79879848800275,
+              26.080762401441426
+            ],
+            [
+              74.79878594672493,
+              26.080587495834227
+            ],
+            [
+              74.79891905439551,
+              26.08051979235955
+            ],
+            [
+              74.799055990357,
+              26.0805625123354
+            ],
+            [
+              74.79920824611762,
+              26.080593754989778
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173109/662/48",
+        "khasra_number": "662",
+        "khata_number": "76",
+        "khatauni_number": "201",
+        "village_code": "173109",
+        "village_name": "Gujarwara",
+        "village_name_hi": "गुजरवाड़ा",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 26.080699,
+        "centroid_lon": 74.798971,
+        "computed_area_sqm": 1208.2,
+        "recorded_area_sqm": 1187.16,
+        "area_difference_sqm": -21.04,
+        "area_text": "0 बीघा 9 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "बलुई",
+        "soil_type_en": "Sandy",
+        "owner_name_hi": "भगवान तिवारी",
+        "owner_name_en": "Bhagwan Tiwari",
+        "father_name_hi": "गीता यादव",
+        "father_name_en": "Geeta Yadav",
+        "ownership_type": "सरकारी",
+        "ownership_share": "27%",
+        "irrigation_type": "वर्षा आधारित",
+        "irrigation_type_en": "Rain Fed",
+        "is_irrigated": false,
+        "current_crop": "चना",
+        "current_crop_en": "Gram",
+        "crop_season": "रबी",
+        "rate_per_sqm": 1097,
+        "estimated_value_inr": 1302317.48,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "खतौनी",
+        "source_page": "130",
+        "source_year": 2020,
+        "survey_year": 2020,
+        "acquisition_year": null,
+        "mutation_count": 1,
+        "last_mutation_year": 2000,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.282287",
+        "last_updated": "2026-02-06T00:50:26.282289",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173109_49",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.79347637870707,
+              26.081630912461357
+            ],
+            [
+              74.79294692696723,
+              26.08176859126903
+            ],
+            [
+              74.79313397409163,
+              26.081302324004564
+            ],
+            [
+              74.79347637870707,
+              26.081630912461357
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173109/215/49",
+        "khasra_number": "215",
+        "khata_number": "40",
+        "khatauni_number": "248",
+        "village_code": "173109",
+        "village_name": "Gujarwara",
+        "village_name_hi": "गुजरवाड़ा",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 26.081567,
+        "centroid_lon": 74.793186,
+        "computed_area_sqm": 1223.46,
+        "recorded_area_sqm": 1234.25,
+        "area_difference_sqm": 10.79,
+        "area_text": "0 बीघा 9 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "लाल",
+        "soil_type_en": "Red",
+        "owner_name_hi": "गीता दुबे",
+        "owner_name_en": "Geeta Dubey",
+        "father_name_hi": "श्याम राजपूत",
+        "father_name_en": "Shyam Rajput",
+        "ownership_type": "संयुक्त",
+        "ownership_share": "54%",
+        "irrigation_type": "ट्यूबवेल",
+        "irrigation_type_en": "Tube Well",
+        "is_irrigated": true,
+        "current_crop": "सरसों",
+        "current_crop_en": "Mustard",
+        "crop_season": "जायद",
+        "rate_per_sqm": 1800,
+        "estimated_value_inr": 2221657.14,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "जमाबंदी",
+        "source_page": "54",
+        "source_year": 2021,
+        "survey_year": 2021,
+        "acquisition_year": null,
+        "mutation_count": 0,
+        "last_mutation_year": null,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.282318",
+        "last_updated": "2026-02-06T00:50:26.282319",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173109_50",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.79387385998561,
+              26.08141616513074
+            ],
+            [
+              74.79417716634912,
+              26.081426343818073
+            ],
+            [
+              74.79423111522503,
+              26.08172908735912
+            ],
+            [
+              74.79400230665111,
+              26.08184301211532
+            ],
+            [
+              74.79377461423533,
+              26.08162539485532
+            ],
+            [
+              74.79387385998561,
+              26.08141616513074
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173109/259/50",
+        "khasra_number": "259",
+        "khata_number": "370",
+        "khatauni_number": "530",
+        "village_code": "173109",
+        "village_name": "Gujarwara",
+        "village_name_hi": "गुजरवाड़ा",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 26.081608,
+        "centroid_lon": 74.794012,
+        "computed_area_sqm": 1509.52,
+        "recorded_area_sqm": 1531.53,
+        "area_difference_sqm": 22.01,
+        "area_text": "0 बीघा 12 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "चिकनी",
+        "soil_type_en": "Clay",
+        "owner_name_hi": "राम शर्मा",
+        "owner_name_en": "Ram Sharma",
+        "father_name_hi": "कृष्ण गुप्ता",
+        "father_name_en": "Krishna Gupta",
+        "ownership_type": "व्यक्तिगत",
+        "ownership_share": "100%",
+        "irrigation_type": "ट्यूबवेल",
+        "irrigation_type_en": "Tube Well",
+        "is_irrigated": true,
+        "current_crop": "चना",
+        "current_crop_en": "Gram",
+        "crop_season": "जायद",
+        "rate_per_sqm": 1756,
+        "estimated_value_inr": 2689373.43,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "पट्टा",
+        "source_page": "169",
+        "source_year": 2021,
+        "survey_year": 2021,
+        "acquisition_year": null,
+        "mutation_count": 5,
+        "last_mutation_year": 2012,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.282352",
+        "last_updated": "2026-02-06T00:50:26.282353",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    }
+  ]
+}

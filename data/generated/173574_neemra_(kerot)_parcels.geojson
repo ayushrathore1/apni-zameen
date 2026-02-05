@@ -1,0 +1,4624 @@
+{
+  "type": "FeatureCollection",
+  "name": "Neemra (Kerot)_Parcels",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "173574_1",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.96586256922605,
+              25.946777925593548
+            ],
+            [
+              74.96584698630127,
+              25.946999206283202
+            ],
+            [
+              74.96559180594676,
+              25.947004011187403
+            ],
+            [
+              74.9655143904268,
+              25.946837665099334
+            ],
+            [
+              74.9656110463618,
+              25.94668309821699
+            ],
+            [
+              74.96586256922605,
+              25.946777925593548
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173574/283/1",
+        "khasra_number": "283",
+        "khata_number": "469",
+        "khatauni_number": "973",
+        "village_code": "173574",
+        "village_name": "Neemra (Kerot)",
+        "village_name_hi": "नीमड़ा (केरोट)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.94686,
+        "centroid_lon": 74.965685,
+        "computed_area_sqm": 924.97,
+        "recorded_area_sqm": 914.9,
+        "area_difference_sqm": -10.07,
+        "area_text": "0 बीघा 7 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "दोमट",
+        "soil_type_en": "Loamy",
+        "owner_name_hi": "राधा तिवारी",
+        "owner_name_en": "Radha Tiwari",
+        "father_name_hi": "दुर्गा गुप्ता",
+        "father_name_en": "Durga Gupta",
+        "ownership_type": "व्यक्तिगत",
+        "ownership_share": "100%",
+        "irrigation_type": "तालाब",
+        "irrigation_type_en": "Pond",
+        "is_irrigated": true,
+        "current_crop": "चावल",
+        "current_crop_en": "Rice",
+        "crop_season": "रबी",
+        "rate_per_sqm": 1229,
+        "estimated_value_inr": 1124415.29,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "बी-1",
+        "source_page": "197",
+        "source_year": 2020,
+        "survey_year": 2016,
+        "acquisition_year": 2012,
+        "mutation_count": 5,
+        "last_mutation_year": 2006,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.296274",
+        "last_updated": "2026-02-06T00:50:26.296283",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173574_2",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.96654388502107,
+              25.946553824650763
+            ],
+            [
+              74.96635107783506,
+              25.946957343439824
+            ],
+            [
+              74.96596214513198,
+              25.94666241796725
+            ],
+            [
+              74.96619055049823,
+              25.946413385855518
+            ],
+            [
+              74.96654388502107,
+              25.946553824650763
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173574/720/2",
+        "khasra_number": "720",
+        "khata_number": "256",
+        "khatauni_number": "414",
+        "village_code": "173574",
+        "village_name": "Neemra (Kerot)",
+        "village_name_hi": "नीमड़ा (केरोट)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.946647,
+        "centroid_lon": 74.966262,
+        "computed_area_sqm": 1849.51,
+        "recorded_area_sqm": 1827.65,
+        "area_difference_sqm": -21.86,
+        "area_text": "0 बीघा 14 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "barren",
+        "land_type_hi": "बंजर",
+        "land_type_code": "BAR",
+        "soil_type": "दोमट",
+        "soil_type_en": "Loamy",
+        "owner_name_hi": "दिनेश पटेल",
+        "owner_name_en": "Dinesh Patel",
+        "father_name_hi": "रामू जाट",
+        "father_name_en": "Ramu Jat",
+        "ownership_type": "सरकारी",
+        "ownership_share": "100%",
+        "irrigation_type": "कोई नहीं",
+        "irrigation_type_en": "None",
+        "is_irrigated": false,
+        "current_crop": null,
+        "current_crop_en": null,
+        "crop_season": null,
+        "rate_per_sqm": 423,
+        "estimated_value_inr": 773096.1,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "बी-1",
+        "source_page": "73",
+        "source_year": 2019,
+        "survey_year": 2016,
+        "acquisition_year": 2018,
+        "mutation_count": 0,
+        "last_mutation_year": null,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.296326",
+        "last_updated": "2026-02-06T00:50:26.296327",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173574_3",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.9670826039091,
+              25.94666832669067
+            ],
+            [
+              74.96734954888835,
+              25.9466923154042
+            ],
+            [
+              74.96726629836722,
+              25.94704069003858
+            ],
+            [
+              74.96692700232632,
+              25.94696377751842
+            ],
+            [
+              74.9670826039091,
+              25.94666832669067
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173574/924/3",
+        "khasra_number": "924",
+        "khata_number": "177",
+        "khatauni_number": "490",
+        "village_code": "173574",
+        "village_name": "Neemra (Kerot)",
+        "village_name_hi": "नीमड़ा (केरोट)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.946841,
+        "centroid_lon": 74.967156,
+        "computed_area_sqm": 1147.83,
+        "recorded_area_sqm": 1510.42,
+        "area_difference_sqm": 362.59,
+        "area_text": "0 बीघा 12 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "चिकनी",
+        "soil_type_en": "Clay",
+        "owner_name_hi": "गीता पांडेय",
+        "owner_name_en": "Geeta Pandey",
+        "father_name_hi": "गोपाल गुप्ता",
+        "father_name_en": "Gopal Gupta",
+        "ownership_type": "संयुक्त",
+        "ownership_share": "100%",
+        "irrigation_type": "तालाब",
+        "irrigation_type_en": "Pond",
+        "is_irrigated": true,
+        "current_crop": "गेहूं",
+        "current_crop_en": "Wheat",
+        "crop_season": "खरीफ",
+        "rate_per_sqm": 1980,
+        "estimated_value_inr": 2990640.13,
+        "circle_rate_year": 2024,
+        "has_discrepancy": true,
+        "discrepancy_type": "area_mismatch",
+        "discrepancy_percentage": 31.6,
+        "discrepancy_severity": "high",
+        "record_status": "needs_review",
+        "verification_status": "pending",
+        "source_document": "पट्टा",
+        "source_page": "93",
+        "source_year": 2024,
+        "survey_year": 2017,
+        "acquisition_year": 2012,
+        "mutation_count": 5,
+        "last_mutation_year": 1998,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.296366",
+        "last_updated": "2026-02-06T00:50:26.296367",
+        "digitized_by": "System",
+        "remarks": "Auto-generated test data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173574_4",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.96809762029724,
+              25.9465397648166
+            ],
+            [
+              74.96805071774692,
+              25.946937796687497
+            ],
+            [
+              74.9677718129809,
+              25.946818704563093
+            ],
+            [
+              74.96782971122285,
+              25.946564218360376
+            ],
+            [
+              74.96809762029724,
+              25.9465397648166
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173574/649/4",
+        "khasra_number": "649",
+        "khata_number": "484",
+        "khatauni_number": "85",
+        "village_code": "173574",
+        "village_name": "Neemra (Kerot)",
+        "village_name_hi": "नीमड़ा (केरोट)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.946715,
+        "centroid_lon": 74.967937,
+        "computed_area_sqm": 1015.74,
+        "recorded_area_sqm": 796.76,
+        "area_difference_sqm": -218.98,
+        "area_text": "0 बीघा 6 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "दोमट",
+        "soil_type_en": "Loamy",
+        "owner_name_hi": "गोपाल चौहान",
+        "owner_name_en": "Gopal Chauhan",
+        "father_name_hi": "सुरेश चौहान",
+        "father_name_en": "Suresh Chauhan",
+        "ownership_type": "सरकारी",
+        "ownership_share": "100%",
+        "irrigation_type": "तालाब",
+        "irrigation_type_en": "Pond",
+        "is_irrigated": true,
+        "current_crop": "गेहूं",
+        "current_crop_en": "Wheat",
+        "crop_season": "खरीफ",
+        "rate_per_sqm": 506,
+        "estimated_value_inr": 403161.6,
+        "circle_rate_year": 2024,
+        "has_discrepancy": true,
+        "discrepancy_type": "area_mismatch",
+        "discrepancy_percentage": -21.6,
+        "discrepancy_severity": "medium",
+        "record_status": "needs_review",
+        "verification_status": "pending",
+        "source_document": "पट्टा",
+        "source_page": "151",
+        "source_year": 2022,
+        "survey_year": 2024,
+        "acquisition_year": 1984,
+        "mutation_count": 2,
+        "last_mutation_year": 1998,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.296401",
+        "last_updated": "2026-02-06T00:50:26.296402",
+        "digitized_by": "System",
+        "remarks": "Auto-generated test data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173574_5",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.96870391041116,
+              25.946644257870407
+            ],
+            [
+              74.96900306661496,
+              25.94663265684353
+            ],
+            [
+              74.9689366419065,
+              25.946897747937783
+            ],
+            [
+              74.96864895862743,
+              25.946842112434247
+            ],
+            [
+              74.96870391041116,
+              25.946644257870407
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173574/49/5",
+        "khasra_number": "49",
+        "khata_number": "245",
+        "khatauni_number": "52",
+        "village_code": "173574",
+        "village_name": "Neemra (Kerot)",
+        "village_name_hi": "नीमड़ा (केरोट)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.946754,
+        "centroid_lon": 74.968823,
+        "computed_area_sqm": 767.28,
+        "recorded_area_sqm": 765.55,
+        "area_difference_sqm": -1.73,
+        "area_text": "0 बीघा 6 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "काली",
+        "soil_type_en": "Black",
+        "owner_name_hi": "श्याम दुबे",
+        "owner_name_en": "Shyam Dubey",
+        "father_name_hi": "सोहन जाट",
+        "father_name_en": "Sohan Jat",
+        "ownership_type": "सरकारी",
+        "ownership_share": "16%",
+        "irrigation_type": "तालाब",
+        "irrigation_type_en": "Pond",
+        "is_irrigated": true,
+        "current_crop": "गेहूं",
+        "current_crop_en": "Wheat",
+        "crop_season": "जायद",
+        "rate_per_sqm": 1861,
+        "estimated_value_inr": 1424685.06,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "पट्टा",
+        "source_page": "131",
+        "source_year": 2023,
+        "survey_year": 2020,
+        "acquisition_year": null,
+        "mutation_count": 4,
+        "last_mutation_year": 1996,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.296437",
+        "last_updated": "2026-02-06T00:50:26.296439",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173574_6",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.96982750372644,
+              25.94691963849439
+            ],
+            [
+              74.96964080137894,
+              25.9470739332132
+            ],
+            [
+              74.96951840185193,
+              25.94692482418122
+            ],
+            [
+              74.96962553226005,
+              25.946746499242558
+            ],
+            [
+              74.96982750372644,
+              25.94691963849439
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173574/45/6",
+        "khasra_number": "45",
+        "khata_number": "128",
+        "khatauni_number": "535",
+        "village_code": "173574",
+        "village_name": "Neemra (Kerot)",
+        "village_name_hi": "नीमड़ा (केरोट)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.946916,
+        "centroid_lon": 74.969653,
+        "computed_area_sqm": 561.1,
+        "recorded_area_sqm": 757.45,
+        "area_difference_sqm": 196.35,
+        "area_text": "0 बीघा 6 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "चिकनी",
+        "soil_type_en": "Clay",
+        "owner_name_hi": "कृष्ण पांडेय",
+        "owner_name_en": "Krishna Pandey",
+        "father_name_hi": "गीता सिंह",
+        "father_name_en": "Geeta Singh",
+        "ownership_type": "सरकारी",
+        "ownership_share": "100%",
+        "irrigation_type": "नहर",
+        "irrigation_type_en": "Canal",
+        "is_irrigated": true,
+        "current_crop": "सरसों",
+        "current_crop_en": "Mustard",
+        "crop_season": "रबी",
+        "rate_per_sqm": 1749,
+        "estimated_value_inr": 1324787.88,
+        "circle_rate_year": 2024,
+        "has_discrepancy": true,
+        "discrepancy_type": "area_mismatch",
+        "discrepancy_percentage": 35.0,
+        "discrepancy_severity": "high",
+        "record_status": "needs_review",
+        "verification_status": "pending",
+        "source_document": "पट्टा",
+        "source_page": "111",
+        "source_year": 2024,
+        "survey_year": 2022,
+        "acquisition_year": null,
+        "mutation_count": 4,
+        "last_mutation_year": 2022,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.296471",
+        "last_updated": "2026-02-06T00:50:26.296472",
+        "digitized_by": "System",
+        "remarks": "Auto-generated test data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173574_7",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.97020374607868,
+              25.946670691844457
+            ],
+            [
+              74.97020371316638,
+              25.946670723842185
+            ],
+            [
+              74.97020369683237,
+              25.946670707041307
+            ],
+            [
+              74.97020371649214,
+              25.946670687927845
+            ],
+            [
+              74.9702036935612,
+              25.946670664341493
+            ],
+            [
+              74.97020370681373,
+              25.94667065145722
+            ],
+            [
+              74.97020374607868,
+              25.946670691844457
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173574/258/7",
+        "khasra_number": "258",
+        "khata_number": "438",
+        "khatauni_number": "255",
+        "village_code": "173574",
+        "village_name": "Neemra (Kerot)",
+        "village_name_hi": "नीमड़ा (केरोट)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.946671,
+        "centroid_lon": 74.970204,
+        "computed_area_sqm": 0.0,
+        "recorded_area_sqm": 0.0,
+        "area_difference_sqm": 0.0,
+        "area_text": "0 बीघा 0 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "लाल",
+        "soil_type_en": "Red",
+        "owner_name_hi": "लक्ष्मी राय",
+        "owner_name_en": "Lakshmi Rai",
+        "father_name_hi": "सरस्वती मिश्रा",
+        "father_name_en": "Saraswati Mishra",
+        "ownership_type": "व्यक्तिगत",
+        "ownership_share": "100%",
+        "irrigation_type": "कुआं",
+        "irrigation_type_en": "Well",
+        "is_irrigated": true,
+        "current_crop": "गेहूं",
+        "current_crop_en": "Wheat",
+        "crop_season": "जायद",
+        "rate_per_sqm": 828,
+        "estimated_value_inr": 0.0,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "जमाबंदी",
+        "source_page": "3",
+        "source_year": 2022,
+        "survey_year": 2023,
+        "acquisition_year": null,
+        "mutation_count": 3,
+        "last_mutation_year": 2021,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.296509",
+        "last_updated": "2026-02-06T00:50:26.296510",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173574_8",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.97101482715142,
+              25.946656059744566
+            ],
+            [
+              74.9710910535049,
+              25.94656307768362
+            ],
+            [
+              74.97121121485452,
+              25.946547045781408
+            ],
+            [
+              74.97125272736935,
+              25.94664874635045
+            ],
+            [
+              74.97122012460486,
+              25.94677471833696
+            ],
+            [
+              74.97107211068854,
+              25.946744528713364
+            ],
+            [
+              74.97101482715142,
+              25.946656059744566
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173574/366/8",
+        "khasra_number": "366",
+        "khata_number": "438",
+        "khatauni_number": "167",
+        "village_code": "173574",
+        "village_name": "Neemra (Kerot)",
+        "village_name_hi": "नीमड़ा (केरोट)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.946656,
+        "centroid_lon": 74.971144,
+        "computed_area_sqm": 418.48,
+        "recorded_area_sqm": 414.11,
+        "area_difference_sqm": -4.37,
+        "area_text": "0 बीघा 3 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "residential",
+        "land_type_hi": "आवासीय",
+        "land_type_code": "RES",
+        "soil_type": "चिकनी",
+        "soil_type_en": "Clay",
+        "owner_name_hi": "अनिल सिंह",
+        "owner_name_en": "Anil Singh",
+        "father_name_hi": "ब्रजेश दुबे",
+        "father_name_en": "Brajesh Dubey",
+        "ownership_type": "संयुक्त",
+        "ownership_share": "74%",
+        "irrigation_type": "वर्षा आधारित",
+        "irrigation_type_en": "Rain Fed",
+        "is_irrigated": false,
+        "current_crop": null,
+        "current_crop_en": null,
+        "crop_season": null,
+        "rate_per_sqm": 10539,
+        "estimated_value_inr": 4364269.38,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "पट्टा",
+        "source_page": "74",
+        "source_year": 2023,
+        "survey_year": 2016,
+        "acquisition_year": null,
+        "mutation_count": 4,
+        "last_mutation_year": 2024,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.296545",
+        "last_updated": "2026-02-06T00:50:26.296546",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173574_9",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.9657905754295,
+              25.9474765045031
+            ],
+            [
+              74.96577940771692,
+              25.947644242408014
+            ],
+            [
+              74.9655949742982,
+              25.94761276523974
+            ],
+            [
+              74.96563699674982,
+              25.947436066399746
+            ],
+            [
+              74.9657905754295,
+              25.9474765045031
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173574/476/9",
+        "khasra_number": "476",
+        "khata_number": "426",
+        "khatauni_number": "514",
+        "village_code": "173574",
+        "village_name": "Neemra (Kerot)",
+        "village_name_hi": "नीमड़ा (केरोट)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.947542,
+        "centroid_lon": 74.9657,
+        "computed_area_sqm": 333.06,
+        "recorded_area_sqm": 332.98,
+        "area_difference_sqm": -0.08,
+        "area_text": "0 बीघा 2 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "काली",
+        "soil_type_en": "Black",
+        "owner_name_hi": "कृष्ण सिंह",
+        "owner_name_en": "Krishna Singh",
+        "father_name_hi": "गीता राय",
+        "father_name_en": "Geeta Rai",
+        "ownership_type": "व्यक्तिगत",
+        "ownership_share": "100%",
+        "irrigation_type": "नहर",
+        "irrigation_type_en": "Canal",
+        "is_irrigated": true,
+        "current_crop": "चावल",
+        "current_crop_en": "Rice",
+        "crop_season": "खरीफ",
+        "rate_per_sqm": 1798,
+        "estimated_value_inr": 598694.55,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "पट्टा",
+        "source_page": "164",
+        "source_year": 2018,
+        "survey_year": 2024,
+        "acquisition_year": null,
+        "mutation_count": 3,
+        "last_mutation_year": 2020,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.296577",
+        "last_updated": "2026-02-06T00:50:26.296578",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173574_10",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.96653364754786,
+              25.947817628150467
+            ],
+            [
+              74.96638652030686,
+              25.947697107749562
+            ],
+            [
+              74.96645561978411,
+              25.947493977274757
+            ],
+            [
+              74.96666598084492,
+              25.947552105614882
+            ],
+            [
+              74.96672141287708,
+              25.947703423319965
+            ],
+            [
+              74.96653364754786,
+              25.947817628150467
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173574/345/10",
+        "khasra_number": "345",
+        "khata_number": "444",
+        "khatauni_number": "984",
+        "village_code": "173574",
+        "village_name": "Neemra (Kerot)",
+        "village_name_hi": "नीमड़ा (केरोट)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.947653,
+        "centroid_lon": 74.966553,
+        "computed_area_sqm": 756.16,
+        "recorded_area_sqm": 995.83,
+        "area_difference_sqm": 239.67,
+        "area_text": "0 बीघा 7 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "काली",
+        "soil_type_en": "Black",
+        "owner_name_hi": "राम जाट",
+        "owner_name_en": "Ram Jat",
+        "father_name_hi": "लक्ष्मी तिवारी",
+        "father_name_en": "Lakshmi Tiwari",
+        "ownership_type": "सरकारी",
+        "ownership_share": "100%",
+        "irrigation_type": "ट्यूबवेल",
+        "irrigation_type_en": "Tube Well",
+        "is_irrigated": true,
+        "current_crop": "मूंग",
+        "current_crop_en": "Moong",
+        "crop_season": "रबी",
+        "rate_per_sqm": 1960,
+        "estimated_value_inr": 1951828.73,
+        "circle_rate_year": 2024,
+        "has_discrepancy": true,
+        "discrepancy_type": "area_mismatch",
+        "discrepancy_percentage": 31.7,
+        "discrepancy_severity": "high",
+        "record_status": "needs_review",
+        "verification_status": "pending",
+        "source_document": "बी-1",
+        "source_page": "49",
+        "source_year": 2022,
+        "survey_year": 2015,
+        "acquisition_year": 1985,
+        "mutation_count": 0,
+        "last_mutation_year": null,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.296610",
+        "last_updated": "2026-02-06T00:50:26.296611",
+        "digitized_by": "System",
+        "remarks": "Auto-generated test data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173574_11",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.96715027088688,
+              25.947286038892024
+            ],
+            [
+              74.96737634598229,
+              25.94740486521335
+            ],
+            [
+              74.96726239233267,
+              25.947640825710906
+            ],
+            [
+              74.96708898258747,
+              25.94769044707062
+            ],
+            [
+              74.96683670924833,
+              25.94760670591986
+            ],
+            [
+              74.96690747593898,
+              25.947263789439777
+            ],
+            [
+              74.96715027088688,
+              25.947286038892024
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173574/549/11",
+        "khasra_number": "549",
+        "khata_number": "69",
+        "khatauni_number": "981",
+        "village_code": "173574",
+        "village_name": "Neemra (Kerot)",
+        "village_name_hi": "नीमड़ा (केरोट)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.947482,
+        "centroid_lon": 74.967104,
+        "computed_area_sqm": 1805.65,
+        "recorded_area_sqm": 1775.14,
+        "area_difference_sqm": -30.51,
+        "area_text": "0 बीघा 14 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "बलुई",
+        "soil_type_en": "Sandy",
+        "owner_name_hi": "सरस्वती राजपूत",
+        "owner_name_en": "Saraswati Rajput",
+        "father_name_hi": "जगदीश गुप्ता",
+        "father_name_en": "Jagdish Gupta",
+        "ownership_type": "व्यक्तिगत",
+        "ownership_share": "100%",
+        "irrigation_type": "तालाब",
+        "irrigation_type_en": "Pond",
+        "is_irrigated": true,
+        "current_crop": "मक्का",
+        "current_crop_en": "Maize",
+        "crop_season": "खरीफ",
+        "rate_per_sqm": 1181,
+        "estimated_value_inr": 2096442.44,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "खसरा",
+        "source_page": "200",
+        "source_year": 2020,
+        "survey_year": 2020,
+        "acquisition_year": 2008,
+        "mutation_count": 2,
+        "last_mutation_year": 1991,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.296644",
+        "last_updated": "2026-02-06T00:50:26.296645",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173574_12",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.9678127001798,
+              25.947424945079526
+            ],
+            [
+              74.96792441267345,
+              25.947429395836348
+            ],
+            [
+              74.9679709082008,
+              25.94764006757781
+            ],
+            [
+              74.96797438999747,
+              25.9477249040633
+            ],
+            [
+              74.96782933923649,
+              25.947867065826593
+            ],
+            [
+              74.96771241461646,
+              25.947751004997826
+            ],
+            [
+              74.96756155560638,
+              25.94765756079154
+            ],
+            [
+              74.96760299056987,
+              25.947480646475878
+            ],
+            [
+              74.9678127001798,
+              25.947424945079526
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173574/778/12",
+        "khasra_number": "778",
+        "khata_number": "277",
+        "khatauni_number": "352",
+        "village_code": "173574",
+        "village_name": "Neemra (Kerot)",
+        "village_name_hi": "नीमड़ा (केरोट)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.947622,
+        "centroid_lon": 74.967799,
+        "computed_area_sqm": 1360.57,
+        "recorded_area_sqm": 1365.1,
+        "area_difference_sqm": 4.53,
+        "area_text": "0 बीघा 10 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "दोमट",
+        "soil_type_en": "Loamy",
+        "owner_name_hi": "अनिल कुमावत",
+        "owner_name_en": "Anil Kumawat",
+        "father_name_hi": "राधा जाट",
+        "father_name_en": "Radha Jat",
+        "ownership_type": "सरकारी",
+        "ownership_share": "100%",
+        "irrigation_type": "वर्षा आधारित",
+        "irrigation_type_en": "Rain Fed",
+        "is_irrigated": false,
+        "current_crop": "अन्य",
+        "current_crop_en": "Other",
+        "crop_season": "रबी",
+        "rate_per_sqm": 872,
+        "estimated_value_inr": 1190370.65,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "जमाबंदी",
+        "source_page": "71",
+        "source_year": 2020,
+        "survey_year": 2019,
+        "acquisition_year": 2017,
+        "mutation_count": 5,
+        "last_mutation_year": 2022,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.296682",
+        "last_updated": "2026-02-06T00:50:26.296683",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173574_13",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.96892960758618,
+              25.947661300546194
+            ],
+            [
+              74.96892955048766,
+              25.947661424634653
+            ],
+            [
+              74.96892949663138,
+              25.947661399853025
+            ],
+            [
+              74.9689295289179,
+              25.947661329686834
+            ],
+            [
+              74.96892949169555,
+              25.94766131255921
+            ],
+            [
+              74.96892951650754,
+              25.94766125863694
+            ],
+            [
+              74.96892960758618,
+              25.947661300546194
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173574/508/13",
+        "khasra_number": "508",
+        "khata_number": "389",
+        "khatauni_number": "585",
+        "village_code": "173574",
+        "village_name": "Neemra (Kerot)",
+        "village_name_hi": "नीमड़ा (केरोट)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.947661,
+        "centroid_lon": 74.96893,
+        "computed_area_sqm": 0.0,
+        "recorded_area_sqm": 0.0,
+        "area_difference_sqm": 0.0,
+        "area_text": "0 बीघा 0 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "दोमट",
+        "soil_type_en": "Loamy",
+        "owner_name_hi": "राम राजपूत",
+        "owner_name_en": "Ram Rajput",
+        "father_name_hi": "पार्वती चौहान",
+        "father_name_en": "Parvati Chauhan",
+        "ownership_type": "व्यक्तिगत",
+        "ownership_share": "52%",
+        "irrigation_type": "नहर",
+        "irrigation_type_en": "Canal",
+        "is_irrigated": true,
+        "current_crop": "चना",
+        "current_crop_en": "Gram",
+        "crop_season": "जायद",
+        "rate_per_sqm": 1068,
+        "estimated_value_inr": 0.0,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "खसरा",
+        "source_page": "79",
+        "source_year": 2019,
+        "survey_year": 2021,
+        "acquisition_year": null,
+        "mutation_count": 1,
+        "last_mutation_year": 2012,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.296714",
+        "last_updated": "2026-02-06T00:50:26.296716",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173574_14",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.96965655037674,
+              25.947628755979107
+            ],
+            [
+              74.96953922689002,
+              25.947891056254605
+            ],
+            [
+              74.96930817351648,
+              25.947789896509903
+            ],
+            [
+              74.96920224842854,
+              25.947556789654765
+            ],
+            [
+              74.96947450776864,
+              25.947458400388523
+            ],
+            [
+              74.96965655037674,
+              25.947628755979107
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173574/814/14",
+        "khasra_number": "814",
+        "khata_number": "350",
+        "khatauni_number": "486",
+        "village_code": "173574",
+        "village_name": "Neemra (Kerot)",
+        "village_name_hi": "नीमड़ा (केरोट)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.947665,
+        "centroid_lon": 74.969436,
+        "computed_area_sqm": 1302.02,
+        "recorded_area_sqm": 865.51,
+        "area_difference_sqm": -436.51,
+        "area_text": "0 बीघा 6 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "दोमट",
+        "soil_type_en": "Loamy",
+        "owner_name_hi": "सोहन तिवारी",
+        "owner_name_en": "Sohan Tiwari",
+        "father_name_hi": "रमेश मीना",
+        "father_name_en": "Ramesh Meena",
+        "ownership_type": "सरकारी",
+        "ownership_share": "100%",
+        "irrigation_type": "वर्षा आधारित",
+        "irrigation_type_en": "Rain Fed",
+        "is_irrigated": false,
+        "current_crop": "चावल",
+        "current_crop_en": "Rice",
+        "crop_season": "रबी",
+        "rate_per_sqm": 796,
+        "estimated_value_inr": 688945.1,
+        "circle_rate_year": 2024,
+        "has_discrepancy": true,
+        "discrepancy_type": "area_mismatch",
+        "discrepancy_percentage": -33.5,
+        "discrepancy_severity": "high",
+        "record_status": "needs_review",
+        "verification_status": "pending",
+        "source_document": "बी-1",
+        "source_page": "37",
+        "source_year": 2022,
+        "survey_year": 2021,
+        "acquisition_year": 1995,
+        "mutation_count": 0,
+        "last_mutation_year": null,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.296746",
+        "last_updated": "2026-02-06T00:50:26.296747",
+        "digitized_by": "System",
+        "remarks": "Auto-generated test data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173574_15",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.97011617995925,
+              25.947730949611966
+            ],
+            [
+              74.97029590530153,
+              25.947363207047093
+            ],
+            [
+              74.97062862192512,
+              25.9472349165626
+            ],
+            [
+              74.97071558757256,
+              25.947610387599358
+            ],
+            [
+              74.97052481362564,
+              25.94789051173964
+            ],
+            [
+              74.97011617995925,
+              25.947730949611966
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173574/970/15",
+        "khasra_number": "970",
+        "khata_number": "192",
+        "khatauni_number": "898",
+        "village_code": "173574",
+        "village_name": "Neemra (Kerot)",
+        "village_name_hi": "नीमड़ा (केरोट)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.947566,
+        "centroid_lon": 74.970456,
+        "computed_area_sqm": 2657.57,
+        "recorded_area_sqm": 2665.99,
+        "area_difference_sqm": 8.42,
+        "area_text": "1 बीघा 1 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "चिकनी",
+        "soil_type_en": "Clay",
+        "owner_name_hi": "मोहन राय",
+        "owner_name_en": "Mohan Rai",
+        "father_name_hi": "हरि वर्मा",
+        "father_name_en": "Hari Verma",
+        "ownership_type": "व्यक्तिगत",
+        "ownership_share": "43%",
+        "irrigation_type": "कोई नहीं",
+        "irrigation_type_en": "None",
+        "is_irrigated": false,
+        "current_crop": "गेहूं",
+        "current_crop_en": "Wheat",
+        "crop_season": "खरीफ",
+        "rate_per_sqm": 1812,
+        "estimated_value_inr": 4830767.04,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "पट्टा",
+        "source_page": "192",
+        "source_year": 2021,
+        "survey_year": 2024,
+        "acquisition_year": null,
+        "mutation_count": 5,
+        "last_mutation_year": 2014,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.296781",
+        "last_updated": "2026-02-06T00:50:26.296782",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173574_16",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.97102827281567,
+              25.9473621527113
+            ],
+            [
+              74.97142691317953,
+              25.947428465346544
+            ],
+            [
+              74.97135846082476,
+              25.94774853461698
+            ],
+            [
+              74.9709699019726,
+              25.94770083496304
+            ],
+            [
+              74.97102827281567,
+              25.9473621527113
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173574/409/16",
+        "khasra_number": "409",
+        "khata_number": "346",
+        "khatauni_number": "282",
+        "village_code": "173574",
+        "village_name": "Neemra (Kerot)",
+        "village_name_hi": "नीमड़ा (केरोट)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.94756,
+        "centroid_lon": 74.971196,
+        "computed_area_sqm": 1476.35,
+        "recorded_area_sqm": 1501.35,
+        "area_difference_sqm": 25.0,
+        "area_text": "0 बीघा 12 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "commercial",
+        "land_type_hi": "वाणिज्यिक",
+        "land_type_code": "COM",
+        "soil_type": "बलुई",
+        "soil_type_en": "Sandy",
+        "owner_name_hi": "रामू दुबे",
+        "owner_name_en": "Ramu Dubey",
+        "father_name_hi": "विष्णु राजपूत",
+        "father_name_en": "Vishnu Rajput",
+        "ownership_type": "संयुक्त",
+        "ownership_share": "100%",
+        "irrigation_type": "नहर",
+        "irrigation_type_en": "Canal",
+        "is_irrigated": false,
+        "current_crop": null,
+        "current_crop_en": null,
+        "crop_season": null,
+        "rate_per_sqm": 48919,
+        "estimated_value_inr": 73444584.01,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "जमाबंदी",
+        "source_page": "146",
+        "source_year": 2020,
+        "survey_year": 2023,
+        "acquisition_year": 2004,
+        "mutation_count": 4,
+        "last_mutation_year": 2011,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.296824",
+        "last_updated": "2026-02-06T00:50:26.296825",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173574_17",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.96552636595683,
+              25.948440260341034
+            ],
+            [
+              74.96548080106984,
+              25.948332056922354
+            ],
+            [
+              74.96548233225158,
+              25.948205331464745
+            ],
+            [
+              74.96567273951666,
+              25.948201218535193
+            ],
+            [
+              74.96570815666594,
+              25.94829549192201
+            ],
+            [
+              74.96564646873186,
+              25.948454707760902
+            ],
+            [
+              74.96552636595683,
+              25.948440260341034
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173574/300/17",
+        "khasra_number": "300",
+        "khata_number": "307",
+        "khatauni_number": "364",
+        "village_code": "173574",
+        "village_name": "Neemra (Kerot)",
+        "village_name_hi": "नीमड़ा (केरोट)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.948322,
+        "centroid_lon": 74.965586,
+        "computed_area_sqm": 515.9,
+        "recorded_area_sqm": 511.68,
+        "area_difference_sqm": -4.22,
+        "area_text": "0 बीघा 4 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "बलुई",
+        "soil_type_en": "Sandy",
+        "owner_name_hi": "गीता कुमावत",
+        "owner_name_en": "Geeta Kumawat",
+        "father_name_hi": "दुर्गा पटेल",
+        "father_name_en": "Durga Patel",
+        "ownership_type": "संयुक्त",
+        "ownership_share": "36%",
+        "irrigation_type": "नहर",
+        "irrigation_type_en": "Canal",
+        "is_irrigated": true,
+        "current_crop": "मूंग",
+        "current_crop_en": "Moong",
+        "crop_season": "खरीफ",
+        "rate_per_sqm": 1152,
+        "estimated_value_inr": 589449.62,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "जमाबंदी",
+        "source_page": "104",
+        "source_year": 2020,
+        "survey_year": 2023,
+        "acquisition_year": null,
+        "mutation_count": 1,
+        "last_mutation_year": 2023,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.296860",
+        "last_updated": "2026-02-06T00:50:26.296861",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173574_18",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.96590064314938,
+              25.948352212709658
+            ],
+            [
+              74.96643629064518,
+              25.94812619290088
+            ],
+            [
+              74.96655714704382,
+              25.948532228587545
+            ],
+            [
+              74.96615311382008,
+              25.94863499592776
+            ],
+            [
+              74.96590064314938,
+              25.948352212709658
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173574/880/18",
+        "khasra_number": "880",
+        "khata_number": "468",
+        "khatauni_number": "64",
+        "village_code": "173574",
+        "village_name": "Neemra (Kerot)",
+        "village_name_hi": "नीमड़ा (केरोट)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.948411,
+        "centroid_lon": 74.966262,
+        "computed_area_sqm": 2132.73,
+        "recorded_area_sqm": 2096.72,
+        "area_difference_sqm": -36.01,
+        "area_text": "0 बीघा 16 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "चिकनी",
+        "soil_type_en": "Clay",
+        "owner_name_hi": "रामू यादव",
+        "owner_name_en": "Ramu Yadav",
+        "father_name_hi": "रामू शर्मा",
+        "father_name_en": "Ramu Sharma",
+        "ownership_type": "संयुक्त",
+        "ownership_share": "89%",
+        "irrigation_type": "नहर",
+        "irrigation_type_en": "Canal",
+        "is_irrigated": true,
+        "current_crop": "अन्य",
+        "current_crop_en": "Other",
+        "crop_season": "रबी",
+        "rate_per_sqm": 1177,
+        "estimated_value_inr": 2467834.71,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "बी-1",
+        "source_page": "84",
+        "source_year": 2018,
+        "survey_year": 2020,
+        "acquisition_year": 2003,
+        "mutation_count": 2,
+        "last_mutation_year": 2002,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.296896",
+        "last_updated": "2026-02-06T00:50:26.296897",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173574_19",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.96722163171292,
+              25.948537961622392
+            ],
+            [
+              74.96723775482575,
+              25.948382508867248
+            ],
+            [
+              74.96736174236915,
+              25.948343340485
+            ],
+            [
+              74.96745049407461,
+              25.948423628970946
+            ],
+            [
+              74.96741903703828,
+              25.948565107784553
+            ],
+            [
+              74.96729255229152,
+              25.94861384943298
+            ],
+            [
+              74.96722163171292,
+              25.948537961622392
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173574/179/19",
+        "khasra_number": "179",
+        "khata_number": "374",
+        "khatauni_number": "894",
+        "village_code": "173574",
+        "village_name": "Neemra (Kerot)",
+        "village_name_hi": "नीमड़ा (केरोट)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.948478,
+        "centroid_lon": 74.967331,
+        "computed_area_sqm": 493.03,
+        "recorded_area_sqm": 495.89,
+        "area_difference_sqm": 2.86,
+        "area_text": "0 बीघा 3 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "चिकनी",
+        "soil_type_en": "Clay",
+        "owner_name_hi": "सरस्वती राजपूत",
+        "owner_name_en": "Saraswati Rajput",
+        "father_name_hi": "सोहन मिश्रा",
+        "father_name_en": "Sohan Mishra",
+        "ownership_type": "संयुक्त",
+        "ownership_share": "100%",
+        "irrigation_type": "नहर",
+        "irrigation_type_en": "Canal",
+        "is_irrigated": true,
+        "current_crop": "मूंग",
+        "current_crop_en": "Moong",
+        "crop_season": "जायद",
+        "rate_per_sqm": 1248,
+        "estimated_value_inr": 618871.29,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "बी-1",
+        "source_page": "141",
+        "source_year": 2022,
+        "survey_year": 2024,
+        "acquisition_year": 1981,
+        "mutation_count": 4,
+        "last_mutation_year": 2009,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.296930",
+        "last_updated": "2026-02-06T00:50:26.296932",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173574_20",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.9683333628802,
+              25.948573225836203
+            ],
+            [
+              74.96807017298808,
+              25.948685625630453
+            ],
+            [
+              74.96793122505484,
+              25.948441169195473
+            ],
+            [
+              74.96822160618729,
+              25.948354227502872
+            ],
+            [
+              74.9683333628802,
+              25.948573225836203
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173574/450/20",
+        "khasra_number": "450",
+        "khata_number": "82",
+        "khatauni_number": "210",
+        "village_code": "173574",
+        "village_name": "Neemra (Kerot)",
+        "village_name_hi": "नीमड़ा (केरोट)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.948514,
+        "centroid_lon": 74.968139,
+        "computed_area_sqm": 849.0,
+        "recorded_area_sqm": 844.34,
+        "area_difference_sqm": -4.66,
+        "area_text": "0 बीघा 6 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "बलुई",
+        "soil_type_en": "Sandy",
+        "owner_name_hi": "मोहन त्रिपाठी",
+        "owner_name_en": "Mohan Tripathi",
+        "father_name_hi": "सरस्वती चौहान",
+        "father_name_en": "Saraswati Chauhan",
+        "ownership_type": "व्यक्तिगत",
+        "ownership_share": "100%",
+        "irrigation_type": "नहर",
+        "irrigation_type_en": "Canal",
+        "is_irrigated": true,
+        "current_crop": "चावल",
+        "current_crop_en": "Rice",
+        "crop_season": "खरीफ",
+        "rate_per_sqm": 651,
+        "estimated_value_inr": 549667.24,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "बी-1",
+        "source_page": "86",
+        "source_year": 2022,
+        "survey_year": 2015,
+        "acquisition_year": 1970,
+        "mutation_count": 0,
+        "last_mutation_year": null,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.296963",
+        "last_updated": "2026-02-06T00:50:26.296964",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173574_21",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.96889466596234,
+              25.94864584510349
+            ],
+            [
+              74.96851456208863,
+              25.948734398343554
+            ],
+            [
+              74.9682960511541,
+              25.94843064957786
+            ],
+            [
+              74.96849451585352,
+              25.948156388752615
+            ],
+            [
+              74.96876627082509,
+              25.948156990246996
+            ],
+            [
+              74.96891635711164,
+              25.94842881392603
+            ],
+            [
+              74.96889466596234,
+              25.94864584510349
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173574/69/21",
+        "khasra_number": "69",
+        "khata_number": "125",
+        "khatauni_number": "183",
+        "village_code": "173574",
+        "village_name": "Neemra (Kerot)",
+        "village_name_hi": "नीमड़ा (केरोट)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.948426,
+        "centroid_lon": 74.968647,
+        "computed_area_sqm": 2841.36,
+        "recorded_area_sqm": 2848.69,
+        "area_difference_sqm": 7.33,
+        "area_text": "1 बीघा 2 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "बलुई",
+        "soil_type_en": "Sandy",
+        "owner_name_hi": "रमेश राजपूत",
+        "owner_name_en": "Ramesh Rajput",
+        "father_name_hi": "हरि मिश्रा",
+        "father_name_en": "Hari Mishra",
+        "ownership_type": "संयुक्त",
+        "ownership_share": "89%",
+        "irrigation_type": "कुआं",
+        "irrigation_type_en": "Well",
+        "is_irrigated": true,
+        "current_crop": "मूंग",
+        "current_crop_en": "Moong",
+        "crop_season": "रबी",
+        "rate_per_sqm": 1615,
+        "estimated_value_inr": 4600628.62,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "खतौनी",
+        "source_page": "119",
+        "source_year": 2019,
+        "survey_year": 2023,
+        "acquisition_year": null,
+        "mutation_count": 5,
+        "last_mutation_year": 1995,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.296999",
+        "last_updated": "2026-02-06T00:50:26.297000",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173574_22",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.96973843537384,
+              25.948066866031553
+            ],
+            [
+              74.96981892371456,
+              25.948305597607014
+            ],
+            [
+              74.96958945404799,
+              25.948409307067667
+            ],
+            [
+              74.96941336376273,
+              25.948261579108923
+            ],
+            [
+              74.9694680397046,
+              25.94794998761075
+            ],
+            [
+              74.96973843537384,
+              25.948066866031553
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173574/211/22",
+        "khasra_number": "211",
+        "khata_number": "267",
+        "khatauni_number": "488",
+        "village_code": "173574",
+        "village_name": "Neemra (Kerot)",
+        "village_name_hi": "नीमड़ा (केरोट)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.948199,
+        "centroid_lon": 74.969606,
+        "computed_area_sqm": 1307.77,
+        "recorded_area_sqm": 1327.22,
+        "area_difference_sqm": 19.45,
+        "area_text": "0 बीघा 10 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "barren",
+        "land_type_hi": "बंजर",
+        "land_type_code": "BAR",
+        "soil_type": "बलुई",
+        "soil_type_en": "Sandy",
+        "owner_name_hi": "राजेश राजपूत",
+        "owner_name_en": "Rajesh Rajput",
+        "father_name_hi": "ब्रजेश सिंह",
+        "father_name_en": "Brajesh Singh",
+        "ownership_type": "सरकारी",
+        "ownership_share": "100%",
+        "irrigation_type": "कोई नहीं",
+        "irrigation_type_en": "None",
+        "is_irrigated": false,
+        "current_crop": null,
+        "current_crop_en": null,
+        "crop_season": null,
+        "rate_per_sqm": 344,
+        "estimated_value_inr": 456563.46,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "खतौनी",
+        "source_page": "101",
+        "source_year": 2018,
+        "survey_year": 2015,
+        "acquisition_year": 1997,
+        "mutation_count": 0,
+        "last_mutation_year": null,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.297031",
+        "last_updated": "2026-02-06T00:50:26.297032",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173574_23",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.9702637343447,
+              25.948262550481445
+            ],
+            [
+              74.97041828858107,
+              25.94835748903707
+            ],
+            [
+              74.97045569165697,
+              25.948491627156944
+            ],
+            [
+              74.9703654264213,
+              25.948557902787154
+            ],
+            [
+              74.97021445453704,
+              25.948537031673116
+            ],
+            [
+              74.97018773391189,
+              25.948366633126952
+            ],
+            [
+              74.9702637343447,
+              25.948262550481445
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173574/103/23",
+        "khasra_number": "103",
+        "khata_number": "7",
+        "khatauni_number": "47",
+        "village_code": "173574",
+        "village_name": "Neemra (Kerot)",
+        "village_name_hi": "नीमड़ा (केरोट)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.948429,
+        "centroid_lon": 74.970318,
+        "computed_area_sqm": 602.58,
+        "recorded_area_sqm": 498.14,
+        "area_difference_sqm": -104.44,
+        "area_text": "0 बीघा 3 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "दोमट",
+        "soil_type_en": "Loamy",
+        "owner_name_hi": "गीता तिवारी",
+        "owner_name_en": "Geeta Tiwari",
+        "father_name_hi": "गीता पटेल",
+        "father_name_en": "Geeta Patel",
+        "ownership_type": "व्यक्तिगत",
+        "ownership_share": "92%",
+        "irrigation_type": "तालाब",
+        "irrigation_type_en": "Pond",
+        "is_irrigated": true,
+        "current_crop": "मूंग",
+        "current_crop_en": "Moong",
+        "crop_season": "रबी",
+        "rate_per_sqm": 1655,
+        "estimated_value_inr": 824419.3,
+        "circle_rate_year": 2024,
+        "has_discrepancy": true,
+        "discrepancy_type": "area_mismatch",
+        "discrepancy_percentage": -17.3,
+        "discrepancy_severity": "medium",
+        "record_status": "needs_review",
+        "verification_status": "pending",
+        "source_document": "जमाबंदी",
+        "source_page": "36",
+        "source_year": 2020,
+        "survey_year": 2024,
+        "acquisition_year": 1974,
+        "mutation_count": 1,
+        "last_mutation_year": 1995,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.297067",
+        "last_updated": "2026-02-06T00:50:26.297068",
+        "digitized_by": "System",
+        "remarks": "Auto-generated test data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173574_24",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.97089854655339,
+              25.948397489124723
+            ],
+            [
+              74.9710487372176,
+              25.9483256087107
+            ],
+            [
+              74.97111225827103,
+              25.94847081826463
+            ],
+            [
+              74.97095643515006,
+              25.9485250178422
+            ],
+            [
+              74.97089854655339,
+              25.948397489124723
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173574/388/24",
+        "khasra_number": "388",
+        "khata_number": "13",
+        "khatauni_number": "107",
+        "village_code": "173574",
+        "village_name": "Neemra (Kerot)",
+        "village_name_hi": "नीमड़ा (केरोट)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.94843,
+        "centroid_lon": 74.971004,
+        "computed_area_sqm": 273.56,
+        "recorded_area_sqm": 325.29,
+        "area_difference_sqm": 51.73,
+        "area_text": "0 बीघा 2 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "बलुई",
+        "soil_type_en": "Sandy",
+        "owner_name_hi": "दुर्गा राय",
+        "owner_name_en": "Durga Rai",
+        "father_name_hi": "महेश शर्मा",
+        "father_name_en": "Mahesh Sharma",
+        "ownership_type": "संयुक्त",
+        "ownership_share": "100%",
+        "irrigation_type": "वर्षा आधारित",
+        "irrigation_type_en": "Rain Fed",
+        "is_irrigated": false,
+        "current_crop": "सरसों",
+        "current_crop_en": "Mustard",
+        "crop_season": "जायद",
+        "rate_per_sqm": 1631,
+        "estimated_value_inr": 530551.05,
+        "circle_rate_year": 2024,
+        "has_discrepancy": true,
+        "discrepancy_type": "area_mismatch",
+        "discrepancy_percentage": 18.9,
+        "discrepancy_severity": "medium",
+        "record_status": "needs_review",
+        "verification_status": "pending",
+        "source_document": "खतौनी",
+        "source_page": "36",
+        "source_year": 2021,
+        "survey_year": 2024,
+        "acquisition_year": 2013,
+        "mutation_count": 1,
+        "last_mutation_year": 1993,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.297109",
+        "last_updated": "2026-02-06T00:50:26.297110",
+        "digitized_by": "System",
+        "remarks": "Auto-generated test data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173574_25",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.96544667956172,
+              25.949055728897587
+            ],
+            [
+              74.96570210562271,
+              25.948885909400673
+            ],
+            [
+              74.9657911928615,
+              25.949102757923296
+            ],
+            [
+              74.96574057075237,
+              25.949298274310767
+            ],
+            [
+              74.96545327081326,
+              25.949307366529172
+            ],
+            [
+              74.96544667956172,
+              25.949055728897587
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173574/230/25",
+        "khasra_number": "230",
+        "khata_number": "396",
+        "khatauni_number": "715",
+        "village_code": "173574",
+        "village_name": "Neemra (Kerot)",
+        "village_name_hi": "नीमड़ा (केरोट)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.94913,
+        "centroid_lon": 74.965627,
+        "computed_area_sqm": 1177.75,
+        "recorded_area_sqm": 1399.44,
+        "area_difference_sqm": 221.69,
+        "area_text": "0 बीघा 11 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "residential",
+        "land_type_hi": "आवासीय",
+        "land_type_code": "RES",
+        "soil_type": "दोमट",
+        "soil_type_en": "Loamy",
+        "owner_name_hi": "महेश दुबे",
+        "owner_name_en": "Mahesh Dubey",
+        "father_name_hi": "भगवान सिंह",
+        "father_name_en": "Bhagwan Singh",
+        "ownership_type": "सरकारी",
+        "ownership_share": "82%",
+        "irrigation_type": "कुआं",
+        "irrigation_type_en": "Well",
+        "is_irrigated": false,
+        "current_crop": null,
+        "current_crop_en": null,
+        "crop_season": null,
+        "rate_per_sqm": 5591,
+        "estimated_value_inr": 7824246.08,
+        "circle_rate_year": 2024,
+        "has_discrepancy": true,
+        "discrepancy_type": "area_mismatch",
+        "discrepancy_percentage": 18.8,
+        "discrepancy_severity": "medium",
+        "record_status": "needs_review",
+        "verification_status": "pending",
+        "source_document": "बी-1",
+        "source_page": "11",
+        "source_year": 2022,
+        "survey_year": 2022,
+        "acquisition_year": null,
+        "mutation_count": 0,
+        "last_mutation_year": null,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.297143",
+        "last_updated": "2026-02-06T00:50:26.297144",
+        "digitized_by": "System",
+        "remarks": "Auto-generated test data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173574_26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.96629899762172,
+              25.94936623385271
+            ],
+            [
+              74.96619023514114,
+              25.949222291547798
+            ],
+            [
+              74.96630395990822,
+              25.949034612497062
+            ],
+            [
+              74.96651108502412,
+              25.949132263048295
+            ],
+            [
+              74.966560076714,
+              25.949263236713765
+            ],
+            [
+              74.96643263552463,
+              25.949391130573193
+            ],
+            [
+              74.96629899762172,
+              25.94936623385271
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173574/221/26",
+        "khasra_number": "221",
+        "khata_number": "53",
+        "khatauni_number": "255",
+        "village_code": "173574",
+        "village_name": "Neemra (Kerot)",
+        "village_name_hi": "नीमड़ा (केरोट)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.949235,
+        "centroid_lon": 74.966383,
+        "computed_area_sqm": 916.54,
+        "recorded_area_sqm": 668.58,
+        "area_difference_sqm": -247.96,
+        "area_text": "0 बीघा 5 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "दोमट",
+        "soil_type_en": "Loamy",
+        "owner_name_hi": "श्याम शर्मा",
+        "owner_name_en": "Shyam Sharma",
+        "father_name_hi": "रमेश चौहान",
+        "father_name_en": "Ramesh Chauhan",
+        "ownership_type": "व्यक्तिगत",
+        "ownership_share": "100%",
+        "irrigation_type": "ट्यूबवेल",
+        "irrigation_type_en": "Tube Well",
+        "is_irrigated": true,
+        "current_crop": "अन्य",
+        "current_crop_en": "Other",
+        "crop_season": "जायद",
+        "rate_per_sqm": 1049,
+        "estimated_value_inr": 701338.28,
+        "circle_rate_year": 2024,
+        "has_discrepancy": true,
+        "discrepancy_type": "area_mismatch",
+        "discrepancy_percentage": -27.1,
+        "discrepancy_severity": "high",
+        "record_status": "needs_review",
+        "verification_status": "pending",
+        "source_document": "पट्टा",
+        "source_page": "1",
+        "source_year": 2023,
+        "survey_year": 2016,
+        "acquisition_year": null,
+        "mutation_count": 4,
+        "last_mutation_year": 2017,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.297179",
+        "last_updated": "2026-02-06T00:50:26.297180",
+        "digitized_by": "System",
+        "remarks": "Auto-generated test data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173574_27",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.9670380669818,
+              25.94942731328599
+            ],
+            [
+              74.96697100426488,
+              25.949175177323585
+            ],
+            [
+              74.96726195188587,
+              25.949084520035715
+            ],
+            [
+              74.96733818290716,
+              25.949340136277428
+            ],
+            [
+              74.9670380669818,
+              25.94942731328599
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173574/216/27",
+        "khasra_number": "216",
+        "khata_number": "334",
+        "khatauni_number": "748",
+        "village_code": "173574",
+        "village_name": "Neemra (Kerot)",
+        "village_name_hi": "नीमड़ा (केरोट)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.949257,
+        "centroid_lon": 74.967152,
+        "computed_area_sqm": 901.8,
+        "recorded_area_sqm": 886.74,
+        "area_difference_sqm": -15.06,
+        "area_text": "0 बीघा 7 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "दोमट",
+        "soil_type_en": "Loamy",
+        "owner_name_hi": "महेश गुप्ता",
+        "owner_name_en": "Mahesh Gupta",
+        "father_name_hi": "नारायण त्रिपाठी",
+        "father_name_en": "Narayan Tripathi",
+        "ownership_type": "सरकारी",
+        "ownership_share": "100%",
+        "irrigation_type": "ट्यूबवेल",
+        "irrigation_type_en": "Tube Well",
+        "is_irrigated": true,
+        "current_crop": "बाजरा",
+        "current_crop_en": "Millet",
+        "crop_season": "जायद",
+        "rate_per_sqm": 1206,
+        "estimated_value_inr": 1069412.56,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "पट्टा",
+        "source_page": "138",
+        "source_year": 2018,
+        "survey_year": 2020,
+        "acquisition_year": null,
+        "mutation_count": 1,
+        "last_mutation_year": 1998,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.297209",
+        "last_updated": "2026-02-06T00:50:26.297211",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173574_28",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.9679205811099,
+              25.949309916976738
+            ],
+            [
+              74.9678720938778,
+              25.94952194108062
+            ],
+            [
+              74.96765265086712,
+              25.949449378960736
+            ],
+            [
+              74.96777082837177,
+              25.94924022402637
+            ],
+            [
+              74.9679205811099,
+              25.949309916976738
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173574/801/28",
+        "khasra_number": "801",
+        "khata_number": "84",
+        "khatauni_number": "719",
+        "village_code": "173574",
+        "village_name": "Neemra (Kerot)",
+        "village_name_hi": "नीमड़ा (केरोट)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.94938,
+        "centroid_lon": 74.967804,
+        "computed_area_sqm": 496.35,
+        "recorded_area_sqm": 503.33,
+        "area_difference_sqm": 6.98,
+        "area_text": "0 बीघा 4 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "barren",
+        "land_type_hi": "बंजर",
+        "land_type_code": "BAR",
+        "soil_type": "लाल",
+        "soil_type_en": "Red",
+        "owner_name_hi": "शंकर त्रिपाठी",
+        "owner_name_en": "Shankar Tripathi",
+        "father_name_hi": "दुर्गा जाट",
+        "father_name_en": "Durga Jat",
+        "ownership_type": "सरकारी",
+        "ownership_share": "100%",
+        "irrigation_type": "तालाब",
+        "irrigation_type_en": "Pond",
+        "is_irrigated": false,
+        "current_crop": null,
+        "current_crop_en": null,
+        "crop_season": null,
+        "rate_per_sqm": 252,
+        "estimated_value_inr": 126838.8,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "पट्टा",
+        "source_page": "13",
+        "source_year": 2024,
+        "survey_year": 2019,
+        "acquisition_year": 1992,
+        "mutation_count": 1,
+        "last_mutation_year": 1994,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.297250",
+        "last_updated": "2026-02-06T00:50:26.297251",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173574_29",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.96859021093664,
+              25.94928539002511
+            ],
+            [
+              74.96866021599935,
+              25.94898737378465
+            ],
+            [
+              74.96893822025247,
+              25.948912119874006
+            ],
+            [
+              74.96901379361985,
+              25.94922509987447
+            ],
+            [
+              74.96879472132444,
+              25.94935612357262
+            ],
+            [
+              74.96859021093664,
+              25.94928539002511
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173574/923/29",
+        "khasra_number": "923",
+        "khata_number": "406",
+        "khatauni_number": "489",
+        "village_code": "173574",
+        "village_name": "Neemra (Kerot)",
+        "village_name_hi": "नीमड़ा (केरोट)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.949153,
+        "centroid_lon": 74.968799,
+        "computed_area_sqm": 1423.64,
+        "recorded_area_sqm": 1441.87,
+        "area_difference_sqm": 18.23,
+        "area_text": "0 बीघा 11 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "चिकनी",
+        "soil_type_en": "Clay",
+        "owner_name_hi": "राधा गुप्ता",
+        "owner_name_en": "Radha Gupta",
+        "father_name_hi": "दिनेश गुप्ता",
+        "father_name_en": "Dinesh Gupta",
+        "ownership_type": "संयुक्त",
+        "ownership_share": "100%",
+        "irrigation_type": "कुआं",
+        "irrigation_type_en": "Well",
+        "is_irrigated": true,
+        "current_crop": "अन्य",
+        "current_crop_en": "Other",
+        "crop_season": "खरीफ",
+        "rate_per_sqm": 1927,
+        "estimated_value_inr": 2778489.41,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "बी-1",
+        "source_page": "27",
+        "source_year": 2022,
+        "survey_year": 2018,
+        "acquisition_year": null,
+        "mutation_count": 1,
+        "last_mutation_year": 2010,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.297285",
+        "last_updated": "2026-02-06T00:50:26.297286",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173574_30",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.96941457786777,
+              25.949063749383424
+            ],
+            [
+              74.96954893749157,
+              25.948892767771625
+            ],
+            [
+              74.96969376170209,
+              25.94901930803349
+            ],
+            [
+              74.96967540843313,
+              25.949184360810314
+            ],
+            [
+              74.96951255917621,
+              25.94926424697664
+            ],
+            [
+              74.96941457786777,
+              25.949063749383424
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173574/343/30",
+        "khasra_number": "343",
+        "khata_number": "158",
+        "khatauni_number": "517",
+        "village_code": "173574",
+        "village_name": "Neemra (Kerot)",
+        "village_name_hi": "नीमड़ा (केरोट)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.949085,
+        "centroid_lon": 74.969569,
+        "computed_area_sqm": 706.31,
+        "recorded_area_sqm": 708.79,
+        "area_difference_sqm": 2.48,
+        "area_text": "0 बीघा 5 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "बलुई",
+        "soil_type_en": "Sandy",
+        "owner_name_hi": "लक्ष्मी सिंह",
+        "owner_name_en": "Lakshmi Singh",
+        "father_name_hi": "रामू जाट",
+        "father_name_en": "Ramu Jat",
+        "ownership_type": "संयुक्त",
+        "ownership_share": "100%",
+        "irrigation_type": "कुआं",
+        "irrigation_type_en": "Well",
+        "is_irrigated": true,
+        "current_crop": "सरसों",
+        "current_crop_en": "Mustard",
+        "crop_season": "खरीफ",
+        "rate_per_sqm": 795,
+        "estimated_value_inr": 563487.34,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "खतौनी",
+        "source_page": "168",
+        "source_year": 2024,
+        "survey_year": 2016,
+        "acquisition_year": null,
+        "mutation_count": 4,
+        "last_mutation_year": 2013,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.297318",
+        "last_updated": "2026-02-06T00:50:26.297319",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173574_31",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.97024790568653,
+              25.949213054894894
+            ],
+            [
+              74.97034036249147,
+              25.949020139879526
+            ],
+            [
+              74.9705369027442,
+              25.949047617862878
+            ],
+            [
+              74.970616139993,
+              25.949133948300073
+            ],
+            [
+              74.97056053364003,
+              25.94929936837071
+            ],
+            [
+              74.97042746234236,
+              25.94934782189731
+            ],
+            [
+              74.97024790568653,
+              25.949213054894894
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173574/570/31",
+        "khasra_number": "570",
+        "khata_number": "14",
+        "khatauni_number": "979",
+        "village_code": "173574",
+        "village_name": "Neemra (Kerot)",
+        "village_name_hi": "नीमड़ा (केरोट)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.949177,
+        "centroid_lon": 74.970455,
+        "computed_area_sqm": 895.52,
+        "recorded_area_sqm": 878.84,
+        "area_difference_sqm": -16.68,
+        "area_text": "0 बीघा 7 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "residential",
+        "land_type_hi": "आवासीय",
+        "land_type_code": "RES",
+        "soil_type": "लाल",
+        "soil_type_en": "Red",
+        "owner_name_hi": "नारायण वर्मा",
+        "owner_name_en": "Narayan Verma",
+        "father_name_hi": "राधा त्रिपाठी",
+        "father_name_en": "Radha Tripathi",
+        "ownership_type": "सरकारी",
+        "ownership_share": "55%",
+        "irrigation_type": "नहर",
+        "irrigation_type_en": "Canal",
+        "is_irrigated": false,
+        "current_crop": null,
+        "current_crop_en": null,
+        "crop_season": null,
+        "rate_per_sqm": 11782,
+        "estimated_value_inr": 10354514.41,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "खसरा",
+        "source_page": "164",
+        "source_year": 2021,
+        "survey_year": 2019,
+        "acquisition_year": 1974,
+        "mutation_count": 4,
+        "last_mutation_year": 1991,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.297351",
+        "last_updated": "2026-02-06T00:50:26.297352",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173574_32",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.97130830769775,
+              25.949076632206243
+            ],
+            [
+              74.9713380247138,
+              25.94952235193925
+            ],
+            [
+              74.97096554751741,
+              25.94948637966891
+            ],
+            [
+              74.97094845246876,
+              25.949144228026302
+            ],
+            [
+              74.97130830769775,
+              25.949076632206243
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173574/669/32",
+        "khasra_number": "669",
+        "khata_number": "433",
+        "khatauni_number": "924",
+        "village_code": "173574",
+        "village_name": "Neemra (Kerot)",
+        "village_name_hi": "नीमड़ा (केरोट)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.949307,
+        "centroid_lon": 74.97114,
+        "computed_area_sqm": 1602.18,
+        "recorded_area_sqm": 1595.22,
+        "area_difference_sqm": -6.96,
+        "area_text": "0 बीघा 12 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "काली",
+        "soil_type_en": "Black",
+        "owner_name_hi": "दिनेश गुप्ता",
+        "owner_name_en": "Dinesh Gupta",
+        "father_name_hi": "दुर्गा मीना",
+        "father_name_en": "Durga Meena",
+        "ownership_type": "व्यक्तिगत",
+        "ownership_share": "5%",
+        "irrigation_type": "कोई नहीं",
+        "irrigation_type_en": "None",
+        "is_irrigated": false,
+        "current_crop": "गेहूं",
+        "current_crop_en": "Wheat",
+        "crop_season": "जायद",
+        "rate_per_sqm": 1833,
+        "estimated_value_inr": 2924034.47,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "पट्टा",
+        "source_page": "113",
+        "source_year": 2022,
+        "survey_year": 2018,
+        "acquisition_year": 2012,
+        "mutation_count": 5,
+        "last_mutation_year": 2004,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.297385",
+        "last_updated": "2026-02-06T00:50:26.297386",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173574_33",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.96579637198637,
+              25.94995817016835
+            ],
+            [
+              74.96588498430123,
+              25.950114735471782
+            ],
+            [
+              74.96580873029768,
+              25.95038044282977
+            ],
+            [
+              74.9656338543249,
+              25.950403349982118
+            ],
+            [
+              74.96538524097481,
+              25.950281471639894
+            ],
+            [
+              74.96533627803815,
+              25.950083169134906
+            ],
+            [
+              74.965432546376,
+              25.94994413010057
+            ],
+            [
+              74.96565526026849,
+              25.949885366880387
+            ],
+            [
+              74.96579637198637,
+              25.94995817016835
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173574/217/33",
+        "khasra_number": "217",
+        "khata_number": "46",
+        "khatauni_number": "995",
+        "village_code": "173574",
+        "village_name": "Neemra (Kerot)",
+        "village_name_hi": "नीमड़ा (केरोट)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.950131,
+        "centroid_lon": 74.965617,
+        "computed_area_sqm": 2292.75,
+        "recorded_area_sqm": 2318.98,
+        "area_difference_sqm": 26.23,
+        "area_text": "0 बीघा 18 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "residential",
+        "land_type_hi": "आवासीय",
+        "land_type_code": "RES",
+        "soil_type": "लाल",
+        "soil_type_en": "Red",
+        "owner_name_hi": "सीता यादव",
+        "owner_name_en": "Sita Yadav",
+        "father_name_hi": "सरस्वती राजपूत",
+        "father_name_en": "Saraswati Rajput",
+        "ownership_type": "संयुक्त",
+        "ownership_share": "100%",
+        "irrigation_type": "नहर",
+        "irrigation_type_en": "Canal",
+        "is_irrigated": false,
+        "current_crop": null,
+        "current_crop_en": null,
+        "crop_season": null,
+        "rate_per_sqm": 6351,
+        "estimated_value_inr": 14727869.6,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "जमाबंदी",
+        "source_page": "33",
+        "source_year": 2022,
+        "survey_year": 2021,
+        "acquisition_year": null,
+        "mutation_count": 5,
+        "last_mutation_year": 1990,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.297424",
+        "last_updated": "2026-02-06T00:50:26.297426",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173574_34",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.96661894418531,
+              25.950057726777587
+            ],
+            [
+              74.96636494721183,
+              25.95004193307918
+            ],
+            [
+              74.96630647406153,
+              25.949889498765504
+            ],
+            [
+              74.96645608295822,
+              25.949764558835724
+            ],
+            [
+              74.96663735398121,
+              25.94987853245408
+            ],
+            [
+              74.96661894418531,
+              25.950057726777587
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173574/300/34",
+        "khasra_number": "300",
+        "khata_number": "166",
+        "khatauni_number": "476",
+        "village_code": "173574",
+        "village_name": "Neemra (Kerot)",
+        "village_name_hi": "नीमड़ा (केरोट)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.949926,
+        "centroid_lon": 74.966477,
+        "computed_area_sqm": 756.59,
+        "recorded_area_sqm": 756.2,
+        "area_difference_sqm": -0.39,
+        "area_text": "0 बीघा 6 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "दोमट",
+        "soil_type_en": "Loamy",
+        "owner_name_hi": "महेश मिश्रा",
+        "owner_name_en": "Mahesh Mishra",
+        "father_name_hi": "राधा गुर्जर",
+        "father_name_en": "Radha Gurjar",
+        "ownership_type": "सरकारी",
+        "ownership_share": "100%",
+        "irrigation_type": "तालाब",
+        "irrigation_type_en": "Pond",
+        "is_irrigated": true,
+        "current_crop": "मक्का",
+        "current_crop_en": "Maize",
+        "crop_season": "जायद",
+        "rate_per_sqm": 1491,
+        "estimated_value_inr": 1127499.08,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "बी-1",
+        "source_page": "30",
+        "source_year": 2018,
+        "survey_year": 2021,
+        "acquisition_year": 2003,
+        "mutation_count": 2,
+        "last_mutation_year": 2012,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.297456",
+        "last_updated": "2026-02-06T00:50:26.297457",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173574_35",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.96732290367574,
+              25.950139141706458
+            ],
+            [
+              74.96717741539244,
+              25.950258221907664
+            ],
+            [
+              74.96707061532044,
+              25.950076675373694
+            ],
+            [
+              74.96721518282304,
+              25.949977745188814
+            ],
+            [
+              74.96732290367574,
+              25.950139141706458
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173574/122/35",
+        "khasra_number": "122",
+        "khata_number": "355",
+        "khatauni_number": "75",
+        "village_code": "173574",
+        "village_name": "Neemra (Kerot)",
+        "village_name_hi": "नीमड़ा (केरोट)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.950113,
+        "centroid_lon": 74.967197,
+        "computed_area_sqm": 405.04,
+        "recorded_area_sqm": 401.92,
+        "area_difference_sqm": -3.12,
+        "area_text": "0 बीघा 3 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "residential",
+        "land_type_hi": "आवासीय",
+        "land_type_code": "RES",
+        "soil_type": "चिकनी",
+        "soil_type_en": "Clay",
+        "owner_name_hi": "सुरेश तिवारी",
+        "owner_name_en": "Suresh Tiwari",
+        "father_name_hi": "लक्ष्मी राय",
+        "father_name_en": "Lakshmi Rai",
+        "ownership_type": "व्यक्तिगत",
+        "ownership_share": "100%",
+        "irrigation_type": "नहर",
+        "irrigation_type_en": "Canal",
+        "is_irrigated": false,
+        "current_crop": null,
+        "current_crop_en": null,
+        "crop_season": null,
+        "rate_per_sqm": 11896,
+        "estimated_value_inr": 4781219.99,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "बी-1",
+        "source_page": "194",
+        "source_year": 2023,
+        "survey_year": 2016,
+        "acquisition_year": 2010,
+        "mutation_count": 0,
+        "last_mutation_year": null,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.297485",
+        "last_updated": "2026-02-06T00:50:26.297486",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173574_36",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.9680620548746,
+              25.950171237775148
+            ],
+            [
+              74.96806204034696,
+              25.950171218572542
+            ],
+            [
+              74.9680620512655,
+              25.95017121031217
+            ],
+            [
+              74.96806205721613,
+              25.950171218177694
+            ],
+            [
+              74.96806207013753,
+              25.950171208402075
+            ],
+            [
+              74.96806207871454,
+              25.95017121973916
+            ],
+            [
+              74.9680620548746,
+              25.950171237775148
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173574/572/36",
+        "khasra_number": "572",
+        "khata_number": "383",
+        "khatauni_number": "287",
+        "village_code": "173574",
+        "village_name": "Neemra (Kerot)",
+        "village_name_hi": "नीमड़ा (केरोट)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.950171,
+        "centroid_lon": 74.968062,
+        "computed_area_sqm": 0.0,
+        "recorded_area_sqm": 0.0,
+        "area_difference_sqm": 0.0,
+        "area_text": "0 बीघा 0 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "चिकनी",
+        "soil_type_en": "Clay",
+        "owner_name_hi": "अनिल त्रिपाठी",
+        "owner_name_en": "Anil Tripathi",
+        "father_name_hi": "राजेश शर्मा",
+        "father_name_en": "Rajesh Sharma",
+        "ownership_type": "व्यक्तिगत",
+        "ownership_share": "100%",
+        "irrigation_type": "तालाब",
+        "irrigation_type_en": "Pond",
+        "is_irrigated": true,
+        "current_crop": "चावल",
+        "current_crop_en": "Rice",
+        "crop_season": "खरीफ",
+        "rate_per_sqm": 1916,
+        "estimated_value_inr": 0.0,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "खतौनी",
+        "source_page": "155",
+        "source_year": 2020,
+        "survey_year": 2020,
+        "acquisition_year": 1986,
+        "mutation_count": 1,
+        "last_mutation_year": 1999,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.297521",
+        "last_updated": "2026-02-06T00:50:26.297522",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173574_37",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.96870958223553,
+              25.949768294564294
+            ],
+            [
+              74.96874632708017,
+              25.94990676917621
+            ],
+            [
+              74.96863431551822,
+              25.949933772841245
+            ],
+            [
+              74.96853486445764,
+              25.949894877188417
+            ],
+            [
+              74.96854337898375,
+              25.949773311014358
+            ],
+            [
+              74.96862867971751,
+              25.949671130692533
+            ],
+            [
+              74.96870958223553,
+              25.949768294564294
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173574/407/37",
+        "khasra_number": "407",
+        "khata_number": "474",
+        "khatauni_number": "91",
+        "village_code": "173574",
+        "village_name": "Neemra (Kerot)",
+        "village_name_hi": "नीमड़ा (केरोट)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.949825,
+        "centroid_lon": 74.968633,
+        "computed_area_sqm": 402.18,
+        "recorded_area_sqm": 400.97,
+        "area_difference_sqm": -1.21,
+        "area_text": "0 बीघा 3 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "commercial",
+        "land_type_hi": "वाणिज्यिक",
+        "land_type_code": "COM",
+        "soil_type": "लाल",
+        "soil_type_en": "Red",
+        "owner_name_hi": "नारायण गुप्ता",
+        "owner_name_en": "Narayan Gupta",
+        "father_name_hi": "दिनेश राय",
+        "father_name_en": "Dinesh Rai",
+        "ownership_type": "व्यक्तिगत",
+        "ownership_share": "100%",
+        "irrigation_type": "कोई नहीं",
+        "irrigation_type_en": "None",
+        "is_irrigated": false,
+        "current_crop": null,
+        "current_crop_en": null,
+        "crop_season": null,
+        "rate_per_sqm": 33506,
+        "estimated_value_inr": 13434941.9,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "बी-1",
+        "source_page": "35",
+        "source_year": 2019,
+        "survey_year": 2016,
+        "acquisition_year": null,
+        "mutation_count": 2,
+        "last_mutation_year": 2005,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.297556",
+        "last_updated": "2026-02-06T00:50:26.297557",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173574_38",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.96922875272551,
+              25.949939748378064
+            ],
+            [
+              74.96925564757515,
+              25.949617029180136
+            ],
+            [
+              74.9694795385544,
+              25.949556789193505
+            ],
+            [
+              74.96971214040292,
+              25.949566512699565
+            ],
+            [
+              74.9698027113646,
+              25.949713532410872
+            ],
+            [
+              74.96965668039552,
+              25.949973786768243
+            ],
+            [
+              74.9693867963377,
+              25.95009083246687
+            ],
+            [
+              74.96922875272551,
+              25.949939748378064
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173574/264/38",
+        "khasra_number": "264",
+        "khata_number": "110",
+        "khatauni_number": "259",
+        "village_code": "173574",
+        "village_name": "Neemra (Kerot)",
+        "village_name_hi": "नीमड़ा (केरोट)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.94978,
+        "centroid_lon": 74.969503,
+        "computed_area_sqm": 2451.92,
+        "recorded_area_sqm": 2474.87,
+        "area_difference_sqm": 22.95,
+        "area_text": "0 बीघा 19 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "barren",
+        "land_type_hi": "बंजर",
+        "land_type_code": "BAR",
+        "soil_type": "बलुई",
+        "soil_type_en": "Sandy",
+        "owner_name_hi": "पार्वती वर्मा",
+        "owner_name_en": "Parvati Verma",
+        "father_name_hi": "दुर्गा शर्मा",
+        "father_name_en": "Durga Sharma",
+        "ownership_type": "व्यक्तिगत",
+        "ownership_share": "100%",
+        "irrigation_type": "ट्यूबवेल",
+        "irrigation_type_en": "Tube Well",
+        "is_irrigated": false,
+        "current_crop": null,
+        "current_crop_en": null,
+        "crop_season": null,
+        "rate_per_sqm": 399,
+        "estimated_value_inr": 987471.34,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "जमाबंदी",
+        "source_page": "73",
+        "source_year": 2022,
+        "survey_year": 2022,
+        "acquisition_year": 1974,
+        "mutation_count": 2,
+        "last_mutation_year": 2011,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.297590",
+        "last_updated": "2026-02-06T00:50:26.297591",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173574_39",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.97059421648052,
+              25.950198513232408
+            ],
+            [
+              74.97038365529184,
+              25.95023465336541
+            ],
+            [
+              74.97022259283519,
+              25.950096482870215
+            ],
+            [
+              74.97034601097323,
+              25.949932847725904
+            ],
+            [
+              74.97057503966808,
+              25.94986061702301
+            ],
+            [
+              74.97071189688198,
+              25.950042674083022
+            ],
+            [
+              74.97059421648052,
+              25.950198513232408
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173574/525/39",
+        "khasra_number": "525",
+        "khata_number": "298",
+        "khatauni_number": "126",
+        "village_code": "173574",
+        "village_name": "Neemra (Kerot)",
+        "village_name_hi": "नीमड़ा (केरोट)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.950061,
+        "centroid_lon": 74.970472,
+        "computed_area_sqm": 1273.18,
+        "recorded_area_sqm": 906.02,
+        "area_difference_sqm": -367.16,
+        "area_text": "0 बीघा 7 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "barren",
+        "land_type_hi": "बंजर",
+        "land_type_code": "BAR",
+        "soil_type": "चिकनी",
+        "soil_type_en": "Clay",
+        "owner_name_hi": "सोहन त्रिपाठी",
+        "owner_name_en": "Sohan Tripathi",
+        "father_name_hi": "दुर्गा चौहान",
+        "father_name_en": "Durga Chauhan",
+        "ownership_type": "संयुक्त",
+        "ownership_share": "100%",
+        "irrigation_type": "कोई नहीं",
+        "irrigation_type_en": "None",
+        "is_irrigated": false,
+        "current_crop": null,
+        "current_crop_en": null,
+        "crop_season": null,
+        "rate_per_sqm": 295,
+        "estimated_value_inr": 267276.3,
+        "circle_rate_year": 2024,
+        "has_discrepancy": true,
+        "discrepancy_type": "area_mismatch",
+        "discrepancy_percentage": -28.8,
+        "discrepancy_severity": "high",
+        "record_status": "needs_review",
+        "verification_status": "pending",
+        "source_document": "जमाबंदी",
+        "source_page": "32",
+        "source_year": 2024,
+        "survey_year": 2022,
+        "acquisition_year": 1972,
+        "mutation_count": 2,
+        "last_mutation_year": 2010,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.297625",
+        "last_updated": "2026-02-06T00:50:26.297626",
+        "digitized_by": "System",
+        "remarks": "Auto-generated test data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173574_40",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.97132144930067,
+              25.94970621783176
+            ],
+            [
+              74.97136906700989,
+              25.94999189024095
+            ],
+            [
+              74.97103056820231,
+              25.94990470053545
+            ],
+            [
+              74.97132144930067,
+              25.94970621783176
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173574/171/40",
+        "khasra_number": "171",
+        "khata_number": "464",
+        "khatauni_number": "52",
+        "village_code": "173574",
+        "village_name": "Neemra (Kerot)",
+        "village_name_hi": "नीमड़ा (केरोट)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.949868,
+        "centroid_lon": 74.97124,
+        "computed_area_sqm": 512.66,
+        "recorded_area_sqm": 507.99,
+        "area_difference_sqm": -4.67,
+        "area_text": "0 बीघा 4 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "barren",
+        "land_type_hi": "बंजर",
+        "land_type_code": "BAR",
+        "soil_type": "लाल",
+        "soil_type_en": "Red",
+        "owner_name_hi": "राजेश राजपूत",
+        "owner_name_en": "Rajesh Rajput",
+        "father_name_hi": "गीता शर्मा",
+        "father_name_en": "Geeta Sharma",
+        "ownership_type": "सरकारी",
+        "ownership_share": "51%",
+        "irrigation_type": "वर्षा आधारित",
+        "irrigation_type_en": "Rain Fed",
+        "is_irrigated": false,
+        "current_crop": null,
+        "current_crop_en": null,
+        "crop_season": null,
+        "rate_per_sqm": 429,
+        "estimated_value_inr": 217928.06,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "खतौनी",
+        "source_page": "78",
+        "source_year": 2018,
+        "survey_year": 2022,
+        "acquisition_year": null,
+        "mutation_count": 0,
+        "last_mutation_year": null,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.297655",
+        "last_updated": "2026-02-06T00:50:26.297656",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173574_41",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.96568464453199,
+              25.950838897306365
+            ],
+            [
+              74.96568463439746,
+              25.950838951916698
+            ],
+            [
+              74.96568459118531,
+              25.950838943897427
+            ],
+            [
+              74.96568459540428,
+              25.950838921163328
+            ],
+            [
+              74.96568456083891,
+              25.95083891474872
+            ],
+            [
+              74.96568456675448,
+              25.950838882872485
+            ],
+            [
+              74.96568464453199,
+              25.950838897306365
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173574/160/41",
+        "khasra_number": "160",
+        "khata_number": "385",
+        "khatauni_number": "742",
+        "village_code": "173574",
+        "village_name": "Neemra (Kerot)",
+        "village_name_hi": "नीमड़ा (केरोट)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.950839,
+        "centroid_lon": 74.965685,
+        "computed_area_sqm": 0.0,
+        "recorded_area_sqm": 0.0,
+        "area_difference_sqm": 0.0,
+        "area_text": "0 बीघा 0 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "बलुई",
+        "soil_type_en": "Sandy",
+        "owner_name_hi": "शंकर राय",
+        "owner_name_en": "Shankar Rai",
+        "father_name_hi": "अनिल वर्मा",
+        "father_name_en": "Anil Verma",
+        "ownership_type": "व्यक्तिगत",
+        "ownership_share": "100%",
+        "irrigation_type": "कुआं",
+        "irrigation_type_en": "Well",
+        "is_irrigated": true,
+        "current_crop": "गेहूं",
+        "current_crop_en": "Wheat",
+        "crop_season": "खरीफ",
+        "rate_per_sqm": 622,
+        "estimated_value_inr": 0.0,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "बी-1",
+        "source_page": "146",
+        "source_year": 2022,
+        "survey_year": 2023,
+        "acquisition_year": null,
+        "mutation_count": 4,
+        "last_mutation_year": 2000,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.297693",
+        "last_updated": "2026-02-06T00:50:26.297694",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173574_42",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.96614355114149,
+              25.950803886527993
+            ],
+            [
+              74.96636972447821,
+              25.950832789469644
+            ],
+            [
+              74.9662708023326,
+              25.9510726804306
+            ],
+            [
+              74.96607579436657,
+              25.95102901705959
+            ],
+            [
+              74.96614355114149,
+              25.950803886527993
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173574/745/42",
+        "khasra_number": "745",
+        "khata_number": "262",
+        "khatauni_number": "525",
+        "village_code": "173574",
+        "village_name": "Neemra (Kerot)",
+        "village_name_hi": "नीमड़ा (केरोट)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.950935,
+        "centroid_lon": 74.966215,
+        "computed_area_sqm": 575.96,
+        "recorded_area_sqm": 580.18,
+        "area_difference_sqm": 4.22,
+        "area_text": "0 बीघा 4 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "लाल",
+        "soil_type_en": "Red",
+        "owner_name_hi": "नारायण गुप्ता",
+        "owner_name_en": "Narayan Gupta",
+        "father_name_hi": "नारायण त्रिपाठी",
+        "father_name_en": "Narayan Tripathi",
+        "ownership_type": "संयुक्त",
+        "ownership_share": "100%",
+        "irrigation_type": "वर्षा आधारित",
+        "irrigation_type_en": "Rain Fed",
+        "is_irrigated": false,
+        "current_crop": "गेहूं",
+        "current_crop_en": "Wheat",
+        "crop_season": "खरीफ",
+        "rate_per_sqm": 1784,
+        "estimated_value_inr": 1035046.23,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "पट्टा",
+        "source_page": "97",
+        "source_year": 2023,
+        "survey_year": 2018,
+        "acquisition_year": null,
+        "mutation_count": 0,
+        "last_mutation_year": null,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.297724",
+        "last_updated": "2026-02-06T00:50:26.297725",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173574_43",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.9671194261012,
+              25.9509681654738
+            ],
+            [
+              74.96705514058021,
+              25.95066667460948
+            ],
+            [
+              74.96740752719961,
+              25.950553570410836
+            ],
+            [
+              74.96743601812565,
+              25.950922426137222
+            ],
+            [
+              74.9671194261012,
+              25.9509681654738
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173574/265/43",
+        "khasra_number": "265",
+        "khata_number": "312",
+        "khatauni_number": "641",
+        "village_code": "173574",
+        "village_name": "Neemra (Kerot)",
+        "village_name_hi": "नीमड़ा (केरोट)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.950778,
+        "centroid_lon": 74.967255,
+        "computed_area_sqm": 1282.87,
+        "recorded_area_sqm": 1277.44,
+        "area_difference_sqm": -5.43,
+        "area_text": "0 बीघा 10 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "residential",
+        "land_type_hi": "आवासीय",
+        "land_type_code": "RES",
+        "soil_type": "काली",
+        "soil_type_en": "Black",
+        "owner_name_hi": "सुरेश मीना",
+        "owner_name_en": "Suresh Meena",
+        "father_name_hi": "सोहन शर्मा",
+        "father_name_en": "Sohan Sharma",
+        "ownership_type": "संयुक्त",
+        "ownership_share": "100%",
+        "irrigation_type": "कुआं",
+        "irrigation_type_en": "Well",
+        "is_irrigated": false,
+        "current_crop": null,
+        "current_crop_en": null,
+        "crop_season": null,
+        "rate_per_sqm": 8374,
+        "estimated_value_inr": 10697253.38,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "पट्टा",
+        "source_page": "57",
+        "source_year": 2024,
+        "survey_year": 2016,
+        "acquisition_year": null,
+        "mutation_count": 3,
+        "last_mutation_year": 2016,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.297755",
+        "last_updated": "2026-02-06T00:50:26.297756",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173574_44",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.96800272263519,
+              25.950839243817327
+            ],
+            [
+              74.96800281797744,
+              25.950839224152354
+            ],
+            [
+              74.9680028316574,
+              25.950839290477337
+            ],
+            [
+              74.96800277851173,
+              25.950839301438986
+            ],
+            [
+              74.96800278582444,
+              25.950839336893395
+            ],
+            [
+              74.96800274362786,
+              25.95083934559672
+            ],
+            [
+              74.96800272263519,
+              25.950839243817327
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173574/635/44",
+        "khasra_number": "635",
+        "khata_number": "406",
+        "khatauni_number": "957",
+        "village_code": "173574",
+        "village_name": "Neemra (Kerot)",
+        "village_name_hi": "नीमड़ा (केरोट)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.950839,
+        "centroid_lon": 74.968003,
+        "computed_area_sqm": 0.0,
+        "recorded_area_sqm": 0.0,
+        "area_difference_sqm": 0.0,
+        "area_text": "0 बीघा 0 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "काली",
+        "soil_type_en": "Black",
+        "owner_name_hi": "अनिल तिवारी",
+        "owner_name_en": "Anil Tiwari",
+        "father_name_hi": "मोहन त्रिपाठी",
+        "father_name_en": "Mohan Tripathi",
+        "ownership_type": "सरकारी",
+        "ownership_share": "81%",
+        "irrigation_type": "कोई नहीं",
+        "irrigation_type_en": "None",
+        "is_irrigated": false,
+        "current_crop": "अन्य",
+        "current_crop_en": "Other",
+        "crop_season": "खरीफ",
+        "rate_per_sqm": 1248,
+        "estimated_value_inr": 0.0,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "खतौनी",
+        "source_page": "52",
+        "source_year": 2019,
+        "survey_year": 2019,
+        "acquisition_year": null,
+        "mutation_count": 3,
+        "last_mutation_year": 1998,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.297788",
+        "last_updated": "2026-02-06T00:50:26.297790",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173574_45",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.96852847138446,
+              25.95096404661831
+            ],
+            [
+              74.96853504510213,
+              25.950786928301184
+            ],
+            [
+              74.96873711290145,
+              25.95074892265862
+            ],
+            [
+              74.96877105508104,
+              25.95093367990863
+            ],
+            [
+              74.96866411280243,
+              25.951060280615568
+            ],
+            [
+              74.96852847138446,
+              25.95096404661831
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173574/347/45",
+        "khasra_number": "347",
+        "khata_number": "404",
+        "khatauni_number": "922",
+        "village_code": "173574",
+        "village_name": "Neemra (Kerot)",
+        "village_name_hi": "नीमड़ा (केरोट)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.950899,
+        "centroid_lon": 74.968647,
+        "computed_area_sqm": 602.98,
+        "recorded_area_sqm": 601.64,
+        "area_difference_sqm": -1.34,
+        "area_text": "0 बीघा 4 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "बलुई",
+        "soil_type_en": "Sandy",
+        "owner_name_hi": "ब्रजेश सिंह",
+        "owner_name_en": "Brajesh Singh",
+        "father_name_hi": "महेश मीना",
+        "father_name_en": "Mahesh Meena",
+        "ownership_type": "व्यक्तिगत",
+        "ownership_share": "100%",
+        "irrigation_type": "ट्यूबवेल",
+        "irrigation_type_en": "Tube Well",
+        "is_irrigated": true,
+        "current_crop": "अन्य",
+        "current_crop_en": "Other",
+        "crop_season": "रबी",
+        "rate_per_sqm": 1939,
+        "estimated_value_inr": 1166581.03,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "खतौनी",
+        "source_page": "183",
+        "source_year": 2020,
+        "survey_year": 2022,
+        "acquisition_year": null,
+        "mutation_count": 2,
+        "last_mutation_year": 1996,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.297822",
+        "last_updated": "2026-02-06T00:50:26.297823",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173574_46",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.96944601897876,
+              25.95093871725408
+            ],
+            [
+              74.96944607078734,
+              25.95093863267594
+            ],
+            [
+              74.96944610748551,
+              25.950938655155504
+            ],
+            [
+              74.9694460814181,
+              25.95093869771086
+            ],
+            [
+              74.96944613343726,
+              25.950938729575352
+            ],
+            [
+              74.96944610769609,
+              25.950938771598135
+            ],
+            [
+              74.96944601897876,
+              25.95093871725408
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173574/859/46",
+        "khasra_number": "859",
+        "khata_number": "442",
+        "khatauni_number": "977",
+        "village_code": "173574",
+        "village_name": "Neemra (Kerot)",
+        "village_name_hi": "नीमड़ा (केरोट)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.950939,
+        "centroid_lon": 74.969446,
+        "computed_area_sqm": 0.0,
+        "recorded_area_sqm": 0.0,
+        "area_difference_sqm": 0.0,
+        "area_text": "0 बीघा 0 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "residential",
+        "land_type_hi": "आवासीय",
+        "land_type_code": "RES",
+        "soil_type": "चिकनी",
+        "soil_type_en": "Clay",
+        "owner_name_hi": "मोहन दुबे",
+        "owner_name_en": "Mohan Dubey",
+        "father_name_hi": "विष्णु दुबे",
+        "father_name_en": "Vishnu Dubey",
+        "ownership_type": "व्यक्तिगत",
+        "ownership_share": "27%",
+        "irrigation_type": "ट्यूबवेल",
+        "irrigation_type_en": "Tube Well",
+        "is_irrigated": false,
+        "current_crop": null,
+        "current_crop_en": null,
+        "crop_season": null,
+        "rate_per_sqm": 19811,
+        "estimated_value_inr": 0.0,
+        "circle_rate_year": 2024,
+        "has_discrepancy": true,
+        "discrepancy_type": "area_mismatch",
+        "discrepancy_percentage": 29.7,
+        "discrepancy_severity": "high",
+        "record_status": "needs_review",
+        "verification_status": "pending",
+        "source_document": "पट्टा",
+        "source_page": "151",
+        "source_year": 2018,
+        "survey_year": 2019,
+        "acquisition_year": null,
+        "mutation_count": 4,
+        "last_mutation_year": 1991,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.297856",
+        "last_updated": "2026-02-06T00:50:26.297857",
+        "digitized_by": "System",
+        "remarks": "Auto-generated test data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173574_47",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.97068235090737,
+              25.950765097924577
+            ],
+            [
+              74.97029955592323,
+              25.95084922623861
+            ],
+            [
+              74.9701396253614,
+              25.950536378903184
+            ],
+            [
+              74.97050100896752,
+              25.950395399631297
+            ],
+            [
+              74.97068235090737,
+              25.950765097924577
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173574/578/47",
+        "khasra_number": "578",
+        "khata_number": "288",
+        "khatauni_number": "565",
+        "village_code": "173574",
+        "village_name": "Neemra (Kerot)",
+        "village_name_hi": "नीमड़ा (केरोट)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.950637,
+        "centroid_lon": 74.970406,
+        "computed_area_sqm": 1619.59,
+        "recorded_area_sqm": 1639.92,
+        "area_difference_sqm": 20.33,
+        "area_text": "0 बीघा 13 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "चिकनी",
+        "soil_type_en": "Clay",
+        "owner_name_hi": "विनोद मीना",
+        "owner_name_en": "Vinod Meena",
+        "father_name_hi": "कृष्ण चौहान",
+        "father_name_en": "Krishna Chauhan",
+        "ownership_type": "संयुक्त",
+        "ownership_share": "100%",
+        "irrigation_type": "कुआं",
+        "irrigation_type_en": "Well",
+        "is_irrigated": true,
+        "current_crop": "चना",
+        "current_crop_en": "Gram",
+        "crop_season": "रबी",
+        "rate_per_sqm": 839,
+        "estimated_value_inr": 1375893.14,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "पट्टा",
+        "source_page": "103",
+        "source_year": 2023,
+        "survey_year": 2024,
+        "acquisition_year": 2003,
+        "mutation_count": 2,
+        "last_mutation_year": 2019,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.297891",
+        "last_updated": "2026-02-06T00:50:26.297892",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173574_48",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.97122558525403,
+              25.950605711554545
+            ],
+            [
+              74.9714225296577,
+              25.95061076043495
+            ],
+            [
+              74.97146074817294,
+              25.950792143576145
+            ],
+            [
+              74.97124473788608,
+              25.950811288878157
+            ],
+            [
+              74.97122558525403,
+              25.950605711554545
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173574/999/48",
+        "khasra_number": "999",
+        "khata_number": "338",
+        "khatauni_number": "394",
+        "village_code": "173574",
+        "village_name": "Neemra (Kerot)",
+        "village_name_hi": "नीमड़ा (केरोट)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.950705,
+        "centroid_lon": 74.971338,
+        "computed_area_sqm": 444.83,
+        "recorded_area_sqm": 451.73,
+        "area_difference_sqm": 6.9,
+        "area_text": "0 बीघा 3 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "residential",
+        "land_type_hi": "आवासीय",
+        "land_type_code": "RES",
+        "soil_type": "दोमट",
+        "soil_type_en": "Loamy",
+        "owner_name_hi": "राम राय",
+        "owner_name_en": "Ram Rai",
+        "father_name_hi": "राजेश वर्मा",
+        "father_name_en": "Rajesh Verma",
+        "ownership_type": "संयुक्त",
+        "ownership_share": "100%",
+        "irrigation_type": "ट्यूबवेल",
+        "irrigation_type_en": "Tube Well",
+        "is_irrigated": false,
+        "current_crop": null,
+        "current_crop_en": null,
+        "crop_season": null,
+        "rate_per_sqm": 5393,
+        "estimated_value_inr": 2436165.71,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "बी-1",
+        "source_page": "98",
+        "source_year": 2021,
+        "survey_year": 2018,
+        "acquisition_year": 1980,
+        "mutation_count": 4,
+        "last_mutation_year": 1996,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.297928",
+        "last_updated": "2026-02-06T00:50:26.297929",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173574_49",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.96562370238384,
+              25.951413488862105
+            ],
+            [
+              74.9658424259003,
+              25.951527984296714
+            ],
+            [
+              74.9658556621622,
+              25.95175735716741
+            ],
+            [
+              74.9655308188586,
+              25.951792937719674
+            ],
+            [
+              74.96540691773916,
+              25.951609681946145
+            ],
+            [
+              74.96562370238384,
+              25.951413488862105
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173574/136/49",
+        "khasra_number": "136",
+        "khata_number": "322",
+        "khatauni_number": "578",
+        "village_code": "173574",
+        "village_name": "Neemra (Kerot)",
+        "village_name_hi": "नीमड़ा (केरोट)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.95162,
+        "centroid_lon": 74.965652,
+        "computed_area_sqm": 1288.7,
+        "recorded_area_sqm": 1264.4,
+        "area_difference_sqm": -24.3,
+        "area_text": "0 बीघा 10 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "residential",
+        "land_type_hi": "आवासीय",
+        "land_type_code": "RES",
+        "soil_type": "काली",
+        "soil_type_en": "Black",
+        "owner_name_hi": "श्याम वर्मा",
+        "owner_name_en": "Shyam Verma",
+        "father_name_hi": "जगदीश चौहान",
+        "father_name_en": "Jagdish Chauhan",
+        "ownership_type": "सरकारी",
+        "ownership_share": "22%",
+        "irrigation_type": "ट्यूबवेल",
+        "irrigation_type_en": "Tube Well",
+        "is_irrigated": false,
+        "current_crop": null,
+        "current_crop_en": null,
+        "crop_season": null,
+        "rate_per_sqm": 19337,
+        "estimated_value_inr": 24449649.66,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "पट्टा",
+        "source_page": "136",
+        "source_year": 2020,
+        "survey_year": 2020,
+        "acquisition_year": null,
+        "mutation_count": 0,
+        "last_mutation_year": null,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.297971",
+        "last_updated": "2026-02-06T00:50:26.297972",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "173574_50",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.96628888766216,
+              25.951361723014685
+            ],
+            [
+              74.96643578981066,
+              25.951439603799333
+            ],
+            [
+              74.96636357332306,
+              25.9516013403736
+            ],
+            [
+              74.96618068220495,
+              25.951508781875184
+            ],
+            [
+              74.96628888766216,
+              25.951361723014685
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "173574/260/50",
+        "khasra_number": "260",
+        "khata_number": "233",
+        "khatauni_number": "339",
+        "village_code": "173574",
+        "village_name": "Neemra (Kerot)",
+        "village_name_hi": "नीमड़ा (केरोट)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.951478,
+        "centroid_lon": 74.966317,
+        "computed_area_sqm": 367.23,
+        "recorded_area_sqm": 366.14,
+        "area_difference_sqm": -1.09,
+        "area_text": "0 बीघा 2 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "residential",
+        "land_type_hi": "आवासीय",
+        "land_type_code": "RES",
+        "soil_type": "लाल",
+        "soil_type_en": "Red",
+        "owner_name_hi": "कृष्ण सिंह",
+        "owner_name_en": "Krishna Singh",
+        "father_name_hi": "सुरेश सिंह",
+        "father_name_en": "Suresh Singh",
+        "ownership_type": "सरकारी",
+        "ownership_share": "17%",
+        "irrigation_type": "तालाब",
+        "irrigation_type_en": "Pond",
+        "is_irrigated": false,
+        "current_crop": null,
+        "current_crop_en": null,
+        "crop_season": null,
+        "rate_per_sqm": 5186,
+        "estimated_value_inr": 1898817.67,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "बी-1",
+        "source_page": "186",
+        "source_year": 2020,
+        "survey_year": 2015,
+        "acquisition_year": null,
+        "mutation_count": 1,
+        "last_mutation_year": 2020,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.298004",
+        "last_updated": "2026-02-06T00:50:26.298006",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,4620 @@
+{
+  "type": "FeatureCollection",
+  "name": "Padaliya (Bhinay)_Parcels",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "172618_1",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.89251683817744,
+              25.95702056710375
+            ],
+            [
+              74.89274303772697,
+              25.957071227496048
+            ],
+            [
+              74.8929672133216,
+              25.957036825479957
+            ],
+            [
+              74.89302655928068,
+              25.957253071574453
+            ],
+            [
+              74.89293850223059,
+              25.957457584678846
+            ],
+            [
+              74.89277109942323,
+              25.95752746828742
+            ],
+            [
+              74.89258828815291,
+              25.957484283374875
+            ],
+            [
+              74.89238814264117,
+              25.957264844167582
+            ],
+            [
+              74.89251683817744,
+              25.95702056710375
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "172618/824/1",
+        "khasra_number": "824",
+        "khata_number": "362",
+        "khatauni_number": "407",
+        "village_code": "172618",
+        "village_name": "Padaliya (Bhinay)",
+        "village_name_hi": "पाडलिया (भीनाय)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.957264,
+        "centroid_lon": 74.892742,
+        "computed_area_sqm": 2567.07,
+        "recorded_area_sqm": 2595.93,
+        "area_difference_sqm": 28.86,
+        "area_text": "1 बीघा 0 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "बलुई",
+        "soil_type_en": "Sandy",
+        "owner_name_hi": "भगवान यादव",
+        "owner_name_en": "Bhagwan Yadav",
+        "father_name_hi": "लक्ष्मी त्रिपाठी",
+        "father_name_en": "Lakshmi Tripathi",
+        "ownership_type": "सरकारी",
+        "ownership_share": "65%",
+        "irrigation_type": "कोई नहीं",
+        "irrigation_type_en": "None",
+        "is_irrigated": false,
+        "current_crop": "चना",
+        "current_crop_en": "Gram",
+        "crop_season": "रबी",
+        "rate_per_sqm": 766,
+        "estimated_value_inr": 1988481.39,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "खतौनी",
+        "source_page": "96",
+        "source_year": 2022,
+        "survey_year": 2015,
+        "acquisition_year": 1972,
+        "mutation_count": 5,
+        "last_mutation_year": 2000,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.303811",
+        "last_updated": "2026-02-06T00:50:26.303818",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "172618_2",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.89334041214826,
+              25.95718669499837
+            ],
+            [
+              74.89359817004424,
+              25.957092687606448
+            ],
+            [
+              74.8936377174637,
+              25.95738934040093
+            ],
+            [
+              74.89338347228147,
+              25.957439094827752
+            ],
+            [
+              74.89334041214826,
+              25.95718669499837
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "172618/611/2",
+        "khasra_number": "611",
+        "khata_number": "346",
+        "khatauni_number": "864",
+        "village_code": "172618",
+        "village_name": "Padaliya (Bhinay)",
+        "village_name_hi": "पाडलिया (भीनाय)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.957277,
+        "centroid_lon": 74.89349,
+        "computed_area_sqm": 811.45,
+        "recorded_area_sqm": 812.67,
+        "area_difference_sqm": 1.22,
+        "area_text": "0 बीघा 6 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "चिकनी",
+        "soil_type_en": "Clay",
+        "owner_name_hi": "राजेश राजपूत",
+        "owner_name_en": "Rajesh Rajput",
+        "father_name_hi": "सीता जाट",
+        "father_name_en": "Sita Jat",
+        "ownership_type": "सरकारी",
+        "ownership_share": "100%",
+        "irrigation_type": "कुआं",
+        "irrigation_type_en": "Well",
+        "is_irrigated": true,
+        "current_crop": "बाजरा",
+        "current_crop_en": "Millet",
+        "crop_season": "रबी",
+        "rate_per_sqm": 815,
+        "estimated_value_inr": 662328.11,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "खतौनी",
+        "source_page": "40",
+        "source_year": 2021,
+        "survey_year": 2018,
+        "acquisition_year": 1973,
+        "mutation_count": 3,
+        "last_mutation_year": 2002,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.303860",
+        "last_updated": "2026-02-06T00:50:26.303862",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "172618_3",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.89425581919666,
+              25.9576588349364
+            ],
+            [
+              74.89399685059347,
+              25.957701808997573
+            ],
+            [
+              74.8938295252928,
+              25.957601659816117
+            ],
+            [
+              74.89393854410761,
+              25.957375487961038
+            ],
+            [
+              74.89425907389641,
+              25.95739933559031
+            ],
+            [
+              74.89425581919666,
+              25.9576588349364
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "172618/660/3",
+        "khasra_number": "660",
+        "khata_number": "433",
+        "khatauni_number": "91",
+        "village_code": "172618",
+        "village_name": "Padaliya (Bhinay)",
+        "village_name_hi": "पाडलिया (भीनाय)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.957547,
+        "centroid_lon": 74.894056,
+        "computed_area_sqm": 1213.21,
+        "recorded_area_sqm": 862.24,
+        "area_difference_sqm": -350.97,
+        "area_text": "0 बीघा 6 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "barren",
+        "land_type_hi": "बंजर",
+        "land_type_code": "BAR",
+        "soil_type": "लाल",
+        "soil_type_en": "Red",
+        "owner_name_hi": "शंकर सिंह",
+        "owner_name_en": "Shankar Singh",
+        "father_name_hi": "भगवान गुर्जर",
+        "father_name_en": "Bhagwan Gurjar",
+        "ownership_type": "संयुक्त",
+        "ownership_share": "92%",
+        "irrigation_type": "कोई नहीं",
+        "irrigation_type_en": "None",
+        "is_irrigated": false,
+        "current_crop": null,
+        "current_crop_en": null,
+        "crop_season": null,
+        "rate_per_sqm": 189,
+        "estimated_value_inr": 162963.79,
+        "circle_rate_year": 2024,
+        "has_discrepancy": true,
+        "discrepancy_type": "area_mismatch",
+        "discrepancy_percentage": -28.9,
+        "discrepancy_severity": "high",
+        "record_status": "needs_review",
+        "verification_status": "pending",
+        "source_document": "बी-1",
+        "source_page": "83",
+        "source_year": 2020,
+        "survey_year": 2022,
+        "acquisition_year": 1992,
+        "mutation_count": 4,
+        "last_mutation_year": 2024,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.303914",
+        "last_updated": "2026-02-06T00:50:26.303915",
+        "digitized_by": "System",
+        "remarks": "Auto-generated test data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "172618_4",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.89495841600294,
+              25.95749905049689
+            ],
+            [
+              74.89511542216307,
+              25.957307667453843
+            ],
+            [
+              74.89520762379776,
+              25.957527860064573
+            ],
+            [
+              74.8950434548272,
+              25.957641637870587
+            ],
+            [
+              74.89495841600294,
+              25.95749905049689
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "172618/931/4",
+        "khasra_number": "931",
+        "khata_number": "307",
+        "khatauni_number": "239",
+        "village_code": "172618",
+        "village_name": "Padaliya (Bhinay)",
+        "village_name_hi": "पाडलिया (भीनाय)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.957494,
+        "centroid_lon": 74.895081,
+        "computed_area_sqm": 472.49,
+        "recorded_area_sqm": 467.75,
+        "area_difference_sqm": -4.74,
+        "area_text": "0 बीघा 3 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "residential",
+        "land_type_hi": "आवासीय",
+        "land_type_code": "RES",
+        "soil_type": "काली",
+        "soil_type_en": "Black",
+        "owner_name_hi": "राजेश कुमावत",
+        "owner_name_en": "Rajesh Kumawat",
+        "father_name_hi": "रामू सिंह",
+        "father_name_en": "Ramu Singh",
+        "ownership_type": "संयुक्त",
+        "ownership_share": "81%",
+        "irrigation_type": "तालाब",
+        "irrigation_type_en": "Pond",
+        "is_irrigated": false,
+        "current_crop": null,
+        "current_crop_en": null,
+        "crop_season": null,
+        "rate_per_sqm": 12872,
+        "estimated_value_inr": 6020907.6,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "पट्टा",
+        "source_page": "27",
+        "source_year": 2022,
+        "survey_year": 2023,
+        "acquisition_year": null,
+        "mutation_count": 4,
+        "last_mutation_year": 2013,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.303961",
+        "last_updated": "2026-02-06T00:50:26.303962",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "172618_5",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.89597505606619,
+              25.95709920733699
+            ],
+            [
+              74.89613899332943,
+              25.957254584256514
+            ],
+            [
+              74.89613417969807,
+              25.957442237248717
+            ],
+            [
+              74.89591924706632,
+              25.957567010002766
+            ],
+            [
+              74.89568551353403,
+              25.957420526406732
+            ],
+            [
+              74.895743081462,
+              25.957166437682904
+            ],
+            [
+              74.89597505606619,
+              25.95709920733699
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "172618/873/5",
+        "khasra_number": "873",
+        "khata_number": "342",
+        "khatauni_number": "289",
+        "village_code": "172618",
+        "village_name": "Padaliya (Bhinay)",
+        "village_name_hi": "पाडलिया (भीनाय)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.957325,
+        "centroid_lon": 74.895933,
+        "computed_area_sqm": 1648.88,
+        "recorded_area_sqm": 2059.26,
+        "area_difference_sqm": 410.38,
+        "area_text": "0 बीघा 16 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "दोमट",
+        "soil_type_en": "Loamy",
+        "owner_name_hi": "राम चौहान",
+        "owner_name_en": "Ram Chauhan",
+        "father_name_hi": "दिनेश चौहान",
+        "father_name_en": "Dinesh Chauhan",
+        "ownership_type": "संयुक्त",
+        "ownership_share": "74%",
+        "irrigation_type": "कुआं",
+        "irrigation_type_en": "Well",
+        "is_irrigated": true,
+        "current_crop": "चना",
+        "current_crop_en": "Gram",
+        "crop_season": "जायद",
+        "rate_per_sqm": 1953,
+        "estimated_value_inr": 4021738.03,
+        "circle_rate_year": 2024,
+        "has_discrepancy": true,
+        "discrepancy_type": "area_mismatch",
+        "discrepancy_percentage": 24.9,
+        "discrepancy_severity": "medium",
+        "record_status": "needs_review",
+        "verification_status": "pending",
+        "source_document": "जमाबंदी",
+        "source_page": "10",
+        "source_year": 2018,
+        "survey_year": 2019,
+        "acquisition_year": 2001,
+        "mutation_count": 5,
+        "last_mutation_year": 2015,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.304010",
+        "last_updated": "2026-02-06T00:50:26.304012",
+        "digitized_by": "System",
+        "remarks": "Auto-generated test data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "172618_6",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.89659138461141,
+              25.957568278981004
+            ],
+            [
+              74.89633482152469,
+              25.957473514104947
+            ],
+            [
+              74.89643586517977,
+              25.957309289870448
+            ],
+            [
+              74.89666401351262,
+              25.95738650292857
+            ],
+            [
+              74.89659138461141,
+              25.957568278981004
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "172618/721/6",
+        "khasra_number": "721",
+        "khata_number": "123",
+        "khatauni_number": "747",
+        "village_code": "172618",
+        "village_name": "Padaliya (Bhinay)",
+        "village_name_hi": "पाडलिया (भीनाय)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.957434,
+        "centroid_lon": 74.896507,
+        "computed_area_sqm": 547.19,
+        "recorded_area_sqm": 556.47,
+        "area_difference_sqm": 9.28,
+        "area_text": "0 बीघा 4 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "barren",
+        "land_type_hi": "बंजर",
+        "land_type_code": "BAR",
+        "soil_type": "बलुई",
+        "soil_type_en": "Sandy",
+        "owner_name_hi": "नारायण पटेल",
+        "owner_name_en": "Narayan Patel",
+        "father_name_hi": "दिनेश गुप्ता",
+        "father_name_en": "Dinesh Gupta",
+        "ownership_type": "व्यक्तिगत",
+        "ownership_share": "67%",
+        "irrigation_type": "ट्यूबवेल",
+        "irrigation_type_en": "Tube Well",
+        "is_irrigated": false,
+        "current_crop": null,
+        "current_crop_en": null,
+        "crop_season": null,
+        "rate_per_sqm": 235,
+        "estimated_value_inr": 130769.49,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "बी-1",
+        "source_page": "87",
+        "source_year": 2023,
+        "survey_year": 2023,
+        "acquisition_year": 1996,
+        "mutation_count": 1,
+        "last_mutation_year": 2020,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.304046",
+        "last_updated": "2026-02-06T00:50:26.304047",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "172618_7",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.89770467391538,
+              25.95724746560673
+            ],
+            [
+              74.89745122200247,
+              25.957591508842327
+            ],
+            [
+              74.89717154892286,
+              25.957386155770134
+            ],
+            [
+              74.8972754039754,
+              25.957099385284398
+            ],
+            [
+              74.89770467391538,
+              25.95724746560673
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "172618/931/7",
+        "khasra_number": "931",
+        "khata_number": "423",
+        "khatauni_number": "983",
+        "village_code": "172618",
+        "village_name": "Padaliya (Bhinay)",
+        "village_name_hi": "पाडलिया (भीनाय)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.957331,
+        "centroid_lon": 74.897401,
+        "computed_area_sqm": 1588.31,
+        "recorded_area_sqm": 1561.09,
+        "area_difference_sqm": -27.22,
+        "area_text": "0 बीघा 12 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "residential",
+        "land_type_hi": "आवासीय",
+        "land_type_code": "RES",
+        "soil_type": "बलुई",
+        "soil_type_en": "Sandy",
+        "owner_name_hi": "राजेश सिंह",
+        "owner_name_en": "Rajesh Singh",
+        "father_name_hi": "गीता यादव",
+        "father_name_en": "Geeta Yadav",
+        "ownership_type": "संयुक्त",
+        "ownership_share": "100%",
+        "irrigation_type": "तालाब",
+        "irrigation_type_en": "Pond",
+        "is_irrigated": false,
+        "current_crop": null,
+        "current_crop_en": null,
+        "crop_season": null,
+        "rate_per_sqm": 9678,
+        "estimated_value_inr": 15108223.28,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "पट्टा",
+        "source_page": "130",
+        "source_year": 2018,
+        "survey_year": 2024,
+        "acquisition_year": 1986,
+        "mutation_count": 0,
+        "last_mutation_year": null,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.304077",
+        "last_updated": "2026-02-06T00:50:26.304078",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "172618_8",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.8981330218012,
+              25.95723174744764
+            ],
+            [
+              74.89829401633958,
+              25.957171629775573
+            ],
+            [
+              74.89834141214145,
+              25.957416701674585
+            ],
+            [
+              74.89814506079804,
+              25.957423393279868
+            ],
+            [
+              74.8981330218012,
+              25.95723174744764
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "172618/678/8",
+        "khasra_number": "678",
+        "khata_number": "444",
+        "khatauni_number": "371",
+        "village_code": "172618",
+        "village_name": "Padaliya (Bhinay)",
+        "village_name_hi": "पाडलिया (भीनाय)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.957311,
+        "centroid_lon": 74.898228,
+        "computed_area_sqm": 443.21,
+        "recorded_area_sqm": 443.48,
+        "area_difference_sqm": 0.27,
+        "area_text": "0 बीघा 3 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "चिकनी",
+        "soil_type_en": "Clay",
+        "owner_name_hi": "सीता चौहान",
+        "owner_name_en": "Sita Chauhan",
+        "father_name_hi": "रमेश राय",
+        "father_name_en": "Ramesh Rai",
+        "ownership_type": "व्यक्तिगत",
+        "ownership_share": "100%",
+        "irrigation_type": "नहर",
+        "irrigation_type_en": "Canal",
+        "is_irrigated": true,
+        "current_crop": "मूंग",
+        "current_crop_en": "Moong",
+        "crop_season": "जायद",
+        "rate_per_sqm": 1315,
+        "estimated_value_inr": 583173.79,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "पट्टा",
+        "source_page": "140",
+        "source_year": 2020,
+        "survey_year": 2018,
+        "acquisition_year": null,
+        "mutation_count": 5,
+        "last_mutation_year": 1994,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.304112",
+        "last_updated": "2026-02-06T00:50:26.304113",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "172618_9",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.89257955758096,
+              25.95819730861688
+            ],
+            [
+              74.89251904647251,
+              25.958074044979337
+            ],
+            [
+              74.89250556485356,
+              25.957930224373648
+            ],
+            [
+              74.89263732865669,
+              25.95788263561606
+            ],
+            [
+              74.89283670953618,
+              25.957930839874543
+            ],
+            [
+              74.89285808412042,
+              25.958129434162284
+            ],
+            [
+              74.89271525387129,
+              25.958218673525458
+            ],
+            [
+              74.89257955758096,
+              25.95819730861688
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "172618/133/9",
+        "khasra_number": "133",
+        "khata_number": "496",
+        "khatauni_number": "285",
+        "village_code": "172618",
+        "village_name": "Padaliya (Bhinay)",
+        "village_name_hi": "पाडलिया (भीनाय)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.958052,
+        "centroid_lon": 74.892665,
+        "computed_area_sqm": 1014.77,
+        "recorded_area_sqm": 1282.1,
+        "area_difference_sqm": 267.33,
+        "area_text": "0 बीघा 10 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "लाल",
+        "soil_type_en": "Red",
+        "owner_name_hi": "राजेश मिश्रा",
+        "owner_name_en": "Rajesh Mishra",
+        "father_name_hi": "हरि त्रिपाठी",
+        "father_name_en": "Hari Tripathi",
+        "ownership_type": "सरकारी",
+        "ownership_share": "43%",
+        "irrigation_type": "कुआं",
+        "irrigation_type_en": "Well",
+        "is_irrigated": true,
+        "current_crop": "अन्य",
+        "current_crop_en": "Other",
+        "crop_season": "जायद",
+        "rate_per_sqm": 1369,
+        "estimated_value_inr": 1755199.58,
+        "circle_rate_year": 2024,
+        "has_discrepancy": true,
+        "discrepancy_type": "area_mismatch",
+        "discrepancy_percentage": 26.3,
+        "discrepancy_severity": "high",
+        "record_status": "needs_review",
+        "verification_status": "pending",
+        "source_document": "बी-1",
+        "source_page": "123",
+        "source_year": 2019,
+        "survey_year": 2016,
+        "acquisition_year": 2007,
+        "mutation_count": 1,
+        "last_mutation_year": 1996,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.304148",
+        "last_updated": "2026-02-06T00:50:26.304150",
+        "digitized_by": "System",
+        "remarks": "Auto-generated test data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "172618_10",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.89353830571373,
+              25.95801161619243
+            ],
+            [
+              74.89353838437685,
+              25.9580115928336
+            ],
+            [
+              74.89353839899248,
+              25.958011642053116
+            ],
+            [
+              74.893538367576,
+              25.958011651382165
+            ],
+            [
+              74.89353838030304,
+              25.958011694241748
+            ],
+            [
+              74.8935383330564,
+              25.958011708271528
+            ],
+            [
+              74.89353830571373,
+              25.95801161619243
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "172618/876/10",
+        "khasra_number": "876",
+        "khata_number": "159",
+        "khatauni_number": "493",
+        "village_code": "172618",
+        "village_name": "Padaliya (Bhinay)",
+        "village_name_hi": "पाडलिया (भीनाय)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.958012,
+        "centroid_lon": 74.893538,
+        "computed_area_sqm": 0.0,
+        "recorded_area_sqm": 0.0,
+        "area_difference_sqm": 0.0,
+        "area_text": "0 बीघा 0 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "बलुई",
+        "soil_type_en": "Sandy",
+        "owner_name_hi": "सीता चौहान",
+        "owner_name_en": "Sita Chauhan",
+        "father_name_hi": "सीता राय",
+        "father_name_en": "Sita Rai",
+        "ownership_type": "व्यक्तिगत",
+        "ownership_share": "100%",
+        "irrigation_type": "वर्षा आधारित",
+        "irrigation_type_en": "Rain Fed",
+        "is_irrigated": false,
+        "current_crop": "बाजरा",
+        "current_crop_en": "Millet",
+        "crop_season": "खरीफ",
+        "rate_per_sqm": 842,
+        "estimated_value_inr": 0.0,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "जमाबंदी",
+        "source_page": "186",
+        "source_year": 2021,
+        "survey_year": 2024,
+        "acquisition_year": null,
+        "mutation_count": 1,
+        "last_mutation_year": 2022,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.304185",
+        "last_updated": "2026-02-06T00:50:26.304186",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "172618_11",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.89446876899116,
+              25.958009062685544
+            ],
+            [
+              74.89456098106149,
+              25.958260484298375
+            ],
+            [
+              74.89433640346425,
+              25.95846561693594
+            ],
+            [
+              74.89414443191825,
+              25.958399345994874
+            ],
+            [
+              74.89393931594238,
+              25.958158885137163
+            ],
+            [
+              74.89413908949119,
+              25.95793555552597
+            ],
+            [
+              74.89446876899116,
+              25.958009062685544
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "172618/966/11",
+        "khasra_number": "966",
+        "khata_number": "131",
+        "khatauni_number": "956",
+        "village_code": "172618",
+        "village_name": "Padaliya (Bhinay)",
+        "village_name_hi": "पाडलिया (भीनाय)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.958205,
+        "centroid_lon": 74.894265,
+        "computed_area_sqm": 2316.14,
+        "recorded_area_sqm": 2361.48,
+        "area_difference_sqm": 45.34,
+        "area_text": "0 बीघा 18 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "काली",
+        "soil_type_en": "Black",
+        "owner_name_hi": "कृष्ण पांडेय",
+        "owner_name_en": "Krishna Pandey",
+        "father_name_hi": "सरस्वती मीना",
+        "father_name_en": "Saraswati Meena",
+        "ownership_type": "सरकारी",
+        "ownership_share": "100%",
+        "irrigation_type": "तालाब",
+        "irrigation_type_en": "Pond",
+        "is_irrigated": true,
+        "current_crop": "बाजरा",
+        "current_crop_en": "Millet",
+        "crop_season": "रबी",
+        "rate_per_sqm": 1721,
+        "estimated_value_inr": 4064100.14,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "बी-1",
+        "source_page": "41",
+        "source_year": 2021,
+        "survey_year": 2017,
+        "acquisition_year": 1987,
+        "mutation_count": 0,
+        "last_mutation_year": null,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.304219",
+        "last_updated": "2026-02-06T00:50:26.304220",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "172618_12",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.89537265161252,
+              25.95789384866384
+            ],
+            [
+              74.89539287429034,
+              25.958258168599972
+            ],
+            [
+              74.89503580311496,
+              25.958296641663132
+            ],
+            [
+              74.89493328367477,
+              25.957908272785975
+            ],
+            [
+              74.89537265161252,
+              25.95789384866384
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "172618/561/12",
+        "khasra_number": "561",
+        "khata_number": "424",
+        "khatauni_number": "194",
+        "village_code": "172618",
+        "village_name": "Padaliya (Bhinay)",
+        "village_name_hi": "पाडलिया (भीनाय)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.958089,
+        "centroid_lon": 74.895184,
+        "computed_area_sqm": 1678.22,
+        "recorded_area_sqm": 1645.06,
+        "area_difference_sqm": -33.16,
+        "area_text": "0 बीघा 13 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "residential",
+        "land_type_hi": "आवासीय",
+        "land_type_code": "RES",
+        "soil_type": "बलुई",
+        "soil_type_en": "Sandy",
+        "owner_name_hi": "रमेश राय",
+        "owner_name_en": "Ramesh Rai",
+        "father_name_hi": "राधा त्रिपाठी",
+        "father_name_en": "Radha Tripathi",
+        "ownership_type": "व्यक्तिगत",
+        "ownership_share": "100%",
+        "irrigation_type": "ट्यूबवेल",
+        "irrigation_type_en": "Tube Well",
+        "is_irrigated": false,
+        "current_crop": null,
+        "current_crop_en": null,
+        "crop_season": null,
+        "rate_per_sqm": 15593,
+        "estimated_value_inr": 25651416.2,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "खतौनी",
+        "source_page": "190",
+        "source_year": 2019,
+        "survey_year": 2017,
+        "acquisition_year": null,
+        "mutation_count": 4,
+        "last_mutation_year": 2016,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.304256",
+        "last_updated": "2026-02-06T00:50:26.304257",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "172618_13",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.89593962438855,
+              25.957912225127732
+            ],
+            [
+              74.89592424683055,
+              25.95812542650347
+            ],
+            [
+              74.8957178866064,
+              25.95818295815146
+            ],
+            [
+              74.89557841268648,
+              25.95803079286286
+            ],
+            [
+              74.89572088967049,
+              25.957875561399764
+            ],
+            [
+              74.89593962438855,
+              25.957912225127732
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "172618/956/13",
+        "khasra_number": "956",
+        "khata_number": "499",
+        "khatauni_number": "729",
+        "village_code": "172618",
+        "village_name": "Padaliya (Bhinay)",
+        "village_name_hi": "पाडलिया (भीनाय)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.958025,
+        "centroid_lon": 74.895776,
+        "computed_area_sqm": 851.85,
+        "recorded_area_sqm": 1082.51,
+        "area_difference_sqm": 230.66,
+        "area_text": "0 बीघा 8 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "barren",
+        "land_type_hi": "बंजर",
+        "land_type_code": "BAR",
+        "soil_type": "बलुई",
+        "soil_type_en": "Sandy",
+        "owner_name_hi": "विष्णु मीना",
+        "owner_name_en": "Vishnu Meena",
+        "father_name_hi": "सुरेश जाट",
+        "father_name_en": "Suresh Jat",
+        "ownership_type": "व्यक्तिगत",
+        "ownership_share": "100%",
+        "irrigation_type": "कुआं",
+        "irrigation_type_en": "Well",
+        "is_irrigated": false,
+        "current_crop": null,
+        "current_crop_en": null,
+        "crop_season": null,
+        "rate_per_sqm": 455,
+        "estimated_value_inr": 492542.03,
+        "circle_rate_year": 2024,
+        "has_discrepancy": true,
+        "discrepancy_type": "area_mismatch",
+        "discrepancy_percentage": 27.1,
+        "discrepancy_severity": "high",
+        "record_status": "needs_review",
+        "verification_status": "pending",
+        "source_document": "बी-1",
+        "source_page": "90",
+        "source_year": 2023,
+        "survey_year": 2021,
+        "acquisition_year": null,
+        "mutation_count": 0,
+        "last_mutation_year": null,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.304289",
+        "last_updated": "2026-02-06T00:50:26.304290",
+        "digitized_by": "System",
+        "remarks": "Auto-generated test data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "172618_14",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.8966330888127,
+              25.958219062439767
+            ],
+            [
+              74.89669367163322,
+              25.958382546248284
+            ],
+            [
+              74.89653879476845,
+              25.95843564705577
+            ],
+            [
+              74.8963935289453,
+              25.958379463262965
+            ],
+            [
+              74.89647905096585,
+              25.958225742567492
+            ],
+            [
+              74.8966330888127,
+              25.958219062439767
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "172618/44/14",
+        "khasra_number": "44",
+        "khata_number": "245",
+        "khatauni_number": "63",
+        "village_code": "172618",
+        "village_name": "Padaliya (Bhinay)",
+        "village_name_hi": "पाडलिया (भीनाय)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.958328,
+        "centroid_lon": 74.896548,
+        "computed_area_sqm": 489.67,
+        "recorded_area_sqm": 651.41,
+        "area_difference_sqm": 161.74,
+        "area_text": "0 बीघा 5 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "residential",
+        "land_type_hi": "आवासीय",
+        "land_type_code": "RES",
+        "soil_type": "दोमट",
+        "soil_type_en": "Loamy",
+        "owner_name_hi": "मोहन राजपूत",
+        "owner_name_en": "Mohan Rajput",
+        "father_name_hi": "दिनेश मीना",
+        "father_name_en": "Dinesh Meena",
+        "ownership_type": "व्यक्तिगत",
+        "ownership_share": "100%",
+        "irrigation_type": "तालाब",
+        "irrigation_type_en": "Pond",
+        "is_irrigated": false,
+        "current_crop": null,
+        "current_crop_en": null,
+        "crop_season": null,
+        "rate_per_sqm": 8020,
+        "estimated_value_inr": 5224290.24,
+        "circle_rate_year": 2024,
+        "has_discrepancy": true,
+        "discrepancy_type": "area_mismatch",
+        "discrepancy_percentage": 33.0,
+        "discrepancy_severity": "high",
+        "record_status": "needs_review",
+        "verification_status": "pending",
+        "source_document": "जमाबंदी",
+        "source_page": "62",
+        "source_year": 2019,
+        "survey_year": 2021,
+        "acquisition_year": 1986,
+        "mutation_count": 2,
+        "last_mutation_year": 1993,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.304323",
+        "last_updated": "2026-02-06T00:50:26.304324",
+        "digitized_by": "System",
+        "remarks": "Auto-generated test data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "172618_15",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.89749897769653,
+              25.95812644506409
+            ],
+            [
+              74.89730767879468,
+              25.958166316689464
+            ],
+            [
+              74.89726785366774,
+              25.95795839470337
+            ],
+            [
+              74.89745052625611,
+              25.957945260417574
+            ],
+            [
+              74.89749897769653,
+              25.95812644506409
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "172618/491/15",
+        "khasra_number": "491",
+        "khata_number": "444",
+        "khatauni_number": "416",
+        "village_code": "172618",
+        "village_name": "Padaliya (Bhinay)",
+        "village_name_hi": "पाडलिया (भीनाय)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.958049,
+        "centroid_lon": 74.897381,
+        "computed_area_sqm": 415.96,
+        "recorded_area_sqm": 423.9,
+        "area_difference_sqm": 7.94,
+        "area_text": "0 बीघा 3 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "दोमट",
+        "soil_type_en": "Loamy",
+        "owner_name_hi": "भगवान वर्मा",
+        "owner_name_en": "Bhagwan Verma",
+        "father_name_hi": "ब्रजेश पटेल",
+        "father_name_en": "Brajesh Patel",
+        "ownership_type": "सरकारी",
+        "ownership_share": "100%",
+        "irrigation_type": "ट्यूबवेल",
+        "irrigation_type_en": "Tube Well",
+        "is_irrigated": true,
+        "current_crop": "बाजरा",
+        "current_crop_en": "Millet",
+        "crop_season": "रबी",
+        "rate_per_sqm": 1833,
+        "estimated_value_inr": 777012.76,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "खतौनी",
+        "source_page": "50",
+        "source_year": 2023,
+        "survey_year": 2022,
+        "acquisition_year": 2000,
+        "mutation_count": 3,
+        "last_mutation_year": 2022,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.304357",
+        "last_updated": "2026-02-06T00:50:26.304358",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "172618_16",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.89798755393433,
+              25.957929598902627
+            ],
+            [
+              74.89819669282981,
+              25.957772989604468
+            ],
+            [
+              74.89844241862923,
+              25.95800045253302
+            ],
+            [
+              74.89829048749475,
+              25.958267252003942
+            ],
+            [
+              74.89800226220443,
+              25.95827962978093
+            ],
+            [
+              74.89798755393433,
+              25.957929598902627
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "172618/57/16",
+        "khasra_number": "57",
+        "khata_number": "203",
+        "khatauni_number": "78",
+        "village_code": "172618",
+        "village_name": "Padaliya (Bhinay)",
+        "village_name_hi": "पाडलिया (भीनाय)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.95805,
+        "centroid_lon": 74.898184,
+        "computed_area_sqm": 1768.31,
+        "recorded_area_sqm": 1756.27,
+        "area_difference_sqm": -12.04,
+        "area_text": "0 बीघा 14 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "चिकनी",
+        "soil_type_en": "Clay",
+        "owner_name_hi": "गीता यादव",
+        "owner_name_en": "Geeta Yadav",
+        "father_name_hi": "गोपाल सिंह",
+        "father_name_en": "Gopal Singh",
+        "ownership_type": "संयुक्त",
+        "ownership_share": "100%",
+        "irrigation_type": "ट्यूबवेल",
+        "irrigation_type_en": "Tube Well",
+        "is_irrigated": true,
+        "current_crop": "बाजरा",
+        "current_crop_en": "Millet",
+        "crop_season": "खरीफ",
+        "rate_per_sqm": 1454,
+        "estimated_value_inr": 2553620.38,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "खसरा",
+        "source_page": "194",
+        "source_year": 2021,
+        "survey_year": 2016,
+        "acquisition_year": null,
+        "mutation_count": 4,
+        "last_mutation_year": 2002,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.304390",
+        "last_updated": "2026-02-06T00:50:26.304391",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "172618_17",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.8929276988369,
+              25.958883929244
+            ],
+            [
+              74.89288304623223,
+              25.95906361693999
+            ],
+            [
+              74.89272104364339,
+              25.959051299162958
+            ],
+            [
+              74.89260496279134,
+              25.95890332091829
+            ],
+            [
+              74.89277166915508,
+              25.958782739197513
+            ],
+            [
+              74.8929276988369,
+              25.958883929244
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "172618/397/17",
+        "khasra_number": "397",
+        "khata_number": "127",
+        "khatauni_number": "21",
+        "village_code": "172618",
+        "village_name": "Padaliya (Bhinay)",
+        "village_name_hi": "पाडलिया (भीनाय)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.958937,
+        "centroid_lon": 74.892782,
+        "computed_area_sqm": 638.93,
+        "recorded_area_sqm": 764.48,
+        "area_difference_sqm": 125.55,
+        "area_text": "0 बीघा 6 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "लाल",
+        "soil_type_en": "Red",
+        "owner_name_hi": "श्याम यादव",
+        "owner_name_en": "Shyam Yadav",
+        "father_name_hi": "श्याम गुर्जर",
+        "father_name_en": "Shyam Gurjar",
+        "ownership_type": "संयुक्त",
+        "ownership_share": "100%",
+        "irrigation_type": "नहर",
+        "irrigation_type_en": "Canal",
+        "is_irrigated": true,
+        "current_crop": "मक्का",
+        "current_crop_en": "Maize",
+        "crop_season": "खरीफ",
+        "rate_per_sqm": 1621,
+        "estimated_value_inr": 1239216.63,
+        "circle_rate_year": 2024,
+        "has_discrepancy": true,
+        "discrepancy_type": "area_mismatch",
+        "discrepancy_percentage": 19.6,
+        "discrepancy_severity": "medium",
+        "record_status": "needs_review",
+        "verification_status": "pending",
+        "source_document": "जमाबंदी",
+        "source_page": "62",
+        "source_year": 2019,
+        "survey_year": 2015,
+        "acquisition_year": 2014,
+        "mutation_count": 0,
+        "last_mutation_year": null,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.304428",
+        "last_updated": "2026-02-06T00:50:26.304430",
+        "digitized_by": "System",
+        "remarks": "Auto-generated test data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "172618_18",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.89359397137491,
+              25.95876453111347
+            ],
+            [
+              74.89361898908584,
+              25.95899391233767
+            ],
+            [
+              74.89338243031912,
+              25.959084540754997
+            ],
+            [
+              74.89325303197958,
+              25.958918495790268
+            ],
+            [
+              74.8933470503062,
+              25.95865320309878
+            ],
+            [
+              74.89359397137491,
+              25.95876453111347
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "172618/260/18",
+        "khasra_number": "260",
+        "khata_number": "36",
+        "khatauni_number": "946",
+        "village_code": "172618",
+        "village_name": "Padaliya (Bhinay)",
+        "village_name_hi": "पाडलिया (भीनाय)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.958883,
+        "centroid_lon": 74.893439,
+        "computed_area_sqm": 1157.85,
+        "recorded_area_sqm": 1137.37,
+        "area_difference_sqm": -20.48,
+        "area_text": "0 बीघा 9 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "commercial",
+        "land_type_hi": "वाणिज्यिक",
+        "land_type_code": "COM",
+        "soil_type": "दोमट",
+        "soil_type_en": "Loamy",
+        "owner_name_hi": "शंकर राजपूत",
+        "owner_name_en": "Shankar Rajput",
+        "father_name_hi": "लक्ष्मी त्रिपाठी",
+        "father_name_en": "Lakshmi Tripathi",
+        "ownership_type": "संयुक्त",
+        "ownership_share": "100%",
+        "irrigation_type": "वर्षा आधारित",
+        "irrigation_type_en": "Rain Fed",
+        "is_irrigated": false,
+        "current_crop": null,
+        "current_crop_en": null,
+        "crop_season": null,
+        "rate_per_sqm": 32510,
+        "estimated_value_inr": 36975944.46,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "खतौनी",
+        "source_page": "167",
+        "source_year": 2023,
+        "survey_year": 2019,
+        "acquisition_year": null,
+        "mutation_count": 1,
+        "last_mutation_year": 2002,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.304555",
+        "last_updated": "2026-02-06T00:50:26.304561",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "172618_19",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.89430724744712,
+              25.95889818164235
+            ],
+            [
+              74.89419725218407,
+              25.959126127736205
+            ],
+            [
+              74.89392909696434,
+              25.958994871126503
+            ],
+            [
+              74.89384351088724,
+              25.958786027300086
+            ],
+            [
+              74.8939851213308,
+              25.958581085271366
+            ],
+            [
+              74.89424043471087,
+              25.95864144719058
+            ],
+            [
+              74.89430724744712,
+              25.95889818164235
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "172618/258/19",
+        "khasra_number": "258",
+        "khata_number": "420",
+        "khatauni_number": "316",
+        "village_code": "172618",
+        "village_name": "Padaliya (Bhinay)",
+        "village_name_hi": "पाडलिया (भीनाय)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.958838,
+        "centroid_lon": 74.894084,
+        "computed_area_sqm": 1856.93,
+        "recorded_area_sqm": 1822.06,
+        "area_difference_sqm": -34.87,
+        "area_text": "0 बीघा 14 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "लाल",
+        "soil_type_en": "Red",
+        "owner_name_hi": "गीता राजपूत",
+        "owner_name_en": "Geeta Rajput",
+        "father_name_hi": "दिनेश गुप्ता",
+        "father_name_en": "Dinesh Gupta",
+        "ownership_type": "व्यक्तिगत",
+        "ownership_share": "100%",
+        "irrigation_type": "ट्यूबवेल",
+        "irrigation_type_en": "Tube Well",
+        "is_irrigated": true,
+        "current_crop": "चावल",
+        "current_crop_en": "Rice",
+        "crop_season": "खरीफ",
+        "rate_per_sqm": 1071,
+        "estimated_value_inr": 1951428.82,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "बी-1",
+        "source_page": "124",
+        "source_year": 2021,
+        "survey_year": 2023,
+        "acquisition_year": null,
+        "mutation_count": 5,
+        "last_mutation_year": 2007,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.304672",
+        "last_updated": "2026-02-06T00:50:26.304677",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "172618_20",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.89493575620894,
+              25.958993396414925
+            ],
+            [
+              74.89493583618622,
+              25.958993283290084
+            ],
+            [
+              74.89493589245296,
+              25.95899332306968
+            ],
+            [
+              74.89493585116546,
+              25.958993381469288
+            ],
+            [
+              74.89493589075924,
+              25.9589934094614
+            ],
+            [
+              74.89493585206947,
+              25.958993464186634
+            ],
+            [
+              74.89493575620894,
+              25.958993396414925
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "172618/323/20",
+        "khasra_number": "323",
+        "khata_number": "44",
+        "khatauni_number": "208",
+        "village_code": "172618",
+        "village_name": "Padaliya (Bhinay)",
+        "village_name_hi": "पाडलिया (भीनाय)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.958993,
+        "centroid_lon": 74.894936,
+        "computed_area_sqm": 0.0,
+        "recorded_area_sqm": 0.0,
+        "area_difference_sqm": 0.0,
+        "area_text": "0 बीघा 0 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "residential",
+        "land_type_hi": "आवासीय",
+        "land_type_code": "RES",
+        "soil_type": "बलुई",
+        "soil_type_en": "Sandy",
+        "owner_name_hi": "दिनेश कुमावत",
+        "owner_name_en": "Dinesh Kumawat",
+        "father_name_hi": "जगदीश त्रिपाठी",
+        "father_name_en": "Jagdish Tripathi",
+        "ownership_type": "व्यक्तिगत",
+        "ownership_share": "100%",
+        "irrigation_type": "नहर",
+        "irrigation_type_en": "Canal",
+        "is_irrigated": false,
+        "current_crop": null,
+        "current_crop_en": null,
+        "crop_season": null,
+        "rate_per_sqm": 16436,
+        "estimated_value_inr": 0.0,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "पट्टा",
+        "source_page": "32",
+        "source_year": 2021,
+        "survey_year": 2024,
+        "acquisition_year": null,
+        "mutation_count": 0,
+        "last_mutation_year": null,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.304750",
+        "last_updated": "2026-02-06T00:50:26.304752",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "172618_21",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.89610350616567,
+              25.959263071734284
+            ],
+            [
+              74.8958504304019,
+              25.95922578192262
+            ],
+            [
+              74.8959337232357,
+              25.95901245100932
+            ],
+            [
+              74.89613447951679,
+              25.95904353061025
+            ],
+            [
+              74.89610350616567,
+              25.959263071734284
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "172618/436/21",
+        "khasra_number": "436",
+        "khata_number": "11",
+        "khatauni_number": "909",
+        "village_code": "172618",
+        "village_name": "Padaliya (Bhinay)",
+        "village_name_hi": "पाडलिया (भीनाय)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.959136,
+        "centroid_lon": 74.896006,
+        "computed_area_sqm": 565.7,
+        "recorded_area_sqm": 566.15,
+        "area_difference_sqm": 0.45,
+        "area_text": "0 बीघा 4 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "residential",
+        "land_type_hi": "आवासीय",
+        "land_type_code": "RES",
+        "soil_type": "चिकनी",
+        "soil_type_en": "Clay",
+        "owner_name_hi": "लक्ष्मी शर्मा",
+        "owner_name_en": "Lakshmi Sharma",
+        "father_name_hi": "शंकर यादव",
+        "father_name_en": "Shankar Yadav",
+        "ownership_type": "व्यक्तिगत",
+        "ownership_share": "43%",
+        "irrigation_type": "नहर",
+        "irrigation_type_en": "Canal",
+        "is_irrigated": false,
+        "current_crop": null,
+        "current_crop_en": null,
+        "crop_season": null,
+        "rate_per_sqm": 13317,
+        "estimated_value_inr": 7539389.35,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "खसरा",
+        "source_page": "187",
+        "source_year": 2020,
+        "survey_year": 2024,
+        "acquisition_year": 2020,
+        "mutation_count": 1,
+        "last_mutation_year": 2016,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.304790",
+        "last_updated": "2026-02-06T00:50:26.304791",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "172618_22",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.89673638146347,
+              25.95912135853845
+            ],
+            [
+              74.89648526350307,
+              25.959022605875948
+            ],
+            [
+              74.89659630983438,
+              25.95877637899525
+            ],
+            [
+              74.89680309905167,
+              25.95869713697902
+            ],
+            [
+              74.89696200193382,
+              25.958995470751173
+            ],
+            [
+              74.89673638146347,
+              25.95912135853845
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "172618/290/22",
+        "khasra_number": "290",
+        "khata_number": "188",
+        "khatauni_number": "62",
+        "village_code": "172618",
+        "village_name": "Padaliya (Bhinay)",
+        "village_name_hi": "पाडलिया (भीनाय)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.958923,
+        "centroid_lon": 74.896717,
+        "computed_area_sqm": 1343.47,
+        "recorded_area_sqm": 1326.37,
+        "area_difference_sqm": -17.1,
+        "area_text": "0 बीघा 10 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "residential",
+        "land_type_hi": "आवासीय",
+        "land_type_code": "RES",
+        "soil_type": "बलुई",
+        "soil_type_en": "Sandy",
+        "owner_name_hi": "रामू पांडेय",
+        "owner_name_en": "Ramu Pandey",
+        "father_name_hi": "कृष्ण वर्मा",
+        "father_name_en": "Krishna Verma",
+        "ownership_type": "संयुक्त",
+        "ownership_share": "69%",
+        "irrigation_type": "वर्षा आधारित",
+        "irrigation_type_en": "Rain Fed",
+        "is_irrigated": false,
+        "current_crop": null,
+        "current_crop_en": null,
+        "crop_season": null,
+        "rate_per_sqm": 10756,
+        "estimated_value_inr": 14266426.89,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "खसरा",
+        "source_page": "171",
+        "source_year": 2021,
+        "survey_year": 2024,
+        "acquisition_year": 1993,
+        "mutation_count": 4,
+        "last_mutation_year": 1992,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.304835",
+        "last_updated": "2026-02-06T00:50:26.304836",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "172618_23",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.89728655785619,
+              25.959140115345946
+            ],
+            [
+              74.89721127158076,
+              25.95865547758179
+            ],
+            [
+              74.89761673177793,
+              25.958634657600474
+            ],
+            [
+              74.89770762722095,
+              25.959100711506657
+            ],
+            [
+              74.89728655785619,
+              25.959140115345946
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "172618/890/23",
+        "khasra_number": "890",
+        "khata_number": "443",
+        "khatauni_number": "722",
+        "village_code": "172618",
+        "village_name": "Padaliya (Bhinay)",
+        "village_name_hi": "पाडलिया (भीनाय)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.958883,
+        "centroid_lon": 74.897456,
+        "computed_area_sqm": 2203.9,
+        "recorded_area_sqm": 2217.85,
+        "area_difference_sqm": 13.95,
+        "area_text": "0 बीघा 17 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "बलुई",
+        "soil_type_en": "Sandy",
+        "owner_name_hi": "विनोद वर्मा",
+        "owner_name_en": "Vinod Verma",
+        "father_name_hi": "राधा मिश्रा",
+        "father_name_en": "Radha Mishra",
+        "ownership_type": "व्यक्तिगत",
+        "ownership_share": "44%",
+        "irrigation_type": "कोई नहीं",
+        "irrigation_type_en": "None",
+        "is_irrigated": false,
+        "current_crop": "मूंग",
+        "current_crop_en": "Moong",
+        "crop_season": "रबी",
+        "rate_per_sqm": 1378,
+        "estimated_value_inr": 3056193.49,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "जमाबंदी",
+        "source_page": "198",
+        "source_year": 2024,
+        "survey_year": 2015,
+        "acquisition_year": 2001,
+        "mutation_count": 5,
+        "last_mutation_year": 1990,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.304874",
+        "last_updated": "2026-02-06T00:50:26.304876",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "172618_24",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.89858951598279,
+              25.959127722166382
+            ],
+            [
+              74.89822849035393,
+              25.959336150306548
+            ],
+            [
+              74.8980665309559,
+              25.959009402988315
+            ],
+            [
+              74.89833578915905,
+              25.958894901246246
+            ],
+            [
+              74.89858951598279,
+              25.959127722166382
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "172618/233/24",
+        "khasra_number": "233",
+        "khata_number": "252",
+        "khatauni_number": "841",
+        "village_code": "172618",
+        "village_name": "Padaliya (Bhinay)",
+        "village_name_hi": "पाडलिया (भीनाय)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.959092,
+        "centroid_lon": 74.898305,
+        "computed_area_sqm": 1348.52,
+        "recorded_area_sqm": 1375.16,
+        "area_difference_sqm": 26.64,
+        "area_text": "0 बीघा 11 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "residential",
+        "land_type_hi": "आवासीय",
+        "land_type_code": "RES",
+        "soil_type": "दोमट",
+        "soil_type_en": "Loamy",
+        "owner_name_hi": "सोहन सिंह",
+        "owner_name_en": "Sohan Singh",
+        "father_name_hi": "सुरेश सिंह",
+        "father_name_en": "Suresh Singh",
+        "ownership_type": "व्यक्तिगत",
+        "ownership_share": "26%",
+        "irrigation_type": "वर्षा आधारित",
+        "irrigation_type_en": "Rain Fed",
+        "is_irrigated": false,
+        "current_crop": null,
+        "current_crop_en": null,
+        "crop_season": null,
+        "rate_per_sqm": 17160,
+        "estimated_value_inr": 23597763.77,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "खसरा",
+        "source_page": "45",
+        "source_year": 2022,
+        "survey_year": 2022,
+        "acquisition_year": 2017,
+        "mutation_count": 4,
+        "last_mutation_year": 2002,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.304910",
+        "last_updated": "2026-02-06T00:50:26.304911",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "172618_25",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.89257120779853,
+              25.959788797733175
+            ],
+            [
+              74.8928689295568,
+              25.95981884175357
+            ],
+            [
+              74.89284242255395,
+              25.96011036650823
+            ],
+            [
+              74.89250788393188,
+              25.960102222899867
+            ],
+            [
+              74.89257120779853,
+              25.959788797733175
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "172618/743/25",
+        "khasra_number": "743",
+        "khata_number": "206",
+        "khatauni_number": "764",
+        "village_code": "172618",
+        "village_name": "Padaliya (Bhinay)",
+        "village_name_hi": "पाडलिया (भीनाय)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.959955,
+        "centroid_lon": 74.892698,
+        "computed_area_sqm": 1068.78,
+        "recorded_area_sqm": 1089.99,
+        "area_difference_sqm": 21.21,
+        "area_text": "0 बीघा 8 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "commercial",
+        "land_type_hi": "वाणिज्यिक",
+        "land_type_code": "COM",
+        "soil_type": "दोमट",
+        "soil_type_en": "Loamy",
+        "owner_name_hi": "कृष्ण मिश्रा",
+        "owner_name_en": "Krishna Mishra",
+        "father_name_hi": "राधा जाट",
+        "father_name_en": "Radha Jat",
+        "ownership_type": "सरकारी",
+        "ownership_share": "39%",
+        "irrigation_type": "कोई नहीं",
+        "irrigation_type_en": "None",
+        "is_irrigated": false,
+        "current_crop": null,
+        "current_crop_en": null,
+        "crop_season": null,
+        "rate_per_sqm": 22848,
+        "estimated_value_inr": 24904097.52,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "खसरा",
+        "source_page": "195",
+        "source_year": 2022,
+        "survey_year": 2017,
+        "acquisition_year": null,
+        "mutation_count": 1,
+        "last_mutation_year": 2001,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.304945",
+        "last_updated": "2026-02-06T00:50:26.304946",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "172618_26",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.89379651554475,
+              25.959702593674987
+            ],
+            [
+              74.89359469287197,
+              25.95997105908908
+            ],
+            [
+              74.89329654229043,
+              25.959783170543503
+            ],
+            [
+              74.89351744376255,
+              25.959466351646896
+            ],
+            [
+              74.89379651554475,
+              25.959702593674987
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "172618/944/26",
+        "khasra_number": "944",
+        "khata_number": "413",
+        "khatauni_number": "859",
+        "village_code": "172618",
+        "village_name": "Padaliya (Bhinay)",
+        "village_name_hi": "पाडलिया (भीनाय)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.959731,
+        "centroid_lon": 74.893551,
+        "computed_area_sqm": 1432.17,
+        "recorded_area_sqm": 1416.58,
+        "area_difference_sqm": -15.59,
+        "area_text": "0 बीघा 11 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "barren",
+        "land_type_hi": "बंजर",
+        "land_type_code": "BAR",
+        "soil_type": "लाल",
+        "soil_type_en": "Red",
+        "owner_name_hi": "कृष्ण तिवारी",
+        "owner_name_en": "Krishna Tiwari",
+        "father_name_hi": "राम पटेल",
+        "father_name_en": "Ram Patel",
+        "ownership_type": "व्यक्तिगत",
+        "ownership_share": "100%",
+        "irrigation_type": "वर्षा आधारित",
+        "irrigation_type_en": "Rain Fed",
+        "is_irrigated": false,
+        "current_crop": null,
+        "current_crop_en": null,
+        "crop_season": null,
+        "rate_per_sqm": 294,
+        "estimated_value_inr": 416474.39,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "खसरा",
+        "source_page": "54",
+        "source_year": 2020,
+        "survey_year": 2019,
+        "acquisition_year": 2016,
+        "mutation_count": 5,
+        "last_mutation_year": 2002,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.304981",
+        "last_updated": "2026-02-06T00:50:26.304982",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "172618_27",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.89456575082343,
+              25.959614205391237
+            ],
+            [
+              74.89443508106602,
+              25.959900401767367
+            ],
+            [
+              74.89425231537388,
+              25.95975476071968
+            ],
+            [
+              74.89431092490179,
+              25.959492491476585
+            ],
+            [
+              74.89456575082343,
+              25.959614205391237
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "172618/389/27",
+        "khasra_number": "389",
+        "khata_number": "295",
+        "khatauni_number": "904",
+        "village_code": "172618",
+        "village_name": "Padaliya (Bhinay)",
+        "village_name_hi": "पाडलिया (भीनाय)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.95969,
+        "centroid_lon": 74.894391,
+        "computed_area_sqm": 804.83,
+        "recorded_area_sqm": 1064.05,
+        "area_difference_sqm": 259.22,
+        "area_text": "0 बीघा 8 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "residential",
+        "land_type_hi": "आवासीय",
+        "land_type_code": "RES",
+        "soil_type": "लाल",
+        "soil_type_en": "Red",
+        "owner_name_hi": "जगदीश वर्मा",
+        "owner_name_en": "Jagdish Verma",
+        "father_name_hi": "लक्ष्मी शर्मा",
+        "father_name_en": "Lakshmi Sharma",
+        "ownership_type": "संयुक्त",
+        "ownership_share": "1%",
+        "irrigation_type": "ट्यूबवेल",
+        "irrigation_type_en": "Tube Well",
+        "is_irrigated": false,
+        "current_crop": null,
+        "current_crop_en": null,
+        "crop_season": null,
+        "rate_per_sqm": 7202,
+        "estimated_value_inr": 7663252.97,
+        "circle_rate_year": 2024,
+        "has_discrepancy": true,
+        "discrepancy_type": "area_mismatch",
+        "discrepancy_percentage": 32.2,
+        "discrepancy_severity": "high",
+        "record_status": "needs_review",
+        "verification_status": "pending",
+        "source_document": "खतौनी",
+        "source_page": "191",
+        "source_year": 2019,
+        "survey_year": 2024,
+        "acquisition_year": null,
+        "mutation_count": 3,
+        "last_mutation_year": 1995,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.305015",
+        "last_updated": "2026-02-06T00:50:26.305016",
+        "digitized_by": "System",
+        "remarks": "Auto-generated test data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "172618_28",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.89491653074197,
+              25.960043563369844
+            ],
+            [
+              74.89482896775537,
+              25.959780530508336
+            ],
+            [
+              74.89491070088306,
+              25.95961759164655
+            ],
+            [
+              74.89520800842219,
+              25.959698224199535
+            ],
+            [
+              74.89517370510761,
+              25.959952423974308
+            ],
+            [
+              74.89491653074197,
+              25.960043563369844
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "172618/664/28",
+        "khasra_number": "664",
+        "khata_number": "93",
+        "khatauni_number": "490",
+        "village_code": "172618",
+        "village_name": "Padaliya (Bhinay)",
+        "village_name_hi": "पाडलिया (भीनाय)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.959818,
+        "centroid_lon": 74.895008,
+        "computed_area_sqm": 1241.75,
+        "recorded_area_sqm": 1247.9,
+        "area_difference_sqm": 6.15,
+        "area_text": "0 बीघा 9 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "बलुई",
+        "soil_type_en": "Sandy",
+        "owner_name_hi": "नारायण तिवारी",
+        "owner_name_en": "Narayan Tiwari",
+        "father_name_hi": "रामू चौहान",
+        "father_name_en": "Ramu Chauhan",
+        "ownership_type": "सरकारी",
+        "ownership_share": "100%",
+        "irrigation_type": "वर्षा आधारित",
+        "irrigation_type_en": "Rain Fed",
+        "is_irrigated": false,
+        "current_crop": "बाजरा",
+        "current_crop_en": "Millet",
+        "crop_season": "खरीफ",
+        "rate_per_sqm": 1939,
+        "estimated_value_inr": 2419686.74,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "खसरा",
+        "source_page": "152",
+        "source_year": 2024,
+        "survey_year": 2020,
+        "acquisition_year": 1983,
+        "mutation_count": 3,
+        "last_mutation_year": 2013,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.305050",
+        "last_updated": "2026-02-06T00:50:26.305051",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "172618_29",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.89554359034133,
+              25.959662767894716
+            ],
+            [
+              74.89562276385716,
+              25.959531213024615
+            ],
+            [
+              74.89576708668571,
+              25.95960851683567
+            ],
+            [
+              74.89570104023987,
+              25.959765145501454
+            ],
+            [
+              74.89554359034133,
+              25.959662767894716
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "172618/730/29",
+        "khasra_number": "730",
+        "khata_number": "437",
+        "khatauni_number": "712",
+        "village_code": "172618",
+        "village_name": "Padaliya (Bhinay)",
+        "village_name_hi": "पाडलिया (भीनाय)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.959642,
+        "centroid_lon": 74.895659,
+        "computed_area_sqm": 313.11,
+        "recorded_area_sqm": 312.31,
+        "area_difference_sqm": -0.8,
+        "area_text": "0 बीघा 2 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "लाल",
+        "soil_type_en": "Red",
+        "owner_name_hi": "सोहन राय",
+        "owner_name_en": "Sohan Rai",
+        "father_name_hi": "सोहन चौहान",
+        "father_name_en": "Sohan Chauhan",
+        "ownership_type": "संयुक्त",
+        "ownership_share": "100%",
+        "irrigation_type": "कुआं",
+        "irrigation_type_en": "Well",
+        "is_irrigated": true,
+        "current_crop": "मक्का",
+        "current_crop_en": "Maize",
+        "crop_season": "जायद",
+        "rate_per_sqm": 812,
+        "estimated_value_inr": 253593.09,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "खतौनी",
+        "source_page": "131",
+        "source_year": 2020,
+        "survey_year": 2019,
+        "acquisition_year": null,
+        "mutation_count": 4,
+        "last_mutation_year": 2004,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.305086",
+        "last_updated": "2026-02-06T00:50:26.305088",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "172618_30",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.89669943164051,
+              25.959768751557082
+            ],
+            [
+              74.89650397139623,
+              25.959936293758403
+            ],
+            [
+              74.89648477329101,
+              25.95967133716914
+            ],
+            [
+              74.89669943164051,
+              25.959768751557082
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "172618/907/30",
+        "khasra_number": "907",
+        "khata_number": "456",
+        "khatauni_number": "683",
+        "village_code": "172618",
+        "village_name": "Padaliya (Bhinay)",
+        "village_name_hi": "पाडलिया (भीनाय)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.959792,
+        "centroid_lon": 74.896563,
+        "computed_area_sqm": 304.67,
+        "recorded_area_sqm": 303.27,
+        "area_difference_sqm": -1.4,
+        "area_text": "0 बीघा 2 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "दोमट",
+        "soil_type_en": "Loamy",
+        "owner_name_hi": "हरि त्रिपाठी",
+        "owner_name_en": "Hari Tripathi",
+        "father_name_hi": "कृष्ण वर्मा",
+        "father_name_en": "Krishna Verma",
+        "ownership_type": "सरकारी",
+        "ownership_share": "100%",
+        "irrigation_type": "ट्यूबवेल",
+        "irrigation_type_en": "Tube Well",
+        "is_irrigated": true,
+        "current_crop": "चावल",
+        "current_crop_en": "Rice",
+        "crop_season": "खरीफ",
+        "rate_per_sqm": 1786,
+        "estimated_value_inr": 541634.28,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "बी-1",
+        "source_page": "25",
+        "source_year": 2024,
+        "survey_year": 2022,
+        "acquisition_year": null,
+        "mutation_count": 3,
+        "last_mutation_year": 2014,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.305121",
+        "last_updated": "2026-02-06T00:50:26.305122",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "172618_31",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.89759593978685,
+              25.95972105023353
+            ],
+            [
+              74.89759592319398,
+              25.95972110715763
+            ],
+            [
+              74.897595882812,
+              25.959721095386637
+            ],
+            [
+              74.89759589083404,
+              25.959721067865946
+            ],
+            [
+              74.89759586051642,
+              25.959721059028627
+            ],
+            [
+              74.89759586908725,
+              25.959721029625218
+            ],
+            [
+              74.89759593978685,
+              25.95972105023353
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "172618/976/31",
+        "khasra_number": "976",
+        "khata_number": "109",
+        "khatauni_number": "260",
+        "village_code": "172618",
+        "village_name": "Padaliya (Bhinay)",
+        "village_name_hi": "पाडलिया (भीनाय)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.959721,
+        "centroid_lon": 74.897596,
+        "computed_area_sqm": 0.0,
+        "recorded_area_sqm": 0.0,
+        "area_difference_sqm": 0.0,
+        "area_text": "0 बीघा 0 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "काली",
+        "soil_type_en": "Black",
+        "owner_name_hi": "ब्रजेश कुमावत",
+        "owner_name_en": "Brajesh Kumawat",
+        "father_name_hi": "दिनेश शर्मा",
+        "father_name_en": "Dinesh Sharma",
+        "ownership_type": "संयुक्त",
+        "ownership_share": "100%",
+        "irrigation_type": "नहर",
+        "irrigation_type_en": "Canal",
+        "is_irrigated": true,
+        "current_crop": "मूंग",
+        "current_crop_en": "Moong",
+        "crop_season": "खरीफ",
+        "rate_per_sqm": 603,
+        "estimated_value_inr": 0.0,
+        "circle_rate_year": 2024,
+        "has_discrepancy": true,
+        "discrepancy_type": "area_mismatch",
+        "discrepancy_percentage": 18.5,
+        "discrepancy_severity": "medium",
+        "record_status": "needs_review",
+        "verification_status": "pending",
+        "source_document": "बी-1",
+        "source_page": "31",
+        "source_year": 2019,
+        "survey_year": 2022,
+        "acquisition_year": null,
+        "mutation_count": 1,
+        "last_mutation_year": 2017,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.305157",
+        "last_updated": "2026-02-06T00:50:26.305158",
+        "digitized_by": "System",
+        "remarks": "Auto-generated test data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "172618_32",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.89807290340083,
+              25.96008446466899
+            ],
+            [
+              74.89780673344653,
+              25.959773146380876
+            ],
+            [
+              74.89810123278134,
+              25.959482020558795
+            ],
+            [
+              74.89837757375489,
+              25.959855834117146
+            ],
+            [
+              74.89807290340083,
+              25.96008446466899
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "172618/796/32",
+        "khasra_number": "796",
+        "khata_number": "35",
+        "khatauni_number": "552",
+        "village_code": "172618",
+        "village_name": "Padaliya (Bhinay)",
+        "village_name_hi": "पाडलिया (भीनाय)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.959799,
+        "centroid_lon": 74.89809,
+        "computed_area_sqm": 1917.8,
+        "recorded_area_sqm": 1911.83,
+        "area_difference_sqm": -5.97,
+        "area_text": "0 बीघा 15 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "बलुई",
+        "soil_type_en": "Sandy",
+        "owner_name_hi": "राम तिवारी",
+        "owner_name_en": "Ram Tiwari",
+        "father_name_hi": "लक्ष्मी जाट",
+        "father_name_en": "Lakshmi Jat",
+        "ownership_type": "सरकारी",
+        "ownership_share": "100%",
+        "irrigation_type": "कुआं",
+        "irrigation_type_en": "Well",
+        "is_irrigated": true,
+        "current_crop": "चना",
+        "current_crop_en": "Gram",
+        "crop_season": "रबी",
+        "rate_per_sqm": 1898,
+        "estimated_value_inr": 3628649.81,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "बी-1",
+        "source_page": "145",
+        "source_year": 2019,
+        "survey_year": 2018,
+        "acquisition_year": null,
+        "mutation_count": 2,
+        "last_mutation_year": 2010,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.305189",
+        "last_updated": "2026-02-06T00:50:26.305191",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "172618_33",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.8926370067314,
+              25.96061584590321
+            ],
+            [
+              74.89245832358364,
+              25.96055942187675
+            ],
+            [
+              74.89255280239502,
+              25.960398052178434
+            ],
+            [
+              74.8927432853647,
+              25.960432841688373
+            ],
+            [
+              74.8926370067314,
+              25.96061584590321
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "172618/350/33",
+        "khasra_number": "350",
+        "khata_number": "429",
+        "khatauni_number": "182",
+        "village_code": "172618",
+        "village_name": "Padaliya (Bhinay)",
+        "village_name_hi": "पाडलिया (भीनाय)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.960502,
+        "centroid_lon": 74.892598,
+        "computed_area_sqm": 402.8,
+        "recorded_area_sqm": 526.87,
+        "area_difference_sqm": 124.07,
+        "area_text": "0 बीघा 4 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "commercial",
+        "land_type_hi": "वाणिज्यिक",
+        "land_type_code": "COM",
+        "soil_type": "लाल",
+        "soil_type_en": "Red",
+        "owner_name_hi": "शंकर त्रिपाठी",
+        "owner_name_en": "Shankar Tripathi",
+        "father_name_hi": "राजेश तिवारी",
+        "father_name_en": "Rajesh Tiwari",
+        "ownership_type": "व्यक्तिगत",
+        "ownership_share": "100%",
+        "irrigation_type": "नहर",
+        "irrigation_type_en": "Canal",
+        "is_irrigated": false,
+        "current_crop": null,
+        "current_crop_en": null,
+        "crop_season": null,
+        "rate_per_sqm": 34986,
+        "estimated_value_inr": 18433155.03,
+        "circle_rate_year": 2024,
+        "has_discrepancy": true,
+        "discrepancy_type": "area_mismatch",
+        "discrepancy_percentage": 30.8,
+        "discrepancy_severity": "high",
+        "record_status": "needs_review",
+        "verification_status": "pending",
+        "source_document": "खतौनी",
+        "source_page": "88",
+        "source_year": 2024,
+        "survey_year": 2018,
+        "acquisition_year": 2013,
+        "mutation_count": 4,
+        "last_mutation_year": 2008,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.305223",
+        "last_updated": "2026-02-06T00:50:26.305224",
+        "digitized_by": "System",
+        "remarks": "Auto-generated test data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "172618_34",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.89346035930737,
+              25.96056392713595
+            ],
+            [
+              74.8934342314713,
+              25.96042712159396
+            ],
+            [
+              74.89349923840633,
+              25.960335113111878
+            ],
+            [
+              74.8937002855401,
+              25.960377667602746
+            ],
+            [
+              74.89364806584875,
+              25.96050809029826
+            ],
+            [
+              74.89346035930737,
+              25.96056392713595
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "172618/603/34",
+        "khasra_number": "603",
+        "khata_number": "138",
+        "khatauni_number": "580",
+        "village_code": "172618",
+        "village_name": "Padaliya (Bhinay)",
+        "village_name_hi": "पाडलिया (भीनाय)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.960442,
+        "centroid_lon": 74.893548,
+        "computed_area_sqm": 445.99,
+        "recorded_area_sqm": 444.66,
+        "area_difference_sqm": -1.33,
+        "area_text": "0 बीघा 3 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "residential",
+        "land_type_hi": "आवासीय",
+        "land_type_code": "RES",
+        "soil_type": "काली",
+        "soil_type_en": "Black",
+        "owner_name_hi": "अनिल राजपूत",
+        "owner_name_en": "Anil Rajput",
+        "father_name_hi": "पार्वती सिंह",
+        "father_name_en": "Parvati Singh",
+        "ownership_type": "व्यक्तिगत",
+        "ownership_share": "100%",
+        "irrigation_type": "ट्यूबवेल",
+        "irrigation_type_en": "Tube Well",
+        "is_irrigated": false,
+        "current_crop": null,
+        "current_crop_en": null,
+        "crop_season": null,
+        "rate_per_sqm": 10043,
+        "estimated_value_inr": 4465698.24,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "जमाबंदी",
+        "source_page": "196",
+        "source_year": 2022,
+        "survey_year": 2022,
+        "acquisition_year": 1978,
+        "mutation_count": 1,
+        "last_mutation_year": 2020,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.305258",
+        "last_updated": "2026-02-06T00:50:26.305259",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "172618_35",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.89410649145333,
+              25.96058679597935
+            ],
+            [
+              74.89423267195059,
+              25.96043325587128
+            ],
+            [
+              74.8943387510913,
+              25.960483332958173
+            ],
+            [
+              74.89442317956495,
+              25.960620597426896
+            ],
+            [
+              74.89428287965818,
+              25.960739684653532
+            ],
+            [
+              74.89416908531263,
+              25.96072062611845
+            ],
+            [
+              74.89410649145333,
+              25.96058679597935
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "172618/825/35",
+        "khasra_number": "825",
+        "khata_number": "37",
+        "khatauni_number": "818",
+        "village_code": "172618",
+        "village_name": "Padaliya (Bhinay)",
+        "village_name_hi": "पाडलिया (भीनाय)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.960597,
+        "centroid_lon": 74.894259,
+        "computed_area_sqm": 663.08,
+        "recorded_area_sqm": 651.33,
+        "area_difference_sqm": -11.75,
+        "area_text": "0 बीघा 5 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "चिकनी",
+        "soil_type_en": "Clay",
+        "owner_name_hi": "सीता यादव",
+        "owner_name_en": "Sita Yadav",
+        "father_name_hi": "जगदीश शर्मा",
+        "father_name_en": "Jagdish Sharma",
+        "ownership_type": "व्यक्तिगत",
+        "ownership_share": "100%",
+        "irrigation_type": "कोई नहीं",
+        "irrigation_type_en": "None",
+        "is_irrigated": false,
+        "current_crop": "गेहूं",
+        "current_crop_en": "Wheat",
+        "crop_season": "खरीफ",
+        "rate_per_sqm": 1875,
+        "estimated_value_inr": 1221240.41,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "खतौनी",
+        "source_page": "57",
+        "source_year": 2020,
+        "survey_year": 2024,
+        "acquisition_year": null,
+        "mutation_count": 4,
+        "last_mutation_year": 2008,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.305297",
+        "last_updated": "2026-02-06T00:50:26.305298",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "172618_36",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.89488798729329,
+              25.96075039396508
+            ],
+            [
+              74.89503405099833,
+              25.96049065622064
+            ],
+            [
+              74.89526076277951,
+              25.96060937795441
+            ],
+            [
+              74.89534411224268,
+              25.960782681869432
+            ],
+            [
+              74.89509498469022,
+              25.96087708323419
+            ],
+            [
+              74.89488798729329,
+              25.96075039396508
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "172618/235/36",
+        "khasra_number": "235",
+        "khata_number": "263",
+        "khatauni_number": "694",
+        "village_code": "172618",
+        "village_name": "Padaliya (Bhinay)",
+        "village_name_hi": "पाडलिया (भीनाय)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.960702,
+        "centroid_lon": 74.895124,
+        "computed_area_sqm": 1128.19,
+        "recorded_area_sqm": 1128.25,
+        "area_difference_sqm": 0.06,
+        "area_text": "0 बीघा 9 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "लाल",
+        "soil_type_en": "Red",
+        "owner_name_hi": "सीता त्रिपाठी",
+        "owner_name_en": "Sita Tripathi",
+        "father_name_hi": "पार्वती वर्मा",
+        "father_name_en": "Parvati Verma",
+        "ownership_type": "संयुक्त",
+        "ownership_share": "91%",
+        "irrigation_type": "कुआं",
+        "irrigation_type_en": "Well",
+        "is_irrigated": true,
+        "current_crop": "अन्य",
+        "current_crop_en": "Other",
+        "crop_season": "जायद",
+        "rate_per_sqm": 1908,
+        "estimated_value_inr": 2152691.52,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "बी-1",
+        "source_page": "166",
+        "source_year": 2023,
+        "survey_year": 2023,
+        "acquisition_year": 2007,
+        "mutation_count": 2,
+        "last_mutation_year": 1998,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.305331",
+        "last_updated": "2026-02-06T00:50:26.305332",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "172618_37",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.89558024399928,
+              25.960440865249776
+            ],
+            [
+              74.89573221028223,
+              25.960336278021863
+            ],
+            [
+              74.8958946713089,
+              25.96049099475648
+            ],
+            [
+              74.89577563509356,
+              25.960667262054024
+            ],
+            [
+              74.89559496498084,
+              25.96060562984927
+            ],
+            [
+              74.89558024399928,
+              25.960440865249776
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "172618/737/37",
+        "khasra_number": "737",
+        "khata_number": "207",
+        "khatauni_number": "409",
+        "village_code": "172618",
+        "village_name": "Padaliya (Bhinay)",
+        "village_name_hi": "पाडलिया (भीनाय)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.960508,
+        "centroid_lon": 74.895716,
+        "computed_area_sqm": 724.23,
+        "recorded_area_sqm": 723.74,
+        "area_difference_sqm": -0.49,
+        "area_text": "0 बीघा 5 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "दोमट",
+        "soil_type_en": "Loamy",
+        "owner_name_hi": "भगवान दुबे",
+        "owner_name_en": "Bhagwan Dubey",
+        "father_name_hi": "गीता मिश्रा",
+        "father_name_en": "Geeta Mishra",
+        "ownership_type": "संयुक्त",
+        "ownership_share": "80%",
+        "irrigation_type": "ट्यूबवेल",
+        "irrigation_type_en": "Tube Well",
+        "is_irrigated": true,
+        "current_crop": "गेहूं",
+        "current_crop_en": "Wheat",
+        "crop_season": "जायद",
+        "rate_per_sqm": 976,
+        "estimated_value_inr": 706370.45,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "खसरा",
+        "source_page": "116",
+        "source_year": 2022,
+        "survey_year": 2021,
+        "acquisition_year": 2015,
+        "mutation_count": 3,
+        "last_mutation_year": 1991,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.305366",
+        "last_updated": "2026-02-06T00:50:26.305367",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "172618_38",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.8964110562212,
+              25.960525883720194
+            ],
+            [
+              74.89655734821527,
+              25.96045289143084
+            ],
+            [
+              74.89663725911245,
+              25.960548877654013
+            ],
+            [
+              74.896716528028,
+              25.960676660124957
+            ],
+            [
+              74.89660944128725,
+              25.960772286266646
+            ],
+            [
+              74.89643028708834,
+              25.960802171210492
+            ],
+            [
+              74.89639589292034,
+              25.960678392531523
+            ],
+            [
+              74.8964110562212,
+              25.960525883720194
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "172618/677/38",
+        "khasra_number": "677",
+        "khata_number": "2",
+        "khatauni_number": "382",
+        "village_code": "172618",
+        "village_name": "Padaliya (Bhinay)",
+        "village_name_hi": "पाडलिया (भीनाय)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.960637,
+        "centroid_lon": 74.896537,
+        "computed_area_sqm": 828.11,
+        "recorded_area_sqm": 829.15,
+        "area_difference_sqm": 1.04,
+        "area_text": "0 बीघा 6 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "बलुई",
+        "soil_type_en": "Sandy",
+        "owner_name_hi": "शंकर यादव",
+        "owner_name_en": "Shankar Yadav",
+        "father_name_hi": "महेश पांडेय",
+        "father_name_en": "Mahesh Pandey",
+        "ownership_type": "व्यक्तिगत",
+        "ownership_share": "100%",
+        "irrigation_type": "तालाब",
+        "irrigation_type_en": "Pond",
+        "is_irrigated": true,
+        "current_crop": "गेहूं",
+        "current_crop_en": "Wheat",
+        "crop_season": "खरीफ",
+        "rate_per_sqm": 966,
+        "estimated_value_inr": 800954.48,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "बी-1",
+        "source_page": "183",
+        "source_year": 2023,
+        "survey_year": 2017,
+        "acquisition_year": 1982,
+        "mutation_count": 5,
+        "last_mutation_year": 2022,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.305407",
+        "last_updated": "2026-02-06T00:50:26.305408",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "172618_39",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.89735045228755,
+              25.96075961910192
+            ],
+            [
+              74.89735042104309,
+              25.960759566308575
+            ],
+            [
+              74.8973504611086,
+              25.960759542596772
+            ],
+            [
+              74.8973504765135,
+              25.960759568626205
+            ],
+            [
+              74.89735050302868,
+              25.96075955293384
+            ],
+            [
+              74.89735051886825,
+              25.96075957969775
+            ],
+            [
+              74.89735045228755,
+              25.96075961910192
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "172618/53/39",
+        "khasra_number": "53",
+        "khata_number": "474",
+        "khatauni_number": "781",
+        "village_code": "172618",
+        "village_name": "Padaliya (Bhinay)",
+        "village_name_hi": "पाडलिया (भीनाय)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.96076,
+        "centroid_lon": 74.89735,
+        "computed_area_sqm": 0.0,
+        "recorded_area_sqm": 0.0,
+        "area_difference_sqm": 0.0,
+        "area_text": "0 बीघा 0 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "लाल",
+        "soil_type_en": "Red",
+        "owner_name_hi": "महेश पटेल",
+        "owner_name_en": "Mahesh Patel",
+        "father_name_hi": "सरस्वती वर्मा",
+        "father_name_en": "Saraswati Verma",
+        "ownership_type": "व्यक्तिगत",
+        "ownership_share": "16%",
+        "irrigation_type": "कोई नहीं",
+        "irrigation_type_en": "None",
+        "is_irrigated": false,
+        "current_crop": "बाजरा",
+        "current_crop_en": "Millet",
+        "crop_season": "जायद",
+        "rate_per_sqm": 927,
+        "estimated_value_inr": 0.0,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "पट्टा",
+        "source_page": "154",
+        "source_year": 2022,
+        "survey_year": 2017,
+        "acquisition_year": 2011,
+        "mutation_count": 0,
+        "last_mutation_year": null,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.305443",
+        "last_updated": "2026-02-06T00:50:26.305444",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "172618_40",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.8982761111567,
+              25.960874124627264
+            ],
+            [
+              74.89805170729842,
+              25.960531561273974
+            ],
+            [
+              74.8983849834121,
+              25.960210279190747
+            ],
+            [
+              74.89860306269075,
+              25.96065764150874
+            ],
+            [
+              74.8982761111567,
+              25.960874124627264
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "172618/552/40",
+        "khasra_number": "552",
+        "khata_number": "245",
+        "khatauni_number": "546",
+        "village_code": "172618",
+        "village_name": "Padaliya (Bhinay)",
+        "village_name_hi": "पाडलिया (भीनाय)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.960568,
+        "centroid_lon": 74.898329,
+        "computed_area_sqm": 2103.33,
+        "recorded_area_sqm": 2122.84,
+        "area_difference_sqm": 19.51,
+        "area_text": "0 बीघा 16 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "residential",
+        "land_type_hi": "आवासीय",
+        "land_type_code": "RES",
+        "soil_type": "दोमट",
+        "soil_type_en": "Loamy",
+        "owner_name_hi": "श्याम गुर्जर",
+        "owner_name_en": "Shyam Gurjar",
+        "father_name_hi": "जगदीश राय",
+        "father_name_en": "Jagdish Rai",
+        "ownership_type": "सरकारी",
+        "ownership_share": "100%",
+        "irrigation_type": "नहर",
+        "irrigation_type_en": "Canal",
+        "is_irrigated": false,
+        "current_crop": null,
+        "current_crop_en": null,
+        "crop_season": null,
+        "rate_per_sqm": 9945,
+        "estimated_value_inr": 21111666.23,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "बी-1",
+        "source_page": "19",
+        "source_year": 2018,
+        "survey_year": 2020,
+        "acquisition_year": null,
+        "mutation_count": 3,
+        "last_mutation_year": 2020,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.305475",
+        "last_updated": "2026-02-06T00:50:26.305476",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "172618_41",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.89268786464511,
+              25.96113185109377
+            ],
+            [
+              74.89254635295123,
+              25.96145188680532
+            ],
+            [
+              74.89226128889501,
+              25.9613834117198
+            ],
+            [
+              74.89237347478226,
+              25.96111588676465
+            ],
+            [
+              74.89268786464511,
+              25.96113185109377
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "172618/413/41",
+        "khasra_number": "413",
+        "khata_number": "284",
+        "khatauni_number": "655",
+        "village_code": "172618",
+        "village_name": "Padaliya (Bhinay)",
+        "village_name_hi": "पाडलिया (भीनाय)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.961271,
+        "centroid_lon": 74.892467,
+        "computed_area_sqm": 1034.76,
+        "recorded_area_sqm": 1052.18,
+        "area_difference_sqm": 17.42,
+        "area_text": "0 बीघा 8 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "काली",
+        "soil_type_en": "Black",
+        "owner_name_hi": "विष्णु दुबे",
+        "owner_name_en": "Vishnu Dubey",
+        "father_name_hi": "रमेश शर्मा",
+        "father_name_en": "Ramesh Sharma",
+        "ownership_type": "सरकारी",
+        "ownership_share": "100%",
+        "irrigation_type": "कुआं",
+        "irrigation_type_en": "Well",
+        "is_irrigated": true,
+        "current_crop": "चना",
+        "current_crop_en": "Gram",
+        "crop_season": "जायद",
+        "rate_per_sqm": 1797,
+        "estimated_value_inr": 1890771.56,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "खसरा",
+        "source_page": "13",
+        "source_year": 2023,
+        "survey_year": 2021,
+        "acquisition_year": null,
+        "mutation_count": 3,
+        "last_mutation_year": 2012,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.305510",
+        "last_updated": "2026-02-06T00:50:26.305511",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "172618_42",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.89355781371668,
+              25.96143355052943
+            ],
+            [
+              74.8933913602528,
+              25.96162314908259
+            ],
+            [
+              74.8932623447998,
+              25.961493072746304
+            ],
+            [
+              74.89311046405464,
+              25.96128445053315
+            ],
+            [
+              74.89318539209475,
+              25.961163807310037
+            ],
+            [
+              74.89332861371985,
+              25.961044704585454
+            ],
+            [
+              74.89357155042676,
+              25.961056813111306
+            ],
+            [
+              74.89366546998818,
+              25.961253826372623
+            ],
+            [
+              74.89355781371668,
+              25.96143355052943
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "172618/528/42",
+        "khasra_number": "528",
+        "khata_number": "322",
+        "khatauni_number": "939",
+        "village_code": "172618",
+        "village_name": "Padaliya (Bhinay)",
+        "village_name_hi": "पाडलिया (भीनाय)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.961294,
+        "centroid_lon": 74.893384,
+        "computed_area_sqm": 2186.21,
+        "recorded_area_sqm": 2742.16,
+        "area_difference_sqm": 555.95,
+        "area_text": "1 बीघा 1 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "forest",
+        "land_type_hi": "वन भूमि",
+        "land_type_code": "FOR",
+        "soil_type": "दोमट",
+        "soil_type_en": "Loamy",
+        "owner_name_hi": "रामू वर्मा",
+        "owner_name_en": "Ramu Verma",
+        "father_name_hi": "भगवान मिश्रा",
+        "father_name_en": "Bhagwan Mishra",
+        "ownership_type": "व्यक्तिगत",
+        "ownership_share": "100%",
+        "irrigation_type": "तालाब",
+        "irrigation_type_en": "Pond",
+        "is_irrigated": false,
+        "current_crop": null,
+        "current_crop_en": null,
+        "crop_season": null,
+        "rate_per_sqm": 519,
+        "estimated_value_inr": 1423181.26,
+        "circle_rate_year": 2024,
+        "has_discrepancy": true,
+        "discrepancy_type": "area_mismatch",
+        "discrepancy_percentage": 25.4,
+        "discrepancy_severity": "high",
+        "record_status": "needs_review",
+        "verification_status": "pending",
+        "source_document": "पट्टा",
+        "source_page": "115",
+        "source_year": 2021,
+        "survey_year": 2017,
+        "acquisition_year": null,
+        "mutation_count": 4,
+        "last_mutation_year": 2015,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.305552",
+        "last_updated": "2026-02-06T00:50:26.305553",
+        "digitized_by": "System",
+        "remarks": "Auto-generated test data"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "172618_43",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.893873279598,
+              25.961236972263276
+            ],
+            [
+              74.89393945752383,
+              25.961004384457638
+            ],
+            [
+              74.89410885673834,
+              25.961019322893762
+            ],
+            [
+              74.89427643018783,
+              25.96100337561375
+            ],
+            [
+              74.89436608883419,
+              25.961247787358577
+            ],
+            [
+              74.8943830174836,
+              25.9614300094038
+            ],
+            [
+              74.8942064849123,
+              25.961565992913574
+            ],
+            [
+              74.89397548063204,
+              25.961528378759763
+            ],
+            [
+              74.893873279598,
+              25.961236972263276
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "172618/827/43",
+        "khasra_number": "827",
+        "khata_number": "94",
+        "khatauni_number": "467",
+        "village_code": "172618",
+        "village_name": "Padaliya (Bhinay)",
+        "village_name_hi": "पाडलिया (भीनाय)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.961255,
+        "centroid_lon": 74.894141,
+        "computed_area_sqm": 2487.31,
+        "recorded_area_sqm": 2479.34,
+        "area_difference_sqm": -7.97,
+        "area_text": "0 बीघा 19 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "residential",
+        "land_type_hi": "आवासीय",
+        "land_type_code": "RES",
+        "soil_type": "चिकनी",
+        "soil_type_en": "Clay",
+        "owner_name_hi": "गोपाल त्रिपाठी",
+        "owner_name_en": "Gopal Tripathi",
+        "father_name_hi": "रामू कुमावत",
+        "father_name_en": "Ramu Kumawat",
+        "ownership_type": "व्यक्तिगत",
+        "ownership_share": "100%",
+        "irrigation_type": "कोई नहीं",
+        "irrigation_type_en": "None",
+        "is_irrigated": false,
+        "current_crop": null,
+        "current_crop_en": null,
+        "crop_season": null,
+        "rate_per_sqm": 19429,
+        "estimated_value_inr": 48171190.64,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "बी-1",
+        "source_page": "71",
+        "source_year": 2018,
+        "survey_year": 2017,
+        "acquisition_year": 2015,
+        "mutation_count": 5,
+        "last_mutation_year": 2009,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.305593",
+        "last_updated": "2026-02-06T00:50:26.305594",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "172618_44",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.89498455783247,
+              25.961533230948948
+            ],
+            [
+              74.89498448570873,
+              25.961533338787333
+            ],
+            [
+              74.89498444351578,
+              25.96153331056813
+            ],
+            [
+              74.89498448109464,
+              25.96153325438076
+            ],
+            [
+              74.8949844231472,
+              25.96153321562475
+            ],
+            [
+              74.89498445769209,
+              25.961533163973733
+            ],
+            [
+              74.89498455783247,
+              25.961533230948948
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "172618/959/44",
+        "khasra_number": "959",
+        "khata_number": "91",
+        "khatauni_number": "977",
+        "village_code": "172618",
+        "village_name": "Padaliya (Bhinay)",
+        "village_name_hi": "पाडलिया (भीनाय)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.961533,
+        "centroid_lon": 74.894984,
+        "computed_area_sqm": 0.0,
+        "recorded_area_sqm": 0.0,
+        "area_difference_sqm": 0.0,
+        "area_text": "0 बीघा 0 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "बलुई",
+        "soil_type_en": "Sandy",
+        "owner_name_hi": "सीता मिश्रा",
+        "owner_name_en": "Sita Mishra",
+        "father_name_hi": "सरस्वती मिश्रा",
+        "father_name_en": "Saraswati Mishra",
+        "ownership_type": "संयुक्त",
+        "ownership_share": "100%",
+        "irrigation_type": "कुआं",
+        "irrigation_type_en": "Well",
+        "is_irrigated": true,
+        "current_crop": "बाजरा",
+        "current_crop_en": "Millet",
+        "crop_season": "जायद",
+        "rate_per_sqm": 1822,
+        "estimated_value_inr": 0.0,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "पट्टा",
+        "source_page": "6",
+        "source_year": 2019,
+        "survey_year": 2019,
+        "acquisition_year": null,
+        "mutation_count": 2,
+        "last_mutation_year": 2012,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.305636",
+        "last_updated": "2026-02-06T00:50:26.305638",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "172618_45",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.89596538937145,
+              25.961386861844083
+            ],
+            [
+              74.89601257779599,
+              25.961565083863128
+            ],
+            [
+              74.89585715100912,
+              25.96172735231661
+            ],
+            [
+              74.89574227843674,
+              25.96159763046653
+            ],
+            [
+              74.89575349669501,
+              25.961418749277563
+            ],
+            [
+              74.89596538937145,
+              25.961386861844083
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "172618/841/45",
+        "khasra_number": "841",
+        "khata_number": "52",
+        "khatauni_number": "149",
+        "village_code": "172618",
+        "village_name": "Padaliya (Bhinay)",
+        "village_name_hi": "पाडलिया (भीनाय)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.961539,
+        "centroid_lon": 74.895866,
+        "computed_area_sqm": 698.21,
+        "recorded_area_sqm": 696.5,
+        "area_difference_sqm": -1.71,
+        "area_text": "0 बीघा 5 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "दोमट",
+        "soil_type_en": "Loamy",
+        "owner_name_hi": "अनिल गुर्जर",
+        "owner_name_en": "Anil Gurjar",
+        "father_name_hi": "राजेश तिवारी",
+        "father_name_en": "Rajesh Tiwari",
+        "ownership_type": "व्यक्तिगत",
+        "ownership_share": "15%",
+        "irrigation_type": "कुआं",
+        "irrigation_type_en": "Well",
+        "is_irrigated": true,
+        "current_crop": "मक्का",
+        "current_crop_en": "Maize",
+        "crop_season": "रबी",
+        "rate_per_sqm": 960,
+        "estimated_value_inr": 668642.84,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "जमाबंदी",
+        "source_page": "45",
+        "source_year": 2023,
+        "survey_year": 2018,
+        "acquisition_year": null,
+        "mutation_count": 1,
+        "last_mutation_year": 2022,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.305679",
+        "last_updated": "2026-02-06T00:50:26.305682",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "172618_46",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.8963358400933,
+              25.961257464979504
+            ],
+            [
+              74.8966548971852,
+              25.96108175264933
+            ],
+            [
+              74.89681031002617,
+              25.961367029958986
+            ],
+            [
+              74.8964111749251,
+              25.961606650045663
+            ],
+            [
+              74.8963358400933,
+              25.961257464979504
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "172618/402/46",
+        "khasra_number": "402",
+        "khata_number": "76",
+        "khatauni_number": "13",
+        "village_code": "172618",
+        "village_name": "Padaliya (Bhinay)",
+        "village_name_hi": "पाडलिया (भीनाय)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.961328,
+        "centroid_lon": 74.896553,
+        "computed_area_sqm": 1527.35,
+        "recorded_area_sqm": 1520.96,
+        "area_difference_sqm": -6.39,
+        "area_text": "0 बीघा 12 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "forest",
+        "land_type_hi": "वन भूमि",
+        "land_type_code": "FOR",
+        "soil_type": "दोमट",
+        "soil_type_en": "Loamy",
+        "owner_name_hi": "सरस्वती दुबे",
+        "owner_name_en": "Saraswati Dubey",
+        "father_name_hi": "गोपाल वर्मा",
+        "father_name_en": "Gopal Verma",
+        "ownership_type": "व्यक्तिगत",
+        "ownership_share": "2%",
+        "irrigation_type": "नहर",
+        "irrigation_type_en": "Canal",
+        "is_irrigated": false,
+        "current_crop": null,
+        "current_crop_en": null,
+        "crop_season": null,
+        "rate_per_sqm": 402,
+        "estimated_value_inr": 611426.73,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "खतौनी",
+        "source_page": "122",
+        "source_year": 2018,
+        "survey_year": 2019,
+        "acquisition_year": null,
+        "mutation_count": 2,
+        "last_mutation_year": 2023,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.305716",
+        "last_updated": "2026-02-06T00:50:26.305717",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "172618_47",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.89728910804739,
+              25.961613398990284
+            ],
+            [
+              74.89712409791854,
+              25.96153196573249
+            ],
+            [
+              74.89719230602478,
+              25.961368095049064
+            ],
+            [
+              74.8973884542774,
+              25.96140758048081
+            ],
+            [
+              74.89728910804739,
+              25.961613398990284
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "172618/896/47",
+        "khasra_number": "896",
+        "khata_number": "52",
+        "khatauni_number": "73",
+        "village_code": "172618",
+        "village_name": "Padaliya (Bhinay)",
+        "village_name_hi": "पाडलिया (भीनाय)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.96148,
+        "centroid_lon": 74.897248,
+        "computed_area_sqm": 425.87,
+        "recorded_area_sqm": 422.51,
+        "area_difference_sqm": -3.36,
+        "area_text": "0 बीघा 3 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "agricultural",
+        "land_type_hi": "कृषि भूमि",
+        "land_type_code": "AGR",
+        "soil_type": "दोमट",
+        "soil_type_en": "Loamy",
+        "owner_name_hi": "दिनेश पांडेय",
+        "owner_name_en": "Dinesh Pandey",
+        "father_name_hi": "महेश दुबे",
+        "father_name_en": "Mahesh Dubey",
+        "ownership_type": "व्यक्तिगत",
+        "ownership_share": "100%",
+        "irrigation_type": "कोई नहीं",
+        "irrigation_type_en": "None",
+        "is_irrigated": false,
+        "current_crop": "मूंग",
+        "current_crop_en": "Moong",
+        "crop_season": "रबी",
+        "rate_per_sqm": 1366,
+        "estimated_value_inr": 577145.97,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "जमाबंदी",
+        "source_page": "124",
+        "source_year": 2023,
+        "survey_year": 2022,
+        "acquisition_year": null,
+        "mutation_count": 4,
+        "last_mutation_year": 1994,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.305753",
+        "last_updated": "2026-02-06T00:50:26.305755",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "172618_48",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.89803414150335,
+              25.96156390888284
+            ],
+            [
+              74.89799989620751,
+              25.961402877804886
+            ],
+            [
+              74.89809442630542,
+              25.961253115472122
+            ],
+            [
+              74.89828382475928,
+              25.961238663589736
+            ],
+            [
+              74.8983172203721,
+              25.961390088088056
+            ],
+            [
+              74.89824090251702,
+              25.961517287620428
+            ],
+            [
+              74.89803414150335,
+              25.96156390888284
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "172618/599/48",
+        "khasra_number": "599",
+        "khata_number": "286",
+        "khatauni_number": "386",
+        "village_code": "172618",
+        "village_name": "Padaliya (Bhinay)",
+        "village_name_hi": "पाडलिया (भीनाय)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.961394,
+        "centroid_lon": 74.898162,
+        "computed_area_sqm": 829.47,
+        "recorded_area_sqm": 839.18,
+        "area_difference_sqm": 9.71,
+        "area_text": "0 बीघा 6 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "residential",
+        "land_type_hi": "आवासीय",
+        "land_type_code": "RES",
+        "soil_type": "दोमट",
+        "soil_type_en": "Loamy",
+        "owner_name_hi": "रमेश सिंह",
+        "owner_name_en": "Ramesh Singh",
+        "father_name_hi": "श्याम शर्मा",
+        "father_name_en": "Shyam Sharma",
+        "ownership_type": "व्यक्तिगत",
+        "ownership_share": "35%",
+        "irrigation_type": "कोई नहीं",
+        "irrigation_type_en": "None",
+        "is_irrigated": false,
+        "current_crop": null,
+        "current_crop_en": null,
+        "crop_season": null,
+        "rate_per_sqm": 17611,
+        "estimated_value_inr": 14778863.1,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "खतौनी",
+        "source_page": "185",
+        "source_year": 2020,
+        "survey_year": 2018,
+        "acquisition_year": 2004,
+        "mutation_count": 1,
+        "last_mutation_year": 2004,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.305789",
+        "last_updated": "2026-02-06T00:50:26.305790",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "172618_49",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.89282091195973,
+              25.9622646903917
+            ],
+            [
+              74.89259443182117,
+              25.96225391384332
+            ],
+            [
+              74.8927566020082,
+              25.962066177223956
+            ],
+            [
+              74.89282091195973,
+              25.9622646903917
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "172618/168/49",
+        "khasra_number": "168",
+        "khata_number": "38",
+        "khatauni_number": "404",
+        "village_code": "172618",
+        "village_name": "Padaliya (Bhinay)",
+        "village_name_hi": "पाडलिया (भीनाय)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.962195,
+        "centroid_lon": 74.892724,
+        "computed_area_sqm": 245.18,
+        "recorded_area_sqm": 240.3,
+        "area_difference_sqm": -4.88,
+        "area_text": "0 बीघा 1 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "residential",
+        "land_type_hi": "आवासीय",
+        "land_type_code": "RES",
+        "soil_type": "काली",
+        "soil_type_en": "Black",
+        "owner_name_hi": "भगवान कुमावत",
+        "owner_name_en": "Bhagwan Kumawat",
+        "father_name_hi": "मोहन कुमावत",
+        "father_name_en": "Mohan Kumawat",
+        "ownership_type": "व्यक्तिगत",
+        "ownership_share": "100%",
+        "irrigation_type": "ट्यूबवेल",
+        "irrigation_type_en": "Tube Well",
+        "is_irrigated": false,
+        "current_crop": null,
+        "current_crop_en": null,
+        "crop_season": null,
+        "rate_per_sqm": 14430,
+        "estimated_value_inr": 3467461.74,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "जमाबंदी",
+        "source_page": "12",
+        "source_year": 2018,
+        "survey_year": 2020,
+        "acquisition_year": null,
+        "mutation_count": 1,
+        "last_mutation_year": 2022,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.305819",
+        "last_updated": "2026-02-06T00:50:26.305820",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "172618_50",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              74.89374402495378,
+              25.96241917633574
+            ],
+            [
+              74.89352285219242,
+              25.962458942278293
+            ],
+            [
+              74.8934103735631,
+              25.96243533044047
+            ],
+            [
+              74.89322907838687,
+              25.96220135542318
+            ],
+            [
+              74.89333731751876,
+              25.961998687975235
+            ],
+            [
+              74.89351114892344,
+              25.9619864211045
+            ],
+            [
+              74.89374537319286,
+              25.9620308600878
+            ],
+            [
+              74.8939199942146,
+              25.962228952811014
+            ],
+            [
+              74.89374402495378,
+              25.96241917633574
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "plot_id": "172618/807/50",
+        "khasra_number": "807",
+        "khata_number": "268",
+        "khatauni_number": "542",
+        "village_code": "172618",
+        "village_name": "Padaliya (Bhinay)",
+        "village_name_hi": "पाडलिया (भीनाय)",
+        "block": "BHINAY",
+        "district": "AJMER",
+        "state": "Rajasthan",
+        "centroid_lat": 25.96222,
+        "centroid_lon": 74.893553,
+        "computed_area_sqm": 2524.59,
+        "recorded_area_sqm": 2523.02,
+        "area_difference_sqm": -1.57,
+        "area_text": "1 बीघा 0 बिस्वा",
+        "area_unit": "bigha-biswa",
+        "land_type": "residential",
+        "land_type_hi": "आवासीय",
+        "land_type_code": "RES",
+        "soil_type": "दोमट",
+        "soil_type_en": "Loamy",
+        "owner_name_hi": "मोहन चौहान",
+        "owner_name_en": "Mohan Chauhan",
+        "father_name_hi": "सरस्वती त्रिपाठी",
+        "father_name_en": "Saraswati Tripathi",
+        "ownership_type": "सरकारी",
+        "ownership_share": "100%",
+        "irrigation_type": "नहर",
+        "irrigation_type_en": "Canal",
+        "is_irrigated": false,
+        "current_crop": null,
+        "current_crop_en": null,
+        "crop_season": null,
+        "rate_per_sqm": 5892,
+        "estimated_value_inr": 14865639.52,
+        "circle_rate_year": 2024,
+        "has_discrepancy": false,
+        "discrepancy_type": null,
+        "discrepancy_percentage": 0,
+        "discrepancy_severity": null,
+        "record_status": "verified",
+        "verification_status": "completed",
+        "source_document": "पट्टा",
+        "source_page": "11",
+        "source_year": 2022,
+        "survey_year": 2018,
+        "acquisition_year": null,
+        "mutation_count": 3,
+        "last_mutation_year": 2009,
+        "record_version": 1,
+        "created_at": "2026-02-06T00:50:26.305855",
+        "last_updated": "2026-02-06T00:50:26.305856",
+        "digitized_by": "System",
+        "remarks": null
+      }
+    }
+  ]
+}
