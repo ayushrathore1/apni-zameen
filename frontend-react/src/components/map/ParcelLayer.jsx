@@ -36,8 +36,8 @@ function getParcelStatus(properties, geometry) {
   return 'matched'
 }
 
-// Get color based on parcel status and area discrepancy
-function getParcelColor(status, isHovered, isSelected, discrepancy) {
+// Get color based on parcel status
+function getParcelColor(status, isHovered, isSelected) {
   if (isSelected) return PARCEL_COLORS.selected
   if (isHovered) return PARCEL_COLORS.hover
   
