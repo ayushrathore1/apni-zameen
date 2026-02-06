@@ -1,7 +1,7 @@
 import { useMemo } from 'react'
 import { GeoJSON } from 'react-leaflet'
 import { PARCEL_COLORS } from '@/lib/constants'
-import { getAreaDiscrepancy, getDiscrepancyColor } from '@/lib/areaUtils'
+// import { getAreaDiscrepancy, getDiscrepancyColor } from '@/lib/areaUtils'
 
 // Get parcel status based on discrepancy data
 function getParcelStatus(properties, geometry) {
@@ -41,12 +41,6 @@ function getParcelColor(status, isHovered, isSelected, discrepancy) {
   if (isSelected) return PARCEL_COLORS.selected
   if (isHovered) return PARCEL_COLORS.hover
   
-  // Use discrepancy-based colors if available
-  if (discrepancy && discrepancy.severity && discrepancy.severity !== 'none') {
-    const colors = getDiscrepancyColor(discrepancy.severity)
-    return colors.fill
-  }
-  
   return PARCEL_COLORS[status] || PARCEL_COLORS.default
 }
 
@@ -76,7 +70,7 @@ export function ParcelLayer({
     }
   }, [parcels])
 
-  // Style function for each feature with area discrepancy visualization
+  // Style function for each feature
   const styleFeature = (feature) => {
     const status = getParcelStatus(feature.properties, feature.geometry)
     const isHovered = hoveredParcel?.id === feature.id || 
@@ -84,23 +78,7 @@ export function ParcelLayer({
     const isSelected = selectedParcel?.id === feature.id ||
                        selectedParcel?.properties?.plot_id === feature.properties?.plot_id
 
-    // Calculate area discrepancy for enhanced styling
-    const discrepancy = getAreaDiscrepancy(
-      feature.properties?.computed_area_sqm,
-      feature.properties?.recorded_area_sqm
-    )
-    
-    const color = getParcelColor(status, isHovered, isSelected, discrepancy)
-    
-    // Use dashed pattern for critical discrepancies, dotted for major
-    let dashArray = null
-    if (!isSelected && !isHovered) {
-      if (discrepancy.severity === 'critical') {
-        dashArray = '8, 4'
-      } else if (discrepancy.severity === 'major') {
-        dashArray = '4, 3'
-      }
-    }
+    const color = getParcelColor(status, isHovered, isSelected)
 
     return {
       fillColor: color,
@@ -108,7 +86,6 @@ export function ParcelLayer({
       color: isSelected ? PARCEL_COLORS.selected : isHovered ? PARCEL_COLORS.hover : '#1f2937',
       weight: isSelected ? 3 : isHovered ? 2 : 1,
       opacity: 1,
-      dashArray: dashArray,
     }
   }
 
@@ -132,41 +109,20 @@ export function ParcelLayer({
       },
     })
 
-    // Add tooltip with detailed info including area discrepancy
+    // Add tooltip with detailed info
     if (feature.properties?.plot_id) {
       const props = feature.properties
+      const hasDiscrepancy = props.has_discrepancy
       const ownerName = props.owner_name_hindi || props.owner_name_english || 'N/A'
-      const computedArea = props.computed_area_sqm
-      const recordedArea = props.recorded_area_sqm
-      
-      // Calculate discrepancy for tooltip
-      const discrepancy = getAreaDiscrepancy(computedArea, recordedArea)
       
       // Build tooltip HTML
       let tooltipHtml = `<strong>Plot: ${props.plot_id}</strong><br/>`
       tooltipHtml += `<span>Owner: ${ownerName}</span><br/>`
       tooltipHtml += `<span>${props.village_name || ''}</span>`
       
-      if (computedArea && recordedArea) {
-        const diff = Math.abs(discrepancy.difference).toFixed(0)
-        const percentage = Math.abs(discrepancy.percentageDifference).toFixed(1)
-        
-        const color = discrepancy.severity === 'critical' ? '#DC2626' : 
-                      discrepancy.severity === 'major' ? '#D97706' : '#16A34A'
-        
-        tooltipHtml += `<br/><span style="color: ${color}; font-weight: bold;">`
-        
-        if (discrepancy.severity === 'critical') {
-          tooltipHtml += `⚠ Critical: ${percentage}% difference (${diff} m²)`
-        } else if (discrepancy.severity === 'major') {
-          tooltipHtml += `● Variance: ${percentage}% difference (${diff} m²)`
-        } else if (discrepancy.hasDiscrepancy) {
-          tooltipHtml += `• Minor: ${percentage}% difference (${diff} m²)`
-        } else {
-          tooltipHtml += `✓ Area Matched`
-        }
-        
-        tooltipHtml += `</span>`
+      if (hasDiscrepancy) {
+        const diff = Math.abs(props.area_difference_sqm || 0).toFixed(0)
+        tooltipHtml += `<br/><span style="color: #EF4444; font-weight: bold;">⚠ Area Mismatch: ${diff} m²</span>`
       }
       
       layer.bindTooltip(tooltipHtml, {

@@ -33,8 +33,11 @@ export function getAreaDiscrepancy(computedArea, recordedArea) {
       hasDiscrepancy: false,
       difference: 0,
       percentageDifference: 0,
-      severity: null,
+      absolutePercentage: 0,
+      severity: 'none',
       status: 'unknown',
+      isUnderRecorded: false,
+      isOverRecorded: false,
     }
   }
   
