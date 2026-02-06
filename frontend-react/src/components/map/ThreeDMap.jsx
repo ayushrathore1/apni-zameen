@@ -14,7 +14,7 @@ import { Canvas, useFrame, useThree } from '@react-three/fiber'
 import { OrbitControls, PerspectiveCamera } from '@react-three/drei'
 import * as THREE from 'three'
 import { motion, AnimatePresence } from 'framer-motion'
-import { Search, X, MapPin, User, AlertTriangle, CheckCircle, Ruler, Loader2, Layers } from 'lucide-react'
+import { Search, X, MapPin, User, AlertTriangle, CheckCircle2, Ruler, Loader2, Layers } from 'lucide-react'
 import { api } from '@/services/api'
 import { cn } from '@/lib/utils'
 
@@ -415,7 +415,7 @@ function ParcelInfoPanel({ parcel, onClose }) {
               : "bg-amber-100 text-amber-700 dark:bg-amber-900/30 dark:text-amber-400"
             : "bg-green-100 text-green-700 dark:bg-green-900/30 dark:text-green-400"
         )}>
-          {hasDiscrepancy ? <AlertTriangle className="size-4" /> : <CheckCircle className="size-4" />}
+          {hasDiscrepancy ? <AlertTriangle className="size-4" /> : <CheckCircle2 className="size-4" />}
           {hasDiscrepancy ? (severity === 'high' ? 'High Risk' : 'Medium Risk') : 'Verified'}
         </span>
       </div>

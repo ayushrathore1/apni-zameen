@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useRef } from 'react'
 import { GeoJSON, useMap } from 'react-leaflet'
 import { motion, AnimatePresence } from 'framer-motion'
-import { AlertTriangle, CheckCircle, MapPin, Ruler, User, TrendingDown, TrendingUp, Info } from 'lucide-react'
+import { AlertTriangle, CheckCircle2, MapPin, Ruler, User, TrendingDown, TrendingUp, Info } from 'lucide-react'
 import { cn } from '@/lib/utils'
 import { getAreaDiscrepancy, getStatusBadge, getDiscrepancyDescription, calculatePolygonArea } from '@/lib/areaUtils'
 
@@ -188,7 +188,7 @@ function ParcelInfoPanel({ parcel, onClose }) {
               </>
             ) : (
               <>
-                <CheckCircle className="size-4" />
+                <CheckCircle2 className="size-4" />
                 Verified
               </>
             )}

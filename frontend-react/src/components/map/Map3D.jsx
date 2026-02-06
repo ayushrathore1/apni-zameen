@@ -4,7 +4,7 @@ import { FlyToInterpolator } from '@deck.gl/core'
 import { GeoJsonLayer, BitmapLayer } from '@deck.gl/layers'
 import { TileLayer } from '@deck.gl/geo-layers'
 import { motion, AnimatePresence } from 'framer-motion'
-import { Search, X, MapPin, User, AlertTriangle, CheckCircle, Ruler, Loader2 } from 'lucide-react'
+import { Search, X, MapPin, User, AlertTriangle, CheckCircle2, Ruler, Loader2 } from 'lucide-react'
 import { api } from '@/services/api'
 import { cn } from '@/lib/utils'
 
@@ -536,7 +536,7 @@ function ParcelInfoPanel3D({ parcel, onClose }) {
             {hasDiscrepancy ? (
               <><AlertTriangle className="size-3" />{severity === 'high' ? 'High Risk' : 'Review'}</>
             ) : (
-              <><CheckCircle className="size-3" />Verified</>
+              <><CheckCircle2 className="size-3" />Verified</>
             )}
           </div>
         </div>
