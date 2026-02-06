@@ -6,6 +6,10 @@ import path from 'path'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
+  optimizeDeps: {
+    // Reduce esbuild load to avoid "The service was stopped" on Windows
+    holdUntilCrawlEnd: true,
+  },
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),

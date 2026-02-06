@@ -8,7 +8,7 @@ from sqlalchemy.orm import Session
 from sqlalchemy import func
 from geoalchemy2.functions import ST_AsGeoJSON, ST_Envelope, ST_MakeEnvelope, ST_Intersects, ST_X, ST_Y
 
-from ..database import get_db
+from ..database import get_db, SessionLocal
 from ..models.parcel import Parcel
 from ..models.land_record import LandRecord
 from ..schemas.parcel import (
@@ -36,58 +36,54 @@ def list_parcels(
     return parcels
 
 
-@router.get("/geojson", response_model=ParcelFeatureCollection)
-def get_parcels_geojson(
-    village_code: Optional[str] = None,
-    db: Session = Depends(get_db)
-):
-    """Get all parcels as GeoJSON FeatureCollection with full properties."""
+@router.get("/geojson")
+def get_parcels_geojson(village_code: Optional[str] = None):
+    """Get all parcels as GeoJSON FeatureCollection. Uses file first (no DB), then DB if needed."""
     import json
     import os
-    
-    # Try to load from the full generated GeoJSON which has all properties
-    geojson_path = os.path.join(
+
+    # 1. Try file only (no DB dependency) so we never 500 when DB is down
+    geojson_path = os.path.abspath(os.path.join(
         os.path.dirname(__file__), "..", "..", "..", "data", "generated", "bhinay_all_parcels.geojson"
-    )
-    
+    ))
     if os.path.exists(geojson_path):
-        with open(geojson_path, 'r', encoding='utf-8') as f:
-            data = json.load(f)
-        
-        features = data.get('features', [])
-        
-        # Filter by village if specified
-        if village_code:
-            features = [f for f in features if f['properties'].get('village_code') == village_code]
-        
-        return {
-            "type": "FeatureCollection",
-            "features": features
-        }
-    
-    # Fallback to database query
-    query = db.query(Parcel)
-    
-    if village_code:
-        query = query.filter(Parcel.village_code == village_code)
-    
-    parcels = query.all()
-    
-    features = [
-        ParcelGeoJSON(
-            id=str(p.id),
-            geometry=p.to_geojson_feature()["geometry"],
-            properties={
-                "plot_id": p.plot_id,
-                "village_code": p.village_code,
-                "village_name": p.village_name,
-                "computed_area_sqm": p.computed_area_sqm
-            }
-        )
-        for p in parcels
-    ]
-    
-    return ParcelFeatureCollection(features=features)
+        try:
+            with open(geojson_path, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+            features = data.get('features', []) or []
+            if village_code:
+                features = [f for f in features if (f.get('properties') or {}).get('village_code') == village_code]
+            return {"type": "FeatureCollection", "features": features}
+        except (OSError, json.JSONDecodeError, TypeError):
+            pass
+
+    # 2. Fallback to DB only when file missing; open session here so DB failure doesn't run on file path
+    try:
+        db = SessionLocal()
+        try:
+            query = db.query(Parcel)
+            if village_code:
+                query = query.filter(Parcel.village_code == village_code)
+            parcels = query.all()
+            features = [
+                ParcelGeoJSON(
+                    id=str(p.id),
+                    geometry=p.to_geojson_feature()["geometry"],
+                    properties={
+                        "plot_id": p.plot_id,
+                        "village_code": p.village_code,
+                        "village_name": p.village_name,
+                        "computed_area_sqm": p.computed_area_sqm
+                    }
+                )
+                for p in parcels
+            ]
+            return {"type": "FeatureCollection", "features": [f.model_dump() for f in features]}
+        finally:
+            db.close()
+    except Exception:
+        pass
+    return {"type": "FeatureCollection", "features": []}
 
 
 

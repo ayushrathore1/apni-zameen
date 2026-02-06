@@ -1,10 +1,30 @@
-import { useState, useEffect, useCallback } from 'react'
+import { useState, useEffect, useCallback, Component } from 'react'
 import { useSearchParams } from 'react-router-dom'
 import { Search, Filter, X, Cuboid, Map as MapIcon } from 'lucide-react'
 import { LandMap, Map3D, ThreeDMap } from '@/components/map'
 import { Button, Input, Select, Badge, Spinner } from '@/components/ui'
-import { parcelsService, villagesService } from '@/services/parcels'
+import { parcelsService, villagesService, searchService } from '@/services/parcels'
 import { cn } from '@/lib/utils'
+
+/** Catches WebGL/resize errors in 3D map and shows fallback (e.g. switch to 2D). */
+class Map3DErrorBoundary extends Component {
+  state = { hasError: false }
+
+  static getDerivedStateFromError() {
+    return { hasError: true }
+  }
+
+  componentDidCatch(error, info) {
+    console.warn('Map3D error (fallback to 2D):', error?.message || error, info?.componentStack)
+  }
+
+  render() {
+    if (this.state.hasError && this.props.fallback) {
+      return this.props.fallback
+    }
+    return this.props.children
+  }
+}
 
 export function MapPage() {
   const [searchParams, setSearchParams] = useSearchParams()
@@ -21,8 +41,8 @@ export function MapPage() {
   const [selectedVillage, setSelectedVillage] = useState(searchParams.get('village') || '')
   const [showFilters, setShowFilters] = useState(false)
   
-  // View mode: '2d' or '3d'
-  const [viewMode, setViewMode] = useState('3d')
+  // View mode: '2d' or '3d' (default 2D to avoid WebGL issues until user opts in)
+  const [viewMode, setViewMode] = useState('2d')
   
   // Fly-to state
   const [flyToCenter, setFlyToCenter] = useState(null)
@@ -85,30 +105,28 @@ export function MapPage() {
     setSearchParams({})
   }, [setSearchParams])
 
-  // Handle search
+  // Handle search: use same /search/plot API as in-map search for full GeoJSON and boundary
   const handleSearch = useCallback(async (e) => {
     e?.preventDefault()
     if (!searchQuery.trim()) return
-    
+
     try {
-      // Search by plot ID or owner name
-      const results = await parcelsService.getByPlotId(searchQuery)
-      if (results) {
-        // Find the parcel and fly to it
-        const parcel = parcels.features?.find(
-          f => f.properties?.plot_id === searchQuery
-        )
-        if (parcel && parcel.geometry) {
-          const coords = getCentroid(parcel.geometry)
-          setFlyToCenter(coords)
-          setFlyToZoom(17)
-          setSelectedParcel(parcel)
+      const data = await searchService.searchByPlotId(searchQuery)
+      if (data?.found && data.parcel) {
+        const parcel = data.parcel
+        const center = parcel.properties?.centroid_lat != null && parcel.properties?.centroid_lon != null
+          ? [parcel.properties.centroid_lat, parcel.properties.centroid_lon]
+          : getCentroid(parcel.geometry)
+        if (center) {
+          setFlyToCenter(center)
+          setFlyToZoom(18)
         }
+        setSelectedParcel(parcel)
       }
     } catch (err) {
       console.error('Search failed:', err)
     }
-  }, [searchQuery, parcels])
+  }, [searchQuery])
 
   // Handle village filter
   const handleVillageChange = useCallback((e) => {
@@ -204,7 +222,18 @@ export function MapPage() {
       {/* Map */}
       <div className="flex-1 relative">
         {viewMode === '3d' ? (
-          <Map3D className="w-full h-full" />
+          <Map3DErrorBoundary
+            fallback={
+              <div className="w-full h-full flex flex-col items-center justify-center gap-3 bg-muted/30 p-4 text-center">
+                <p className="text-sm text-muted-foreground">3D map could not load (WebGL issue).</p>
+                <Button onClick={() => setViewMode('2d')} variant="secondary">
+                  Switch to 2D map
+                </Button>
+              </div>
+            }
+          >
+            <Map3D className="w-full h-full" />
+          </Map3DErrorBoundary>
         ) : (
           <LandMap
             parcels={parcels}

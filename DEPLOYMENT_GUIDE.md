@@ -109,7 +109,59 @@ python -m app.scripts.seed_data  # If you have seed script
 **`frontend-react/.env.production`**:
 ```env
 VITE_API_URL=https://land-records-api.onrender.com/api
-VITE_APP_NAME=Land Records Assistant
+2026-02-05T20:29:26.627333081Z   File "/opt/render/project/src/backend/app/api/auth.py", line 29, in <module>
+2026-02-05T20:29:26.627335151Z     class UserCreate(BaseModel):
+2026-02-05T20:29:26.627337181Z     ...<5 lines>...
+2026-02-05T20:29:26.627339401Z         designation: Optional[str] = None
+2026-02-05T20:29:26.627344941Z   File "/opt/render/project/src/.venv/lib/python3.13/site-packages/pydantic/_internal/_model_construction.py", line 255, in __new__
+2026-02-05T20:29:26.627347081Z     complete_model_class(
+2026-02-05T20:29:26.627349112Z     ~~~~~~~~~~~~~~~~~~~~^
+2026-02-05T20:29:26.627351092Z         cls,
+2026-02-05T20:29:26.627353221Z         ^^^^
+2026-02-05T20:29:26.627355252Z     ...<3 lines>...
+2026-02-05T20:29:26.627357421Z         create_model_module=_create_model_module,
+2026-02-05T20:29:26.627359512Z         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-05T20:29:26.627361562Z     )
+2026-02-05T20:29:26.627363572Z     ^
+2026-02-05T20:29:26.627365722Z   File "/opt/render/project/src/.venv/lib/python3.13/site-packages/pydantic/_internal/_model_construction.py", line 648, in complete_model_class
+2026-02-05T20:29:26.627367782Z     schema = gen_schema.generate_schema(cls)
+2026-02-05T20:29:26.627369772Z   File "/opt/render/project/src/.venv/lib/python3.13/site-packages/pydantic/_internal/_generate_schema.py", line 729, in generate_schema
+2026-02-05T20:29:26.627371802Z     schema = self._generate_schema_inner(obj)
+2026-02-05T20:29:26.627373852Z   File "/opt/render/project/src/.venv/lib/python3.13/site-packages/pydantic/_internal/_generate_schema.py", line 1023, in _generate_schema_inner
+2026-02-05T20:29:26.627376072Z     return self._model_schema(obj)
+2026-02-05T20:29:26.627382572Z            ~~~~~~~~~~~~~~~~~~^^^^^
+2026-02-05T20:29:26.627384932Z   File "/opt/render/project/src/.venv/lib/python3.13/site-packages/pydantic/_internal/_generate_schema.py", line 856, in _model_schema
+2026-02-05T20:29:26.627387232Z     {k: self._generate_md_field_schema(k, v, decorators) for k, v in fields.items()},
+2026-02-05T20:29:26.627389342Z         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+2026-02-05T20:29:26.627392042Z   File "/opt/render/project/src/.venv/lib/python3.13/site-packages/pydantic/_internal/_generate_schema.py", line 1228, in _generate_md_field_schema
+2026-02-05T20:29:26.627394102Z     schema, metadata = self._common_field_schema(name, field_info, decorators)
+2026-02-05T20:29:26.627396333Z                        ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-05T20:29:26.627398482Z   File "/opt/render/project/src/.venv/lib/python3.13/site-packages/pydantic/_internal/_generate_schema.py", line 1282, in _common_field_schema
+2026-02-05T20:29:26.627400582Z     schema = self._apply_annotations(
+2026-02-05T20:29:26.627402653Z         source_type,
+2026-02-05T20:29:26.627404843Z         annotations + validators_from_decorators,
+2026-02-05T20:29:26.627407043Z     )
+2026-02-05T20:29:26.627409143Z   File "/opt/render/project/src/.venv/lib/python3.13/site-packages/pydantic/_internal/_generate_schema.py", line 2227, in _apply_annotations
+2026-02-05T20:29:26.627411353Z     schema = get_inner_schema(source_type)
+2026-02-05T20:29:26.627413443Z   File "/opt/render/project/src/.venv/lib/python3.13/site-packages/pydantic/_internal/_schema_generation_shared.py", line 83, in __call__
+2026-02-05T20:29:26.627415713Z     schema = self._handler(source_type)
+2026-02-05T20:29:26.627417863Z   File "/opt/render/project/src/.venv/lib/python3.13/site-packages/pydantic/_internal/_generate_schema.py", line 2203, in inner_handler
+2026-02-05T20:29:26.627420043Z     schema = self._generate_schema_from_get_schema_method(obj, source_type)
+2026-02-05T20:29:26.627429053Z   File "/opt/render/project/src/.venv/lib/python3.13/site-packages/pydantic/_internal/_generate_schema.py", line 919, in _generate_schema_from_get_schema_method
+2026-02-05T20:29:26.627431363Z     schema = get_schema(
+2026-02-05T20:29:26.627433513Z         source, CallbackGetCoreSchemaHandler(self._generate_schema_inner, self, ref_mode=ref_mode)
+2026-02-05T20:29:26.627435613Z     )
+2026-02-05T20:29:26.627437983Z   File "/opt/render/project/src/.venv/lib/python3.13/site-packages/pydantic/networks.py", line 1005, in __get_pydantic_core_schema__
+2026-02-05T20:29:26.627440053Z     import_email_validator()
+2026-02-05T20:29:26.627442053Z     ~~~~~~~~~~~~~~~~~~~~~~^^
+2026-02-05T20:29:26.627444143Z   File "/opt/render/project/src/.venv/lib/python3.13/site-packages/pydantic/networks.py", line 967, in import_email_validator
+2026-02-05T20:29:26.627446303Z     raise ImportError("email-validator is not installed, run `pip install 'pydantic[email]'`") from e
+2026-02-05T20:29:26.627448394Z ImportError: email-validator is not installed, run `pip install 'pydantic[email]'`
+2026-02-05T20:29:31.509460826Z ==> No open ports detected, continuing to scan...
+2026-02-05T20:29:31.920214529Z ==> Docs on specifying a port: https://render.com/docs/web-services#port-binding
+2026-02-05T20:29:43.020754245Z ==> Exited with status 1
+2026-02-05T20:29:43.023316261Z ==> Common ways to troubleshoot your deploy: https://render.com/docs/troubleshooting-deploys
+2026-02-05T20:29:48.540547646Z ==> Running 'uvicorn app.main:app --host 0.0.0.0 --port $PORT'=Land Records Assistant
 ```
 
 **`frontend-react/vercel.json`**:

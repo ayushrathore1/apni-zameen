@@ -1,16 +1,49 @@
-import { useEffect, useMemo, useRef } from 'react'
+import { useEffect, useMemo } from 'react'
+import L from 'leaflet'
 import { GeoJSON, useMap } from 'react-leaflet'
-import { motion, AnimatePresence } from 'framer-motion'
+import { motion } from 'framer-motion'
 import { AlertTriangle, CheckCircle, MapPin, Ruler, User } from 'lucide-react'
 import { cn } from '@/lib/utils'
 
+/** Get all [lon, lat] rings from GeoJSON geometry (Polygon or MultiPolygon). */
+function getGeometryRings(geometry) {
+  if (!geometry || !geometry.coordinates) return []
+  if (geometry.type === 'Polygon') {
+    return geometry.coordinates
+  }
+  if (geometry.type === 'MultiPolygon') {
+    return geometry.coordinates.flat()
+  }
+  return []
+}
+
+/** Compute Leaflet LatLngBounds from GeoJSON geometry. */
+function boundsFromGeometry(geometry) {
+  const rings = getGeometryRings(geometry)
+  if (rings.length === 0) return null
+  let minLat = Infinity, minLon = Infinity, maxLat = -Infinity, maxLon = -Infinity
+  for (const ring of rings) {
+    for (const coord of ring) {
+      const [lon, lat] = coord
+      if (lat < minLat) minLat = lat
+      if (lat > maxLat) maxLat = lat
+      if (lon < minLon) minLon = lon
+      if (lon > maxLon) maxLon = lon
+    }
+  }
+  if (minLat === Infinity) return null
+  return L.latLngBounds(
+    [minLat, minLon],
+    [maxLat, maxLon]
+  )
+}
+
 /**
- * HighlightedParcel - Shows a 3D-like highlighted polygon for the selected parcel
- * with pulsing border effect and detailed info panel
+ * HighlightedParcel - Shows a highlighted polygon for the selected parcel
+ * with clear boundary and detailed info panel
  */
 export function HighlightedParcel({ parcel, onClose }) {
   const map = useMap()
-  const layerRef = useRef(null)
   
   // Parse parcel data
   const parcelData = useMemo(() => {
@@ -23,15 +56,12 @@ export function HighlightedParcel({ parcel, onClose }) {
     return { props, geometry }
   }, [parcel])
   
-  // Fit map to parcel bounds when selected
+  // Fit map to parcel bounds from geometry (reliable, no ref needed)
   useEffect(() => {
-    if (parcelData?.geometry && layerRef.current) {
-      try {
-        const bounds = layerRef.current.getBounds()
-        map.fitBounds(bounds, { padding: [100, 100], maxZoom: 18 })
-      } catch (e) {
-        console.error('Error fitting bounds:', e)
-      }
+    if (!parcelData?.geometry || !map) return
+    const bounds = boundsFromGeometry(parcelData.geometry)
+    if (bounds && bounds.isValid()) {
+      map.fitBounds(bounds, { padding: [80, 80], maxZoom: 18 })
     }
   }, [parcelData, map])
   
@@ -41,39 +71,38 @@ export function HighlightedParcel({ parcel, onClose }) {
   const hasDiscrepancy = props.has_discrepancy
   const severity = props.discrepancy_severity
   
-  // 3D-like highlight style with glow effect
+  // Highlight style: clear boundary, high contrast
   const highlightStyle = {
-    fillColor: hasDiscrepancy 
-      ? (severity === 'high' ? '#EF4444' : '#F59E0B') 
+    fillColor: hasDiscrepancy
+      ? (severity === 'high' ? '#EF4444' : '#F59E0B')
       : '#22C55E',
-    fillOpacity: 0.4,
-    color: hasDiscrepancy 
-      ? (severity === 'high' ? '#DC2626' : '#D97706') 
+    fillOpacity: 0.45,
+    color: hasDiscrepancy
+      ? (severity === 'high' ? '#DC2626' : '#D97706')
       : '#16A34A',
-    weight: 4,
+    weight: 5,
     opacity: 1,
-    // Add dash pattern for visual distinction
     dashArray: hasDiscrepancy ? '10, 5' : null,
   }
-  
-  // Shadow/outline layer for 3D effect
+
+  // Shadow/outline layer for depth
   const shadowStyle = {
     fillColor: 'transparent',
     fillOpacity: 0,
     color: '#000000',
-    weight: 8,
-    opacity: 0.3,
+    weight: 9,
+    opacity: 0.35,
   }
-  
+
   // Glow layer
   const glowStyle = {
     fillColor: 'transparent',
     fillOpacity: 0,
-    color: hasDiscrepancy 
-      ? (severity === 'high' ? '#EF4444' : '#F59E0B') 
+    color: hasDiscrepancy
+      ? (severity === 'high' ? '#EF4444' : '#F59E0B')
       : '#22C55E',
-    weight: 12,
-    opacity: 0.2,
+    weight: 14,
+    opacity: 0.25,
   }
   
   const geoJsonFeature = {
@@ -98,11 +127,9 @@ export function HighlightedParcel({ parcel, onClose }) {
       
       {/* Main highlight layer */}
       <GeoJSON
-        ref={layerRef}
         data={geoJsonFeature}
         style={() => highlightStyle}
         onEachFeature={(feature, layer) => {
-          // Pulsing animation effect via CSS class
           layer.getElement?.()?.classList.add('parcel-highlight-pulse')
         }}
       />

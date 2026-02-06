@@ -158,6 +158,15 @@ export function LandMap({
 
   // Handle search parcel selection - stores the full parcel data for highlighting
   const [highlightedParcel, setHighlightedParcel] = useState(null)
+
+  // Sync highlighted parcel with parent-selected parcel so boundary shows for both in-map and page-level search
+  useEffect(() => {
+    if (selectedParcel?.geometry) {
+      setHighlightedParcel(selectedParcel)
+    } else if (!selectedParcel) {
+      setHighlightedParcel(null)
+    }
+  }, [selectedParcel])
   
   const handleSearchParcelSelect = useCallback((parcel) => {
     setHighlightedParcel(parcel)

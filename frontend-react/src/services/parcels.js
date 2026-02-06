@@ -15,9 +15,9 @@ export const parcelsService = {
   getById: (id) => api.get(`/parcels/${id}`),
 
   /**
-   * Get parcel by plot ID
+   * Get parcel by plot ID (matches backend route /parcels/by-plot/{plot_id})
    */
-  getByPlotId: (plotId) => api.get(`/parcels/plot/${plotId}`),
+  getByPlotId: (plotId) => api.get(`/parcels/by-plot/${encodeURIComponent(plotId)}`),
 
   /**
    * Get parcels as GeoJSON

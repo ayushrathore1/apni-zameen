@@ -55,29 +55,34 @@ def unified_search(
             match_field="plot_id"
         ))
     
-    # Search by owner name (Hindi and English with fuzzy matching)
-    record_query = db.query(LandRecord).filter(
+    # Search by owner name (Hindi and English with fuzzy matching); join Parcel for centroid/village
+    record_query = db.query(LandRecord, Parcel).join(
+        Parcel, LandRecord.plot_id == Parcel.plot_id
+    ).filter(
         LandRecord.is_current == True,
         or_(
             LandRecord.owner_name_hindi.ilike(f"%{query}%"),
             LandRecord.owner_name_english.ilike(f"%{query}%")
         )
     )
-    
+
     if village_code:
-        record_query = record_query.join(
-            Parcel, LandRecord.parcel_id == Parcel.id
-        ).filter(Parcel.village_code == village_code)
-    
-    records = record_query.limit(limit // 2).all()
-    
-    for r in records:
+        record_query = record_query.filter(Parcel.village_code == village_code)
+
+    records_with_parcel = record_query.limit(limit // 2).all()
+
+    for r, parcel in records_with_parcel:
+        centroid = parcel.geometry_shape.centroid if parcel.geometry_shape else None
         results.append(SearchResultItem(
             type="record",
             id=r.id,
             plot_id=r.plot_id,
+            village_code=parcel.village_code,
+            village_name=parcel.village_name,
             owner_name_hindi=r.owner_name_hindi,
             owner_name_english=r.owner_name_english,
+            centroid_lon=centroid.x if centroid else None,
+            centroid_lat=centroid.y if centroid else None,
             match_score=90.0,
             match_field="owner_name"
         ))
@@ -89,6 +94,36 @@ def unified_search(
     )
 
 
+def _find_plot_in_geojson_dir(plot_id: str, data_dir: str):
+    """Look for plot_id in bhinay_all_parcels.geojson then in *_parcels.geojson files. Returns feature or None."""
+    import glob
+    import json
+    import os
+
+    # 1. Try combined file first
+    combined = os.path.join(data_dir, "bhinay_all_parcels.geojson")
+    if os.path.exists(combined):
+        with open(combined, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+        for feature in data.get('features', []):
+            if feature.get('properties', {}).get('plot_id') == plot_id and feature.get('geometry'):
+                return feature
+
+    # 2. Try village-specific *_parcels.geojson files
+    for path in sorted(glob.glob(os.path.join(data_dir, "*_parcels.geojson"))):
+        if path == combined:
+            continue
+        try:
+            with open(path, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+            for feature in data.get('features', []):
+                if feature.get('properties', {}).get('plot_id') == plot_id and feature.get('geometry'):
+                    return feature
+        except (OSError, json.JSONDecodeError):
+            continue
+    return None
+
+
 @router.get("/plot")
 def search_by_plot(
     plot_id: str = Query(..., description="Exact plot ID to search"),
@@ -97,43 +132,32 @@ def search_by_plot(
     """Search for a specific plot ID and return full GeoJSON with all properties."""
     import json
     import os
-    
-    # Try to load from the full generated GeoJSON which has all properties
-    geojson_path = os.path.join(
-        os.path.dirname(__file__), "..", "..", "..", "data", "generated", "bhinay_all_parcels.geojson"
-    )
-    
-    if os.path.exists(geojson_path):
-        with open(geojson_path, 'r', encoding='utf-8') as f:
-            data = json.load(f)
-        
-        # Find the matching feature
-        for feature in data.get('features', []):
-            if feature['properties'].get('plot_id') == plot_id:
-                # Get associated records from database
-                records = db.query(LandRecord).filter(
-                    LandRecord.plot_id == plot_id,
-                    LandRecord.is_current == True
-                ).all()
-                
-                return {
-                    "found": True,
-                    "parcel": feature,  # Full GeoJSON Feature with geometry and all properties
-                    "records": [r.to_dict() for r in records]
-                }
-    
+
+    data_dir = os.path.join(os.path.dirname(__file__), "..", "..", "..", "data", "generated")
+    feature = _find_plot_in_geojson_dir(plot_id, data_dir)
+
+    if feature:
+        records = db.query(LandRecord).filter(
+            LandRecord.plot_id == plot_id,
+            LandRecord.is_current == True
+        ).all()
+        return {
+            "found": True,
+            "parcel": feature,
+            "records": [r.to_dict() for r in records]
+        }
+
     # Fallback to database query if GeoJSON not found
     parcel = db.query(Parcel).filter(Parcel.plot_id == plot_id).first()
-    
+
     if not parcel:
         return {"found": False, "plot_id": plot_id}
-    
-    # Get associated records
+
     records = db.query(LandRecord).filter(
         LandRecord.plot_id == plot_id,
         LandRecord.is_current == True
     ).all()
-    
+
     return {
         "found": True,
         "parcel": parcel.to_geojson_feature(),

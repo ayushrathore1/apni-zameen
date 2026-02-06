@@ -17,12 +17,23 @@ docker-compose up -d
 ```bash
 cd backend
 python -m venv venv
-.\venv\Scripts\activate  # Windows
+```
+Activate the venv (use one that matches your shell):
+- **Git Bash / WSL**: `source venv/Scripts/activate`
+- **Windows CMD**: `venv\Scripts\activate.bat`
+- **PowerShell**: `.\venv\Scripts\Activate.ps1`
+- **Linux / Mac**: `source venv/bin/activate`
+
+Then install and init (with venv activated):
+```bash
 pip install -r requirements.txt
 python scripts/init_db.py
 python scripts/load_sample_data.py
-uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
 ```
+Start the server:
+- **Windows CMD (easiest):** From `backend` run `start.bat` (creates venv, installs deps, then starts the server).
+- **Otherwise:** With venv activated, run `python run.py`.
+- From repo root in Git Bash: `bash backend/run.sh`.
 
 ### 3. Open Frontend
 Open `frontend/index.html` in your browser, or serve via:
