@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { AuthProvider } from '@/context/AuthContext'
+import { ErrorBoundary } from '@/components/ErrorBoundary'
 import { CitizenLayout, OfficialLayout } from '@/components/layout'
 import { HomePage, LoginPage, DashboardPage, MapPage, DiscrepanciesPage, ReportsPage } from '@/pages'
 
@@ -53,34 +54,36 @@ function NotFoundPage() {
 
 export default function App() {
   return (
-    <QueryClientProvider client={queryClient}>
-      <AuthProvider>
-        <BrowserRouter>
-          <Routes>
-            {/* Public Routes - Citizen Layout */}
-            <Route element={<CitizenLayout />}>
-              <Route path="/" element={<HomePage />} />
-              <Route path="/map" element={<MapPage />} />
-              <Route path="/search" element={<SearchPage />} />
-            </Route>
+    <ErrorBoundary>
+      <QueryClientProvider client={queryClient}>
+        <AuthProvider>
+          <BrowserRouter>
+            <Routes>
+              {/* Public Routes - Citizen Layout */}
+              <Route element={<CitizenLayout />}>
+                <Route path="/" element={<HomePage />} />
+                <Route path="/map" element={<MapPage />} />
+                <Route path="/search" element={<SearchPage />} />
+              </Route>
 
-            {/* Auth Routes */}
-            <Route path="/login" element={<LoginPage />} />
+              {/* Auth Routes */}
+              <Route path="/login" element={<LoginPage />} />
 
-            {/* Protected Routes - Official Layout */}
-            <Route element={<OfficialLayout />}>
-              <Route path="/dashboard" element={<DashboardPage />} />
-              <Route path="/discrepancies" element={<DiscrepanciesPage />} />
-              <Route path="/records" element={<RecordsPage />} />
-              <Route path="/reports" element={<ReportsPage />} />
-            </Route>
+              {/* Protected Routes - Official Layout */}
+              <Route element={<OfficialLayout />}>
+                <Route path="/dashboard" element={<DashboardPage />} />
+                <Route path="/discrepancies" element={<DiscrepanciesPage />} />
+                <Route path="/records" element={<RecordsPage />} />
+                <Route path="/reports" element={<ReportsPage />} />
+              </Route>
 
-            {/* 404 */}
-            <Route path="*" element={<NotFoundPage />} />
-          </Routes>
-        </BrowserRouter>
-      </AuthProvider>
-    </QueryClientProvider>
+              {/* 404 */}
+              <Route path="*" element={<NotFoundPage />} />
+            </Routes>
+          </BrowserRouter>
+        </AuthProvider>
+      </QueryClientProvider>
+    </ErrorBoundary>
   )
 }
 

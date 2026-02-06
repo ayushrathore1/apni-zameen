@@ -16,6 +16,11 @@ export function MapPage() {
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(null)
   
+  // Debug: log render
+  useEffect(() => {
+    console.log('[v0] MapPage rendered')
+  }, [])
+  
   // Filters
   const [searchQuery, setSearchQuery] = useState(searchParams.get('search') || '')
   const [selectedVillage, setSelectedVillage] = useState(searchParams.get('village') || '')
