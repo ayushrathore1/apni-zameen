@@ -8,7 +8,6 @@ import { Button, Spinner } from '@/components/ui'
 import { ParcelLayer } from './ParcelLayer'
 import { ParcelCard } from './ParcelCard'
 import { ParcelSearch } from './ParcelSearch'
-import { HighlightedParcel } from './HighlightedParcel'
 import { MAP_CONFIG, TILE_LAYERS } from '@/lib/constants'
 import { cn } from '@/lib/utils'
 
@@ -258,21 +257,16 @@ export function LandMap({
         )}
         
         <ParcelLayer
-          parcels={parcels}
+          parcels={highlightedParcel ? [...(Array.isArray(parcels) ? parcels : []), highlightedParcel] : parcels}
           selectedParcel={selectedParcel}
           hoveredParcel={hoveredParcel}
+          highlightedParcelId={highlightedParcel?.properties?.plot_id}
           onParcelClick={handleParcelClick}
           onParcelHover={handleParcelHover}
           onParcelLeave={handleParcelLeave}
         />
         
-        {/* 3D Highlighted Parcel from Search */}
-        {highlightedParcel && (
-          <HighlightedParcel 
-            parcel={highlightedParcel} 
-            onClose={() => setHighlightedParcel(null)}
-          />
-        )}
+        {/* Info panel for highlighted parcel (boundary now rendered by ParcelLayer) */}
       </MapContainer>
 
       {/* Layer Switcher Panel */}

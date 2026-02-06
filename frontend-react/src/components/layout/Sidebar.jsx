@@ -11,6 +11,7 @@ import {
   ChevronLeft,
   ChevronRight,
   Users,
+  Upload,
 } from 'lucide-react'
 import { cn } from '@/lib/utils'
 import { useAuth } from '@/context/AuthContext'
@@ -26,6 +27,7 @@ const navItems = [
 ]
 
 const adminItems = [
+  { path: '/admin', label: 'Upload Data', labelHi: 'डेटा अपलोड', icon: Upload },
   { path: '/admin/users', label: 'Users', labelHi: 'उपयोगकर्ता', icon: Users },
   { path: '/admin/settings', label: 'Settings', labelHi: 'सेटिंग्स', icon: Settings },
 ]

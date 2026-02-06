@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { AuthProvider } from '@/context/AuthContext'
 import { CitizenLayout, OfficialLayout } from '@/components/layout'
-import { HomePage, LoginPage, DashboardPage, MapPage, DiscrepanciesPage, ReportsPage } from '@/pages'
+import { HomePage, LoginPage, DashboardPage, MapPage, DiscrepanciesPage, ReportsPage, AdminPage } from '@/pages'
 
 // Create React Query client
 const queryClient = new QueryClient({
@@ -73,6 +73,7 @@ export default function App() {
               <Route path="/discrepancies" element={<DiscrepanciesPage />} />
               <Route path="/records" element={<RecordsPage />} />
               <Route path="/reports" element={<ReportsPage />} />
+              <Route path="/admin" element={<AdminPage />} />
             </Route>
 
             {/* 404 */}

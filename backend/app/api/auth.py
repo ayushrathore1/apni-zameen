@@ -234,3 +234,49 @@ async def refresh_token(
         access_token=access_token,
         user=user.to_dict(),
     )
+
+
+@router.post("/seed-admin", status_code=status.HTTP_201_CREATED)
+async def seed_admin(
+    db: Session = Depends(get_db),
+):
+    """
+    DEV ONLY: Create an admin user for testing.
+    Email: admin@land.gov.in, Password: password123
+    """
+    from ..config import settings
+    
+    # Only allow in debug mode
+    if not settings.debug:
+        raise HTTPException(status_code=403, detail="Not available in production")
+    
+    # Check if admin exists
+    existing = db.query(User).filter(User.email == "admin@land.gov.in").first()
+    if existing:
+        # Return existing user token
+        access_token = auth_service.create_access_token(
+            data={"sub": str(existing.id), "role": existing.role.value}
+        )
+        return Token(access_token=access_token, user=existing.to_dict())
+    
+    # Create admin user
+    admin = User(
+        email="admin@land.gov.in",
+        password_hash=auth_service.get_password_hash("password123"),
+        full_name="System Admin",
+        role=UserRole.ADMIN,
+        department="Land Records",
+        designation="Administrator",
+        is_active=True,
+    )
+    
+    db.add(admin)
+    db.commit()
+    db.refresh(admin)
+    
+    # Create token
+    access_token = auth_service.create_access_token(
+        data={"sub": str(admin.id), "role": admin.role.value}
+    )
+    
+    return Token(access_token=access_token, user=admin.to_dict())

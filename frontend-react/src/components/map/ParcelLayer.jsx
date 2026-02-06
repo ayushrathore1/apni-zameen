@@ -50,6 +50,7 @@ export function ParcelLayer({
   parcels,
   selectedParcel,
   hoveredParcel,
+  highlightedParcelId,
   onParcelClick,
   onParcelHover,
   onParcelLeave,
@@ -75,10 +76,25 @@ export function ParcelLayer({
   // Style function for each feature
   const styleFeature = (feature) => {
     const status = getParcelStatus(feature.properties)
+    const plotId = feature.properties?.plot_id
+    const isHighlighted = highlightedParcelId && plotId === highlightedParcelId
     const isHovered = hoveredParcel?.id === feature.id || 
-                      hoveredParcel?.properties?.plot_id === feature.properties?.plot_id
+                      hoveredParcel?.properties?.plot_id === plotId
     const isSelected = selectedParcel?.id === feature.id ||
-                       selectedParcel?.properties?.plot_id === feature.properties?.plot_id
+                       selectedParcel?.properties?.plot_id === plotId
+
+    // Highlighted parcel from search gets distinctive styling
+    if (isHighlighted) {
+      return {
+        fillColor: '#00D4FF',
+        fillOpacity: 0.4,
+        color: '#00D4FF',
+        weight: 4,
+        opacity: 1,
+        dashArray: null,
+        className: 'highlighted-parcel-pulse',
+      }
+    }
 
     return {
       fillColor: getParcelColor(status, isHovered, isSelected),

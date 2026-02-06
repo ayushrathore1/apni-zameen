@@ -4,6 +4,7 @@ export { DashboardPage } from './Dashboard'
 export { MapPage } from './Map'
 export { DiscrepanciesPage } from './Discrepancies'
 export { ReportsPage } from './Reports'
+export { AdminPage } from './Admin'
 
 
 

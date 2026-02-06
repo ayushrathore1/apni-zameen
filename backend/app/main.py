@@ -16,6 +16,7 @@ from .api.priority import router as priority_router
 from .api.workflow import router as workflow_router
 from .api.exports import router as exports_router
 from .api.auth import router as auth_router
+from .api.upload import router as upload_router
 
 
 @asynccontextmanager
@@ -70,6 +71,7 @@ app.include_router(search_router, prefix="/api")
 app.include_router(priority_router, prefix="/api")
 app.include_router(workflow_router, prefix="/api")
 app.include_router(exports_router, prefix="/api")
+app.include_router(upload_router, prefix="/api")
 
 
 @app.get("/", tags=["Health"])
