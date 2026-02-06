@@ -1,8 +1,9 @@
 import { useEffect, useMemo, useRef } from 'react'
 import { GeoJSON, useMap } from 'react-leaflet'
 import { motion, AnimatePresence } from 'framer-motion'
-import { AlertTriangle, CheckCircle, MapPin, Ruler, User } from 'lucide-react'
+import { AlertTriangle, CheckCircle, MapPin, Ruler, User, TrendingDown, TrendingUp, Info } from 'lucide-react'
 import { cn } from '@/lib/utils'
+import { getAreaDiscrepancy, getStatusBadge, getDiscrepancyDescription, calculatePolygonArea } from '@/lib/areaUtils'
 
 /**
  * HighlightedParcel - Shows a 3D-like highlighted polygon for the selected parcel
@@ -38,22 +39,31 @@ export function HighlightedParcel({ parcel, onClose }) {
   if (!parcelData || !parcelData.geometry) return null
   
   const { props, geometry } = parcelData
-  const hasDiscrepancy = props.has_discrepancy
-  const severity = props.discrepancy_severity
+  
+  // Calculate area discrepancy
+  const computedArea = calculatePolygonArea(geometry) || props.computed_area_sqm
+  const recordedArea = props.recorded_area_sqm
+  const discrepancy = getAreaDiscrepancy(computedArea, recordedArea)
+  
+  // Get styling colors based on discrepancy
+  const severityColor = {
+    critical: { fill: '#EF4444', border: '#DC2626', light: '#FEE2E2', darkBg: '#7F1D1D' },
+    major: { fill: '#F59E0B', border: '#D97706', light: '#FEF3C7', darkBg: '#78350F' },
+    minor: { fill: '#FBBF24', border: '#F59E0B', light: '#FEFCE8', darkBg: '#713F12' },
+    none: { fill: '#22C55E', border: '#16A34A', light: '#DCFCE7', darkBg: '#15803D' },
+  }
+  
+  const colorScheme = severityColor[discrepancy.severity] || severityColor.none
   
   // 3D-like highlight style with glow effect
   const highlightStyle = {
-    fillColor: hasDiscrepancy 
-      ? (severity === 'high' ? '#EF4444' : '#F59E0B') 
-      : '#22C55E',
+    fillColor: colorScheme.fill,
     fillOpacity: 0.4,
-    color: hasDiscrepancy 
-      ? (severity === 'high' ? '#DC2626' : '#D97706') 
-      : '#16A34A',
+    color: colorScheme.border,
     weight: 4,
     opacity: 1,
-    // Add dash pattern for visual distinction
-    dashArray: hasDiscrepancy ? '10, 5' : null,
+    // Add dash pattern for critical/major discrepancies
+    dashArray: discrepancy.severity === 'critical' ? '10, 5' : discrepancy.severity === 'major' ? '8, 4' : null,
   }
   
   // Shadow/outline layer for 3D effect
@@ -69,9 +79,7 @@ export function HighlightedParcel({ parcel, onClose }) {
   const glowStyle = {
     fillColor: 'transparent',
     fillOpacity: 0,
-    color: hasDiscrepancy 
-      ? (severity === 'high' ? '#EF4444' : '#F59E0B') 
-      : '#22C55E',
+    color: colorScheme.fill,
     weight: 12,
     opacity: 0.2,
   }
@@ -119,10 +127,11 @@ export function HighlightedParcel({ parcel, onClose }) {
 function ParcelInfoPanel({ parcel, onClose }) {
   if (!parcel) return null
   
-  const hasDiscrepancy = parcel.has_discrepancy
-  const severity = parcel.discrepancy_severity
-  const diffPercent = Math.abs(parcel.discrepancy_percentage || 0)
-  const areaDiff = Math.abs(parcel.area_difference_sqm || 0)
+  const computedArea = parcel.computed_area_sqm
+  const recordedArea = parcel.recorded_area_sqm
+  const discrepancy = getAreaDiscrepancy(computedArea, recordedArea)
+  const statusBadge = getStatusBadge(discrepancy)
+  const description = getDiscrepancyDescription(discrepancy)
   
   return (
     <div className="leaflet-top leaflet-left" style={{ top: '60px', left: '340px', zIndex: 1000 }}>
@@ -132,10 +141,12 @@ function ParcelInfoPanel({ parcel, onClose }) {
         exit={{ opacity: 0, y: -20, scale: 0.95 }}
         className={cn(
           "bg-card border-2 rounded-xl shadow-2xl p-4 min-w-72 max-w-md",
-          hasDiscrepancy 
-            ? severity === 'high' 
-              ? "border-red-500" 
-              : "border-amber-500"
+          discrepancy.severity === 'critical' 
+            ? "border-red-500" 
+            : discrepancy.severity === 'major'
+            ? "border-amber-500"
+            : discrepancy.severity === 'minor'
+            ? "border-yellow-500"
             : "border-green-500"
         )}
       >
@@ -152,16 +163,28 @@ function ParcelInfoPanel({ parcel, onClose }) {
           {/* Status Badge */}
           <div className={cn(
             "px-3 py-1 rounded-full text-sm font-semibold flex items-center gap-1",
-            hasDiscrepancy
-              ? severity === 'high'
-                ? "bg-red-100 text-red-700 dark:bg-red-900/30 dark:text-red-400"
-                : "bg-amber-100 text-amber-700 dark:bg-amber-900/30 dark:text-amber-400"
+            discrepancy.severity === 'critical'
+              ? "bg-red-100 text-red-700 dark:bg-red-900/30 dark:text-red-400"
+              : discrepancy.severity === 'major'
+              ? "bg-amber-100 text-amber-700 dark:bg-amber-900/30 dark:text-amber-400"
+              : discrepancy.severity === 'minor'
+              ? "bg-yellow-100 text-yellow-700 dark:bg-yellow-900/30 dark:text-yellow-400"
               : "bg-green-100 text-green-700 dark:bg-green-900/30 dark:text-green-400"
           )}>
-            {hasDiscrepancy ? (
+            {discrepancy.severity === 'critical' ? (
               <>
                 <AlertTriangle className="size-4" />
-                {severity === 'high' ? 'High Risk' : 'Review'}
+                Critical
+              </>
+            ) : discrepancy.severity === 'major' ? (
+              <>
+                <AlertTriangle className="size-4" />
+                Review
+              </>
+            ) : discrepancy.severity === 'minor' ? (
+              <>
+                <Info className="size-4" />
+                Variance
               </>
             ) : (
               <>
@@ -185,49 +208,61 @@ function ParcelInfoPanel({ parcel, onClose }) {
         
         {/* Area Comparison */}
         <div className="grid grid-cols-2 gap-3 mb-3">
-          <div className="bg-accent/50 rounded-lg p-3">
+          <div className="bg-blue-50 dark:bg-blue-950 border border-blue-200 dark:border-blue-800 rounded-lg p-3">
             <div className="flex items-center gap-2 mb-1">
-              <Ruler className="size-4 text-muted-foreground" />
-              <span className="text-xs text-muted-foreground">Map Area</span>
+              <Ruler className="size-4 text-blue-600 dark:text-blue-400" />
+              <span className="text-xs font-semibold text-blue-600 dark:text-blue-300">Computed</span>
             </div>
-            <p className="font-bold text-foreground">{parcel.computed_area_sqm?.toFixed(0)} m²</p>
+            <p className="font-bold text-foreground">{computedArea?.toFixed(0) || 'N/A'} m²</p>
           </div>
-          <div className="bg-accent/50 rounded-lg p-3">
-            <span className="text-xs text-muted-foreground">Recorded Area</span>
-            <p className="font-bold text-foreground">{parcel.recorded_area_sqm?.toFixed(0)} m²</p>
-            <p className="text-xs text-muted-foreground">{parcel.area_text}</p>
+          <div className="bg-slate-100 dark:bg-slate-800 border border-slate-300 dark:border-slate-700 rounded-lg p-3">
+            <span className="text-xs font-semibold text-slate-600 dark:text-slate-400">Recorded</span>
+            <p className="font-bold text-foreground">{recordedArea?.toFixed(0) || 'N/A'} m²</p>
           </div>
         </div>
         
         {/* Discrepancy Alert */}
-        {hasDiscrepancy && (
+        {discrepancy.hasDiscrepancy && (
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             className={cn(
-              "rounded-lg p-3 mb-3 flex items-start gap-3",
-              severity === 'high'
-                ? "bg-red-100 dark:bg-red-900/20 border border-red-300 dark:border-red-800"
-                : "bg-amber-100 dark:bg-amber-900/20 border border-amber-300 dark:border-amber-800"
+              "rounded-lg p-3 mb-3 flex items-start gap-3 border",
+              discrepancy.severity === 'critical'
+                ? "bg-red-100 dark:bg-red-900/20 border-red-300 dark:border-red-800"
+                : discrepancy.severity === 'major'
+                ? "bg-amber-100 dark:bg-amber-900/20 border-amber-300 dark:border-amber-800"
+                : "bg-yellow-100 dark:bg-yellow-900/20 border-yellow-300 dark:border-yellow-800"
             )}
           >
             <AlertTriangle className={cn(
               "size-5 flex-shrink-0 mt-0.5",
-              severity === 'high' ? "text-red-600" : "text-amber-600"
+              discrepancy.severity === 'critical' ? "text-red-600" : 
+              discrepancy.severity === 'major' ? "text-amber-600" : "text-yellow-600"
             )} />
-            <div>
+            <div className="flex-1">
               <p className={cn(
-                "font-semibold text-sm",
-                severity === 'high' ? "text-red-700 dark:text-red-400" : "text-amber-700 dark:text-amber-400"
+                "font-semibold text-sm mb-1",
+                discrepancy.severity === 'critical' ? "text-red-700 dark:text-red-400" : 
+                discrepancy.severity === 'major' ? "text-amber-700 dark:text-amber-400" : "text-yellow-700 dark:text-yellow-400"
               )}>
-                Area Mismatch Detected
+                {discrepancy.severity === 'critical' ? 'Critical Area Discrepancy' : 
+                 discrepancy.severity === 'major' ? 'Area Variance Detected' : 'Minor Area Variation'}
               </p>
               <p className={cn(
-                "text-sm",
-                severity === 'high' ? "text-red-600 dark:text-red-300" : "text-amber-600 dark:text-amber-300"
+                "text-xs leading-relaxed",
+                discrepancy.severity === 'critical' ? "text-red-600 dark:text-red-300" : 
+                discrepancy.severity === 'major' ? "text-amber-600 dark:text-amber-300" : "text-yellow-600 dark:text-yellow-300"
               )}>
-                Difference: <strong>{areaDiff.toFixed(0)} m²</strong> ({diffPercent.toFixed(1)}%)
+                {description}
               </p>
+              <div className="flex items-center gap-2 mt-2">
+                {discrepancy.isUnderRecorded && <TrendingDown className="size-3" />}
+                {discrepancy.isOverRecorded && <TrendingUp className="size-3" />}
+                <span className="text-xs font-semibold">
+                  {Math.abs(discrepancy.difference).toFixed(0)} m² • {discrepancy.absolutePercentage.toFixed(1)}%
+                </span>
+              </div>
             </div>
           </motion.div>
         )}

@@ -1,7 +1,8 @@
 import { motion } from 'framer-motion'
-import { MapPin, User, Ruler, FileText, AlertTriangle, CheckCircle2 } from 'lucide-react'
+import { MapPin, User, Ruler, FileText, AlertTriangle, CheckCircle2, Info, TrendingUp, TrendingDown } from 'lucide-react'
 import { Badge, Button } from '@/components/ui'
 import { cn, formatArea } from '@/lib/utils'
+import { getAreaDiscrepancy, getStatusBadge, getDiscrepancyDescription } from '@/lib/areaUtils'
 
 export function ParcelCard({ parcel, expanded = false, onViewOnMap }) {
   if (!parcel) return null
@@ -20,13 +21,13 @@ export function ParcelCard({ parcel, expanded = false, onViewOnMap }) {
     khata_number,
   } = props
 
-  // Calculate area difference
-  const areaDiff = computed_area_sqm && recorded_area_sqm
-    ? ((computed_area_sqm - recorded_area_sqm) / recorded_area_sqm * 100).toFixed(1)
-    : null
-
+  // Calculate area discrepancy using utility function
+  const discrepancy = getAreaDiscrepancy(computed_area_sqm, recorded_area_sqm)
+  const statusBadge = getStatusBadge(discrepancy)
+  const discrepancyDescription = getDiscrepancyDescription(discrepancy)
+  
   // Determine status
-  const hasDiscrepancy = severity && discrepancy_status !== 'resolved'
+  const hasDiscrepancy = discrepancy.hasDiscrepancy
   const isMatched = !hasDiscrepancy
 
   return (
@@ -51,8 +52,8 @@ export function ParcelCard({ parcel, expanded = false, onViewOnMap }) {
             </p>
           </div>
         </div>
-        <Badge variant={isMatched ? 'success' : `severity-${severity}`}>
-          {isMatched ? 'Matched' : severity?.charAt(0).toUpperCase() + severity?.slice(1)}
+        <Badge variant={statusBadge.variant}>
+          {statusBadge.label}
         </Badge>
       </div>
 
@@ -77,37 +78,59 @@ export function ParcelCard({ parcel, expanded = false, onViewOnMap }) {
           <div className="flex items-start gap-3">
             <Ruler className="size-5 text-muted-foreground shrink-0 mt-0.5" />
             <div className="flex-1">
-              <p className="text-sm text-muted-foreground">Area</p>
-              <div className="grid grid-cols-2 gap-4 mt-2">
-                <div className="p-3 rounded-lg bg-muted/50">
-                  <p className="text-xs text-muted-foreground">Map (Computed)</p>
-                  <p className="font-medium text-foreground">
+              <p className="text-sm text-muted-foreground">Area Comparison</p>
+              <div className="grid grid-cols-2 gap-4 mt-3">
+                <div className="p-3 rounded-lg bg-blue-50 dark:bg-blue-950 border border-blue-200 dark:border-blue-800">
+                  <p className="text-xs font-semibold text-blue-600 dark:text-blue-300 mb-1">Map (Computed)</p>
+                  <p className="font-semibold text-foreground">
                     {formatArea(computed_area_sqm)}
                   </p>
                 </div>
-                <div className="p-3 rounded-lg bg-muted/50">
-                  <p className="text-xs text-muted-foreground">Record</p>
-                  <p className="font-medium text-foreground">
+                <div className="p-3 rounded-lg bg-slate-100 dark:bg-slate-800 border border-slate-300 dark:border-slate-700">
+                  <p className="text-xs font-semibold text-slate-600 dark:text-slate-400 mb-1">Official Record</p>
+                  <p className="font-semibold text-foreground">
                     {formatArea(recorded_area_sqm)}
                   </p>
                 </div>
               </div>
-              {areaDiff && (
+              
+              {/* Discrepancy Analysis */}
+              {discrepancy.hasDiscrepancy || (computed_area_sqm && recorded_area_sqm) ? (
                 <div className={cn(
-                  'mt-2 p-2 rounded-lg text-sm',
-                  Math.abs(areaDiff) > 10 
-                    ? 'bg-destructive-light text-destructive' 
-                    : Math.abs(areaDiff) > 5 
-                    ? 'bg-warning-light text-warning-foreground'
-                    : 'bg-success-light text-success'
+                  'mt-3 p-3 rounded-lg border text-sm',
+                  discrepancy.severity === 'critical' ? 'bg-red-50 dark:bg-red-950 border-red-200 dark:border-red-800' :
+                  discrepancy.severity === 'major' ? 'bg-amber-50 dark:bg-amber-950 border-amber-200 dark:border-amber-800' :
+                  discrepancy.severity === 'minor' ? 'bg-yellow-50 dark:bg-yellow-950 border-yellow-200 dark:border-yellow-800' :
+                  'bg-green-50 dark:bg-green-950 border-green-200 dark:border-green-800'
                 )}>
-                  {Math.abs(areaDiff) > 0.1 ? (
-                    <>Difference: {areaDiff > 0 ? '+' : ''}{areaDiff}%</>
-                  ) : (
-                    <>Areas match</>
-                  )}
+                  <div className="flex items-start gap-2">
+                    {discrepancy.isUnderRecorded && <TrendingDown className="size-4 mt-0.5 flex-shrink-0" />}
+                    {discrepancy.isOverRecorded && <TrendingUp className="size-4 mt-0.5 flex-shrink-0" />}
+                    {!discrepancy.hasDiscrepancy && <CheckCircle2 className="size-4 mt-0.5 flex-shrink-0" />}
+                    
+                    <div className="flex-1">
+                      <p className={cn(
+                        'font-semibold mb-1',
+                        discrepancy.severity === 'critical' ? 'text-red-800 dark:text-red-100' :
+                        discrepancy.severity === 'major' ? 'text-amber-800 dark:text-amber-100' :
+                        discrepancy.severity === 'minor' ? 'text-yellow-800 dark:text-yellow-100' :
+                        'text-green-800 dark:text-green-100'
+                      )}>
+                        {discrepancy.absolutePercentage.toFixed(2)}% {discrepancy.isUnderRecorded ? 'Under-Recorded' : discrepancy.isOverRecorded ? 'Over-Recorded' : 'Matched'}
+                      </p>
+                      <p className={cn(
+                        'text-xs',
+                        discrepancy.severity === 'critical' ? 'text-red-700 dark:text-red-200' :
+                        discrepancy.severity === 'major' ? 'text-amber-700 dark:text-amber-200' :
+                        discrepancy.severity === 'minor' ? 'text-yellow-700 dark:text-yellow-200' :
+                        'text-green-700 dark:text-green-200'
+                      )}>
+                        Difference: {Math.abs(discrepancy.difference).toFixed(0)} m²
+                      </p>
+                    </div>
+                  </div>
                 </div>
-              )}
+              ) : null}
             </div>
           </div>
 
@@ -122,17 +145,20 @@ export function ParcelCard({ parcel, expanded = false, onViewOnMap }) {
             </div>
           )}
 
-          {/* Status */}
+          {/* Detailed Status */}
           <div className="flex items-start gap-3">
             {isMatched ? (
-              <CheckCircle2 className="size-5 text-success shrink-0 mt-0.5" />
+              <CheckCircle2 className="size-5 text-green-600 dark:text-green-400 shrink-0 mt-0.5" />
             ) : (
-              <AlertTriangle className="size-5 text-warning shrink-0 mt-0.5" />
+              <AlertTriangle className="size-5 text-amber-600 dark:text-amber-400 shrink-0 mt-0.5" />
             )}
             <div>
-              <p className="text-sm text-muted-foreground">Status</p>
-              <p className="font-medium text-foreground">
-                {isMatched ? 'No discrepancies detected' : `Under review (${discrepancy_status})`}
+              <p className="text-sm text-muted-foreground">Verification Status</p>
+              <p className="font-medium text-foreground mb-1">
+                {isMatched ? 'No Discrepancies' : discrepancy_status ? discrepancy_status.charAt(0).toUpperCase() + discrepancy_status.slice(1) : 'Review Required'}
+              </p>
+              <p className="text-xs text-muted-foreground leading-relaxed">
+                {discrepancyDescription}
               </p>
             </div>
           </div>

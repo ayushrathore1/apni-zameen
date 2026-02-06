@@ -1,31 +1,30 @@
 import { useMemo } from 'react'
 import { GeoJSON } from 'react-leaflet'
 import { PARCEL_COLORS } from '@/lib/constants'
+import { getAreaDiscrepancy, getDiscrepancyColor } from '@/lib/areaUtils'
 
 // Get parcel status based on discrepancy data
-function getParcelStatus(properties) {
+function getParcelStatus(properties, geometry) {
   if (!properties) return 'default'
   
-  // Check for discrepancy flags from generated data
+  // Check for explicitly marked discrepancies
   const hasDiscrepancy = properties.has_discrepancy
   const discrepancySeverity = properties.discrepancy_severity
   const recordStatus = properties.record_status
   
-  // If explicitly marked as having discrepancy
   if (hasDiscrepancy) {
-    // High severity = Critical (red), Medium = Needs Review (orange)
-    if (discrepancySeverity === 'high') {
+    if (discrepancySeverity === 'high' || discrepancySeverity === 'critical') {
       return 'critical'
     }
     return 'needs_review'
   }
   
-  // Check for legacy discrepancy_status field
+  // Check for resolved/verified status
   if (properties.discrepancy_status === 'resolved' || recordStatus === 'verified') {
     return 'matched'
   }
   
-  // Check severity field from API
+  // Check severity from API
   if (properties.severity === 'critical') {
     return 'critical'
   }
@@ -33,15 +32,20 @@ function getParcelStatus(properties) {
     return 'needs_review'
   }
   
-  // Default to matched (green) for parcels without issues
+  // Default status
   return 'matched'
 }
 
-
-// Get color based on parcel status
-function getParcelColor(status, isHovered, isSelected) {
+// Get color based on parcel status and area discrepancy
+function getParcelColor(status, isHovered, isSelected, discrepancy) {
   if (isSelected) return PARCEL_COLORS.selected
   if (isHovered) return PARCEL_COLORS.hover
+  
+  // Use discrepancy-based colors if available
+  if (discrepancy && discrepancy.severity && discrepancy.severity !== 'none') {
+    const colors = getDiscrepancyColor(discrepancy.severity)
+    return colors.fill
+  }
   
   return PARCEL_COLORS[status] || PARCEL_COLORS.default
 }
@@ -72,20 +76,39 @@ export function ParcelLayer({
     }
   }, [parcels])
 
-  // Style function for each feature
+  // Style function for each feature with area discrepancy visualization
   const styleFeature = (feature) => {
-    const status = getParcelStatus(feature.properties)
+    const status = getParcelStatus(feature.properties, feature.geometry)
     const isHovered = hoveredParcel?.id === feature.id || 
                       hoveredParcel?.properties?.plot_id === feature.properties?.plot_id
     const isSelected = selectedParcel?.id === feature.id ||
                        selectedParcel?.properties?.plot_id === feature.properties?.plot_id
 
+    // Calculate area discrepancy for enhanced styling
+    const discrepancy = getAreaDiscrepancy(
+      feature.properties?.computed_area_sqm,
+      feature.properties?.recorded_area_sqm
+    )
+    
+    const color = getParcelColor(status, isHovered, isSelected, discrepancy)
+    
+    // Use dashed pattern for critical discrepancies, dotted for major
+    let dashArray = null
+    if (!isSelected && !isHovered) {
+      if (discrepancy.severity === 'critical') {
+        dashArray = '8, 4'
+      } else if (discrepancy.severity === 'major') {
+        dashArray = '4, 3'
+      }
+    }
+
     return {
-      fillColor: getParcelColor(status, isHovered, isSelected),
+      fillColor: color,
       fillOpacity: isSelected ? 0.6 : isHovered ? 0.5 : 0.35,
       color: isSelected ? PARCEL_COLORS.selected : isHovered ? PARCEL_COLORS.hover : '#1f2937',
       weight: isSelected ? 3 : isHovered ? 2 : 1,
       opacity: 1,
+      dashArray: dashArray,
     }
   }
 
@@ -109,20 +132,41 @@ export function ParcelLayer({
       },
     })
 
-    // Add tooltip with detailed info
+    // Add tooltip with detailed info including area discrepancy
     if (feature.properties?.plot_id) {
       const props = feature.properties
-      const hasDiscrepancy = props.has_discrepancy
-      const ownerName = props.owner_name_hi || props.owner_name_en || 'N/A'
+      const ownerName = props.owner_name_hindi || props.owner_name_english || 'N/A'
+      const computedArea = props.computed_area_sqm
+      const recordedArea = props.recorded_area_sqm
+      
+      // Calculate discrepancy for tooltip
+      const discrepancy = getAreaDiscrepancy(computedArea, recordedArea)
       
       // Build tooltip HTML
       let tooltipHtml = `<strong>Plot: ${props.plot_id}</strong><br/>`
       tooltipHtml += `<span>Owner: ${ownerName}</span><br/>`
       tooltipHtml += `<span>${props.village_name || ''}</span>`
       
-      if (hasDiscrepancy) {
-        const diff = Math.abs(props.area_difference_sqm || 0).toFixed(0)
-        tooltipHtml += `<br/><span style="color: #EF4444; font-weight: bold;">⚠ Area Mismatch: ${diff} m²</span>`
+      if (computedArea && recordedArea) {
+        const diff = Math.abs(discrepancy.difference).toFixed(0)
+        const percentage = Math.abs(discrepancy.percentageDifference).toFixed(1)
+        
+        const color = discrepancy.severity === 'critical' ? '#DC2626' : 
+                      discrepancy.severity === 'major' ? '#D97706' : '#16A34A'
+        
+        tooltipHtml += `<br/><span style="color: ${color}; font-weight: bold;">`
+        
+        if (discrepancy.severity === 'critical') {
+          tooltipHtml += `⚠ Critical: ${percentage}% difference (${diff} m²)`
+        } else if (discrepancy.severity === 'major') {
+          tooltipHtml += `● Variance: ${percentage}% difference (${diff} m²)`
+        } else if (discrepancy.hasDiscrepancy) {
+          tooltipHtml += `• Minor: ${percentage}% difference (${diff} m²)`
+        } else {
+          tooltipHtml += `✓ Area Matched`
+        }
+        
+        tooltipHtml += `</span>`
       }
       
       layer.bindTooltip(tooltipHtml, {
